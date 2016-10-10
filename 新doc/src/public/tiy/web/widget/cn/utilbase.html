@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+         <style>
+        .bs-example > .tab-content {
+            padding: 0;
+        }
+        
+        .tab-pane:nth-of-type(3)::before,
+        .tab-pane:nth-of-type(3)::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        
+        textarea {
+            display: block;
+            width: 100%;
+        }
+		
+		h4{
+			text-align:center;
+		}
+        p{
+        	text-align:center;
+        }
+        #poem{
+        	margin-top:20px;
+			margin-left:20px;
+        }
+    </style>
+    </head>
+    <body>	     
+    	<div class="code-formate" id="test"></div>
+
+		
+		<div id="utilbase-test">
+			<button id="poem" class="btn">我来为大家吟诗一首</button>
+			
+
+			<div class="hide modal fade" id="devDlg"> 
+				<p>	庭院深深深几许？</p>
+				<p>	杨柳堆烟，帘幕无重数。</p>
+				<p>	玉勒雕鞍游冶处，</p>
+				<p>	楼高不见章台路。</p>
+				<p>	雨横风狂三月暮，</p>
+				<p>	门掩黄昏，无计留春住。</p>
+				<p>	泪眼问花花不语，</p>
+				<p>	乱红飞过秋千去。</p>
+				<form id="dev_form" class="form edit"> 
+					<div id="healthList" class="simple-list hide"></div> 
+				</form> 
+			</div>
+		</div>
+
+    </body>
+</html>
+
+<script language="javascript" type="text/javascript">
+    Utils.Pages.loadJS("widget.utilbase");
+</script>

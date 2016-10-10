@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu-root>
+	<menu id="M_WirelessConf">
+		<menu id="M_WirelessService" access="read|write|execute"  url="wireless/[lang]/index.html" />
+	</menu>
+<!-- 	<menu id="M_AP">
+		<menu id="M_ApSsid" access="reda|write|execute" url="wireless/[lang]/v3.html" />
+	</menu> -->
+	<menu id="M_USERMANAGE">
+		<menu id="M_User" access="read|write|execute"  url="user/[lang]/index.html" />
+	</menu>
+	<menu id="M_MonConfig">
+		<menu id="M_MonConfigH" access="read|write|execute"  url="confmgr/[lang]/confmgr.html" />
+	</menu>
+	<menu id="M_APPConfig">
+		<menu id="M_APPConfigh" access="read|write|execute"  url="position/[lang]/apply_config.html" />
+	</menu>
+	<menu id= "M_APPLYMANAGE">
+		<menu id="M_GDingWei" access="read|write|execute"  url="position/[lang]/apply_manage.html" />
+	</menu>
+	<!-- <menu id="M_WeixinPublicmessage">
+		<menu id="M_Publicmessage" access="read|write|execute"  url="auth/[lang]/pubmessage.html" />
+	</menu>
+	<menu id="M_CHATSTORE">
+		<menu id="M_CHATSTORE_01" access="read|write|execute"  url="chatstore/[lang]/index.html" />
+	</menu> -->
+	<menu id="M_AUTH">
+		<menu id="M_AUTHTEMPLATE" access="read|write|execute"  url="auth/[lang]/index.html" />
+		<menu id="M_PAGETEMPLATE" access="read|write|execute"  url="auth/[lang]/pagetemplate.html" />
+		<menu id="M_WeixinPublicmessage" access="read|write|execute"  url="auth/[lang]/pubmessage.html" />
+		<menu id="M_CHATSTORE" access="read|write|execute"  url="chatstore/[lang]/index.html" />
+	</menu>
+<!--	<menu id="M_AUTH2">
+		<menu id="M_WirelessService2" access="read|write|execute"  url="wireless/[lang]/index2.html" />
+	</menu>-->
+</menu-root>

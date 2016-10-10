@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <style>
+			textarea{
+				width:100%;
+			}
+        </style>
+    </head>
+    <body>
+    	<div class="bs-example" data-example-id="slist">
+    		<ul class="nav nav-tabs" role="tablist">
+	            <li role="presentation" class="active">
+	                <a href="#html" role="tab" data-toggle="tab" aria-controls="html" aria-expanded="true">HTML</a>
+	            </li>
+	            <li role="presentation" class="">
+	                <a href="#js" role="tab" data-toggle="tab" aria-controls="js" aria-expanded="false">JS</a>
+	            </li>
+	            <li role="presentation" class="">
+	                <a href="#show" role="tab" data-toggle="tab" aria-controls="show" aria-expanded="false">SHOW</a>
+	            </li>
+	        </ul>
+
+	        <div class="tab-content">
+            <div role="tabpanel" class="tab-pane fade active in" id="html" aria-labelledby="html-tab">
+                <div class="highlight">
+                    <pre>
+                        <code class="language-html" data-lang="html">
+                        111
+                        </code>
+                    </pre>
+                </div>
+                <textarea class="hide"></textarea>
+            </div>
+            <div role="tabpanel" class="tab-pane fade" id="js" aria-labelledby="js-tab">
+                <div class="highlight">
+                    <pre>
+                        <code class="language-js" data-lang="js">
+                        222
+                        </code>
+                    </pre>
+                </div>
+                <textarea class="hide"></textarea>
+            </div>
+            <div role="tabpanel" class="tab-pane fade" id="show" aria-labelledby="show-tab">
+            333
+            </div>
+        </div>
+    	</div>
+    </body>
+</html>

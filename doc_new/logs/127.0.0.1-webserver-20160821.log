@@ -1,0 +1,5 @@
+[2016-08-21 18:35:21.178] [INFO] console - Sun Aug 21 2016 18:35:21 GMT+0800 (中国标准时间)doc server use http/https port 3005/3006
+[2016-08-21 18:35:21.202] [ERROR] console - (node:8536) DeprecationWarning: sys is deprecated. Use util instead.
+[2016-08-21 18:35:21.203] [INFO] console - Sun Aug 21 2016 18:35:21 GMT+0800 (中国标准时间) doc server start http server and listen on: {"address":"::","family":"IPv6","port":3005}
+[2016-08-21 18:35:21.203] [INFO] console - Sun Aug 21 2016 18:35:21 GMT+0800 (中国标准时间) doc server start https server and listen on: {"address":"::","family":"IPv6","port":3006}
+[2016-08-21 18:35:21.221] [INFO] console - Sun Aug 21 2016 18:35:21 GMT+0800 (中国标准时间) Connect to mongoose success: mongodb://127.0.0.1:27017/webdoc_db

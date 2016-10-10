@@ -1,0 +1,60 @@
+<% include ../header %>
+<h1>SingleSelect</h1>
+
+<pre><code>FilePath: /v3/web/frame/widgets_new/singleselect.js</code></pre>
+
+<p>SingleSelect 是一个简单实用的单选框，提供简单而丰富的 api 。
+使用时可以自动初始化，可以简单方便的对单选列表进行操作。</p>
+
+<p>下面是一个简单的单选框例子：</p>
+
+<p><code>html
+&lt;select class=&quot;singleSelect&quot; allowClear=&quot;true&quot; id=&quot;test&quot;&gt;
+&lt;/select&gt;
+</code></p>
+
+<p><code>js
+ $(&#39;#test&#39;).singleSelect(&quot;InitData&quot;, [&#39;test1&#39;, &#39;test2&#39;, &#39;test3&#39;]);
+</code></p>
+
+<h2>$.(&quot;InitData&quot;, aData, oOpt)</h2>
+
+<ul><li><code>aData</code> {Array}</li><li><code>oOpt</code> {Object}</li></ul>
+
+<p>初始化列表数据，使用后会首先清空之前的数据，然后根据 oOpt 中的字段对列表进行配置。
+可以在 html 中添加 allowClear 属性来配置是否允许清空，但是属性值必须为 true 或 false</p>
+
+<ul><li><p><code>aData</code> - {String}|{Object}|{Array} 要显示的数据内容，只能选择其中一种数据类型，
+如果为 {String} 则使用 value 方法获取的值和显示的文本内容相同 
+如果为 {Object} 需要注意 displayField 和 valueField 字段；
+如果为 {Array} 则会需要将 selectGroup 属性设置为 true</p></li><li><p><code>oOpt</code> - singleselect 配置项具体参数如下</p><ul><li><code>displayField</code> - {String} 需要显示的文本内容，默认为 text ，需要 aData 单元数据类型为 {Object} </li><li><code>valueField</code> - {String} 需要每项内容的 value 值，默认为 value ，需要 aData 单元数据类型为 {Object}</li><li><code>allowClear</code> - {Bool} 是否允许清空，默认为 true ，可以在 html 中进行配置</li><li><code>selectGroup</code> - {Bool} 是否为组列表（感觉这个词不太好），默认为 false ，需要 aData 单元数据类型为 {Array}</li><li><code>sort</code> - {Bool} 是否排序,默认为 false ，如果为是则对现实的文本按照字母序排序，否则按初始顺序排列</li></ul></li></ul>
+
+<h2>$.(&quot;appendData&quot;, aData)</h2>
+
+<ul><li><code>aData</code> {Array}</li></ul>
+
+<p>向列表中添加数据，单元数据格式需要和初始化时的配置相对应。</p>
+
+<h2>$.(&quot;value&quot;, aValue)</h2>
+
+<ul><li><code>aValue</code> {String}|{Undefined}</li></ul>
+
+<p>如果 aValue 类型为 String 则设置列表的值为aValue
+如果 aValue 类型为 Undefined 则获取当前列表的值, 返回值类型为 String</p>
+
+<h2>$.(&quot;getSelectedData&quot;)</h2>
+
+<p>返回被选中的对象，返回类型为 Object ，参数为 valueField 和 displayField</p>
+
+<h2>$.(&quot;disable&quot;)</h2>
+
+<p>去使能 singleselect</p>
+
+<h2>$.(&quot;enable&quot;)</h2>
+
+<p>使能 singleselect</p>
+
+<h2>$.(&quot;empty&quot;)</h2>
+
+<p>清空 singleselect 中的所有数据</p>
+<% include ../footer %>

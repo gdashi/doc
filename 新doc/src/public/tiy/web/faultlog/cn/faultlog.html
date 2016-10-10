@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+    	<div class="col-xs-12 app-colum">
+	        <div class="app-box no-height">
+
+	            <div class="box-footer">
+	                <span class="title">认证故障日志</span>
+
+	               <!-- 右侧按钮 -->
+	               <div class="text-right link-container">
+						<a type="button" class="filter" id="filter_faultLog">
+							<i class="filter-icon icon"></i>
+						</a>
+		                <div class="hide" id="faultLog_block">
+			            	<div class="filter-container">
+			            		<label>测试选项：</label>
+			            		<select id="faultLog_select" name="SetfigUpport" class="singleSelect"big></select>
+			            	</div>
+			            </div>
+	            	</div>	  
+	            </div>
+
+	            <div class="box-body no-height">
+	                <div id="faultLogList" class="simple-list"></div>
+	            </div>
+	        </div>
+    	</div>
+
+    	<div id="faultLog_rc" class="rc-define"
+    		faultLog_HEADER = "日期,故障类型,故障描述,当前状态,"
+    		redirectBtn = "跳转测试"></div>
+
+    	<div class="modal fade hide" id="faultModal" tabindex="-1" aria-hidden="false" style="margin-top: -118.5px; display: block;">
+	    	<div class="modal-header">
+	    		<button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+	    		<h3>微信告警</h3>
+	    	</div>
+
+		    <form class="form-horizontal form edit hide" id="changename" style="display: block;">
+		      	<div class="form-group">
+		          	<label class="col-sm-3 control-label">公众号</label>
+		         	 <label class="col-sm-9 control-label" id="OldName" name="OldName">	111 </label>
+		      	</div>
+
+		      	<div class="form-group">
+			          <label class="col-sm-3 control-label required">告警信息</label>
+			          <div class="col-sm-9">
+			              <input type="text" class="string required" id="NewName" name="NewName" maxlength="64">
+			              <label class="info-explain">（1-64字符）</label>
+			              <label class="error" id="NewName_error"></label>
+			          </div>
+		        </div>
+		    </form>
+
+			<div class="modal-footer form-actions">
+				<a href="javascript:void(0)" class="btn btn-primary disabled"><i class="icon-ok"></i> 确定</a>
+				<a href="javascript:void(0)" class="btn  "><i class="icon-remove"></i> 取消</a>
+			</div>
+
+			<div class="editor-alert"></div>
+		</div>
+
+    </body>
+</html>
+<script	language="javascript" type="text/javascript">
+    Utils.Pages.loadJS("faultlog.faultlog");
+</script>

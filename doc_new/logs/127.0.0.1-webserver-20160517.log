@@ -1,0 +1,249 @@
+[2016-05-17 09:49:21.889] [INFO] console - Tue May 17 2016 09:49:21 GMT+0800 (中国标准时间)doc server use http/https port 3005/3006
+[2016-05-17 09:49:21.946] [INFO] console - Tue May 17 2016 09:49:21 GMT+0800 (中国标准时间) doc server start http server and listen on: {"address":"::","family":"IPv6","port":3005}
+[2016-05-17 09:49:21.951] [INFO] console - Tue May 17 2016 09:49:21 GMT+0800 (中国标准时间) doc server start https server and listen on: {"address":"::","family":"IPv6","port":3006}
+[2016-05-17 09:49:22.983] [WARN] console - Tue May 17 2016 09:49:22 GMT+0800 (中国标准时间) Disconnect to mongoose.
+[2016-05-17 09:49:22.985] [ERROR] console - Tue May 17 2016 09:49:22 GMT+0800 (中国标准时间) Connect to mongoose with error: MongoError: connect ECONNREFUSED, para: mongodb://127.0.0.1:27017/webdoc_db
+[2016-05-17 09:50:07.425] [INFO] console - Tue May 17 2016 09:50:07 GMT+0800 (中国标准时间)doc server use http/https port 3005/3006
+[2016-05-17 09:50:07.484] [INFO] console - Tue May 17 2016 09:50:07 GMT+0800 (中国标准时间) doc server start http server and listen on: {"address":"::","family":"IPv6","port":3005}
+[2016-05-17 09:50:07.488] [INFO] console - Tue May 17 2016 09:50:07 GMT+0800 (中国标准时间) doc server start https server and listen on: {"address":"::","family":"IPv6","port":3006}
+[2016-05-17 09:50:07.543] [INFO] console - Tue May 17 2016 09:50:07 GMT+0800 (中国标准时间) Connect to mongoose success: mongodb://127.0.0.1:27017/webdoc_db
+[2016-05-17 09:51:13.491] [INFO] console - { url: '/getdocapi',
+  method: 'GET',
+  headers: 
+   { host: 'localhost:3005',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:46.0) Gecko/20100101 Firefox/46.0',
+     accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+     'accept-language': 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+     'accept-encoding': 'gzip, deflate',
+     connection: 'keep-alive' },
+  cookies: {},
+  session: undefined,
+  action: 'getDoc',
+  DocIndex: undefined }
+[2016-05-17 09:51:13.498] [INFO] console - getwebdocNew  odata
+[2016-05-17 09:51:13.499] [INFO] console - {"url":"/getdocapi","method":"GET","headers":{"host":"localhost:3005","user-agent":"Mozilla/5.0 (Windows NT 6.1; WOW64; rv:46.0) Gecko/20100101 Firefox/46.0","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8","accept-language":"zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3","accept-encoding":"gzip, deflate","connection":"keep-alive"},"cookies":{},"action":"getDoc"}
+[2016-05-17 09:51:40.088] [INFO] console - { url: '/getdoclist',
+  method: 'GET',
+  headers: 
+   { host: 'localhost:3005',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:46.0) Gecko/20100101 Firefox/46.0',
+     accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+     'accept-language': 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+     'accept-encoding': 'gzip, deflate',
+     connection: 'keep-alive' },
+  cookies: {},
+  session: undefined,
+  action: 'getdoclist' }
+[2016-05-17 09:51:41.478] [INFO] console - [ { DocIndex: '123456', Name: '文档管理微服务', time: 1462936697326 } ]
+[2016-05-17 09:53:52.460] [INFO] console - Tue May 17 2016 09:53:52 GMT+0800 (中国标准时间)doc server use http/https port 3005/3006
+[2016-05-17 09:53:52.527] [INFO] console - Tue May 17 2016 09:53:52 GMT+0800 (中国标准时间) doc server start http server and listen on: {"address":"::","family":"IPv6","port":3005}
+[2016-05-17 09:53:52.530] [INFO] console - Tue May 17 2016 09:53:52 GMT+0800 (中国标准时间) doc server start https server and listen on: {"address":"::","family":"IPv6","port":3006}
+[2016-05-17 09:53:52.570] [INFO] console - Tue May 17 2016 09:53:52 GMT+0800 (中国标准时间) Connect to mongoose success: mongodb://127.0.0.1:27017/webdoc_db
+[2016-05-17 09:54:00.925] [INFO] console - { url: '/getdoclist',
+  method: 'GET',
+  headers: 
+   { host: 'localhost:3005',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:46.0) Gecko/20100101 Firefox/46.0',
+     accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+     'accept-language': 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+     'accept-encoding': 'gzip, deflate',
+     connection: 'keep-alive',
+     'cache-control': 'max-age=0' },
+  cookies: {},
+  session: undefined,
+  action: 'getdoclist' }
+[2016-05-17 09:54:02.120] [INFO] console - [ { DocIndex: '123456', Name: '文档管理微服务', time: 1462936697326 } ]
+[2016-05-17 09:54:02.123] [INFO] console - {"message":[{"DocIndex":"123456","Name":"文档管理微服务","time":1462936697326}],"retCode":0}
+[2016-05-17 10:09:04.754] [INFO] console - Tue May 17 2016 10:09:04 GMT+0800 (中国标准时间)doc server use http/https port 3005/3006
+[2016-05-17 10:09:04.792] [INFO] console - Tue May 17 2016 10:09:04 GMT+0800 (中国标准时间) doc server start http server and listen on: {"address":"::","family":"IPv6","port":3005}
+[2016-05-17 10:09:04.793] [INFO] console - Tue May 17 2016 10:09:04 GMT+0800 (中国标准时间) doc server start https server and listen on: {"address":"::","family":"IPv6","port":3006}
+[2016-05-17 10:09:04.835] [INFO] console - Tue May 17 2016 10:09:04 GMT+0800 (中国标准时间) Connect to mongoose success: mongodb://127.0.0.1:27017/webdoc_db
+[2016-05-17 10:09:14.286] [INFO] console - { url: '/getdoclist',
+  method: 'GET',
+  headers: 
+   { host: 'localhost:3005',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:46.0) Gecko/20100101 Firefox/46.0',
+     accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+     'accept-language': 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+     'accept-encoding': 'gzip, deflate',
+     connection: 'keep-alive',
+     'cache-control': 'max-age=0' },
+  cookies: {},
+  session: undefined,
+  action: 'getdoclist' }
+[2016-05-17 10:09:15.633] [INFO] console - [ { DocIndex: '123456', Name: '文档管理微服务', time: 1462936697326 } ]
+[2016-05-17 10:09:15.637] [ERROR] console - Error: write after end
+    at ServerResponse.OutgoingMessage.write (_http_outgoing.js:413:15)
+    at Query.<anonymous> (f:\4-6\doc\src\routes\handlers\database.js:416:33)
+    at f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\node_modules\kareem\index.js:177:19
+    at f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\node_modules\kareem\index.js:109:16
+    at process._tickCallback (node.js:355:11)
+[2016-05-17 10:10:13.005] [INFO] console - Tue May 17 2016 10:10:13 GMT+0800 (中国标准时间)doc server use http/https port 3005/3006
+[2016-05-17 10:10:13.056] [INFO] console - Tue May 17 2016 10:10:13 GMT+0800 (中国标准时间) doc server start http server and listen on: {"address":"::","family":"IPv6","port":3005}
+[2016-05-17 10:10:13.059] [INFO] console - Tue May 17 2016 10:10:13 GMT+0800 (中国标准时间) doc server start https server and listen on: {"address":"::","family":"IPv6","port":3006}
+[2016-05-17 10:10:13.099] [INFO] console - Tue May 17 2016 10:10:13 GMT+0800 (中国标准时间) Connect to mongoose success: mongodb://127.0.0.1:27017/webdoc_db
+[2016-05-17 10:10:20.384] [INFO] console - { url: '/getdoclist',
+  method: 'GET',
+  headers: 
+   { host: 'localhost:3005',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:46.0) Gecko/20100101 Firefox/46.0',
+     accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+     'accept-language': 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+     'accept-encoding': 'gzip, deflate',
+     connection: 'keep-alive',
+     'cache-control': 'max-age=0' },
+  cookies: {},
+  session: undefined,
+  action: 'getdoclist' }
+[2016-05-17 10:10:21.729] [INFO] console - [ { DocIndex: '123456', Name: '文档管理微服务', time: 1462936697326 } ]
+[2016-05-17 10:10:21.733] [ERROR] console - Error: write after end
+    at ServerResponse.OutgoingMessage.write (_http_outgoing.js:413:15)
+    at Query.<anonymous> (f:\4-6\doc\src\routes\handlers\database.js:416:33)
+    at f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\node_modules\kareem\index.js:177:19
+    at f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\node_modules\kareem\index.js:109:16
+    at process._tickCallback (node.js:355:11)
+[2016-05-17 10:11:32.119] [INFO] console - Tue May 17 2016 10:11:32 GMT+0800 (中国标准时间)doc server use http/https port 3005/3006
+[2016-05-17 10:11:32.166] [INFO] console - Tue May 17 2016 10:11:32 GMT+0800 (中国标准时间) doc server start http server and listen on: {"address":"::","family":"IPv6","port":3005}
+[2016-05-17 10:11:32.168] [INFO] console - Tue May 17 2016 10:11:32 GMT+0800 (中国标准时间) doc server start https server and listen on: {"address":"::","family":"IPv6","port":3006}
+[2016-05-17 10:11:32.207] [INFO] console - Tue May 17 2016 10:11:32 GMT+0800 (中国标准时间) Connect to mongoose success: mongodb://127.0.0.1:27017/webdoc_db
+[2016-05-17 10:12:03.356] [INFO] console - { url: '/getdocapi',
+  method: 'GET',
+  headers: 
+   { host: 'localhost:3005',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:46.0) Gecko/20100101 Firefox/46.0',
+     accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+     'accept-language': 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+     'accept-encoding': 'gzip, deflate',
+     connection: 'keep-alive',
+     'cache-control': 'max-age=0' },
+  cookies: {},
+  session: undefined,
+  action: 'getDoc',
+  DocIndex: undefined }
+[2016-05-17 10:12:03.363] [INFO] console - getwebdocNew  odata
+[2016-05-17 10:12:03.364] [INFO] console - {"url":"/getdocapi","method":"GET","headers":{"host":"localhost:3005","user-agent":"Mozilla/5.0 (Windows NT 6.1; WOW64; rv:46.0) Gecko/20100101 Firefox/46.0","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8","accept-language":"zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3","accept-encoding":"gzip, deflate","connection":"keep-alive","cache-control":"max-age=0"},"cookies":{},"action":"getDoc"}
+[2016-05-17 10:12:05.361] [INFO] console - { url: '/getdocapi',
+  method: 'GET',
+  headers: 
+   { host: 'localhost:3005',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:46.0) Gecko/20100101 Firefox/46.0',
+     accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+     'accept-language': 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+     'accept-encoding': 'gzip, deflate',
+     connection: 'keep-alive',
+     'cache-control': 'max-age=0' },
+  cookies: {},
+  session: undefined,
+  action: 'getDoc',
+  DocIndex: undefined }
+[2016-05-17 10:12:05.371] [INFO] console - getwebdocNew  odata
+[2016-05-17 10:12:05.372] [INFO] console - {"url":"/getdocapi","method":"GET","headers":{"host":"localhost:3005","user-agent":"Mozilla/5.0 (Windows NT 6.1; WOW64; rv:46.0) Gecko/20100101 Firefox/46.0","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8","accept-language":"zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3","accept-encoding":"gzip, deflate","connection":"keep-alive","cache-control":"max-age=0"},"cookies":{},"action":"getDoc"}
+[2016-05-17 10:12:06.334] [INFO] console - { url: '/getdocapi',
+  method: 'GET',
+  headers: 
+   { host: 'localhost:3005',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:46.0) Gecko/20100101 Firefox/46.0',
+     accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+     'accept-language': 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+     'accept-encoding': 'gzip, deflate',
+     connection: 'keep-alive',
+     'cache-control': 'max-age=0' },
+  cookies: {},
+  session: undefined,
+  action: 'getDoc',
+  DocIndex: undefined }
+[2016-05-17 10:12:06.338] [INFO] console - getwebdocNew  odata
+[2016-05-17 10:12:06.339] [INFO] console - {"url":"/getdocapi","method":"GET","headers":{"host":"localhost:3005","user-agent":"Mozilla/5.0 (Windows NT 6.1; WOW64; rv:46.0) Gecko/20100101 Firefox/46.0","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8","accept-language":"zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3","accept-encoding":"gzip, deflate","connection":"keep-alive","cache-control":"max-age=0"},"cookies":{},"action":"getDoc"}
+[2016-05-17 10:12:23.215] [INFO] console - { url: '/getdoclist',
+  method: 'GET',
+  headers: 
+   { host: 'localhost:3005',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:46.0) Gecko/20100101 Firefox/46.0',
+     accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+     'accept-language': 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+     'accept-encoding': 'gzip, deflate',
+     connection: 'keep-alive' },
+  cookies: {},
+  session: undefined,
+  action: 'getdoclist' }
+[2016-05-17 10:12:24.524] [INFO] console - [ { DocIndex: '123456', Name: '文档管理微服务', time: 1462936697326 } ]
+[2016-05-17 10:12:24.527] [INFO] console - {"DocIndex":[{"DocIndex":"123456","Name":"文档管理微服务","time":1462936697326}],"retCode":0}
+[2016-05-17 10:12:24.529] [ERROR] console - Error: write after end
+    at ServerResponse.OutgoingMessage.write (_http_outgoing.js:413:15)
+    at Query.<anonymous> (f:\4-6\doc\src\routes\handlers\database.js:417:33)
+    at f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\node_modules\kareem\index.js:177:19
+    at f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\node_modules\kareem\index.js:109:16
+    at process._tickCallback (node.js:355:11)
+[2016-05-17 10:13:05.022] [INFO] console - Tue May 17 2016 10:13:05 GMT+0800 (中国标准时间)doc server use http/https port 3005/3006
+[2016-05-17 10:13:05.086] [INFO] console - Tue May 17 2016 10:13:05 GMT+0800 (中国标准时间) doc server start http server and listen on: {"address":"::","family":"IPv6","port":3005}
+[2016-05-17 10:13:05.089] [INFO] console - Tue May 17 2016 10:13:05 GMT+0800 (中国标准时间) doc server start https server and listen on: {"address":"::","family":"IPv6","port":3006}
+[2016-05-17 10:13:05.146] [INFO] console - Tue May 17 2016 10:13:05 GMT+0800 (中国标准时间) Connect to mongoose success: mongodb://127.0.0.1:27017/webdoc_db
+[2016-05-17 10:13:24.989] [INFO] console - { url: '/getdoclist',
+  method: 'GET',
+  headers: 
+   { host: 'localhost:3005',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:46.0) Gecko/20100101 Firefox/46.0',
+     accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+     'accept-language': 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+     'accept-encoding': 'gzip, deflate',
+     connection: 'keep-alive',
+     'cache-control': 'max-age=0' },
+  cookies: {},
+  session: undefined,
+  action: 'getdoclist' }
+[2016-05-17 10:13:25.058] [INFO] console - [ { DocIndex: '123456', Name: '文档管理微服务', time: 1462936697326 } ]
+[2016-05-17 10:13:25.061] [INFO] console - {"DocIndex":[{"DocIndex":"123456","Name":"文档管理微服务","time":1462936697326}],"retCode":0}
+[2016-05-17 11:20:07.611] [INFO] console - Tue May 17 2016 11:20:07 GMT+0800 (中国标准时间)doc server use http/https port 3005/3006
+[2016-05-17 11:20:07.668] [INFO] console - Tue May 17 2016 11:20:07 GMT+0800 (中国标准时间) doc server start http server and listen on: {"address":"::","family":"IPv6","port":3005}
+[2016-05-17 11:20:07.669] [INFO] console - Tue May 17 2016 11:20:07 GMT+0800 (中国标准时间) doc server start https server and listen on: {"address":"::","family":"IPv6","port":3006}
+[2016-05-17 11:20:07.713] [INFO] console - Tue May 17 2016 11:20:07 GMT+0800 (中国标准时间) Connect to mongoose success: mongodb://127.0.0.1:27017/webdoc_db
+[2016-05-17 14:58:35.510] [INFO] console - Tue May 17 2016 14:58:35 GMT+0800 (中国标准时间)doc server use http/https port 3005/3006
+[2016-05-17 14:58:35.566] [INFO] console - string
+[2016-05-17 14:58:35.569] [INFO] console - Tue May 17 2016 14:58:35 GMT+0800 (中国标准时间) doc server start http server and listen on: {"address":"::","family":"IPv6","port":3005}
+[2016-05-17 14:58:35.573] [INFO] console - Tue May 17 2016 14:58:35 GMT+0800 (中国标准时间) doc server start https server and listen on: {"address":"::","family":"IPv6","port":3006}
+[2016-05-17 14:58:35.636] [INFO] console - Tue May 17 2016 14:58:35 GMT+0800 (中国标准时间) Connect to mongoose success: mongodb://127.0.0.1:27017/webdoc_db
+[2016-05-17 15:11:54.860] [INFO] console - Tue May 17 2016 15:11:54 GMT+0800 (中国标准时间)doc server use http/https port 3005/3006
+[2016-05-17 15:11:54.947] [INFO] console - Tue May 17 2016 15:11:54 GMT+0800 (中国标准时间) doc server start http server and listen on: {"address":"::","family":"IPv6","port":3005}
+[2016-05-17 15:11:54.949] [INFO] console - Tue May 17 2016 15:11:54 GMT+0800 (中国标准时间) doc server start https server and listen on: {"address":"::","family":"IPv6","port":3006}
+[2016-05-17 15:11:54.984] [INFO] console - Tue May 17 2016 15:11:54 GMT+0800 (中国标准时间) Connect to mongoose success: mongodb://127.0.0.1:27017/webdoc_db
+[2016-05-17 15:13:05.518] [INFO] console - Tue May 17 2016 15:13:05 GMT+0800 (中国标准时间)doc server use http/https port 3005/3006
+[2016-05-17 15:13:05.588] [INFO] console - 1463469185588
+[2016-05-17 15:13:05.626] [INFO] console - number
+[2016-05-17 15:13:05.629] [INFO] console - string
+[2016-05-17 15:13:05.630] [INFO] console - 1463469185588
+[2016-05-17 15:13:05.641] [INFO] console - Tue May 17 2016 15:13:05 GMT+0800 (中国标准时间) doc server start http server and listen on: {"address":"::","family":"IPv6","port":3005}
+[2016-05-17 15:13:05.642] [INFO] console - Tue May 17 2016 15:13:05 GMT+0800 (中国标准时间) doc server start https server and listen on: {"address":"::","family":"IPv6","port":3006}
+[2016-05-17 15:13:05.696] [INFO] console - Tue May 17 2016 15:13:05 GMT+0800 (中国标准时间) Connect to mongoose success: mongodb://127.0.0.1:27017/webdoc_db
+[2016-05-17 15:13:31.441] [INFO] console - Tue May 17 2016 15:13:31 GMT+0800 (中国标准时间)doc server use http/https port 3005/3006
+[2016-05-17 15:13:31.488] [INFO] console - 1463469211487
+[2016-05-17 15:13:31.493] [INFO] console - number
+[2016-05-17 15:13:31.494] [INFO] console - string
+[2016-05-17 15:13:31.494] [INFO] console - 1463469211487
+[2016-05-17 15:13:31.498] [INFO] console - Tue May 17 2016 15:13:31 GMT+0800 (中国标准时间) doc server start http server and listen on: {"address":"::","family":"IPv6","port":3005}
+[2016-05-17 15:13:31.503] [INFO] console - Tue May 17 2016 15:13:31 GMT+0800 (中国标准时间) doc server start https server and listen on: {"address":"::","family":"IPv6","port":3006}
+[2016-05-17 15:13:31.554] [INFO] console - Tue May 17 2016 15:13:31 GMT+0800 (中国标准时间) Connect to mongoose success: mongodb://127.0.0.1:27017/webdoc_db
+[2016-05-17 15:21:53.113] [INFO] console - Tue May 17 2016 15:21:53 GMT+0800 (中国标准时间)doc server use http/https port 3005/3006
+[2016-05-17 15:21:53.158] [INFO] console - 1463469713158
+[2016-05-17 15:21:53.162] [INFO] console - number
+[2016-05-17 15:21:53.163] [INFO] console - string
+[2016-05-17 15:21:53.164] [INFO] console - 1463469713158
+[2016-05-17 15:21:53.166] [INFO] console - Tue May 17 2016 15:21:53 GMT+0800 (中国标准时间) doc server start http server and listen on: {"address":"::","family":"IPv6","port":3005}
+[2016-05-17 15:21:53.167] [INFO] console - Tue May 17 2016 15:21:53 GMT+0800 (中国标准时间) doc server start https server and listen on: {"address":"::","family":"IPv6","port":3006}
+[2016-05-17 15:21:53.213] [INFO] console - Tue May 17 2016 15:21:53 GMT+0800 (中国标准时间) Connect to mongoose success: mongodb://127.0.0.1:27017/errr
+[2016-05-17 15:22:40.788] [INFO] console - Tue May 17 2016 15:22:40 GMT+0800 (中国标准时间)doc server use http/https port 3005/3006
+[2016-05-17 15:22:40.854] [INFO] console - 1463469760853
+[2016-05-17 15:22:40.858] [INFO] console - number
+[2016-05-17 15:22:40.859] [INFO] console - string
+[2016-05-17 15:22:40.859] [INFO] console - 1463469760853
+[2016-05-17 15:22:40.862] [INFO] console - Tue May 17 2016 15:22:40 GMT+0800 (中国标准时间) doc server start http server and listen on: {"address":"::","family":"IPv6","port":3005}
+[2016-05-17 15:22:40.863] [INFO] console - Tue May 17 2016 15:22:40 GMT+0800 (中国标准时间) doc server start https server and listen on: {"address":"::","family":"IPv6","port":3006}
+[2016-05-17 15:22:40.933] [INFO] console - Tue May 17 2016 15:22:40 GMT+0800 (中国标准时间) Connect to mongoose success: mongodb://127.0.0.1:27017/errr
+[2016-05-17 16:22:12.574] [INFO] console - Tue May 17 2016 16:22:12 GMT+0800 (中国标准时间)doc server use http/https port 3005/3006
+[2016-05-17 16:22:12.623] [INFO] console - 1463473332623
+[2016-05-17 16:22:12.629] [INFO] console - number
+[2016-05-17 16:22:12.629] [INFO] console - string
+[2016-05-17 16:22:12.630] [INFO] console - 1463473332623
+[2016-05-17 16:22:12.630] [INFO] console - undefined
+[2016-05-17 16:22:12.633] [INFO] console - Tue May 17 2016 16:22:12 GMT+0800 (中国标准时间) doc server start http server and listen on: {"address":"::","family":"IPv6","port":3005}
+[2016-05-17 16:22:12.634] [INFO] console - Tue May 17 2016 16:22:12 GMT+0800 (中国标准时间) doc server start https server and listen on: {"address":"::","family":"IPv6","port":3006}
+[2016-05-17 16:22:12.672] [INFO] console - Tue May 17 2016 16:22:12 GMT+0800 (中国标准时间) Connect to mongoose success: mongodb://127.0.0.1:27017/webdoc_db

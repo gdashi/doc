@@ -1,0 +1,2621 @@
+[2016-05-20 11:12:15.494] [INFO] console - Fri May 20 2016 11:12:15 GMT+0800 (中国标准时间)doc server use http/https port 3005/3006
+[2016-05-20 11:12:15.544] [INFO] console - 1463713935542
+[2016-05-20 11:12:15.549] [INFO] console - number
+[2016-05-20 11:12:15.549] [INFO] console - string
+[2016-05-20 11:12:15.549] [INFO] console - 1463713935542
+[2016-05-20 11:12:15.551] [INFO] console - undefined
+[2016-05-20 11:12:15.555] [INFO] console - Fri May 20 2016 11:12:15 GMT+0800 (中国标准时间) doc server start http server and listen on: {"address":"::","family":"IPv6","port":3005}
+[2016-05-20 11:12:15.561] [INFO] console - Fri May 20 2016 11:12:15 GMT+0800 (中国标准时间) doc server start https server and listen on: {"address":"::","family":"IPv6","port":3006}
+[2016-05-20 11:12:15.636] [INFO] console - Fri May 20 2016 11:12:15 GMT+0800 (中国标准时间) Connect to mongoose success: mongodb://127.0.0.1:27017/webdoc_db
+[2016-05-20 11:13:13.790] [INFO] console - Fri May 20 2016 11:13:13 GMT+0800 (中国标准时间)doc server use http/https port 3005/3006
+[2016-05-20 11:13:13.847] [INFO] console - 1463713993847
+[2016-05-20 11:13:13.851] [INFO] console - number
+[2016-05-20 11:13:13.852] [INFO] console - string
+[2016-05-20 11:13:13.852] [INFO] console - 1463713993847
+[2016-05-20 11:13:13.853] [INFO] console - undefined
+[2016-05-20 11:13:13.855] [INFO] console - Fri May 20 2016 11:13:13 GMT+0800 (中国标准时间) doc server start http server and listen on: {"address":"::","family":"IPv6","port":3005}
+[2016-05-20 11:13:13.856] [INFO] console - Fri May 20 2016 11:13:13 GMT+0800 (中国标准时间) doc server start https server and listen on: {"address":"::","family":"IPv6","port":3006}
+[2016-05-20 11:13:13.893] [INFO] console - Fri May 20 2016 11:13:13 GMT+0800 (中国标准时间) Connect to mongoose success: mongodb://127.0.0.1:27017/webdoc_db
+[2016-05-20 11:13:28.201] [INFO] console - yuanyuekun
+[2016-05-20 11:14:41.979] [INFO] console - Fri May 20 2016 11:14:41 GMT+0800 (中国标准时间)doc server use http/https port 3005/3006
+[2016-05-20 11:14:42.026] [INFO] console - 1463714082026
+[2016-05-20 11:14:42.028] [INFO] console - number
+[2016-05-20 11:14:42.028] [INFO] console - string
+[2016-05-20 11:14:42.029] [INFO] console - 1463714082026
+[2016-05-20 11:14:42.029] [INFO] console - undefined
+[2016-05-20 11:14:42.031] [INFO] console - Fri May 20 2016 11:14:42 GMT+0800 (中国标准时间) doc server start http server and listen on: {"address":"::","family":"IPv6","port":3005}
+[2016-05-20 11:14:42.032] [INFO] console - Fri May 20 2016 11:14:42 GMT+0800 (中国标准时间) doc server start https server and listen on: {"address":"::","family":"IPv6","port":3006}
+[2016-05-20 11:14:42.076] [INFO] console - Fri May 20 2016 11:14:42 GMT+0800 (中国标准时间) Connect to mongoose success: mongodb://127.0.0.1:27017/webdoc_db
+[2016-05-20 11:14:53.721] [INFO] console - yuanyuekun
+[2016-05-20 11:14:53.723] [INFO] console - f:\4-6\doc\src\routes
+[2016-05-20 11:19:34.842] [INFO] console - Fri May 20 2016 11:19:34 GMT+0800 (中国标准时间)doc server use http/https port 3005/3006
+[2016-05-20 11:19:34.890] [INFO] console - 1463714374890
+[2016-05-20 11:19:34.893] [INFO] console - number
+[2016-05-20 11:19:34.894] [INFO] console - string
+[2016-05-20 11:19:34.894] [INFO] console - 1463714374890
+[2016-05-20 11:19:34.895] [INFO] console - undefined
+[2016-05-20 11:19:34.897] [INFO] console - Fri May 20 2016 11:19:34 GMT+0800 (中国标准时间) doc server start http server and listen on: {"address":"::","family":"IPv6","port":3005}
+[2016-05-20 11:19:34.898] [INFO] console - Fri May 20 2016 11:19:34 GMT+0800 (中国标准时间) doc server start https server and listen on: {"address":"::","family":"IPv6","port":3006}
+[2016-05-20 11:19:34.954] [INFO] console - Fri May 20 2016 11:19:34 GMT+0800 (中国标准时间) Connect to mongoose success: mongodb://127.0.0.1:27017/webdoc_db
+[2016-05-20 11:19:57.901] [INFO] console - Fri May 20 2016 11:19:57 GMT+0800 (中国标准时间)doc server use http/https port 3005/3006
+[2016-05-20 11:19:57.950] [INFO] console - 1463714397949
+[2016-05-20 11:19:57.956] [INFO] console - number
+[2016-05-20 11:19:57.957] [INFO] console - string
+[2016-05-20 11:19:57.957] [INFO] console - 1463714397949
+[2016-05-20 11:19:57.957] [INFO] console - undefined
+[2016-05-20 11:19:57.961] [INFO] console - Fri May 20 2016 11:19:57 GMT+0800 (中国标准时间) doc server start http server and listen on: {"address":"::","family":"IPv6","port":3005}
+[2016-05-20 11:19:57.963] [INFO] console - Fri May 20 2016 11:19:57 GMT+0800 (中国标准时间) doc server start https server and listen on: {"address":"::","family":"IPv6","port":3006}
+[2016-05-20 11:19:58.008] [INFO] console - Fri May 20 2016 11:19:58 GMT+0800 (中国标准时间) Connect to mongoose success: mongodb://127.0.0.1:27017/webdoc_db
+[2016-05-20 11:20:09.542] [INFO] console - f:\4-6\doc\src\
+[2016-05-20 11:20:09.708] [INFO] console - Fri May 20 2016 11:20:09 GMT+0800 (中国标准时间)doc server use http/https port 3005/3006
+[2016-05-20 11:20:09.746] [INFO] console - 1463714409746
+[2016-05-20 11:20:09.749] [INFO] console - number
+[2016-05-20 11:20:09.749] [INFO] console - string
+[2016-05-20 11:20:09.749] [INFO] console - 1463714409746
+[2016-05-20 11:20:09.749] [INFO] console - undefined
+[2016-05-20 11:20:09.753] [INFO] console - Fri May 20 2016 11:20:09 GMT+0800 (中国标准时间) doc server start http server and listen on: {"address":"::","family":"IPv6","port":3005}
+[2016-05-20 11:20:09.754] [INFO] console - Fri May 20 2016 11:20:09 GMT+0800 (中国标准时间) doc server start https server and listen on: {"address":"::","family":"IPv6","port":3006}
+[2016-05-20 11:20:09.798] [INFO] console - Fri May 20 2016 11:20:09 GMT+0800 (中国标准时间) Connect to mongoose success: mongodb://127.0.0.1:27017/webdoc_db
+[2016-05-20 11:20:25.182] [INFO] console - yuanyuekun
+[2016-05-20 11:20:25.183] [INFO] console - f:\4-6\doc\src\routes
+[2016-05-20 11:20:25.184] [INFO] console - f:\4-6\doc\src\
+[2016-05-20 11:21:20.882] [INFO] console - yuanyuekun
+[2016-05-20 11:21:20.884] [INFO] console - f:\4-6\doc\src\routes
+[2016-05-20 11:21:20.885] [INFO] console - f:\4-6\doc\src\
+[2016-05-20 11:22:36.784] [INFO] console - Fri May 20 2016 11:22:36 GMT+0800 (中国标准时间)doc server use http/https port 3005/3006
+[2016-05-20 11:22:36.826] [INFO] console - 1463714556826
+[2016-05-20 11:22:36.830] [INFO] console - number
+[2016-05-20 11:22:36.830] [INFO] console - string
+[2016-05-20 11:22:36.831] [INFO] console - 1463714556826
+[2016-05-20 11:22:36.831] [INFO] console - undefined
+[2016-05-20 11:22:36.835] [INFO] console - Fri May 20 2016 11:22:36 GMT+0800 (中国标准时间) doc server start http server and listen on: {"address":"::","family":"IPv6","port":3005}
+[2016-05-20 11:22:36.835] [INFO] console - Fri May 20 2016 11:22:36 GMT+0800 (中国标准时间) doc server start https server and listen on: {"address":"::","family":"IPv6","port":3006}
+[2016-05-20 11:22:36.874] [INFO] console - Fri May 20 2016 11:22:36 GMT+0800 (中国标准时间) Connect to mongoose success: mongodb://127.0.0.1:27017/webdoc_db
+[2016-05-20 11:22:38.227] [INFO] console - yuanyuekun
+[2016-05-20 11:22:38.228] [INFO] console - f:\4-6\doc\src\routes
+[2016-05-20 11:24:17.468] [INFO] console - yuanyuekun
+[2016-05-20 11:24:17.470] [INFO] console - f:\4-6\doc\src\routes
+[2016-05-20 11:25:03.740] [INFO] console - Fri May 20 2016 11:25:03 GMT+0800 (中国标准时间)doc server use http/https port 3005/3006
+[2016-05-20 11:25:03.782] [INFO] console - 1463714703781
+[2016-05-20 11:25:03.786] [INFO] console - number
+[2016-05-20 11:25:03.786] [INFO] console - string
+[2016-05-20 11:25:03.787] [INFO] console - 1463714703781
+[2016-05-20 11:25:03.787] [INFO] console - undefined
+[2016-05-20 11:25:03.790] [INFO] console - Fri May 20 2016 11:25:03 GMT+0800 (中国标准时间) doc server start http server and listen on: {"address":"::","family":"IPv6","port":3005}
+[2016-05-20 11:25:03.791] [INFO] console - Fri May 20 2016 11:25:03 GMT+0800 (中国标准时间) doc server start https server and listen on: {"address":"::","family":"IPv6","port":3006}
+[2016-05-20 11:25:03.830] [INFO] console - Fri May 20 2016 11:25:03 GMT+0800 (中国标准时间) Connect to mongoose success: mongodb://127.0.0.1:27017/webdoc_db
+[2016-05-20 11:25:07.580] [INFO] console - yuanyuekun
+[2016-05-20 11:25:07.582] [INFO] console - f:\4-6\doc\src\routes
+[2016-05-20 11:25:08.298] [INFO] console - { url: '/getdoclist',
+  method: 'GET',
+  headers: 
+   { host: 'localhost:3005',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:46.0) Gecko/20100101 Firefox/46.0',
+     accept: 'application/json, text/javascript, */*; q=0.01',
+     'accept-language': 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+     'accept-encoding': 'gzip, deflate',
+     'x-requested-with': 'XMLHttpRequest',
+     referer: 'http://localhost:3005/',
+     cookie: 'connect.sid=s%3An-bWx0MfQ-4kYZo_kPoS3Q7oTA6LWx0K.WV6hEoc%2F5TS6cT%2B%2BLpk%2FInSn9ZDuLDRheEiv8t8OoQ4',
+     connection: 'keep-alive',
+     'cache-control': 'max-age=0' },
+  cookies: { 'connect.sid': 's:n-bWx0MfQ-4kYZo_kPoS3Q7oTA6LWx0K.WV6hEoc/5TS6cT++Lpk/InSn9ZDuLDRheEiv8t8OoQ4' },
+  session: undefined,
+  action: 'getdoclist' }
+[2016-05-20 11:25:08.364] [INFO] console - [ { DocIndex: '123456', Name: '文档管理微服务', time: 1462936697326 } ]
+[2016-05-20 11:25:08.367] [INFO] console - {"DocIndex":[{"DocIndex":"123456","Name":"文档管理微服务","time":1462936697326}],"retCode":0}
+[2016-05-20 11:25:29.139] [INFO] console - yuanyuekun
+[2016-05-20 11:25:29.146] [INFO] console - f:\4-6\doc\src\routes
+[2016-05-20 11:25:30.968] [INFO] console - { url: '/getdoclist',
+  method: 'GET',
+  headers: 
+   { host: 'localhost:3005',
+     connection: 'keep-alive',
+     'cache-control': 'max-age=0',
+     accept: 'application/json, text/javascript, */*; q=0.01',
+     'x-requested-with': 'XMLHttpRequest',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36',
+     referer: 'http://localhost:3005/',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'zh-CN,zh;q=0.8' },
+  cookies: {},
+  session: undefined,
+  action: 'getdoclist' }
+[2016-05-20 11:25:30.995] [INFO] console - [ { DocIndex: '123456', Name: '文档管理微服务', time: 1462936697326 } ]
+[2016-05-20 11:25:30.997] [INFO] console - {"DocIndex":[{"DocIndex":"123456","Name":"文档管理微服务","time":1462936697326}],"retCode":0}
+[2016-05-20 11:29:02.846] [INFO] console - Fri May 20 2016 11:29:02 GMT+0800 (中国标准时间)doc server use http/https port 3005/3006
+[2016-05-20 11:29:02.888] [INFO] console - 1463714942887
+[2016-05-20 11:29:02.891] [INFO] console - number
+[2016-05-20 11:29:02.891] [INFO] console - string
+[2016-05-20 11:29:02.892] [INFO] console - 1463714942887
+[2016-05-20 11:29:02.892] [INFO] console - undefined
+[2016-05-20 11:29:02.895] [INFO] console - Fri May 20 2016 11:29:02 GMT+0800 (中国标准时间) doc server start http server and listen on: {"address":"::","family":"IPv6","port":3005}
+[2016-05-20 11:29:02.896] [INFO] console - Fri May 20 2016 11:29:02 GMT+0800 (中国标准时间) doc server start https server and listen on: {"address":"::","family":"IPv6","port":3006}
+[2016-05-20 11:29:02.946] [INFO] console - Fri May 20 2016 11:29:02 GMT+0800 (中国标准时间) Connect to mongoose success: mongodb://127.0.0.1:27017/webdoc_db
+[2016-05-20 11:29:08.386] [INFO] console - yuanyuekun
+[2016-05-20 11:29:08.387] [INFO] console - f:\4-6\doc\src\routes
+[2016-05-20 11:29:10.192] [INFO] console - { url: '/getdoclist',
+  method: 'GET',
+  headers: 
+   { host: 'localhost:3005',
+     connection: 'keep-alive',
+     'cache-control': 'max-age=0',
+     accept: 'application/json, text/javascript, */*; q=0.01',
+     'x-requested-with': 'XMLHttpRequest',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36',
+     referer: 'http://localhost:3005/',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'zh-CN,zh;q=0.8' },
+  cookies: {},
+  session: undefined,
+  action: 'getdoclist' }
+[2016-05-20 11:29:10.243] [INFO] console - [ { DocIndex: '123456', Name: '文档管理微服务', time: 1462936697326 } ]
+[2016-05-20 11:29:10.245] [INFO] console - {"doclist":[{"DocIndex":"123456","Name":"文档管理微服务","time":1462936697326}],"retCode":0}
+[2016-05-20 11:29:10.309] [INFO] console - { url: '/getdocapi?DocIndex=123456',
+  method: 'GET',
+  headers: 
+   { host: 'localhost:3005',
+     connection: 'keep-alive',
+     accept: 'application/json, text/javascript, */*; q=0.01',
+     'x-requested-with': 'XMLHttpRequest',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36',
+     referer: 'http://localhost:3005/',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'zh-CN,zh;q=0.8' },
+  cookies: {},
+  session: undefined,
+  action: 'getDoc',
+  DocIndex: '123456' }
+[2016-05-20 11:29:10.312] [INFO] console - getwebdocNew  odata
+[2016-05-20 11:29:10.312] [INFO] console - {"url":"/getdocapi?DocIndex=123456","method":"GET","headers":{"host":"localhost:3005","connection":"keep-alive","accept":"application/json, text/javascript, */*; q=0.01","x-requested-with":"XMLHttpRequest","user-agent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36","referer":"http://localhost:3005/","accept-encoding":"gzip, deflate, sdch","accept-language":"zh-CN,zh;q=0.8"},"cookies":{},"action":"getDoc","DocIndex":"123456"}
+[2016-05-20 11:29:10.385] [INFO] console - get doc success
+[2016-05-20 11:29:53.845] [INFO] console - { docindex: [ 'doc_35344853418659183' ] }
+[2016-05-20 11:29:53.851] [INFO] console - {
+    "name":"文档管理微服务",
+    "desc":"本文档是用来描述文档管理接口信息",
+    "author":"yuanyuekun",
+    "aggregate":[
+        {
+             "name":"接口文档管理",
+             "desc":"管理绿洲云平台的web接口文档，功能包括添加、删除、修改文档，同时支持导入文档功能",
+             "items":[
+                 {
+                      "name":"获取文档列表",
+                      "desc":"获取webdoc后台数据库所有文档的序列号和文档名字",
+                      "author":"yuanyuekun",
+                      "path": "/v3/web/doc/getdoclist",
+                      "method":"Get",
+                      "return" :{
+                          "doclist":[{
+                              "Name":"文档的名字, 类型字符串",
+                              "DocIndex":"文档的序列号，类型字符串"
+                          }
+                          ],
+                          "retcode":"错误码，类型数字，0表示成功，1表示失败"
+                      },
+                      "params":[
+                         {
+                             "name":"请求参数无",
+                             "description":"该接口没有请求参数"
+                          }
+                      ],
+                      "errors":[
+                         {
+                             "name":"0",
+                             "description":"获取文档列表成功"
+                          },
+                          {
+                             "name":"1",
+                             "description":"获取文档列表失败"
+                          }
+                      ]
+                  }
+             ]
+        },
+        {
+             "name":"接口文档管理",
+             "desc":"管理绿洲云平台的web接口文档，功能包括添加、删除、修改文档，同时支持导入文档功能",
+             "items":[
+                 {
+                      "name":"添加或者修改一个文档",
+                      "desc":"现在无论是添加还是修改一个文档都需要将整个文档下发，所以公用一个接口",
+                      "author":"yuanyuekun",
+                      "path": "/v3/web/doc/addapi",
+                      "method":"POST",
+                      "return" :{"data" : "后端返回的调试信息，前端不用关心",
+                                 "retcode": "错误码，类型数字，0表示成功，1表示失败"},
+                      "params":[
+                         {
+                             "name":"Name",
+                             "description":"文档的名字，类型字符串"
+                          },
+                          {
+                             "name":"DocIndex",
+                             "description":"文档的序列号，唯一标示一篇文档，类型字符串"
+                           },
+                           {
+                             "name":"AllItems",
+                             "description":"文档里面具体的内容，内容由页面决定，类型为一个数组"
+                           },
+                           {
+                             "name":"Return",
+                             "description":"微服务需要返回哪些字段，[mapName, scale, wallList, apList, bgInfo]"
+                           }
+                      ],
+                      "errors":[
+                         {
+                             "name":"0",
+                             "description":"添加成功"
+                          },
+                          {
+                             "name":"1",
+                             "description":"添加失败"
+                          }
+                      ]
+                  }
+             ]
+        },
+        {
+             "name":"接口文档管理",
+             "desc":"管理绿洲云平台的web接口文档，功能包括添加、删除、修改文档，同时支持导入文档功能",
+             "items":[
+                 {
+                      "name":"删除文档",
+                      "desc":"根据序列号删除一个文档",
+                      "author":"yuanyuekun",
+                      "path": "/v3/web/doc/delete",
+                      "method":"Get",
+                      "return" :{"retCode":"错误码，类型数字 0表示成功 1表示失败"},
+                      "params":[
+                         {
+                             "name":"DocIndex",
+                             "description":"当前文档的序列号,内容为字符串"
+                          }
+                      ],
+                      "errors":[
+                         {
+                             "name":"0",
+                             "description":"删除成功"
+                          },
+                          {
+                             "name":"1",
+                             "description":"删除失败"
+                          }
+                      ]
+                  }
+             ]
+        },
+        {
+             "name":"接口文档管理",
+             "desc":"管理绿洲云平台的web接口文档，功能包括添加、删除、修改文档，同时支持导入文档功能",
+             "items":[
+                 {
+                      "name":"获取一个文档",
+                      "desc":"根据序列号获取一个文档",
+                      "author":"yuanyuekun",
+                      "path": "/v3/web/doc/getdocapi",
+                      "method":"Get",
+                      "return" :{"Name":"文档名字，类型字符串",
+                                 "DocIndex":"文档的序列号，类型字符串",
+                                 "AllItems":"文档的内容，类型数组",
+                                 "retcode":"错误码，0表示成功，1表示失败"
+                                },
+                      "params":[
+                         {
+                             "name":"DocIndex",
+                             "description":"当前文档的序列号,内容为字符串"
+                          }
+                      ],
+                      "errors":[
+                         {
+                             "name":"0",
+                             "description":"获取文档成功"
+                          },
+                          {
+                             "name":"1",
+                             "description":"获取文档失败"
+                          }
+                      ]
+                  }
+             ]
+        }
+    ]
+}
+[2016-05-20 11:29:53.852] [INFO] console - {
+[2016-05-20 11:29:53.853] [INFO] console - [{"name":"接口文档管理","desc":"管理绿洲云平台的web接口文档，功能包括添加、删除、修改文档，同时支持导入文档功能","items":[{"name":"获取文档列表","desc":"获取webdoc后台数据库所有文档的序列号和文档名字","author":"yuanyuekun","path":"/v3/web/doc/getdoclist","method":"Get","return":{"doclist":[{"Name":"文档的名字, 类型字符串","DocIndex":"文档的序列号，类型字符串"}],"retcode":"错误码，类型数字，0表示成功，1表示失败"},"params":[{"name":"请求参数无","description":"该接口没有请求参数"}],"errors":[{"name":"0","description":"获取文档列表成功"},{"name":"1","description":"获取文档列表失败"}]}]},{"name":"接口文档管理","desc":"管理绿洲云平台的web接口文档，功能包括添加、删除、修改文档，同时支持导入文档功能","items":[{"name":"添加或者修改一个文档","desc":"现在无论是添加还是修改一个文档都需要将整个文档下发，所以公用一个接口","author":"yuanyuekun","path":"/v3/web/doc/addapi","method":"POST","return":{"data":"后端返回的调试信息，前端不用关心","retcode":"错误码，类型数字，0表示成功，1表示失败"},"params":[{"name":"Name","description":"文档的名字，类型字符串"},{"name":"DocIndex","description":"文档的序列号，唯一标示一篇文档，类型字符串"},{"name":"AllItems","description":"文档里面具体的内容，内容由页面决定，类型为一个数组"},{"name":"Return","description":"微服务需要返回哪些字段，[mapName, scale, wallList, apList, bgInfo]"}],"errors":[{"name":"0","description":"添加成功"},{"name":"1","description":"添加失败"}]}]},{"name":"接口文档管理","desc":"管理绿洲云平台的web接口文档，功能包括添加、删除、修改文档，同时支持导入文档功能","items":[{"name":"删除文档","desc":"根据序列号删除一个文档","author":"yuanyuekun","path":"/v3/web/doc/delete","method":"Get","return":{"retCode":"错误码，类型数字 0表示成功 1表示失败"},"params":[{"name":"DocIndex","description":"当前文档的序列号,内容为字符串"}],"errors":[{"name":"0","description":"删除成功"},{"name":"1","description":"删除失败"}]}]},{"name":"接口文档管理","desc":"管理绿洲云平台的web接口文档，功能包括添加、删除、修改文档，同时支持导入文档功能","items":[{"name":"获取一个文档","desc":"根据序列号获取一个文档","author":"yuanyuekun","path":"/v3/web/doc/getdocapi","method":"Get","return":{"Name":"文档名字，类型字符串","DocIndex":"文档的序列号，类型字符串","AllItems":"文档的内容，类型数组","retcode":"错误码，0表示成功，1表示失败"},"params":[{"name":"DocIndex","description":"当前文档的序列号,内容为字符串"}],"errors":[{"name":"0","description":"获取文档成功"},{"name":"1","description":"获取文档失败"}]}]}]
+[2016-05-20 11:29:53.854] [INFO] console - {"DocIndex":"doc_35344853418659183","Name":"文档管理微服务","description":"本文档是用来描述文档管理接口信息","author":"yuanyuekun","AllItems":[{"ItemName":"接口文档管理","Itemdesc":"管理绿洲云平台的web接口文档，功能包括添加、删除、修改文档，同时支持导入文档功能","SubItem":"获取文档列表","subitemdesc":"获取webdoc后台数据库所有文档的序列号和文档名字","Method":"Get","author":"yuanyuekun","Return":"{\"doclist\":[{\"Name\":\"文档的名字, 类型字符串\",\"DocIndex\":\"文档的序列号，类型字符串\"}],\"retcode\":\"错误码，类型数字，0表示成功，1表示失败\"}","Parameters":[{"name":"请求参数无","description":"该接口没有请求参数"}],"Error":[{"name":"0","description":"获取文档列表成功"},{"name":"1","description":"获取文档列表失败"}],"Path":"/v3/web/doc/getdoclist"},{"ItemName":"接口文档管理","Itemdesc":"管理绿洲云平台的web接口文档，功能包括添加、删除、修改文档，同时支持导入文档功能","SubItem":"添加或者修改一个文档","subitemdesc":"现在无论是添加还是修改一个文档都需要将整个文档下发，所以公用一个接口","Method":"POST","author":"yuanyuekun","Return":"{\"data\":\"后端返回的调试信息，前端不用关心\",\"retcode\":\"错误码，类型数字，0表示成功，1表示失败\"}","Parameters":[{"name":"Name","description":"文档的名字，类型字符串"},{"name":"DocIndex","description":"文档的序列号，唯一标示一篇文档，类型字符串"},{"name":"AllItems","description":"文档里面具体的内容，内容由页面决定，类型为一个数组"},{"name":"Return","description":"微服务需要返回哪些字段，[mapName, scale, wallList, apList, bgInfo]"}],"Error":[{"name":"0","description":"添加成功"},{"name":"1","description":"添加失败"}],"Path":"/v3/web/doc/addapi"},{"ItemName":"接口文档管理","Itemdesc":"管理绿洲云平台的web接口文档，功能包括添加、删除、修改文档，同时支持导入文档功能","SubItem":"删除文档","subitemdesc":"根据序列号删除一个文档","Method":"Get","author":"yuanyuekun","Return":"{\"retCode\":\"错误码，类型数字 0表示成功 1表示失败\"}","Parameters":[{"name":"DocIndex","description":"当前文档的序列号,内容为字符串"}],"Error":[{"name":"0","description":"删除成功"},{"name":"1","description":"删除失败"}],"Path":"/v3/web/doc/delete"},{"ItemName":"接口文档管理","Itemdesc":"管理绿洲云平台的web接口文档，功能包括添加、删除、修改文档，同时支持导入文档功能","SubItem":"获取一个文档","subitemdesc":"根据序列号获取一个文档","Method":"Get","author":"yuanyuekun","Return":"{\"Name\":\"文档名字，类型字符串\",\"DocIndex\":\"文档的序列号，类型字符串\",\"AllItems\":\"文档的内容，类型数组\",\"retcode\":\"错误码，0表示成功，1表示失败\"}","Parameters":[{"name":"DocIndex","description":"当前文档的序列号,内容为字符串"}],"Error":[{"name":"0","description":"获取文档成功"},{"name":"1","description":"获取文档失败"}],"Path":"/v3/web/doc/getdocapi"}]}
+[2016-05-20 11:29:53.856] [INFO] console - { DocIndex: 'doc_35344853418659183',
+  Name: '文档管理微服务',
+  description: '本文档是用来描述文档管理接口信息',
+  author: 'yuanyuekun',
+  AllItems: 
+   [ { ItemName: '接口文档管理',
+       Itemdesc: '管理绿洲云平台的web接口文档，功能包括添加、删除、修改文档，同时支持导入文档功能',
+       SubItem: '获取文档列表',
+       subitemdesc: '获取webdoc后台数据库所有文档的序列号和文档名字',
+       Method: 'Get',
+       author: 'yuanyuekun',
+       Return: '{"doclist":[{"Name":"文档的名字, 类型字符串","DocIndex":"文档的序列号，类型字符串"}],"retcode":"错误码，类型数字，0表示成功，1表示失败"}',
+       Parameters: [Object],
+       Error: [Object],
+       Path: '/v3/web/doc/getdoclist' },
+     { ItemName: '接口文档管理',
+       Itemdesc: '管理绿洲云平台的web接口文档，功能包括添加、删除、修改文档，同时支持导入文档功能',
+       SubItem: '添加或者修改一个文档',
+       subitemdesc: '现在无论是添加还是修改一个文档都需要将整个文档下发，所以公用一个接口',
+       Method: 'POST',
+       author: 'yuanyuekun',
+       Return: '{"data":"后端返回的调试信息，前端不用关心","retcode":"错误码，类型数字，0表示成功，1表示失败"}',
+       Parameters: [Object],
+       Error: [Object],
+       Path: '/v3/web/doc/addapi' },
+     { ItemName: '接口文档管理',
+       Itemdesc: '管理绿洲云平台的web接口文档，功能包括添加、删除、修改文档，同时支持导入文档功能',
+       SubItem: '删除文档',
+       subitemdesc: '根据序列号删除一个文档',
+       Method: 'Get',
+       author: 'yuanyuekun',
+       Return: '{"retCode":"错误码，类型数字 0表示成功 1表示失败"}',
+       Parameters: [Object],
+       Error: [Object],
+       Path: '/v3/web/doc/delete' },
+     { ItemName: '接口文档管理',
+       Itemdesc: '管理绿洲云平台的web接口文档，功能包括添加、删除、修改文档，同时支持导入文档功能',
+       SubItem: '获取一个文档',
+       subitemdesc: '根据序列号获取一个文档',
+       Method: 'Get',
+       author: 'yuanyuekun',
+       Return: '{"Name":"文档名字，类型字符串","DocIndex":"文档的序列号，类型字符串","AllItems":"文档的内容，类型数组","retcode":"错误码，0表示成功，1表示失败"}',
+       Parameters: [Object],
+       Error: [Object],
+       Path: '/v3/web/doc/getdocapi' } ] }
+[2016-05-20 11:29:53.873] [INFO] console - [ { _id: '123456', time: 1462936697326 } ]
+[2016-05-20 11:29:53.877] [INFO] console - time 123456
+[2016-05-20 11:29:53.878] [INFO] console - oUpdate {"Name":"文档管理微服务","DocIndex":"123456","AllItems":[{"ItemName":"接口文档管理","Itemdesc":"管理绿洲云平台的web接口文档，功能包括添加、删除、修改文档，同时支持导入文档功能","SubItem":"获取文档列表","subitemdesc":"获取webdoc后台数据库所有文档的序列号和文档名字","Method":"Get","author":"yuanyuekun","Return":"{\"doclist\":[{\"Name\":\"文档的名字, 类型字符串\",\"DocIndex\":\"文档的序列号，类型字符串\"}],\"retcode\":\"错误码，类型数字，0表示成功，1表示失败\"}","Parameters":[{"name":"请求参数无","description":"该接口没有请求参数"}],"Error":[{"name":"0","description":"获取文档列表成功"},{"name":"1","description":"获取文档列表失败"}],"Path":"/v3/web/doc/getdoclist"},{"ItemName":"接口文档管理","Itemdesc":"管理绿洲云平台的web接口文档，功能包括添加、删除、修改文档，同时支持导入文档功能","SubItem":"添加或者修改一个文档","subitemdesc":"现在无论是添加还是修改一个文档都需要将整个文档下发，所以公用一个接口","Method":"POST","author":"yuanyuekun","Return":"{\"data\":\"后端返回的调试信息，前端不用关心\",\"retcode\":\"错误码，类型数字，0表示成功，1表示失败\"}","Parameters":[{"name":"Name","description":"文档的名字，类型字符串"},{"name":"DocIndex","description":"文档的序列号，唯一标示一篇文档，类型字符串"},{"name":"AllItems","description":"文档里面具体的内容，内容由页面决定，类型为一个数组"},{"name":"Return","description":"微服务需要返回哪些字段，[mapName, scale, wallList, apList, bgInfo]"}],"Error":[{"name":"0","description":"添加成功"},{"name":"1","description":"添加失败"}],"Path":"/v3/web/doc/addapi"},{"ItemName":"接口文档管理","Itemdesc":"管理绿洲云平台的web接口文档，功能包括添加、删除、修改文档，同时支持导入文档功能","SubItem":"删除文档","subitemdesc":"根据序列号删除一个文档","Method":"Get","author":"yuanyuekun","Return":"{\"retCode\":\"错误码，类型数字 0表示成功 1表示失败\"}","Parameters":[{"name":"DocIndex","description":"当前文档的序列号,内容为字符串"}],"Error":[{"name":"0","description":"删除成功"},{"name":"1","description":"删除失败"}],"Path":"/v3/web/doc/delete"},{"ItemName":"接口文档管理","Itemdesc":"管理绿洲云平台的web接口文档，功能包括添加、删除、修改文档，同时支持导入文档功能","SubItem":"获取一个文档","subitemdesc":"根据序列号获取一个文档","Method":"Get","author":"yuanyuekun","Return":"{\"Name\":\"文档名字，类型字符串\",\"DocIndex\":\"文档的序列号，类型字符串\",\"AllItems\":\"文档的内容，类型数组\",\"retcode\":\"错误码，0表示成功，1表示失败\"}","Parameters":[{"name":"DocIndex","description":"当前文档的序列号,内容为字符串"}],"Error":[{"name":"0","description":"获取文档成功"},{"name":"1","description":"获取文档失败"}],"Path":"/v3/web/doc/getdocapi"}],"time":1463714993877,"author":"yuanyuekun","description":"本文档是用来描述文档管理接口信息"}
+[2016-05-20 11:29:53.947] [INFO] console - { url: '/getdoclist',
+  method: 'GET',
+  headers: 
+   { host: 'localhost:3005',
+     connection: 'keep-alive',
+     accept: 'application/json, text/javascript, */*; q=0.01',
+     'x-requested-with': 'XMLHttpRequest',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36',
+     referer: 'http://localhost:3005/',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'zh-CN,zh;q=0.8' },
+  cookies: {},
+  session: undefined,
+  action: 'getdoclist' }
+[2016-05-20 11:29:53.964] [INFO] console - [ { DocIndex: '123456', Name: '文档管理微服务', time: 1463714993877 } ]
+[2016-05-20 11:29:53.965] [INFO] console - {"doclist":[{"DocIndex":"123456","Name":"文档管理微服务","time":1463714993877}],"retCode":0}
+[2016-05-20 11:29:54.002] [INFO] console - { url: '/getdocapi?DocIndex=doc_35344853418659183',
+  method: 'GET',
+  headers: 
+   { host: 'localhost:3005',
+     connection: 'keep-alive',
+     accept: 'application/json, text/javascript, */*; q=0.01',
+     'x-requested-with': 'XMLHttpRequest',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36',
+     referer: 'http://localhost:3005/',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'zh-CN,zh;q=0.8' },
+  cookies: {},
+  session: undefined,
+  action: 'getDoc',
+  DocIndex: 'doc_35344853418659183' }
+[2016-05-20 11:29:54.007] [INFO] console - getwebdocNew  odata
+[2016-05-20 11:29:54.008] [INFO] console - {"url":"/getdocapi?DocIndex=doc_35344853418659183","method":"GET","headers":{"host":"localhost:3005","connection":"keep-alive","accept":"application/json, text/javascript, */*; q=0.01","x-requested-with":"XMLHttpRequest","user-agent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36","referer":"http://localhost:3005/","accept-encoding":"gzip, deflate, sdch","accept-language":"zh-CN,zh;q=0.8"},"cookies":{},"action":"getDoc","DocIndex":"doc_35344853418659183"}
+[2016-05-20 11:29:57.301] [INFO] console - yuanyuekun
+[2016-05-20 11:29:57.303] [INFO] console - f:\4-6\doc\src\routes
+[2016-05-20 11:29:57.613] [INFO] console - { url: '/getdoclist',
+  method: 'GET',
+  headers: 
+   { host: 'localhost:3005',
+     connection: 'keep-alive',
+     'cache-control': 'max-age=0',
+     accept: 'application/json, text/javascript, */*; q=0.01',
+     'x-requested-with': 'XMLHttpRequest',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36',
+     referer: 'http://localhost:3005/',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'zh-CN,zh;q=0.8' },
+  cookies: {},
+  session: undefined,
+  action: 'getdoclist' }
+[2016-05-20 11:29:57.623] [INFO] console - [ { DocIndex: '123456', Name: '文档管理微服务', time: 1463714993877 } ]
+[2016-05-20 11:29:57.624] [INFO] console - {"doclist":[{"DocIndex":"123456","Name":"文档管理微服务","time":1463714993877}],"retCode":0}
+[2016-05-20 11:29:57.674] [INFO] console - { url: '/getdocapi?DocIndex=123456',
+  method: 'GET',
+  headers: 
+   { host: 'localhost:3005',
+     connection: 'keep-alive',
+     accept: 'application/json, text/javascript, */*; q=0.01',
+     'x-requested-with': 'XMLHttpRequest',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36',
+     referer: 'http://localhost:3005/',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'zh-CN,zh;q=0.8' },
+  cookies: {},
+  session: undefined,
+  action: 'getDoc',
+  DocIndex: '123456' }
+[2016-05-20 11:29:57.676] [INFO] console - getwebdocNew  odata
+[2016-05-20 11:29:57.677] [INFO] console - {"url":"/getdocapi?DocIndex=123456","method":"GET","headers":{"host":"localhost:3005","connection":"keep-alive","accept":"application/json, text/javascript, */*; q=0.01","x-requested-with":"XMLHttpRequest","user-agent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36","referer":"http://localhost:3005/","accept-encoding":"gzip, deflate, sdch","accept-language":"zh-CN,zh;q=0.8"},"cookies":{},"action":"getDoc","DocIndex":"123456"}
+[2016-05-20 11:29:57.683] [INFO] console - get doc success
+[2016-05-20 11:35:07.605] [INFO] console - Fri May 20 2016 11:35:07 GMT+0800 (中国标准时间)doc server use http/https port 3005/3006
+[2016-05-20 11:35:07.674] [INFO] console - 1463715307673
+[2016-05-20 11:35:07.677] [INFO] console - number
+[2016-05-20 11:35:07.678] [INFO] console - string
+[2016-05-20 11:35:07.678] [INFO] console - 1463715307673
+[2016-05-20 11:35:07.678] [INFO] console - undefined
+[2016-05-20 11:35:07.681] [INFO] console - Fri May 20 2016 11:35:07 GMT+0800 (中国标准时间) doc server start http server and listen on: {"address":"::","family":"IPv6","port":3005}
+[2016-05-20 11:35:07.681] [INFO] console - Fri May 20 2016 11:35:07 GMT+0800 (中国标准时间) doc server start https server and listen on: {"address":"::","family":"IPv6","port":3006}
+[2016-05-20 11:35:07.729] [INFO] console - Fri May 20 2016 11:35:07 GMT+0800 (中国标准时间) Connect to mongoose success: mongodb://127.0.0.1:27017/webdoc_db
+[2016-05-20 11:35:33.820] [INFO] console - /load
+[2016-05-20 11:35:33.859] [INFO] console - { docindex: [ 'doc_7992523833488987' ] }
+[2016-05-20 11:35:33.868] [INFO] console - {
+    "name":"文档管理微服务",
+    "desc":"本文档是用来描述文档管理接口信息",
+    "author":"yuanyuekun",
+    "aggregate":[
+        {
+             "name":"接口文档管理",
+             "desc":"管理绿洲云平台的web接口文档，功能包括添加、删除、修改文档，同时支持导入文档功能",
+             "items":[
+                 {
+                      "name":"获取文档列表",
+                      "desc":"获取webdoc后台数据库所有文档的序列号和文档名字",
+                      "author":"yuanyuekun",
+                      "path": "/v3/web/doc/getdoclist",
+                      "method":"Get",
+                      "return" :{
+                          "doclist":[{
+                              "Name":"文档的名字, 类型字符串",
+                              "DocIndex":"文档的序列号，类型字符串"
+                          }
+                          ],
+                          "retcode":"错误码，类型数字，0表示成功，1表示失败"
+                      },
+                      "params":[
+                         {
+                             "name":"请求参数无",
+                             "description":"该接口没有请求参数"
+                          }
+                      ],
+                      "errors":[
+                         {
+                             "name":"0",
+                             "description":"获取文档列表成功"
+                          },
+                          {
+                             "name":"1",
+                             "description":"获取文档列表失败"
+                          }
+                      ]
+                  }
+             ]
+        },
+        {
+             "name":"接口文档管理",
+             "desc":"管理绿洲云平台的web接口文档，功能包括添加、删除、修改文档，同时支持导入文档功能",
+             "items":[
+                 {
+                      "name":"添加或者修改一个文档",
+                      "desc":"现在无论是添加还是修改一个文档都需要将整个文档下发，所以公用一个接口",
+                      "author":"yuanyuekun",
+                      "path": "/v3/web/doc/addapi",
+                      "method":"POST",
+                      "return" :{"data" : "后端返回的调试信息，前端不用关心",
+                                 "retcode": "错误码，类型数字，0表示成功，1表示失败"},
+                      "params":[
+                         {
+                             "name":"Name",
+                             "description":"文档的名字，类型字符串"
+                          },
+                          {
+                             "name":"DocIndex",
+                             "description":"文档的序列号，唯一标示一篇文档，类型字符串"
+                           },
+                           {
+                             "name":"AllItems",
+                             "description":"文档里面具体的内容，内容由页面决定，类型为一个数组"
+                           },
+                           {
+                             "name":"Return",
+                             "description":"微服务需要返回哪些字段，[mapName, scale, wallList, apList, bgInfo]"
+                           }
+                      ],
+                      "errors":[
+                         {
+                             "name":"0",
+                             "description":"添加成功"
+                          },
+                          {
+                             "name":"1",
+                             "description":"添加失败"
+                          }
+                      ]
+                  }
+             ]
+        },
+        {
+             "name":"接口文档管理",
+             "desc":"管理绿洲云平台的web接口文档，功能包括添加、删除、修改文档，同时支持导入文档功能",
+             "items":[
+                 {
+                      "name":"删除文档",
+                      "desc":"根据序列号删除一个文档",
+                      "author":"yuanyuekun",
+                      "path": "/v3/web/doc/delete",
+                      "method":"Get",
+                      "return" :{"retCode":"错误码，类型数字 0表示成功 1表示失败"},
+                      "params":[
+                         {
+                             "name":"DocIndex",
+                             "description":"当前文档的序列号,内容为字符串"
+                          }
+                      ],
+                      "errors":[
+                         {
+                             "name":"0",
+                             "description":"删除成功"
+                          },
+                          {
+                             "name":"1",
+                             "description":"删除失败"
+                          }
+                      ]
+                  }
+             ]
+        },
+        {
+             "name":"接口文档管理",
+             "desc":"管理绿洲云平台的web接口文档，功能包括添加、删除、修改文档，同时支持导入文档功能",
+             "items":[
+                 {
+                      "name":"获取一个文档",
+                      "desc":"根据序列号获取一个文档",
+                      "author":"yuanyuekun",
+                      "path": "/v3/web/doc/getdocapi",
+                      "method":"Get",
+                      "return" :{"Name":"文档名字，类型字符串",
+                                 "DocIndex":"文档的序列号，类型字符串",
+                                 "AllItems":"文档的内容，类型数组",
+                                 "retcode":"错误码，0表示成功，1表示失败"
+                                },
+                      "params":[
+                         {
+                             "name":"DocIndex",
+                             "description":"当前文档的序列号,内容为字符串"
+                          }
+                      ],
+                      "errors":[
+                         {
+                             "name":"0",
+                             "description":"获取文档成功"
+                          },
+                          {
+                             "name":"1",
+                             "description":"获取文档失败"
+                          }
+                      ]
+                  }
+             ]
+        }
+    ]
+}
+[2016-05-20 11:35:33.873] [INFO] console - {
+[2016-05-20 11:35:33.874] [INFO] console - [{"name":"接口文档管理","desc":"管理绿洲云平台的web接口文档，功能包括添加、删除、修改文档，同时支持导入文档功能","items":[{"name":"获取文档列表","desc":"获取webdoc后台数据库所有文档的序列号和文档名字","author":"yuanyuekun","path":"/v3/web/doc/getdoclist","method":"Get","return":{"doclist":[{"Name":"文档的名字, 类型字符串","DocIndex":"文档的序列号，类型字符串"}],"retcode":"错误码，类型数字，0表示成功，1表示失败"},"params":[{"name":"请求参数无","description":"该接口没有请求参数"}],"errors":[{"name":"0","description":"获取文档列表成功"},{"name":"1","description":"获取文档列表失败"}]}]},{"name":"接口文档管理","desc":"管理绿洲云平台的web接口文档，功能包括添加、删除、修改文档，同时支持导入文档功能","items":[{"name":"添加或者修改一个文档","desc":"现在无论是添加还是修改一个文档都需要将整个文档下发，所以公用一个接口","author":"yuanyuekun","path":"/v3/web/doc/addapi","method":"POST","return":{"data":"后端返回的调试信息，前端不用关心","retcode":"错误码，类型数字，0表示成功，1表示失败"},"params":[{"name":"Name","description":"文档的名字，类型字符串"},{"name":"DocIndex","description":"文档的序列号，唯一标示一篇文档，类型字符串"},{"name":"AllItems","description":"文档里面具体的内容，内容由页面决定，类型为一个数组"},{"name":"Return","description":"微服务需要返回哪些字段，[mapName, scale, wallList, apList, bgInfo]"}],"errors":[{"name":"0","description":"添加成功"},{"name":"1","description":"添加失败"}]}]},{"name":"接口文档管理","desc":"管理绿洲云平台的web接口文档，功能包括添加、删除、修改文档，同时支持导入文档功能","items":[{"name":"删除文档","desc":"根据序列号删除一个文档","author":"yuanyuekun","path":"/v3/web/doc/delete","method":"Get","return":{"retCode":"错误码，类型数字 0表示成功 1表示失败"},"params":[{"name":"DocIndex","description":"当前文档的序列号,内容为字符串"}],"errors":[{"name":"0","description":"删除成功"},{"name":"1","description":"删除失败"}]}]},{"name":"接口文档管理","desc":"管理绿洲云平台的web接口文档，功能包括添加、删除、修改文档，同时支持导入文档功能","items":[{"name":"获取一个文档","desc":"根据序列号获取一个文档","author":"yuanyuekun","path":"/v3/web/doc/getdocapi","method":"Get","return":{"Name":"文档名字，类型字符串","DocIndex":"文档的序列号，类型字符串","AllItems":"文档的内容，类型数组","retcode":"错误码，0表示成功，1表示失败"},"params":[{"name":"DocIndex","description":"当前文档的序列号,内容为字符串"}],"errors":[{"name":"0","description":"获取文档成功"},{"name":"1","description":"获取文档失败"}]}]}]
+[2016-05-20 11:35:33.876] [INFO] console - {"DocIndex":"doc_7992523833488987","Name":"文档管理微服务","description":"本文档是用来描述文档管理接口信息","author":"yuanyuekun","AllItems":[{"ItemName":"接口文档管理","Itemdesc":"管理绿洲云平台的web接口文档，功能包括添加、删除、修改文档，同时支持导入文档功能","SubItem":"获取文档列表","subitemdesc":"获取webdoc后台数据库所有文档的序列号和文档名字","Method":"Get","author":"yuanyuekun","Return":"{\"doclist\":[{\"Name\":\"文档的名字, 类型字符串\",\"DocIndex\":\"文档的序列号，类型字符串\"}],\"retcode\":\"错误码，类型数字，0表示成功，1表示失败\"}","Parameters":[{"name":"请求参数无","description":"该接口没有请求参数"}],"Error":[{"name":"0","description":"获取文档列表成功"},{"name":"1","description":"获取文档列表失败"}],"Path":"/v3/web/doc/getdoclist"},{"ItemName":"接口文档管理","Itemdesc":"管理绿洲云平台的web接口文档，功能包括添加、删除、修改文档，同时支持导入文档功能","SubItem":"添加或者修改一个文档","subitemdesc":"现在无论是添加还是修改一个文档都需要将整个文档下发，所以公用一个接口","Method":"POST","author":"yuanyuekun","Return":"{\"data\":\"后端返回的调试信息，前端不用关心\",\"retcode\":\"错误码，类型数字，0表示成功，1表示失败\"}","Parameters":[{"name":"Name","description":"文档的名字，类型字符串"},{"name":"DocIndex","description":"文档的序列号，唯一标示一篇文档，类型字符串"},{"name":"AllItems","description":"文档里面具体的内容，内容由页面决定，类型为一个数组"},{"name":"Return","description":"微服务需要返回哪些字段，[mapName, scale, wallList, apList, bgInfo]"}],"Error":[{"name":"0","description":"添加成功"},{"name":"1","description":"添加失败"}],"Path":"/v3/web/doc/addapi"},{"ItemName":"接口文档管理","Itemdesc":"管理绿洲云平台的web接口文档，功能包括添加、删除、修改文档，同时支持导入文档功能","SubItem":"删除文档","subitemdesc":"根据序列号删除一个文档","Method":"Get","author":"yuanyuekun","Return":"{\"retCode\":\"错误码，类型数字 0表示成功 1表示失败\"}","Parameters":[{"name":"DocIndex","description":"当前文档的序列号,内容为字符串"}],"Error":[{"name":"0","description":"删除成功"},{"name":"1","description":"删除失败"}],"Path":"/v3/web/doc/delete"},{"ItemName":"接口文档管理","Itemdesc":"管理绿洲云平台的web接口文档，功能包括添加、删除、修改文档，同时支持导入文档功能","SubItem":"获取一个文档","subitemdesc":"根据序列号获取一个文档","Method":"Get","author":"yuanyuekun","Return":"{\"Name\":\"文档名字，类型字符串\",\"DocIndex\":\"文档的序列号，类型字符串\",\"AllItems\":\"文档的内容，类型数组\",\"retcode\":\"错误码，0表示成功，1表示失败\"}","Parameters":[{"name":"DocIndex","description":"当前文档的序列号,内容为字符串"}],"Error":[{"name":"0","description":"获取文档成功"},{"name":"1","description":"获取文档失败"}],"Path":"/v3/web/doc/getdocapi"}]}
+[2016-05-20 11:35:33.881] [INFO] console - { DocIndex: 'doc_7992523833488987',
+  Name: '文档管理微服务',
+  description: '本文档是用来描述文档管理接口信息',
+  author: 'yuanyuekun',
+  AllItems: 
+   [ { ItemName: '接口文档管理',
+       Itemdesc: '管理绿洲云平台的web接口文档，功能包括添加、删除、修改文档，同时支持导入文档功能',
+       SubItem: '获取文档列表',
+       subitemdesc: '获取webdoc后台数据库所有文档的序列号和文档名字',
+       Method: 'Get',
+       author: 'yuanyuekun',
+       Return: '{"doclist":[{"Name":"文档的名字, 类型字符串","DocIndex":"文档的序列号，类型字符串"}],"retcode":"错误码，类型数字，0表示成功，1表示失败"}',
+       Parameters: [Object],
+       Error: [Object],
+       Path: '/v3/web/doc/getdoclist' },
+     { ItemName: '接口文档管理',
+       Itemdesc: '管理绿洲云平台的web接口文档，功能包括添加、删除、修改文档，同时支持导入文档功能',
+       SubItem: '添加或者修改一个文档',
+       subitemdesc: '现在无论是添加还是修改一个文档都需要将整个文档下发，所以公用一个接口',
+       Method: 'POST',
+       author: 'yuanyuekun',
+       Return: '{"data":"后端返回的调试信息，前端不用关心","retcode":"错误码，类型数字，0表示成功，1表示失败"}',
+       Parameters: [Object],
+       Error: [Object],
+       Path: '/v3/web/doc/addapi' },
+     { ItemName: '接口文档管理',
+       Itemdesc: '管理绿洲云平台的web接口文档，功能包括添加、删除、修改文档，同时支持导入文档功能',
+       SubItem: '删除文档',
+       subitemdesc: '根据序列号删除一个文档',
+       Method: 'Get',
+       author: 'yuanyuekun',
+       Return: '{"retCode":"错误码，类型数字 0表示成功 1表示失败"}',
+       Parameters: [Object],
+       Error: [Object],
+       Path: '/v3/web/doc/delete' },
+     { ItemName: '接口文档管理',
+       Itemdesc: '管理绿洲云平台的web接口文档，功能包括添加、删除、修改文档，同时支持导入文档功能',
+       SubItem: '获取一个文档',
+       subitemdesc: '根据序列号获取一个文档',
+       Method: 'Get',
+       author: 'yuanyuekun',
+       Return: '{"Name":"文档名字，类型字符串","DocIndex":"文档的序列号，类型字符串","AllItems":"文档的内容，类型数组","retcode":"错误码，0表示成功，1表示失败"}',
+       Parameters: [Object],
+       Error: [Object],
+       Path: '/v3/web/doc/getdocapi' } ] }
+[2016-05-20 11:35:33.909] [INFO] console - [ { _id: '123456', time: 1463714993877 } ]
+[2016-05-20 11:35:33.910] [INFO] console - time 123456
+[2016-05-20 11:35:33.911] [INFO] console - oUpdate {"Name":"文档管理微服务","DocIndex":"123456","AllItems":[{"ItemName":"接口文档管理","Itemdesc":"管理绿洲云平台的web接口文档，功能包括添加、删除、修改文档，同时支持导入文档功能","SubItem":"获取文档列表","subitemdesc":"获取webdoc后台数据库所有文档的序列号和文档名字","Method":"Get","author":"yuanyuekun","Return":"{\"doclist\":[{\"Name\":\"文档的名字, 类型字符串\",\"DocIndex\":\"文档的序列号，类型字符串\"}],\"retcode\":\"错误码，类型数字，0表示成功，1表示失败\"}","Parameters":[{"name":"请求参数无","description":"该接口没有请求参数"}],"Error":[{"name":"0","description":"获取文档列表成功"},{"name":"1","description":"获取文档列表失败"}],"Path":"/v3/web/doc/getdoclist"},{"ItemName":"接口文档管理","Itemdesc":"管理绿洲云平台的web接口文档，功能包括添加、删除、修改文档，同时支持导入文档功能","SubItem":"添加或者修改一个文档","subitemdesc":"现在无论是添加还是修改一个文档都需要将整个文档下发，所以公用一个接口","Method":"POST","author":"yuanyuekun","Return":"{\"data\":\"后端返回的调试信息，前端不用关心\",\"retcode\":\"错误码，类型数字，0表示成功，1表示失败\"}","Parameters":[{"name":"Name","description":"文档的名字，类型字符串"},{"name":"DocIndex","description":"文档的序列号，唯一标示一篇文档，类型字符串"},{"name":"AllItems","description":"文档里面具体的内容，内容由页面决定，类型为一个数组"},{"name":"Return","description":"微服务需要返回哪些字段，[mapName, scale, wallList, apList, bgInfo]"}],"Error":[{"name":"0","description":"添加成功"},{"name":"1","description":"添加失败"}],"Path":"/v3/web/doc/addapi"},{"ItemName":"接口文档管理","Itemdesc":"管理绿洲云平台的web接口文档，功能包括添加、删除、修改文档，同时支持导入文档功能","SubItem":"删除文档","subitemdesc":"根据序列号删除一个文档","Method":"Get","author":"yuanyuekun","Return":"{\"retCode\":\"错误码，类型数字 0表示成功 1表示失败\"}","Parameters":[{"name":"DocIndex","description":"当前文档的序列号,内容为字符串"}],"Error":[{"name":"0","description":"删除成功"},{"name":"1","description":"删除失败"}],"Path":"/v3/web/doc/delete"},{"ItemName":"接口文档管理","Itemdesc":"管理绿洲云平台的web接口文档，功能包括添加、删除、修改文档，同时支持导入文档功能","SubItem":"获取一个文档","subitemdesc":"根据序列号获取一个文档","Method":"Get","author":"yuanyuekun","Return":"{\"Name\":\"文档名字，类型字符串\",\"DocIndex\":\"文档的序列号，类型字符串\",\"AllItems\":\"文档的内容，类型数组\",\"retcode\":\"错误码，0表示成功，1表示失败\"}","Parameters":[{"name":"DocIndex","description":"当前文档的序列号,内容为字符串"}],"Error":[{"name":"0","description":"获取文档成功"},{"name":"1","description":"获取文档失败"}],"Path":"/v3/web/doc/getdocapi"}],"time":1463715333910,"author":"yuanyuekun","description":"本文档是用来描述文档管理接口信息"}
+[2016-05-20 11:35:34.026] [INFO] console - { url: '/getdoclist',
+  method: 'GET',
+  headers: 
+   { host: 'localhost:3005',
+     connection: 'keep-alive',
+     accept: 'application/json, text/javascript, */*; q=0.01',
+     'x-requested-with': 'XMLHttpRequest',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36',
+     referer: 'http://localhost:3005/',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'zh-CN,zh;q=0.8' },
+  cookies: {},
+  session: undefined,
+  action: 'getdoclist' }
+[2016-05-20 11:35:34.080] [INFO] console - [ { DocIndex: '123456', Name: '文档管理微服务', time: 1463715333910 } ]
+[2016-05-20 11:35:34.083] [INFO] console - {"doclist":[{"DocIndex":"123456","Name":"文档管理微服务","time":1463715333910}],"retCode":0}
+[2016-05-20 11:35:34.126] [INFO] console - { url: '/getdocapi?DocIndex=doc_7992523833488987',
+  method: 'GET',
+  headers: 
+   { host: 'localhost:3005',
+     connection: 'keep-alive',
+     accept: 'application/json, text/javascript, */*; q=0.01',
+     'x-requested-with': 'XMLHttpRequest',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36',
+     referer: 'http://localhost:3005/',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'zh-CN,zh;q=0.8' },
+  cookies: {},
+  session: undefined,
+  action: 'getDoc',
+  DocIndex: 'doc_7992523833488987' }
+[2016-05-20 11:35:34.128] [INFO] console - getwebdocNew  odata
+[2016-05-20 11:35:34.129] [INFO] console - {"url":"/getdocapi?DocIndex=doc_7992523833488987","method":"GET","headers":{"host":"localhost:3005","connection":"keep-alive","accept":"application/json, text/javascript, */*; q=0.01","x-requested-with":"XMLHttpRequest","user-agent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36","referer":"http://localhost:3005/","accept-encoding":"gzip, deflate, sdch","accept-language":"zh-CN,zh;q=0.8"},"cookies":{},"action":"getDoc","DocIndex":"doc_7992523833488987"}
+[2016-05-20 11:35:37.438] [INFO] console - yuanyuekun
+[2016-05-20 11:35:37.440] [INFO] console - f:\4-6\doc\src\routes
+[2016-05-20 11:35:38.917] [INFO] console - { url: '/getdoclist',
+  method: 'GET',
+  headers: 
+   { host: 'localhost:3005',
+     connection: 'keep-alive',
+     'cache-control': 'max-age=0',
+     accept: 'application/json, text/javascript, */*; q=0.01',
+     'x-requested-with': 'XMLHttpRequest',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36',
+     referer: 'http://localhost:3005/',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'zh-CN,zh;q=0.8' },
+  cookies: {},
+  session: undefined,
+  action: 'getdoclist' }
+[2016-05-20 11:35:38.947] [INFO] console - [ { DocIndex: '123456', Name: '文档管理微服务', time: 1463715333910 } ]
+[2016-05-20 11:35:38.948] [INFO] console - {"doclist":[{"DocIndex":"123456","Name":"文档管理微服务","time":1463715333910}],"retCode":0}
+[2016-05-20 11:35:38.989] [INFO] console - { url: '/getdocapi?DocIndex=123456',
+  method: 'GET',
+  headers: 
+   { host: 'localhost:3005',
+     connection: 'keep-alive',
+     accept: 'application/json, text/javascript, */*; q=0.01',
+     'x-requested-with': 'XMLHttpRequest',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36',
+     referer: 'http://localhost:3005/',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'zh-CN,zh;q=0.8' },
+  cookies: {},
+  session: undefined,
+  action: 'getDoc',
+  DocIndex: '123456' }
+[2016-05-20 11:35:38.995] [INFO] console - getwebdocNew  odata
+[2016-05-20 11:35:38.995] [INFO] console - {"url":"/getdocapi?DocIndex=123456","method":"GET","headers":{"host":"localhost:3005","connection":"keep-alive","accept":"application/json, text/javascript, */*; q=0.01","x-requested-with":"XMLHttpRequest","user-agent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36","referer":"http://localhost:3005/","accept-encoding":"gzip, deflate, sdch","accept-language":"zh-CN,zh;q=0.8"},"cookies":{},"action":"getDoc","DocIndex":"123456"}
+[2016-05-20 11:35:39.004] [INFO] console - get doc success
+[2016-05-20 11:37:25.430] [INFO] console - Fri May 20 2016 11:37:25 GMT+0800 (中国标准时间)doc server use http/https port 3005/3006
+[2016-05-20 11:37:25.488] [INFO] console - 1463715445487
+[2016-05-20 11:37:25.494] [INFO] console - number
+[2016-05-20 11:37:25.495] [INFO] console - string
+[2016-05-20 11:37:25.495] [INFO] console - 1463715445487
+[2016-05-20 11:37:25.495] [INFO] console - undefined
+[2016-05-20 11:37:25.498] [INFO] console - Fri May 20 2016 11:37:25 GMT+0800 (中国标准时间) doc server start http server and listen on: {"address":"::","family":"IPv6","port":3005}
+[2016-05-20 11:37:25.499] [INFO] console - Fri May 20 2016 11:37:25 GMT+0800 (中国标准时间) doc server start https server and listen on: {"address":"::","family":"IPv6","port":3006}
+[2016-05-20 11:37:25.552] [INFO] console - Fri May 20 2016 11:37:25 GMT+0800 (中国标准时间) Connect to mongoose success: mongodb://127.0.0.1:27017/webdoc_db
+[2016-05-20 11:38:13.377] [INFO] console - /load
+[2016-05-20 11:38:13.473] [INFO] console - { docindex: [ 'doc_551864053917984' ] }
+[2016-05-20 11:38:13.488] [INFO] console - {
+    "name":"文档管理微服务",
+    "desc":"本文档是用来描述文档管理接口信息",
+    "author":"yuanyuekun",
+    "aggregate":[
+        {
+             "name":"接口文档管理",
+             "desc":"管理绿洲云平台的web接口文档，功能包括添加、删除、修改文档，同时支持导入文档功能",
+             "items":[
+                 {
+                      "name":"获取文档列表",
+                      "desc":"获取webdoc后台数据库所有文档的序列号和文档名字",
+                      "author":"yuanyuekun",
+                      "path": "/v3/web/doc/getdoclist",
+                      "method":"Get",
+                      "return" :{
+                          "doclist":[{
+                              "Name":"文档的名字, 类型字符串",
+                              "DocIndex":"文档的序列号，类型字符串"
+                          }
+                          ],
+                          "retcode":"错误码，类型数字，0表示成功，1表示失败"
+                      },
+                      "params":[
+                         {
+                             "name":"请求参数无",
+                             "description":"该接口没有请求参数"
+                          }
+                      ],
+                      "errors":[
+                         {
+                             "name":"0",
+                             "description":"获取文档列表成功"
+                          },
+                          {
+                             "name":"1",
+                             "description":"获取文档列表失败"
+                          }
+                      ]
+                  }
+             ]
+        },
+        {
+             "name":"接口文档管理",
+             "desc":"管理绿洲云平台的web接口文档，功能包括添加、删除、修改文档，同时支持导入文档功能",
+             "items":[
+                 {
+                      "name":"添加或者修改一个文档",
+                      "desc":"现在无论是添加还是修改一个文档都需要将整个文档下发，所以公用一个接口",
+                      "author":"yuanyuekun",
+                      "path": "/v3/web/doc/addapi",
+                      "method":"POST",
+                      "return" :{"data" : "后端返回的调试信息，前端不用关心",
+                                 "retcode": "错误码，类型数字，0表示成功，1表示失败"},
+                      "params":[
+                         {
+                             "name":"Name",
+                             "description":"文档的名字，类型字符串"
+                          },
+                          {
+                             "name":"DocIndex",
+                             "description":"文档的序列号，唯一标示一篇文档，类型字符串"
+                           },
+                           {
+                             "name":"AllItems",
+                             "description":"文档里面具体的内容，内容由页面决定，类型为一个数组"
+                           },
+                           {
+                             "name":"Return",
+                             "description":"微服务需要返回哪些字段，[mapName, scale, wallList, apList, bgInfo]"
+                           }
+                      ],
+                      "errors":[
+                         {
+                             "name":"0",
+                             "description":"添加成功"
+                          },
+                          {
+                             "name":"1",
+                             "description":"添加失败"
+                          }
+                      ]
+                  }
+             ]
+        },
+        {
+             "name":"接口文档管理",
+             "desc":"管理绿洲云平台的web接口文档，功能包括添加、删除、修改文档，同时支持导入文档功能",
+             "items":[
+                 {
+                      "name":"删除文档",
+                      "desc":"根据序列号删除一个文档",
+                      "author":"yuanyuekun",
+                      "path": "/v3/web/doc/delete",
+                      "method":"Get",
+                      "return" :{"retCode":"错误码，类型数字 0表示成功 1表示失败"},
+                      "params":[
+                         {
+                             "name":"DocIndex",
+                             "description":"当前文档的序列号,内容为字符串"
+                          }
+                      ],
+                      "errors":[
+                         {
+                             "name":"0",
+                             "description":"删除成功"
+                          },
+                          {
+                             "name":"1",
+                             "description":"删除失败"
+                          }
+                      ]
+                  }
+             ]
+        },
+        {
+             "name":"接口文档管理",
+             "desc":"管理绿洲云平台的web接口文档，功能包括添加、删除、修改文档，同时支持导入文档功能",
+             "items":[
+                 {
+                      "name":"获取一个文档",
+                      "desc":"根据序列号获取一个文档",
+                      "author":"yuanyuekun",
+                      "path": "/v3/web/doc/getdocapi",
+                      "method":"Get",
+                      "return" :{"Name":"文档名字，类型字符串",
+                                 "DocIndex":"文档的序列号，类型字符串",
+                                 "AllItems":"文档的内容，类型数组",
+                                 "retcode":"错误码，0表示成功，1表示失败"
+                                },
+                      "params":[
+                         {
+                             "name":"DocIndex",
+                             "description":"当前文档的序列号,内容为字符串"
+                          }
+                      ],
+                      "errors":[
+                         {
+                             "name":"0",
+                             "description":"获取文档成功"
+                          },
+                          {
+                             "name":"1",
+                             "description":"获取文档失败"
+                          }
+                      ]
+                  }
+             ]
+        }
+    ]
+}
+[2016-05-20 11:38:13.490] [INFO] console - {
+[2016-05-20 11:38:13.492] [INFO] console - [{"name":"接口文档管理","desc":"管理绿洲云平台的web接口文档，功能包括添加、删除、修改文档，同时支持导入文档功能","items":[{"name":"获取文档列表","desc":"获取webdoc后台数据库所有文档的序列号和文档名字","author":"yuanyuekun","path":"/v3/web/doc/getdoclist","method":"Get","return":{"doclist":[{"Name":"文档的名字, 类型字符串","DocIndex":"文档的序列号，类型字符串"}],"retcode":"错误码，类型数字，0表示成功，1表示失败"},"params":[{"name":"请求参数无","description":"该接口没有请求参数"}],"errors":[{"name":"0","description":"获取文档列表成功"},{"name":"1","description":"获取文档列表失败"}]}]},{"name":"接口文档管理","desc":"管理绿洲云平台的web接口文档，功能包括添加、删除、修改文档，同时支持导入文档功能","items":[{"name":"添加或者修改一个文档","desc":"现在无论是添加还是修改一个文档都需要将整个文档下发，所以公用一个接口","author":"yuanyuekun","path":"/v3/web/doc/addapi","method":"POST","return":{"data":"后端返回的调试信息，前端不用关心","retcode":"错误码，类型数字，0表示成功，1表示失败"},"params":[{"name":"Name","description":"文档的名字，类型字符串"},{"name":"DocIndex","description":"文档的序列号，唯一标示一篇文档，类型字符串"},{"name":"AllItems","description":"文档里面具体的内容，内容由页面决定，类型为一个数组"},{"name":"Return","description":"微服务需要返回哪些字段，[mapName, scale, wallList, apList, bgInfo]"}],"errors":[{"name":"0","description":"添加成功"},{"name":"1","description":"添加失败"}]}]},{"name":"接口文档管理","desc":"管理绿洲云平台的web接口文档，功能包括添加、删除、修改文档，同时支持导入文档功能","items":[{"name":"删除文档","desc":"根据序列号删除一个文档","author":"yuanyuekun","path":"/v3/web/doc/delete","method":"Get","return":{"retCode":"错误码，类型数字 0表示成功 1表示失败"},"params":[{"name":"DocIndex","description":"当前文档的序列号,内容为字符串"}],"errors":[{"name":"0","description":"删除成功"},{"name":"1","description":"删除失败"}]}]},{"name":"接口文档管理","desc":"管理绿洲云平台的web接口文档，功能包括添加、删除、修改文档，同时支持导入文档功能","items":[{"name":"获取一个文档","desc":"根据序列号获取一个文档","author":"yuanyuekun","path":"/v3/web/doc/getdocapi","method":"Get","return":{"Name":"文档名字，类型字符串","DocIndex":"文档的序列号，类型字符串","AllItems":"文档的内容，类型数组","retcode":"错误码，0表示成功，1表示失败"},"params":[{"name":"DocIndex","description":"当前文档的序列号,内容为字符串"}],"errors":[{"name":"0","description":"获取文档成功"},{"name":"1","description":"获取文档失败"}]}]}]
+[2016-05-20 11:38:13.494] [INFO] console - {"DocIndex":"doc_551864053917984","Name":"文档管理微服务","description":"本文档是用来描述文档管理接口信息","author":"yuanyuekun","AllItems":[{"ItemName":"接口文档管理","Itemdesc":"管理绿洲云平台的web接口文档，功能包括添加、删除、修改文档，同时支持导入文档功能","SubItem":"获取文档列表","subitemdesc":"获取webdoc后台数据库所有文档的序列号和文档名字","Method":"Get","author":"yuanyuekun","Return":"{\"doclist\":[{\"Name\":\"文档的名字, 类型字符串\",\"DocIndex\":\"文档的序列号，类型字符串\"}],\"retcode\":\"错误码，类型数字，0表示成功，1表示失败\"}","Parameters":[{"name":"请求参数无","description":"该接口没有请求参数"}],"Error":[{"name":"0","description":"获取文档列表成功"},{"name":"1","description":"获取文档列表失败"}],"Path":"/v3/web/doc/getdoclist"},{"ItemName":"接口文档管理","Itemdesc":"管理绿洲云平台的web接口文档，功能包括添加、删除、修改文档，同时支持导入文档功能","SubItem":"添加或者修改一个文档","subitemdesc":"现在无论是添加还是修改一个文档都需要将整个文档下发，所以公用一个接口","Method":"POST","author":"yuanyuekun","Return":"{\"data\":\"后端返回的调试信息，前端不用关心\",\"retcode\":\"错误码，类型数字，0表示成功，1表示失败\"}","Parameters":[{"name":"Name","description":"文档的名字，类型字符串"},{"name":"DocIndex","description":"文档的序列号，唯一标示一篇文档，类型字符串"},{"name":"AllItems","description":"文档里面具体的内容，内容由页面决定，类型为一个数组"},{"name":"Return","description":"微服务需要返回哪些字段，[mapName, scale, wallList, apList, bgInfo]"}],"Error":[{"name":"0","description":"添加成功"},{"name":"1","description":"添加失败"}],"Path":"/v3/web/doc/addapi"},{"ItemName":"接口文档管理","Itemdesc":"管理绿洲云平台的web接口文档，功能包括添加、删除、修改文档，同时支持导入文档功能","SubItem":"删除文档","subitemdesc":"根据序列号删除一个文档","Method":"Get","author":"yuanyuekun","Return":"{\"retCode\":\"错误码，类型数字 0表示成功 1表示失败\"}","Parameters":[{"name":"DocIndex","description":"当前文档的序列号,内容为字符串"}],"Error":[{"name":"0","description":"删除成功"},{"name":"1","description":"删除失败"}],"Path":"/v3/web/doc/delete"},{"ItemName":"接口文档管理","Itemdesc":"管理绿洲云平台的web接口文档，功能包括添加、删除、修改文档，同时支持导入文档功能","SubItem":"获取一个文档","subitemdesc":"根据序列号获取一个文档","Method":"Get","author":"yuanyuekun","Return":"{\"Name\":\"文档名字，类型字符串\",\"DocIndex\":\"文档的序列号，类型字符串\",\"AllItems\":\"文档的内容，类型数组\",\"retcode\":\"错误码，0表示成功，1表示失败\"}","Parameters":[{"name":"DocIndex","description":"当前文档的序列号,内容为字符串"}],"Error":[{"name":"0","description":"获取文档成功"},{"name":"1","description":"获取文档失败"}],"Path":"/v3/web/doc/getdocapi"}]}
+[2016-05-20 11:38:13.531] [INFO] console - addwebdocnew[object Object]
+[2016-05-20 11:38:13.554] [INFO] console - [ { _id: '123456', time: 1463715333910 } ]
+[2016-05-20 11:38:13.556] [INFO] console - time 123456
+[2016-05-20 11:38:13.556] [INFO] console - oUpdate {"Name":"文档管理微服务","DocIndex":"123456","AllItems":[{"ItemName":"接口文档管理","Itemdesc":"管理绿洲云平台的web接口文档，功能包括添加、删除、修改文档，同时支持导入文档功能","SubItem":"获取文档列表","subitemdesc":"获取webdoc后台数据库所有文档的序列号和文档名字","Method":"Get","author":"yuanyuekun","Return":"{\"doclist\":[{\"Name\":\"文档的名字, 类型字符串\",\"DocIndex\":\"文档的序列号，类型字符串\"}],\"retcode\":\"错误码，类型数字，0表示成功，1表示失败\"}","Parameters":[{"name":"请求参数无","description":"该接口没有请求参数"}],"Error":[{"name":"0","description":"获取文档列表成功"},{"name":"1","description":"获取文档列表失败"}],"Path":"/v3/web/doc/getdoclist"},{"ItemName":"接口文档管理","Itemdesc":"管理绿洲云平台的web接口文档，功能包括添加、删除、修改文档，同时支持导入文档功能","SubItem":"添加或者修改一个文档","subitemdesc":"现在无论是添加还是修改一个文档都需要将整个文档下发，所以公用一个接口","Method":"POST","author":"yuanyuekun","Return":"{\"data\":\"后端返回的调试信息，前端不用关心\",\"retcode\":\"错误码，类型数字，0表示成功，1表示失败\"}","Parameters":[{"name":"Name","description":"文档的名字，类型字符串"},{"name":"DocIndex","description":"文档的序列号，唯一标示一篇文档，类型字符串"},{"name":"AllItems","description":"文档里面具体的内容，内容由页面决定，类型为一个数组"},{"name":"Return","description":"微服务需要返回哪些字段，[mapName, scale, wallList, apList, bgInfo]"}],"Error":[{"name":"0","description":"添加成功"},{"name":"1","description":"添加失败"}],"Path":"/v3/web/doc/addapi"},{"ItemName":"接口文档管理","Itemdesc":"管理绿洲云平台的web接口文档，功能包括添加、删除、修改文档，同时支持导入文档功能","SubItem":"删除文档","subitemdesc":"根据序列号删除一个文档","Method":"Get","author":"yuanyuekun","Return":"{\"retCode\":\"错误码，类型数字 0表示成功 1表示失败\"}","Parameters":[{"name":"DocIndex","description":"当前文档的序列号,内容为字符串"}],"Error":[{"name":"0","description":"删除成功"},{"name":"1","description":"删除失败"}],"Path":"/v3/web/doc/delete"},{"ItemName":"接口文档管理","Itemdesc":"管理绿洲云平台的web接口文档，功能包括添加、删除、修改文档，同时支持导入文档功能","SubItem":"获取一个文档","subitemdesc":"根据序列号获取一个文档","Method":"Get","author":"yuanyuekun","Return":"{\"Name\":\"文档名字，类型字符串\",\"DocIndex\":\"文档的序列号，类型字符串\",\"AllItems\":\"文档的内容，类型数组\",\"retcode\":\"错误码，0表示成功，1表示失败\"}","Parameters":[{"name":"DocIndex","description":"当前文档的序列号,内容为字符串"}],"Error":[{"name":"0","description":"获取文档成功"},{"name":"1","description":"获取文档失败"}],"Path":"/v3/web/doc/getdocapi"}],"time":1463715493556,"author":"yuanyuekun","description":"本文档是用来描述文档管理接口信息"}
+[2016-05-20 11:38:13.640] [INFO] console - { url: '/getdoclist',
+  method: 'GET',
+  headers: 
+   { host: 'localhost:3005',
+     connection: 'keep-alive',
+     accept: 'application/json, text/javascript, */*; q=0.01',
+     'x-requested-with': 'XMLHttpRequest',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36',
+     referer: 'http://localhost:3005/',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'zh-CN,zh;q=0.8' },
+  cookies: {},
+  session: undefined,
+  action: 'getdoclist' }
+[2016-05-20 11:38:13.687] [INFO] console - [ { DocIndex: '123456', Name: '文档管理微服务', time: 1463715493556 } ]
+[2016-05-20 11:38:13.689] [INFO] console - {"doclist":[{"DocIndex":"123456","Name":"文档管理微服务","time":1463715493556}],"retCode":0}
+[2016-05-20 11:38:13.739] [INFO] console - { url: '/getdocapi?DocIndex=doc_551864053917984',
+  method: 'GET',
+  headers: 
+   { host: 'localhost:3005',
+     connection: 'keep-alive',
+     accept: 'application/json, text/javascript, */*; q=0.01',
+     'x-requested-with': 'XMLHttpRequest',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36',
+     referer: 'http://localhost:3005/',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'zh-CN,zh;q=0.8' },
+  cookies: {},
+  session: undefined,
+  action: 'getDoc',
+  DocIndex: 'doc_551864053917984' }
+[2016-05-20 11:38:13.795] [INFO] console - getwebdocNew  odata
+[2016-05-20 11:38:13.796] [INFO] console - {"url":"/getdocapi?DocIndex=doc_551864053917984","method":"GET","headers":{"host":"localhost:3005","connection":"keep-alive","accept":"application/json, text/javascript, */*; q=0.01","x-requested-with":"XMLHttpRequest","user-agent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36","referer":"http://localhost:3005/","accept-encoding":"gzip, deflate, sdch","accept-language":"zh-CN,zh;q=0.8"},"cookies":{},"action":"getDoc","DocIndex":"doc_551864053917984"}
+[2016-05-20 11:40:00.852] [INFO] console - Fri May 20 2016 11:40:00 GMT+0800 (中国标准时间)doc server use http/https port 3005/3006
+[2016-05-20 11:40:00.893] [INFO] console - 1463715600893
+[2016-05-20 11:40:00.896] [INFO] console - number
+[2016-05-20 11:40:00.897] [INFO] console - string
+[2016-05-20 11:40:00.898] [INFO] console - 1463715600893
+[2016-05-20 11:40:00.898] [INFO] console - undefined
+[2016-05-20 11:40:00.902] [INFO] console - Fri May 20 2016 11:40:00 GMT+0800 (中国标准时间) doc server start http server and listen on: {"address":"::","family":"IPv6","port":3005}
+[2016-05-20 11:40:00.903] [INFO] console - Fri May 20 2016 11:40:00 GMT+0800 (中国标准时间) doc server start https server and listen on: {"address":"::","family":"IPv6","port":3006}
+[2016-05-20 11:40:00.944] [INFO] console - Fri May 20 2016 11:40:00 GMT+0800 (中国标准时间) Connect to mongoose success: mongodb://127.0.0.1:27017/webdoc_db
+[2016-05-20 11:40:16.890] [INFO] console - yuanyuekun
+[2016-05-20 11:40:16.891] [INFO] console - f:\4-6\doc\src\routes
+[2016-05-20 11:40:18.752] [INFO] console - { url: '/getdoclist',
+  method: 'GET',
+  headers: 
+   { host: 'localhost:3005',
+     connection: 'keep-alive',
+     'cache-control': 'max-age=0',
+     accept: 'application/json, text/javascript, */*; q=0.01',
+     'x-requested-with': 'XMLHttpRequest',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36',
+     referer: 'http://localhost:3005/',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'zh-CN,zh;q=0.8' },
+  cookies: {},
+  session: undefined,
+  action: 'getdoclist' }
+[2016-05-20 11:40:18.831] [INFO] console - [ { DocIndex: '123456', Name: '文档管理微服务', time: 1463715493556 } ]
+[2016-05-20 11:40:18.834] [INFO] console - {"doclist":[{"DocIndex":"123456","Name":"文档管理微服务","time":1463715493556}],"retCode":0}
+[2016-05-20 11:40:18.880] [INFO] console - { url: '/getdocapi?DocIndex=123456',
+  method: 'GET',
+  headers: 
+   { host: 'localhost:3005',
+     connection: 'keep-alive',
+     accept: 'application/json, text/javascript, */*; q=0.01',
+     'x-requested-with': 'XMLHttpRequest',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36',
+     referer: 'http://localhost:3005/',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'zh-CN,zh;q=0.8' },
+  cookies: {},
+  session: undefined,
+  action: 'getDoc',
+  DocIndex: '123456' }
+[2016-05-20 11:40:18.883] [INFO] console - getwebdocNew  odata
+[2016-05-20 11:40:18.883] [INFO] console - {"url":"/getdocapi?DocIndex=123456","method":"GET","headers":{"host":"localhost:3005","connection":"keep-alive","accept":"application/json, text/javascript, */*; q=0.01","x-requested-with":"XMLHttpRequest","user-agent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36","referer":"http://localhost:3005/","accept-encoding":"gzip, deflate, sdch","accept-language":"zh-CN,zh;q=0.8"},"cookies":{},"action":"getDoc","DocIndex":"123456"}
+[2016-05-20 11:40:18.905] [INFO] console - get doc success
+[2016-05-20 11:40:30.702] [INFO] console - /load
+[2016-05-20 11:40:30.739] [INFO] console - { docindex: [ 'doc_6218856095735865' ] }
+[2016-05-20 11:40:30.749] [INFO] console - {
+    "name":"无线定位接口文档",
+    "desc":"本文档是用来描述无线定位的接口信息，包括地图微服务，和终端坐标微服务",
+    "author":"yuanyuekun",
+    "aggregate":[
+        {
+             "name":"地图管理",
+             "desc":"用来管理用户上传地图的微服务",
+             "items":[
+                 {
+                      "name":"添加地图",
+                      "desc":"WEB向地图微服务添加地图信息接口",
+                      "author":"yuanyuekun",
+                      "path": "/v3/wloc_map",
+                      "method":"POST",
+                      "return" :{},
+                      "params":[
+                         {
+                             "name":"desSN",
+                             "description":"当前设备的序列号,内容为字符串"
+                          },
+                          {
+                             "name":"Method",
+                             "description":"AddMap,标示添加地图操作"
+                          },
+                          {
+                             "name":"Param",
+                             "description":"添加地图的具体信息，是一个结构{devSN://设备的devSN, mapName://添加的地图的名字}"
+                          }
+                      ],
+                      "errors":[
+                         {
+                             "name":"0",
+                             "description":"添加成功"
+                          },
+                          {
+                             "name":"-1",
+                             "description":"添加失败"
+                          }
+                      ]
+                  }
+             ]
+        },
+        {
+             "name":"地图管理",
+             "desc":"用来管理用户上传地图的微服务",
+             "items":[
+                 {
+                      "name":"获取地图",
+                      "desc":"WEB向地图微服务获取地图信息接口",
+                      "author":"yuanyuekun",
+                      "path": "/v3/wloc_map",
+                      "method":"POST",
+                      "return" :{"data" : {"maplist":[
+                      {
+                        "mapName":"地图名字,类型为字符串",
+                        "scale":"地图的比例尺信息，类型数字",
+                        "apList":[
+                        {
+                            "macAddr":"ap的mac地址，类型字符串",
+                            "apName":"ap的名字，类型字符串",
+                            "XCord":"ap的x坐标，类型数字",
+                            "YCord":"ap的y坐标，类型数字",
+                            "status":"ap的状态，类型数字，1在线，2不在线"
+                        }
+                        ]
+                      }
+                      ]}},
+                      "params":[
+                         {
+                             "name":"desSN",
+                             "description":"当前设备的序列号,内容为字符串"
+                          },
+                          {
+                             "name":"Method",
+                             "description":"GetMap,标示获取地图操作"
+                           },
+                           {
+                             "name":"Param",
+                             "description":"{devSN://设备的devSN}"
+                           },
+                           {
+                             "name":"Return",
+                             "description":"微服务需要返回哪些字段，[mapName, scale, wallList, apList, bgInfo]"
+                           }
+                      ],
+                      "errors":[
+                         {
+                             "name":"0",
+                             "description":"添加成功"
+                          },
+                          {
+                             "name":"-1",
+                             "description":"添加失败"
+                          }
+                      ]
+                  }
+             ]
+        },
+        {
+             "name":"地图管理",
+             "desc":"用来管理用户上传地图的微服务",
+             "items":[
+                 {
+                      "name":"删除地图",
+                      "desc":"WEB向地图微服务删除地图信息接口",
+                      "author":"yuanyuekun",
+                      "path": "/v3/wloc/delMapAndDir",
+                      "method":"POST",
+                      "return" :{"retCode":"错误码，类型数字 0表示成功 -1表示失败"},
+                      "params":[
+                         {
+                             "name":"desSN",
+                             "description":"当前设备的序列号,内容为字符串"
+                          },
+                          {
+                             "name":"Method",
+                             "description":"delMapFile,标示获取地图操作"
+                           },
+                           {
+                             "name":"Param",
+                             "description":"{devSN://设备的devSN,mapName://删除地图的名字}"
+                           }
+                      ],
+                      "errors":[
+                         {
+                             "name":"0",
+                             "description":"删除成功"
+                          },
+                          {
+                             "name":"-1",
+                             "description":"删除失败"
+                          }
+                      ]
+                  }
+             ]
+        }
+    ]
+}
+[2016-05-20 11:40:30.752] [INFO] console - {
+[2016-05-20 11:40:30.756] [INFO] console - [{"name":"地图管理","desc":"用来管理用户上传地图的微服务","items":[{"name":"添加地图","desc":"WEB向地图微服务添加地图信息接口","author":"yuanyuekun","path":"/v3/wloc_map","method":"POST","return":{},"params":[{"name":"desSN","description":"当前设备的序列号,内容为字符串"},{"name":"Method","description":"AddMap,标示添加地图操作"},{"name":"Param","description":"添加地图的具体信息，是一个结构{devSN://设备的devSN, mapName://添加的地图的名字}"}],"errors":[{"name":"0","description":"添加成功"},{"name":"-1","description":"添加失败"}]}]},{"name":"地图管理","desc":"用来管理用户上传地图的微服务","items":[{"name":"获取地图","desc":"WEB向地图微服务获取地图信息接口","author":"yuanyuekun","path":"/v3/wloc_map","method":"POST","return":{"data":{"maplist":[{"mapName":"地图名字,类型为字符串","scale":"地图的比例尺信息，类型数字","apList":[{"macAddr":"ap的mac地址，类型字符串","apName":"ap的名字，类型字符串","XCord":"ap的x坐标，类型数字","YCord":"ap的y坐标，类型数字","status":"ap的状态，类型数字，1在线，2不在线"}]}]}},"params":[{"name":"desSN","description":"当前设备的序列号,内容为字符串"},{"name":"Method","description":"GetMap,标示获取地图操作"},{"name":"Param","description":"{devSN://设备的devSN}"},{"name":"Return","description":"微服务需要返回哪些字段，[mapName, scale, wallList, apList, bgInfo]"}],"errors":[{"name":"0","description":"添加成功"},{"name":"-1","description":"添加失败"}]}]},{"name":"地图管理","desc":"用来管理用户上传地图的微服务","items":[{"name":"删除地图","desc":"WEB向地图微服务删除地图信息接口","author":"yuanyuekun","path":"/v3/wloc/delMapAndDir","method":"POST","return":{"retCode":"错误码，类型数字 0表示成功 -1表示失败"},"params":[{"name":"desSN","description":"当前设备的序列号,内容为字符串"},{"name":"Method","description":"delMapFile,标示获取地图操作"},{"name":"Param","description":"{devSN://设备的devSN,mapName://删除地图的名字}"}],"errors":[{"name":"0","description":"删除成功"},{"name":"-1","description":"删除失败"}]}]}]
+[2016-05-20 11:40:30.770] [INFO] console - {"DocIndex":"doc_6218856095735865","Name":"无线定位接口文档","description":"本文档是用来描述无线定位的接口信息，包括地图微服务，和终端坐标微服务","author":"yuanyuekun","AllItems":[{"ItemName":"地图管理","Itemdesc":"用来管理用户上传地图的微服务","SubItem":"添加地图","subitemdesc":"WEB向地图微服务添加地图信息接口","Method":"POST","author":"yuanyuekun","Return":"{}","Parameters":[{"name":"desSN","description":"当前设备的序列号,内容为字符串"},{"name":"Method","description":"AddMap,标示添加地图操作"},{"name":"Param","description":"添加地图的具体信息，是一个结构{devSN://设备的devSN, mapName://添加的地图的名字}"}],"Error":[{"name":"0","description":"添加成功"},{"name":"-1","description":"添加失败"}],"Path":"/v3/wloc_map"},{"ItemName":"地图管理","Itemdesc":"用来管理用户上传地图的微服务","SubItem":"获取地图","subitemdesc":"WEB向地图微服务获取地图信息接口","Method":"POST","author":"yuanyuekun","Return":"{\"data\":{\"maplist\":[{\"mapName\":\"地图名字,类型为字符串\",\"scale\":\"地图的比例尺信息，类型数字\",\"apList\":[{\"macAddr\":\"ap的mac地址，类型字符串\",\"apName\":\"ap的名字，类型字符串\",\"XCord\":\"ap的x坐标，类型数字\",\"YCord\":\"ap的y坐标，类型数字\",\"status\":\"ap的状态，类型数字，1在线，2不在线\"}]}]}}","Parameters":[{"name":"desSN","description":"当前设备的序列号,内容为字符串"},{"name":"Method","description":"GetMap,标示获取地图操作"},{"name":"Param","description":"{devSN://设备的devSN}"},{"name":"Return","description":"微服务需要返回哪些字段，[mapName, scale, wallList, apList, bgInfo]"}],"Error":[{"name":"0","description":"添加成功"},{"name":"-1","description":"添加失败"}],"Path":"/v3/wloc_map"},{"ItemName":"地图管理","Itemdesc":"用来管理用户上传地图的微服务","SubItem":"删除地图","subitemdesc":"WEB向地图微服务删除地图信息接口","Method":"POST","author":"yuanyuekun","Return":"{\"retCode\":\"错误码，类型数字 0表示成功 -1表示失败\"}","Parameters":[{"name":"desSN","description":"当前设备的序列号,内容为字符串"},{"name":"Method","description":"delMapFile,标示获取地图操作"},{"name":"Param","description":"{devSN://设备的devSN,mapName://删除地图的名字}"}],"Error":[{"name":"0","description":"删除成功"},{"name":"-1","description":"删除失败"}],"Path":"/v3/wloc/delMapAndDir"}]}
+[2016-05-20 11:40:30.774] [INFO] console - addwebdocnew[object Object]
+[2016-05-20 11:40:30.774] [INFO] console - {"DocIndex":"doc_6218856095735865","Name":"无线定位接口文档","description":"本文档是用来描述无线定位的接口信息，包括地图微服务，和终端坐标微服务","author":"yuanyuekun","AllItems":[{"ItemName":"地图管理","Itemdesc":"用来管理用户上传地图的微服务","SubItem":"添加地图","subitemdesc":"WEB向地图微服务添加地图信息接口","Method":"POST","author":"yuanyuekun","Return":"{}","Parameters":[{"name":"desSN","description":"当前设备的序列号,内容为字符串"},{"name":"Method","description":"AddMap,标示添加地图操作"},{"name":"Param","description":"添加地图的具体信息，是一个结构{devSN://设备的devSN, mapName://添加的地图的名字}"}],"Error":[{"name":"0","description":"添加成功"},{"name":"-1","description":"添加失败"}],"Path":"/v3/wloc_map"},{"ItemName":"地图管理","Itemdesc":"用来管理用户上传地图的微服务","SubItem":"获取地图","subitemdesc":"WEB向地图微服务获取地图信息接口","Method":"POST","author":"yuanyuekun","Return":"{\"data\":{\"maplist\":[{\"mapName\":\"地图名字,类型为字符串\",\"scale\":\"地图的比例尺信息，类型数字\",\"apList\":[{\"macAddr\":\"ap的mac地址，类型字符串\",\"apName\":\"ap的名字，类型字符串\",\"XCord\":\"ap的x坐标，类型数字\",\"YCord\":\"ap的y坐标，类型数字\",\"status\":\"ap的状态，类型数字，1在线，2不在线\"}]}]}}","Parameters":[{"name":"desSN","description":"当前设备的序列号,内容为字符串"},{"name":"Method","description":"GetMap,标示获取地图操作"},{"name":"Param","description":"{devSN://设备的devSN}"},{"name":"Return","description":"微服务需要返回哪些字段，[mapName, scale, wallList, apList, bgInfo]"}],"Error":[{"name":"0","description":"添加成功"},{"name":"-1","description":"添加失败"}],"Path":"/v3/wloc_map"},{"ItemName":"地图管理","Itemdesc":"用来管理用户上传地图的微服务","SubItem":"删除地图","subitemdesc":"WEB向地图微服务删除地图信息接口","Method":"POST","author":"yuanyuekun","Return":"{\"retCode\":\"错误码，类型数字 0表示成功 -1表示失败\"}","Parameters":[{"name":"desSN","description":"当前设备的序列号,内容为字符串"},{"name":"Method","description":"delMapFile,标示获取地图操作"},{"name":"Param","description":"{devSN://设备的devSN,mapName://删除地图的名字}"}],"Error":[{"name":"0","description":"删除成功"},{"name":"-1","description":"删除失败"}],"Path":"/v3/wloc/delMapAndDir"}]}
+[2016-05-20 11:40:30.783] [INFO] console - time doc_6218856095735865
+[2016-05-20 11:40:30.783] [INFO] console - oUpdate {"Name":"无线定位接口文档","DocIndex":"doc_6218856095735865","AllItems":[{"ItemName":"地图管理","Itemdesc":"用来管理用户上传地图的微服务","SubItem":"添加地图","subitemdesc":"WEB向地图微服务添加地图信息接口","Method":"POST","author":"yuanyuekun","Return":"{}","Parameters":[{"name":"desSN","description":"当前设备的序列号,内容为字符串"},{"name":"Method","description":"AddMap,标示添加地图操作"},{"name":"Param","description":"添加地图的具体信息，是一个结构{devSN://设备的devSN, mapName://添加的地图的名字}"}],"Error":[{"name":"0","description":"添加成功"},{"name":"-1","description":"添加失败"}],"Path":"/v3/wloc_map"},{"ItemName":"地图管理","Itemdesc":"用来管理用户上传地图的微服务","SubItem":"获取地图","subitemdesc":"WEB向地图微服务获取地图信息接口","Method":"POST","author":"yuanyuekun","Return":"{\"data\":{\"maplist\":[{\"mapName\":\"地图名字,类型为字符串\",\"scale\":\"地图的比例尺信息，类型数字\",\"apList\":[{\"macAddr\":\"ap的mac地址，类型字符串\",\"apName\":\"ap的名字，类型字符串\",\"XCord\":\"ap的x坐标，类型数字\",\"YCord\":\"ap的y坐标，类型数字\",\"status\":\"ap的状态，类型数字，1在线，2不在线\"}]}]}}","Parameters":[{"name":"desSN","description":"当前设备的序列号,内容为字符串"},{"name":"Method","description":"GetMap,标示获取地图操作"},{"name":"Param","description":"{devSN://设备的devSN}"},{"name":"Return","description":"微服务需要返回哪些字段，[mapName, scale, wallList, apList, bgInfo]"}],"Error":[{"name":"0","description":"添加成功"},{"name":"-1","description":"添加失败"}],"Path":"/v3/wloc_map"},{"ItemName":"地图管理","Itemdesc":"用来管理用户上传地图的微服务","SubItem":"删除地图","subitemdesc":"WEB向地图微服务删除地图信息接口","Method":"POST","author":"yuanyuekun","Return":"{\"retCode\":\"错误码，类型数字 0表示成功 -1表示失败\"}","Parameters":[{"name":"desSN","description":"当前设备的序列号,内容为字符串"},{"name":"Method","description":"delMapFile,标示获取地图操作"},{"name":"Param","description":"{devSN://设备的devSN,mapName://删除地图的名字}"}],"Error":[{"name":"0","description":"删除成功"},{"name":"-1","description":"删除失败"}],"Path":"/v3/wloc/delMapAndDir"}],"time":1463715630783,"author":"yuanyuekun","description":"本文档是用来描述无线定位的接口信息，包括地图微服务，和终端坐标微服务"}
+[2016-05-20 11:40:30.861] [INFO] console - { url: '/getdoclist',
+  method: 'GET',
+  headers: 
+   { host: 'localhost:3005',
+     connection: 'keep-alive',
+     accept: 'application/json, text/javascript, */*; q=0.01',
+     'x-requested-with': 'XMLHttpRequest',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36',
+     referer: 'http://localhost:3005/',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'zh-CN,zh;q=0.8' },
+  cookies: {},
+  session: undefined,
+  action: 'getdoclist' }
+[2016-05-20 11:40:30.878] [INFO] console - [ { DocIndex: 'doc_6218856095735865',
+    Name: '无线定位接口文档',
+    time: 1463715630783 } ]
+[2016-05-20 11:40:30.882] [INFO] console - [ { DocIndex: 'doc_6218856095735865',
+    Name: '无线定位接口文档',
+    time: 1463715630783 },
+  { DocIndex: '123456', Name: '文档管理微服务', time: 1463715493556 } ]
+[2016-05-20 11:40:30.885] [INFO] console - {"doclist":[{"DocIndex":"doc_6218856095735865","Name":"无线定位接口文档","time":1463715630783},{"DocIndex":"123456","Name":"文档管理微服务","time":1463715493556}],"retCode":0}
+[2016-05-20 11:40:30.924] [INFO] console - { url: '/getdocapi?DocIndex=doc_6218856095735865',
+  method: 'GET',
+  headers: 
+   { host: 'localhost:3005',
+     connection: 'keep-alive',
+     accept: 'application/json, text/javascript, */*; q=0.01',
+     'x-requested-with': 'XMLHttpRequest',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36',
+     referer: 'http://localhost:3005/',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'zh-CN,zh;q=0.8' },
+  cookies: {},
+  session: undefined,
+  action: 'getDoc',
+  DocIndex: 'doc_6218856095735865' }
+[2016-05-20 11:40:30.928] [INFO] console - getwebdocNew  odata
+[2016-05-20 11:40:30.928] [INFO] console - {"url":"/getdocapi?DocIndex=doc_6218856095735865","method":"GET","headers":{"host":"localhost:3005","connection":"keep-alive","accept":"application/json, text/javascript, */*; q=0.01","x-requested-with":"XMLHttpRequest","user-agent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36","referer":"http://localhost:3005/","accept-encoding":"gzip, deflate, sdch","accept-language":"zh-CN,zh;q=0.8"},"cookies":{},"action":"getDoc","DocIndex":"doc_6218856095735865"}
+[2016-05-20 11:40:30.937] [INFO] console - get doc success
+[2016-05-20 11:40:40.925] [INFO] console - { url: '/getdocapi?DocIndex=123456',
+  method: 'GET',
+  headers: 
+   { host: 'localhost:3005',
+     connection: 'keep-alive',
+     accept: 'application/json, text/javascript, */*; q=0.01',
+     'x-requested-with': 'XMLHttpRequest',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36',
+     referer: 'http://localhost:3005/',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'zh-CN,zh;q=0.8' },
+  cookies: {},
+  session: undefined,
+  action: 'getDoc',
+  DocIndex: '123456' }
+[2016-05-20 11:40:40.934] [INFO] console - getwebdocNew  odata
+[2016-05-20 11:40:40.935] [INFO] console - {"url":"/getdocapi?DocIndex=123456","method":"GET","headers":{"host":"localhost:3005","connection":"keep-alive","accept":"application/json, text/javascript, */*; q=0.01","x-requested-with":"XMLHttpRequest","user-agent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36","referer":"http://localhost:3005/","accept-encoding":"gzip, deflate, sdch","accept-language":"zh-CN,zh;q=0.8"},"cookies":{},"action":"getDoc","DocIndex":"123456"}
+[2016-05-20 11:40:40.949] [INFO] console - get doc success
+[2016-05-20 11:40:43.850] [INFO] console - { url: '/getdocapi?DocIndex=doc_6218856095735865',
+  method: 'GET',
+  headers: 
+   { host: 'localhost:3005',
+     connection: 'keep-alive',
+     accept: 'application/json, text/javascript, */*; q=0.01',
+     'x-requested-with': 'XMLHttpRequest',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36',
+     referer: 'http://localhost:3005/',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'zh-CN,zh;q=0.8' },
+  cookies: {},
+  session: undefined,
+  action: 'getDoc',
+  DocIndex: 'doc_6218856095735865' }
+[2016-05-20 11:40:43.854] [INFO] console - getwebdocNew  odata
+[2016-05-20 11:40:43.854] [INFO] console - {"url":"/getdocapi?DocIndex=doc_6218856095735865","method":"GET","headers":{"host":"localhost:3005","connection":"keep-alive","accept":"application/json, text/javascript, */*; q=0.01","x-requested-with":"XMLHttpRequest","user-agent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36","referer":"http://localhost:3005/","accept-encoding":"gzip, deflate, sdch","accept-language":"zh-CN,zh;q=0.8"},"cookies":{},"action":"getDoc","DocIndex":"doc_6218856095735865"}
+[2016-05-20 11:40:43.868] [INFO] console - get doc success
+[2016-05-20 14:10:16.677] [INFO] console - Fri May 20 2016 14:10:16 GMT+0800 (中国标准时间)doc server use http/https port 3005/3006
+[2016-05-20 14:10:16.729] [INFO] console - Fri May 20 2016 14:10:16 GMT+0800 (中国标准时间) doc server start http server and listen on: {"address":"::","family":"IPv6","port":3005}
+[2016-05-20 14:10:16.732] [INFO] console - Fri May 20 2016 14:10:16 GMT+0800 (中国标准时间) doc server start https server and listen on: {"address":"::","family":"IPv6","port":3006}
+[2016-05-20 14:10:16.776] [INFO] console - Fri May 20 2016 14:10:16 GMT+0800 (中国标准时间) Connect to mongoose success: mongodb://127.0.0.1:27017/webdoc_db
+[2016-05-20 14:26:10.211] [INFO] console - Fri May 20 2016 14:26:10 GMT+0800 (中国标准时间)doc server use http/https port 3005/3006
+[2016-05-20 14:26:10.252] [INFO] console - Fri May 20 2016 14:26:10 GMT+0800 (中国标准时间) doc server start http server and listen on: {"address":"::","family":"IPv6","port":3005}
+[2016-05-20 14:26:10.254] [INFO] console - Fri May 20 2016 14:26:10 GMT+0800 (中国标准时间) doc server start https server and listen on: {"address":"::","family":"IPv6","port":3006}
+[2016-05-20 14:26:10.291] [INFO] console - Fri May 20 2016 14:26:10 GMT+0800 (中国标准时间) Connect to mongoose success: mongodb://127.0.0.1:27017/webdoc_db
+[2016-05-20 14:26:24.424] [INFO] console - f:\4-6\doc\src\routes
+[2016-05-20 14:27:21.456] [INFO] console - Fri May 20 2016 14:27:21 GMT+0800 (中国标准时间)doc server use http/https port 3005/3006
+[2016-05-20 14:27:21.511] [INFO] console - Fri May 20 2016 14:27:21 GMT+0800 (中国标准时间) doc server start http server and listen on: {"address":"::","family":"IPv6","port":3005}
+[2016-05-20 14:27:21.513] [INFO] console - Fri May 20 2016 14:27:21 GMT+0800 (中国标准时间) doc server start https server and listen on: {"address":"::","family":"IPv6","port":3006}
+[2016-05-20 14:27:21.556] [INFO] console - Fri May 20 2016 14:27:21 GMT+0800 (中国标准时间) Connect to mongoose success: mongodb://127.0.0.1:27017/webdoc_db
+[2016-05-20 14:27:33.205] [INFO] console - f:\4-6\doc\src\routes
+[2016-05-20 14:27:56.490] [INFO] console - f:\4-6\doc\src\routes
+[2016-05-20 14:27:56.934] [INFO] console - f:\4-6\doc\src\routes
+[2016-05-20 14:29:10.232] [INFO] console - Fri May 20 2016 14:29:10 GMT+0800 (中国标准时间)doc server use http/https port 3005/3006
+[2016-05-20 14:29:10.277] [INFO] console - Fri May 20 2016 14:29:10 GMT+0800 (中国标准时间) doc server start http server and listen on: {"address":"::","family":"IPv6","port":3005}
+[2016-05-20 14:29:10.279] [INFO] console - Fri May 20 2016 14:29:10 GMT+0800 (中国标准时间) doc server start https server and listen on: {"address":"::","family":"IPv6","port":3006}
+[2016-05-20 14:29:10.328] [INFO] console - Fri May 20 2016 14:29:10 GMT+0800 (中国标准时间) Connect to mongoose success: mongodb://127.0.0.1:27017/webdoc_db
+[2016-05-20 14:29:45.286] [INFO] console - Fri May 20 2016 14:29:45 GMT+0800 (中国标准时间)doc server use http/https port 3005/3006
+[2016-05-20 14:29:45.352] [INFO] console - Fri May 20 2016 14:29:45 GMT+0800 (中国标准时间) doc server start http server and listen on: {"address":"::","family":"IPv6","port":3005}
+[2016-05-20 14:29:45.354] [INFO] console - Fri May 20 2016 14:29:45 GMT+0800 (中国标准时间) doc server start https server and listen on: {"address":"::","family":"IPv6","port":3006}
+[2016-05-20 14:29:45.395] [INFO] console - Fri May 20 2016 14:29:45 GMT+0800 (中国标准时间) Connect to mongoose success: mongodb://127.0.0.1:27017/webdoc_db
+[2016-05-20 14:29:57.654] [INFO] console - f:\4-6\doc\src\routes
+[2016-05-20 14:29:57.656] [INFO] console - f:\4-6\doc\src\/public/api/index.html
+[2016-05-20 14:29:57.751] [INFO] console - f:\4-6\doc\src\routes
+[2016-05-20 14:29:57.751] [INFO] console - f:\4-6\doc\src\/public/api/index.html
+[2016-05-20 14:31:01.301] [INFO] console - Fri May 20 2016 14:31:01 GMT+0800 (中国标准时间)doc server use http/https port 3005/3006
+[2016-05-20 14:31:01.366] [INFO] console - Fri May 20 2016 14:31:01 GMT+0800 (中国标准时间) doc server start http server and listen on: {"address":"::","family":"IPv6","port":3005}
+[2016-05-20 14:31:01.369] [INFO] console - Fri May 20 2016 14:31:01 GMT+0800 (中国标准时间) doc server start https server and listen on: {"address":"::","family":"IPv6","port":3006}
+[2016-05-20 14:31:01.438] [INFO] console - Fri May 20 2016 14:31:01 GMT+0800 (中国标准时间) Connect to mongoose success: mongodb://127.0.0.1:27017/webdoc_db
+[2016-05-20 14:32:33.870] [INFO] console - { url: '/getdoclist',
+  method: 'GET',
+  headers: 
+   { host: 'localhost:3005',
+     connection: 'keep-alive',
+     'cache-control': 'max-age=0',
+     accept: 'application/json, text/javascript, */*; q=0.01',
+     'x-requested-with': 'XMLHttpRequest',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36',
+     referer: 'http://localhost:3005/api/index.html',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'zh-CN,zh;q=0.8' },
+  cookies: {},
+  session: undefined,
+  action: 'getdoclist' }
+[2016-05-20 14:32:33.935] [INFO] console - [ { DocIndex: 'doc_6218856095735865',
+    Name: '无线定位接口文档',
+    time: 1463715630783 } ]
+[2016-05-20 14:32:33.943] [INFO] console - [ { DocIndex: 'doc_6218856095735865',
+    Name: '无线定位接口文档',
+    time: 1463715630783 },
+  { DocIndex: '123456', Name: '文档管理微服务', time: 1463715493556 } ]
+[2016-05-20 14:32:33.945] [INFO] console - {"doclist":[{"DocIndex":"doc_6218856095735865","Name":"无线定位接口文档","time":1463715630783},{"DocIndex":"123456","Name":"文档管理微服务","time":1463715493556}],"retCode":0}
+[2016-05-20 14:32:33.977] [INFO] console - { url: '/getdocapi?DocIndex=doc_6218856095735865',
+  method: 'GET',
+  headers: 
+   { host: 'localhost:3005',
+     connection: 'keep-alive',
+     accept: 'application/json, text/javascript, */*; q=0.01',
+     'x-requested-with': 'XMLHttpRequest',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36',
+     referer: 'http://localhost:3005/api/index.html',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'zh-CN,zh;q=0.8' },
+  cookies: {},
+  session: undefined,
+  action: 'getDoc',
+  DocIndex: 'doc_6218856095735865' }
+[2016-05-20 14:32:33.982] [INFO] console - getwebdocNew  odata
+[2016-05-20 14:32:33.982] [INFO] console - {"url":"/getdocapi?DocIndex=doc_6218856095735865","method":"GET","headers":{"host":"localhost:3005","connection":"keep-alive","accept":"application/json, text/javascript, */*; q=0.01","x-requested-with":"XMLHttpRequest","user-agent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36","referer":"http://localhost:3005/api/index.html","accept-encoding":"gzip, deflate, sdch","accept-language":"zh-CN,zh;q=0.8"},"cookies":{},"action":"getDoc","DocIndex":"doc_6218856095735865"}
+[2016-05-20 14:32:34.002] [INFO] console - get doc success
+[2016-05-20 14:32:36.695] [INFO] console - { url: '/getdocapi?DocIndex=123456',
+  method: 'GET',
+  headers: 
+   { host: 'localhost:3005',
+     connection: 'keep-alive',
+     accept: 'application/json, text/javascript, */*; q=0.01',
+     'x-requested-with': 'XMLHttpRequest',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36',
+     referer: 'http://localhost:3005/api/index.html',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'zh-CN,zh;q=0.8' },
+  cookies: {},
+  session: undefined,
+  action: 'getDoc',
+  DocIndex: '123456' }
+[2016-05-20 14:32:36.697] [INFO] console - getwebdocNew  odata
+[2016-05-20 14:32:36.698] [INFO] console - {"url":"/getdocapi?DocIndex=123456","method":"GET","headers":{"host":"localhost:3005","connection":"keep-alive","accept":"application/json, text/javascript, */*; q=0.01","x-requested-with":"XMLHttpRequest","user-agent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36","referer":"http://localhost:3005/api/index.html","accept-encoding":"gzip, deflate, sdch","accept-language":"zh-CN,zh;q=0.8"},"cookies":{},"action":"getDoc","DocIndex":"123456"}
+[2016-05-20 14:32:36.706] [INFO] console - get doc success
+[2016-05-20 14:32:39.231] [INFO] console - { url: '/getdocapi?DocIndex=doc_6218856095735865',
+  method: 'GET',
+  headers: 
+   { host: 'localhost:3005',
+     connection: 'keep-alive',
+     accept: 'application/json, text/javascript, */*; q=0.01',
+     'x-requested-with': 'XMLHttpRequest',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36',
+     referer: 'http://localhost:3005/api/index.html',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'zh-CN,zh;q=0.8' },
+  cookies: {},
+  session: undefined,
+  action: 'getDoc',
+  DocIndex: 'doc_6218856095735865' }
+[2016-05-20 14:32:39.236] [INFO] console - getwebdocNew  odata
+[2016-05-20 14:32:39.237] [INFO] console - {"url":"/getdocapi?DocIndex=doc_6218856095735865","method":"GET","headers":{"host":"localhost:3005","connection":"keep-alive","accept":"application/json, text/javascript, */*; q=0.01","x-requested-with":"XMLHttpRequest","user-agent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36","referer":"http://localhost:3005/api/index.html","accept-encoding":"gzip, deflate, sdch","accept-language":"zh-CN,zh;q=0.8"},"cookies":{},"action":"getDoc","DocIndex":"doc_6218856095735865"}
+[2016-05-20 14:32:39.245] [INFO] console - get doc success
+[2016-05-20 14:32:41.332] [INFO] console - { url: '/getdocapi?DocIndex=123456',
+  method: 'GET',
+  headers: 
+   { host: 'localhost:3005',
+     connection: 'keep-alive',
+     accept: 'application/json, text/javascript, */*; q=0.01',
+     'x-requested-with': 'XMLHttpRequest',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36',
+     referer: 'http://localhost:3005/api/index.html',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'zh-CN,zh;q=0.8' },
+  cookies: {},
+  session: undefined,
+  action: 'getDoc',
+  DocIndex: '123456' }
+[2016-05-20 14:32:41.335] [INFO] console - getwebdocNew  odata
+[2016-05-20 14:32:41.337] [INFO] console - {"url":"/getdocapi?DocIndex=123456","method":"GET","headers":{"host":"localhost:3005","connection":"keep-alive","accept":"application/json, text/javascript, */*; q=0.01","x-requested-with":"XMLHttpRequest","user-agent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36","referer":"http://localhost:3005/api/index.html","accept-encoding":"gzip, deflate, sdch","accept-language":"zh-CN,zh;q=0.8"},"cookies":{},"action":"getDoc","DocIndex":"123456"}
+[2016-05-20 14:32:41.345] [INFO] console - get doc success
+[2016-05-20 14:32:47.078] [INFO] console - { url: '/getdocapi?DocIndex=doc_6218856095735865',
+  method: 'GET',
+  headers: 
+   { host: 'localhost:3005',
+     connection: 'keep-alive',
+     accept: 'application/json, text/javascript, */*; q=0.01',
+     'x-requested-with': 'XMLHttpRequest',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36',
+     referer: 'http://localhost:3005/api/index.html',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'zh-CN,zh;q=0.8' },
+  cookies: {},
+  session: undefined,
+  action: 'getDoc',
+  DocIndex: 'doc_6218856095735865' }
+[2016-05-20 14:32:47.083] [INFO] console - getwebdocNew  odata
+[2016-05-20 14:32:47.083] [INFO] console - {"url":"/getdocapi?DocIndex=doc_6218856095735865","method":"GET","headers":{"host":"localhost:3005","connection":"keep-alive","accept":"application/json, text/javascript, */*; q=0.01","x-requested-with":"XMLHttpRequest","user-agent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36","referer":"http://localhost:3005/api/index.html","accept-encoding":"gzip, deflate, sdch","accept-language":"zh-CN,zh;q=0.8"},"cookies":{},"action":"getDoc","DocIndex":"doc_6218856095735865"}
+[2016-05-20 14:32:47.092] [INFO] console - get doc success
+[2016-05-20 14:32:52.116] [INFO] console - { url: '/getdocapi?DocIndex=123456',
+  method: 'GET',
+  headers: 
+   { host: 'localhost:3005',
+     connection: 'keep-alive',
+     accept: 'application/json, text/javascript, */*; q=0.01',
+     'x-requested-with': 'XMLHttpRequest',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36',
+     referer: 'http://localhost:3005/api/index.html',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'zh-CN,zh;q=0.8' },
+  cookies: {},
+  session: undefined,
+  action: 'getDoc',
+  DocIndex: '123456' }
+[2016-05-20 14:32:52.120] [INFO] console - getwebdocNew  odata
+[2016-05-20 14:32:52.120] [INFO] console - {"url":"/getdocapi?DocIndex=123456","method":"GET","headers":{"host":"localhost:3005","connection":"keep-alive","accept":"application/json, text/javascript, */*; q=0.01","x-requested-with":"XMLHttpRequest","user-agent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36","referer":"http://localhost:3005/api/index.html","accept-encoding":"gzip, deflate, sdch","accept-language":"zh-CN,zh;q=0.8"},"cookies":{},"action":"getDoc","DocIndex":"123456"}
+[2016-05-20 14:32:52.129] [INFO] console - get doc success
+[2016-05-20 14:32:55.447] [INFO] console - { url: '/getdocapi?DocIndex=doc_6218856095735865',
+  method: 'GET',
+  headers: 
+   { host: 'localhost:3005',
+     connection: 'keep-alive',
+     accept: 'application/json, text/javascript, */*; q=0.01',
+     'x-requested-with': 'XMLHttpRequest',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36',
+     referer: 'http://localhost:3005/api/index.html',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'zh-CN,zh;q=0.8' },
+  cookies: {},
+  session: undefined,
+  action: 'getDoc',
+  DocIndex: 'doc_6218856095735865' }
+[2016-05-20 14:32:55.461] [INFO] console - getwebdocNew  odata
+[2016-05-20 14:32:55.462] [INFO] console - {"url":"/getdocapi?DocIndex=doc_6218856095735865","method":"GET","headers":{"host":"localhost:3005","connection":"keep-alive","accept":"application/json, text/javascript, */*; q=0.01","x-requested-with":"XMLHttpRequest","user-agent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36","referer":"http://localhost:3005/api/index.html","accept-encoding":"gzip, deflate, sdch","accept-language":"zh-CN,zh;q=0.8"},"cookies":{},"action":"getDoc","DocIndex":"doc_6218856095735865"}
+[2016-05-20 14:32:55.474] [INFO] console - get doc success
+[2016-05-20 14:33:30.733] [INFO] console - addwebdocnew[object Object]
+[2016-05-20 14:33:30.735] [INFO] console - {"Name":"dota2新兵","DocIndex":"doc_4257609298727987","author":"ykf5327","description":"NewBee","AllItems":[]}
+[2016-05-20 14:33:30.763] [INFO] console - { url: '/getdoclist',
+  method: 'GET',
+  headers: 
+   { host: 'localhost:3005',
+     connection: 'keep-alive',
+     accept: 'application/json, text/javascript, */*; q=0.01',
+     'x-requested-with': 'XMLHttpRequest',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36',
+     referer: 'http://localhost:3005/api/index.html',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'zh-CN,zh;q=0.8' },
+  cookies: {},
+  session: undefined,
+  action: 'getdoclist' }
+[2016-05-20 14:33:30.781] [INFO] console - [ { DocIndex: 'doc_6218856095735865',
+    Name: '无线定位接口文档',
+    time: 1463715630783 } ]
+[2016-05-20 14:33:30.784] [INFO] console - [ { DocIndex: 'doc_6218856095735865',
+    Name: '无线定位接口文档',
+    time: 1463715630783 },
+  { DocIndex: '123456', Name: '文档管理微服务', time: 1463715493556 } ]
+[2016-05-20 14:33:30.786] [INFO] console - {"doclist":[{"DocIndex":"doc_6218856095735865","Name":"无线定位接口文档","time":1463715630783},{"DocIndex":"123456","Name":"文档管理微服务","time":1463715493556}],"retCode":0}
+[2016-05-20 14:33:30.824] [INFO] console - { url: '/getdocapi?DocIndex=doc_4257609298727987',
+  method: 'GET',
+  headers: 
+   { host: 'localhost:3005',
+     connection: 'keep-alive',
+     accept: 'application/json, text/javascript, */*; q=0.01',
+     'x-requested-with': 'XMLHttpRequest',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36',
+     referer: 'http://localhost:3005/api/index.html',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'zh-CN,zh;q=0.8' },
+  cookies: {},
+  session: undefined,
+  action: 'getDoc',
+  DocIndex: 'doc_4257609298727987' }
+[2016-05-20 14:33:30.826] [INFO] console - getwebdocNew  odata
+[2016-05-20 14:33:30.829] [INFO] console - {"url":"/getdocapi?DocIndex=doc_4257609298727987","method":"GET","headers":{"host":"localhost:3005","connection":"keep-alive","accept":"application/json, text/javascript, */*; q=0.01","x-requested-with":"XMLHttpRequest","user-agent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36","referer":"http://localhost:3005/api/index.html","accept-encoding":"gzip, deflate, sdch","accept-language":"zh-CN,zh;q=0.8"},"cookies":{},"action":"getDoc","DocIndex":"doc_4257609298727987"}
+[2016-05-20 14:33:34.108] [INFO] console - { url: '/getdocapi?DocIndex=doc_6218856095735865',
+  method: 'GET',
+  headers: 
+   { host: 'localhost:3005',
+     connection: 'keep-alive',
+     accept: 'application/json, text/javascript, */*; q=0.01',
+     'x-requested-with': 'XMLHttpRequest',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36',
+     referer: 'http://localhost:3005/api/index.html',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'zh-CN,zh;q=0.8' },
+  cookies: {},
+  session: undefined,
+  action: 'getDoc',
+  DocIndex: 'doc_6218856095735865' }
+[2016-05-20 14:33:34.110] [INFO] console - getwebdocNew  odata
+[2016-05-20 14:33:34.110] [INFO] console - {"url":"/getdocapi?DocIndex=doc_6218856095735865","method":"GET","headers":{"host":"localhost:3005","connection":"keep-alive","accept":"application/json, text/javascript, */*; q=0.01","x-requested-with":"XMLHttpRequest","user-agent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36","referer":"http://localhost:3005/api/index.html","accept-encoding":"gzip, deflate, sdch","accept-language":"zh-CN,zh;q=0.8"},"cookies":{},"action":"getDoc","DocIndex":"doc_6218856095735865"}
+[2016-05-20 14:33:34.118] [INFO] console - get doc success
+[2016-05-20 14:33:35.254] [INFO] console - { url: '/getdocapi?DocIndex=123456',
+  method: 'GET',
+  headers: 
+   { host: 'localhost:3005',
+     connection: 'keep-alive',
+     accept: 'application/json, text/javascript, */*; q=0.01',
+     'x-requested-with': 'XMLHttpRequest',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36',
+     referer: 'http://localhost:3005/api/index.html',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'zh-CN,zh;q=0.8' },
+  cookies: {},
+  session: undefined,
+  action: 'getDoc',
+  DocIndex: '123456' }
+[2016-05-20 14:33:35.260] [INFO] console - getwebdocNew  odata
+[2016-05-20 14:33:35.260] [INFO] console - {"url":"/getdocapi?DocIndex=123456","method":"GET","headers":{"host":"localhost:3005","connection":"keep-alive","accept":"application/json, text/javascript, */*; q=0.01","x-requested-with":"XMLHttpRequest","user-agent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36","referer":"http://localhost:3005/api/index.html","accept-encoding":"gzip, deflate, sdch","accept-language":"zh-CN,zh;q=0.8"},"cookies":{},"action":"getDoc","DocIndex":"123456"}
+[2016-05-20 14:33:35.268] [INFO] console - get doc success
+[2016-05-20 14:33:36.755] [INFO] console - { url: '/getdocapi?DocIndex=doc_6218856095735865',
+  method: 'GET',
+  headers: 
+   { host: 'localhost:3005',
+     connection: 'keep-alive',
+     accept: 'application/json, text/javascript, */*; q=0.01',
+     'x-requested-with': 'XMLHttpRequest',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36',
+     referer: 'http://localhost:3005/api/index.html',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'zh-CN,zh;q=0.8' },
+  cookies: {},
+  session: undefined,
+  action: 'getDoc',
+  DocIndex: 'doc_6218856095735865' }
+[2016-05-20 14:33:36.757] [INFO] console - getwebdocNew  odata
+[2016-05-20 14:33:36.758] [INFO] console - {"url":"/getdocapi?DocIndex=doc_6218856095735865","method":"GET","headers":{"host":"localhost:3005","connection":"keep-alive","accept":"application/json, text/javascript, */*; q=0.01","x-requested-with":"XMLHttpRequest","user-agent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36","referer":"http://localhost:3005/api/index.html","accept-encoding":"gzip, deflate, sdch","accept-language":"zh-CN,zh;q=0.8"},"cookies":{},"action":"getDoc","DocIndex":"doc_6218856095735865"}
+[2016-05-20 14:33:36.772] [INFO] console - get doc success
+[2016-05-20 14:34:06.952] [INFO] console - { url: '/getdoclist',
+  method: 'GET',
+  headers: 
+   { host: 'localhost:3005',
+     connection: 'keep-alive',
+     'cache-control': 'max-age=0',
+     accept: 'application/json, text/javascript, */*; q=0.01',
+     'x-requested-with': 'XMLHttpRequest',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36',
+     referer: 'http://localhost:3005/api/index.html',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'zh-CN,zh;q=0.8' },
+  cookies: {},
+  session: undefined,
+  action: 'getdoclist' }
+[2016-05-20 14:34:06.967] [INFO] console - [ { DocIndex: '123456', Name: '文档管理微服务', time: 1463715493556 } ]
+[2016-05-20 14:34:06.970] [INFO] console - [ { DocIndex: '123456', Name: '文档管理微服务', time: 1463715493556 },
+  { DocIndex: 'doc_6218856095735865',
+    Name: '无线定位接口文档',
+    time: 1463715630783 } ]
+[2016-05-20 14:34:06.976] [INFO] console - {"doclist":[{"DocIndex":"123456","Name":"文档管理微服务","time":1463715493556},{"DocIndex":"doc_6218856095735865","Name":"无线定位接口文档","time":1463715630783}],"retCode":0}
+[2016-05-20 14:34:07.022] [INFO] console - { url: '/getdocapi?DocIndex=123456',
+  method: 'GET',
+  headers: 
+   { host: 'localhost:3005',
+     connection: 'keep-alive',
+     accept: 'application/json, text/javascript, */*; q=0.01',
+     'x-requested-with': 'XMLHttpRequest',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36',
+     referer: 'http://localhost:3005/api/index.html',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'zh-CN,zh;q=0.8' },
+  cookies: {},
+  session: undefined,
+  action: 'getDoc',
+  DocIndex: '123456' }
+[2016-05-20 14:34:07.025] [INFO] console - getwebdocNew  odata
+[2016-05-20 14:34:07.025] [INFO] console - {"url":"/getdocapi?DocIndex=123456","method":"GET","headers":{"host":"localhost:3005","connection":"keep-alive","accept":"application/json, text/javascript, */*; q=0.01","x-requested-with":"XMLHttpRequest","user-agent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36","referer":"http://localhost:3005/api/index.html","accept-encoding":"gzip, deflate, sdch","accept-language":"zh-CN,zh;q=0.8"},"cookies":{},"action":"getDoc","DocIndex":"123456"}
+[2016-05-20 14:34:07.032] [INFO] console - get doc success
+[2016-05-20 14:34:18.552] [INFO] console - { url: '/getdocapi?DocIndex=doc_6218856095735865',
+  method: 'GET',
+  headers: 
+   { host: 'localhost:3005',
+     connection: 'keep-alive',
+     accept: 'application/json, text/javascript, */*; q=0.01',
+     'x-requested-with': 'XMLHttpRequest',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36',
+     referer: 'http://localhost:3005/api/index.html',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'zh-CN,zh;q=0.8' },
+  cookies: {},
+  session: undefined,
+  action: 'getDoc',
+  DocIndex: 'doc_6218856095735865' }
+[2016-05-20 14:34:18.557] [INFO] console - getwebdocNew  odata
+[2016-05-20 14:34:18.561] [INFO] console - {"url":"/getdocapi?DocIndex=doc_6218856095735865","method":"GET","headers":{"host":"localhost:3005","connection":"keep-alive","accept":"application/json, text/javascript, */*; q=0.01","x-requested-with":"XMLHttpRequest","user-agent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36","referer":"http://localhost:3005/api/index.html","accept-encoding":"gzip, deflate, sdch","accept-language":"zh-CN,zh;q=0.8"},"cookies":{},"action":"getDoc","DocIndex":"doc_6218856095735865"}
+[2016-05-20 14:34:18.573] [INFO] console - get doc success
+[2016-05-20 14:34:48.346] [INFO] console - /load
+[2016-05-20 14:34:48.371] [INFO] console - { docindex: [ 'doc_5407990886749809' ] }
+[2016-05-20 14:34:48.376] [INFO] console - {
+    "name":"data2新兵",
+    "desc":"本文档是用来描述文档管理接口信息",
+    "author":"yuanyuekun",
+    "aggregate":[
+        {
+             "name":"接口文档管理",
+             "desc":"管理绿洲云平台的web接口文档，功能包括添加、删除、修改文档，同时支持导入文档功能",
+             "items":[
+                 {
+                      "name":"获取文档列表",
+                      "desc":"获取webdoc后台数据库所有文档的序列号和文档名字",
+                      "author":"yuanyuekun",
+                      "path": "/v3/web/doc/getdoclist",
+                      "method":"Get",
+                      "return" :{
+                          "doclist":[{
+                              "Name":"文档的名字, 类型字符串",
+                              "DocIndex":"文档的序列号，类型字符串"
+                          }
+                          ],
+                          "retcode":"错误码，类型数字，0表示成功，1表示失败"
+                      },
+                      "params":[
+                         {
+                             "name":"请求参数无",
+                             "description":"该接口没有请求参数"
+                          }
+                      ],
+                      "errors":[
+                         {
+                             "name":"0",
+                             "description":"获取文档列表成功"
+                          },
+                          {
+                             "name":"1",
+                             "description":"获取文档列表失败"
+                          }
+                      ]
+                  }
+             ]
+        },
+        {
+             "name":"接口文档管理",
+             "desc":"管理绿洲云平台的web接口文档，功能包括添加、删除、修改文档，同时支持导入文档功能",
+             "items":[
+                 {
+                      "name":"添加或者修改一个文档",
+                      "desc":"现在无论是添加还是修改一个文档都需要将整个文档下发，所以公用一个接口",
+                      "author":"yuanyuekun",
+                      "path": "/v3/web/doc/addapi",
+                      "method":"POST",
+                      "return" :{"data" : "后端返回的调试信息，前端不用关心",
+                                 "retcode": "错误码，类型数字，0表示成功，1表示失败"},
+                      "params":[
+                         {
+                             "name":"Name",
+                             "description":"文档的名字，类型字符串"
+                          },
+                          {
+                             "name":"DocIndex",
+                             "description":"文档的序列号，唯一标示一篇文档，类型字符串"
+                           },
+                           {
+                             "name":"AllItems",
+                             "description":"文档里面具体的内容，内容由页面决定，类型为一个数组"
+                           },
+                           {
+                             "name":"Return",
+                             "description":"微服务需要返回哪些字段，[mapName, scale, wallList, apList, bgInfo]"
+                           }
+                      ],
+                      "errors":[
+                         {
+                             "name":"0",
+                             "description":"添加成功"
+                          },
+                          {
+                             "name":"1",
+                             "description":"添加失败"
+                          }
+                      ]
+                  }
+             ]
+        },
+        {
+             "name":"接口文档管理",
+             "desc":"管理绿洲云平台的web接口文档，功能包括添加、删除、修改文档，同时支持导入文档功能",
+             "items":[
+                 {
+                      "name":"删除文档",
+                      "desc":"根据序列号删除一个文档",
+                      "author":"yuanyuekun",
+                      "path": "/v3/web/doc/delete",
+                      "method":"Get",
+                      "return" :{"retCode":"错误码，类型数字 0表示成功 1表示失败"},
+                      "params":[
+                         {
+                             "name":"DocIndex",
+                             "description":"当前文档的序列号,内容为字符串"
+                          }
+                      ],
+                      "errors":[
+                         {
+                             "name":"0",
+                             "description":"删除成功"
+                          },
+                          {
+                             "name":"1",
+                             "description":"删除失败"
+                          }
+                      ]
+                  }
+             ]
+        },
+        {
+             "name":"接口文档管理",
+             "desc":"管理绿洲云平台的web接口文档，功能包括添加、删除、修改文档，同时支持导入文档功能",
+             "items":[
+                 {
+                      "name":"获取一个文档",
+                      "desc":"根据序列号获取一个文档",
+                      "author":"yuanyuekun",
+                      "path": "/v3/web/doc/getdocapi",
+                      "method":"Get",
+                      "return" :{"Name":"文档名字，类型字符串",
+                                 "DocIndex":"文档的序列号，类型字符串",
+                                 "AllItems":"文档的内容，类型数组",
+                                 "retcode":"错误码，0表示成功，1表示失败"
+                                },
+                      "params":[
+                         {
+                             "name":"DocIndex",
+                             "description":"当前文档的序列号,内容为字符串"
+                          }
+                      ],
+                      "errors":[
+                         {
+                             "name":"0",
+                             "description":"获取文档成功"
+                          },
+                          {
+                             "name":"1",
+                             "description":"获取文档失败"
+                          }
+                      ]
+                  }
+             ]
+        }
+    ]
+}
+[2016-05-20 14:34:48.378] [INFO] console - {
+[2016-05-20 14:34:48.379] [INFO] console - [{"name":"接口文档管理","desc":"管理绿洲云平台的web接口文档，功能包括添加、删除、修改文档，同时支持导入文档功能","items":[{"name":"获取文档列表","desc":"获取webdoc后台数据库所有文档的序列号和文档名字","author":"yuanyuekun","path":"/v3/web/doc/getdoclist","method":"Get","return":{"doclist":[{"Name":"文档的名字, 类型字符串","DocIndex":"文档的序列号，类型字符串"}],"retcode":"错误码，类型数字，0表示成功，1表示失败"},"params":[{"name":"请求参数无","description":"该接口没有请求参数"}],"errors":[{"name":"0","description":"获取文档列表成功"},{"name":"1","description":"获取文档列表失败"}]}]},{"name":"接口文档管理","desc":"管理绿洲云平台的web接口文档，功能包括添加、删除、修改文档，同时支持导入文档功能","items":[{"name":"添加或者修改一个文档","desc":"现在无论是添加还是修改一个文档都需要将整个文档下发，所以公用一个接口","author":"yuanyuekun","path":"/v3/web/doc/addapi","method":"POST","return":{"data":"后端返回的调试信息，前端不用关心","retcode":"错误码，类型数字，0表示成功，1表示失败"},"params":[{"name":"Name","description":"文档的名字，类型字符串"},{"name":"DocIndex","description":"文档的序列号，唯一标示一篇文档，类型字符串"},{"name":"AllItems","description":"文档里面具体的内容，内容由页面决定，类型为一个数组"},{"name":"Return","description":"微服务需要返回哪些字段，[mapName, scale, wallList, apList, bgInfo]"}],"errors":[{"name":"0","description":"添加成功"},{"name":"1","description":"添加失败"}]}]},{"name":"接口文档管理","desc":"管理绿洲云平台的web接口文档，功能包括添加、删除、修改文档，同时支持导入文档功能","items":[{"name":"删除文档","desc":"根据序列号删除一个文档","author":"yuanyuekun","path":"/v3/web/doc/delete","method":"Get","return":{"retCode":"错误码，类型数字 0表示成功 1表示失败"},"params":[{"name":"DocIndex","description":"当前文档的序列号,内容为字符串"}],"errors":[{"name":"0","description":"删除成功"},{"name":"1","description":"删除失败"}]}]},{"name":"接口文档管理","desc":"管理绿洲云平台的web接口文档，功能包括添加、删除、修改文档，同时支持导入文档功能","items":[{"name":"获取一个文档","desc":"根据序列号获取一个文档","author":"yuanyuekun","path":"/v3/web/doc/getdocapi","method":"Get","return":{"Name":"文档名字，类型字符串","DocIndex":"文档的序列号，类型字符串","AllItems":"文档的内容，类型数组","retcode":"错误码，0表示成功，1表示失败"},"params":[{"name":"DocIndex","description":"当前文档的序列号,内容为字符串"}],"errors":[{"name":"0","description":"获取文档成功"},{"name":"1","description":"获取文档失败"}]}]}]
+[2016-05-20 14:34:48.381] [INFO] console - {"DocIndex":"doc_5407990886749809","Name":"data2新兵","description":"本文档是用来描述文档管理接口信息","author":"yuanyuekun","AllItems":[{"ItemName":"接口文档管理","Itemdesc":"管理绿洲云平台的web接口文档，功能包括添加、删除、修改文档，同时支持导入文档功能","SubItem":"获取文档列表","subitemdesc":"获取webdoc后台数据库所有文档的序列号和文档名字","Method":"Get","author":"yuanyuekun","Return":"{\"doclist\":[{\"Name\":\"文档的名字, 类型字符串\",\"DocIndex\":\"文档的序列号，类型字符串\"}],\"retcode\":\"错误码，类型数字，0表示成功，1表示失败\"}","Parameters":[{"name":"请求参数无","description":"该接口没有请求参数"}],"Error":[{"name":"0","description":"获取文档列表成功"},{"name":"1","description":"获取文档列表失败"}],"Path":"/v3/web/doc/getdoclist"},{"ItemName":"接口文档管理","Itemdesc":"管理绿洲云平台的web接口文档，功能包括添加、删除、修改文档，同时支持导入文档功能","SubItem":"添加或者修改一个文档","subitemdesc":"现在无论是添加还是修改一个文档都需要将整个文档下发，所以公用一个接口","Method":"POST","author":"yuanyuekun","Return":"{\"data\":\"后端返回的调试信息，前端不用关心\",\"retcode\":\"错误码，类型数字，0表示成功，1表示失败\"}","Parameters":[{"name":"Name","description":"文档的名字，类型字符串"},{"name":"DocIndex","description":"文档的序列号，唯一标示一篇文档，类型字符串"},{"name":"AllItems","description":"文档里面具体的内容，内容由页面决定，类型为一个数组"},{"name":"Return","description":"微服务需要返回哪些字段，[mapName, scale, wallList, apList, bgInfo]"}],"Error":[{"name":"0","description":"添加成功"},{"name":"1","description":"添加失败"}],"Path":"/v3/web/doc/addapi"},{"ItemName":"接口文档管理","Itemdesc":"管理绿洲云平台的web接口文档，功能包括添加、删除、修改文档，同时支持导入文档功能","SubItem":"删除文档","subitemdesc":"根据序列号删除一个文档","Method":"Get","author":"yuanyuekun","Return":"{\"retCode\":\"错误码，类型数字 0表示成功 1表示失败\"}","Parameters":[{"name":"DocIndex","description":"当前文档的序列号,内容为字符串"}],"Error":[{"name":"0","description":"删除成功"},{"name":"1","description":"删除失败"}],"Path":"/v3/web/doc/delete"},{"ItemName":"接口文档管理","Itemdesc":"管理绿洲云平台的web接口文档，功能包括添加、删除、修改文档，同时支持导入文档功能","SubItem":"获取一个文档","subitemdesc":"根据序列号获取一个文档","Method":"Get","author":"yuanyuekun","Return":"{\"Name\":\"文档名字，类型字符串\",\"DocIndex\":\"文档的序列号，类型字符串\",\"AllItems\":\"文档的内容，类型数组\",\"retcode\":\"错误码，0表示成功，1表示失败\"}","Parameters":[{"name":"DocIndex","description":"当前文档的序列号,内容为字符串"}],"Error":[{"name":"0","description":"获取文档成功"},{"name":"1","description":"获取文档失败"}],"Path":"/v3/web/doc/getdocapi"}]}
+[2016-05-20 14:34:48.382] [INFO] console - addwebdocnew[object Object]
+[2016-05-20 14:34:48.382] [INFO] console - {"DocIndex":"doc_5407990886749809","Name":"data2新兵","description":"本文档是用来描述文档管理接口信息","author":"yuanyuekun","AllItems":[{"ItemName":"接口文档管理","Itemdesc":"管理绿洲云平台的web接口文档，功能包括添加、删除、修改文档，同时支持导入文档功能","SubItem":"获取文档列表","subitemdesc":"获取webdoc后台数据库所有文档的序列号和文档名字","Method":"Get","author":"yuanyuekun","Return":"{\"doclist\":[{\"Name\":\"文档的名字, 类型字符串\",\"DocIndex\":\"文档的序列号，类型字符串\"}],\"retcode\":\"错误码，类型数字，0表示成功，1表示失败\"}","Parameters":[{"name":"请求参数无","description":"该接口没有请求参数"}],"Error":[{"name":"0","description":"获取文档列表成功"},{"name":"1","description":"获取文档列表失败"}],"Path":"/v3/web/doc/getdoclist"},{"ItemName":"接口文档管理","Itemdesc":"管理绿洲云平台的web接口文档，功能包括添加、删除、修改文档，同时支持导入文档功能","SubItem":"添加或者修改一个文档","subitemdesc":"现在无论是添加还是修改一个文档都需要将整个文档下发，所以公用一个接口","Method":"POST","author":"yuanyuekun","Return":"{\"data\":\"后端返回的调试信息，前端不用关心\",\"retcode\":\"错误码，类型数字，0表示成功，1表示失败\"}","Parameters":[{"name":"Name","description":"文档的名字，类型字符串"},{"name":"DocIndex","description":"文档的序列号，唯一标示一篇文档，类型字符串"},{"name":"AllItems","description":"文档里面具体的内容，内容由页面决定，类型为一个数组"},{"name":"Return","description":"微服务需要返回哪些字段，[mapName, scale, wallList, apList, bgInfo]"}],"Error":[{"name":"0","description":"添加成功"},{"name":"1","description":"添加失败"}],"Path":"/v3/web/doc/addapi"},{"ItemName":"接口文档管理","Itemdesc":"管理绿洲云平台的web接口文档，功能包括添加、删除、修改文档，同时支持导入文档功能","SubItem":"删除文档","subitemdesc":"根据序列号删除一个文档","Method":"Get","author":"yuanyuekun","Return":"{\"retCode\":\"错误码，类型数字 0表示成功 1表示失败\"}","Parameters":[{"name":"DocIndex","description":"当前文档的序列号,内容为字符串"}],"Error":[{"name":"0","description":"删除成功"},{"name":"1","description":"删除失败"}],"Path":"/v3/web/doc/delete"},{"ItemName":"接口文档管理","Itemdesc":"管理绿洲云平台的web接口文档，功能包括添加、删除、修改文档，同时支持导入文档功能","SubItem":"获取一个文档","subitemdesc":"根据序列号获取一个文档","Method":"Get","author":"yuanyuekun","Return":"{\"Name\":\"文档名字，类型字符串\",\"DocIndex\":\"文档的序列号，类型字符串\",\"AllItems\":\"文档的内容，类型数组\",\"retcode\":\"错误码，0表示成功，1表示失败\"}","Parameters":[{"name":"DocIndex","description":"当前文档的序列号,内容为字符串"}],"Error":[{"name":"0","description":"获取文档成功"},{"name":"1","description":"获取文档失败"}],"Path":"/v3/web/doc/getdocapi"}]}
+[2016-05-20 14:34:48.390] [INFO] console - time doc_5407990886749809
+[2016-05-20 14:34:48.391] [INFO] console - oUpdate {"Name":"data2新兵","DocIndex":"doc_5407990886749809","AllItems":[{"ItemName":"接口文档管理","Itemdesc":"管理绿洲云平台的web接口文档，功能包括添加、删除、修改文档，同时支持导入文档功能","SubItem":"获取文档列表","subitemdesc":"获取webdoc后台数据库所有文档的序列号和文档名字","Method":"Get","author":"yuanyuekun","Return":"{\"doclist\":[{\"Name\":\"文档的名字, 类型字符串\",\"DocIndex\":\"文档的序列号，类型字符串\"}],\"retcode\":\"错误码，类型数字，0表示成功，1表示失败\"}","Parameters":[{"name":"请求参数无","description":"该接口没有请求参数"}],"Error":[{"name":"0","description":"获取文档列表成功"},{"name":"1","description":"获取文档列表失败"}],"Path":"/v3/web/doc/getdoclist"},{"ItemName":"接口文档管理","Itemdesc":"管理绿洲云平台的web接口文档，功能包括添加、删除、修改文档，同时支持导入文档功能","SubItem":"添加或者修改一个文档","subitemdesc":"现在无论是添加还是修改一个文档都需要将整个文档下发，所以公用一个接口","Method":"POST","author":"yuanyuekun","Return":"{\"data\":\"后端返回的调试信息，前端不用关心\",\"retcode\":\"错误码，类型数字，0表示成功，1表示失败\"}","Parameters":[{"name":"Name","description":"文档的名字，类型字符串"},{"name":"DocIndex","description":"文档的序列号，唯一标示一篇文档，类型字符串"},{"name":"AllItems","description":"文档里面具体的内容，内容由页面决定，类型为一个数组"},{"name":"Return","description":"微服务需要返回哪些字段，[mapName, scale, wallList, apList, bgInfo]"}],"Error":[{"name":"0","description":"添加成功"},{"name":"1","description":"添加失败"}],"Path":"/v3/web/doc/addapi"},{"ItemName":"接口文档管理","Itemdesc":"管理绿洲云平台的web接口文档，功能包括添加、删除、修改文档，同时支持导入文档功能","SubItem":"删除文档","subitemdesc":"根据序列号删除一个文档","Method":"Get","author":"yuanyuekun","Return":"{\"retCode\":\"错误码，类型数字 0表示成功 1表示失败\"}","Parameters":[{"name":"DocIndex","description":"当前文档的序列号,内容为字符串"}],"Error":[{"name":"0","description":"删除成功"},{"name":"1","description":"删除失败"}],"Path":"/v3/web/doc/delete"},{"ItemName":"接口文档管理","Itemdesc":"管理绿洲云平台的web接口文档，功能包括添加、删除、修改文档，同时支持导入文档功能","SubItem":"获取一个文档","subitemdesc":"根据序列号获取一个文档","Method":"Get","author":"yuanyuekun","Return":"{\"Name\":\"文档名字，类型字符串\",\"DocIndex\":\"文档的序列号，类型字符串\",\"AllItems\":\"文档的内容，类型数组\",\"retcode\":\"错误码，0表示成功，1表示失败\"}","Parameters":[{"name":"DocIndex","description":"当前文档的序列号,内容为字符串"}],"Error":[{"name":"0","description":"获取文档成功"},{"name":"1","description":"获取文档失败"}],"Path":"/v3/web/doc/getdocapi"}],"time":1463726088390,"author":"yuanyuekun","description":"本文档是用来描述文档管理接口信息"}
+[2016-05-20 14:34:48.447] [INFO] console - { url: '/getdoclist',
+  method: 'GET',
+  headers: 
+   { host: 'localhost:3005',
+     connection: 'keep-alive',
+     accept: 'application/json, text/javascript, */*; q=0.01',
+     'x-requested-with': 'XMLHttpRequest',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36',
+     referer: 'http://localhost:3005/api/index.html',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'zh-CN,zh;q=0.8' },
+  cookies: {},
+  session: undefined,
+  action: 'getdoclist' }
+[2016-05-20 14:34:48.461] [INFO] console - [ { DocIndex: 'doc_5407990886749809',
+    Name: 'data2新兵',
+    time: 1463726088390 } ]
+[2016-05-20 14:34:48.462] [INFO] console - [ { DocIndex: 'doc_5407990886749809',
+    Name: 'data2新兵',
+    time: 1463726088390 },
+  { DocIndex: 'doc_6218856095735865',
+    Name: '无线定位接口文档',
+    time: 1463715630783 } ]
+[2016-05-20 14:34:48.465] [INFO] console - [ { DocIndex: 'doc_5407990886749809',
+    Name: 'data2新兵',
+    time: 1463726088390 },
+  { DocIndex: 'doc_6218856095735865',
+    Name: '无线定位接口文档',
+    time: 1463715630783 },
+  { DocIndex: '123456', Name: '文档管理微服务', time: 1463715493556 } ]
+[2016-05-20 14:34:48.465] [INFO] console - {"doclist":[{"DocIndex":"doc_5407990886749809","Name":"data2新兵","time":1463726088390},{"DocIndex":"doc_6218856095735865","Name":"无线定位接口文档","time":1463715630783},{"DocIndex":"123456","Name":"文档管理微服务","time":1463715493556}],"retCode":0}
+[2016-05-20 14:34:48.502] [INFO] console - { url: '/getdocapi?DocIndex=doc_5407990886749809',
+  method: 'GET',
+  headers: 
+   { host: 'localhost:3005',
+     connection: 'keep-alive',
+     accept: 'application/json, text/javascript, */*; q=0.01',
+     'x-requested-with': 'XMLHttpRequest',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36',
+     referer: 'http://localhost:3005/api/index.html',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'zh-CN,zh;q=0.8' },
+  cookies: {},
+  session: undefined,
+  action: 'getDoc',
+  DocIndex: 'doc_5407990886749809' }
+[2016-05-20 14:34:48.505] [INFO] console - getwebdocNew  odata
+[2016-05-20 14:34:48.505] [INFO] console - {"url":"/getdocapi?DocIndex=doc_5407990886749809","method":"GET","headers":{"host":"localhost:3005","connection":"keep-alive","accept":"application/json, text/javascript, */*; q=0.01","x-requested-with":"XMLHttpRequest","user-agent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36","referer":"http://localhost:3005/api/index.html","accept-encoding":"gzip, deflate, sdch","accept-language":"zh-CN,zh;q=0.8"},"cookies":{},"action":"getDoc","DocIndex":"doc_5407990886749809"}
+[2016-05-20 14:34:48.532] [INFO] console - get doc success
+[2016-05-20 14:35:26.678] [INFO] console - addwebdocnew[object Object]
+[2016-05-20 14:35:26.682] [INFO] console - {"Name":"dota2Newbee无敌","DocIndex":"doc_7281512124824125","author":"元粤坤","description":"无敌锤","AllItems":[]}
+[2016-05-20 14:35:26.698] [INFO] console - { url: '/getdoclist',
+  method: 'GET',
+  headers: 
+   { host: 'localhost:3005',
+     connection: 'keep-alive',
+     accept: 'application/json, text/javascript, */*; q=0.01',
+     'x-requested-with': 'XMLHttpRequest',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36',
+     referer: 'http://localhost:3005/api/index.html',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'zh-CN,zh;q=0.8' },
+  cookies: {},
+  session: undefined,
+  action: 'getdoclist' }
+[2016-05-20 14:35:26.717] [INFO] console - [ { DocIndex: 'doc_5407990886749809',
+    Name: 'data2新兵',
+    time: 1463726088390 } ]
+[2016-05-20 14:35:26.718] [INFO] console - [ { DocIndex: 'doc_5407990886749809',
+    Name: 'data2新兵',
+    time: 1463726088390 },
+  { DocIndex: 'doc_6218856095735865',
+    Name: '无线定位接口文档',
+    time: 1463715630783 } ]
+[2016-05-20 14:35:26.723] [INFO] console - [ { DocIndex: 'doc_5407990886749809',
+    Name: 'data2新兵',
+    time: 1463726088390 },
+  { DocIndex: 'doc_6218856095735865',
+    Name: '无线定位接口文档',
+    time: 1463715630783 },
+  { DocIndex: '123456', Name: '文档管理微服务', time: 1463715493556 } ]
+[2016-05-20 14:35:26.725] [INFO] console - {"doclist":[{"DocIndex":"doc_5407990886749809","Name":"data2新兵","time":1463726088390},{"DocIndex":"doc_6218856095735865","Name":"无线定位接口文档","time":1463715630783},{"DocIndex":"123456","Name":"文档管理微服务","time":1463715493556}],"retCode":0}
+[2016-05-20 14:35:26.756] [INFO] console - { url: '/getdocapi?DocIndex=doc_7281512124824125',
+  method: 'GET',
+  headers: 
+   { host: 'localhost:3005',
+     connection: 'keep-alive',
+     accept: 'application/json, text/javascript, */*; q=0.01',
+     'x-requested-with': 'XMLHttpRequest',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36',
+     referer: 'http://localhost:3005/api/index.html',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'zh-CN,zh;q=0.8' },
+  cookies: {},
+  session: undefined,
+  action: 'getDoc',
+  DocIndex: 'doc_7281512124824125' }
+[2016-05-20 14:35:26.757] [INFO] console - getwebdocNew  odata
+[2016-05-20 14:35:26.758] [INFO] console - {"url":"/getdocapi?DocIndex=doc_7281512124824125","method":"GET","headers":{"host":"localhost:3005","connection":"keep-alive","accept":"application/json, text/javascript, */*; q=0.01","x-requested-with":"XMLHttpRequest","user-agent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36","referer":"http://localhost:3005/api/index.html","accept-encoding":"gzip, deflate, sdch","accept-language":"zh-CN,zh;q=0.8"},"cookies":{},"action":"getDoc","DocIndex":"doc_7281512124824125"}
+[2016-05-20 14:35:31.850] [INFO] console - { url: '/getdocapi?DocIndex=doc_5407990886749809',
+  method: 'GET',
+  headers: 
+   { host: 'localhost:3005',
+     connection: 'keep-alive',
+     accept: 'application/json, text/javascript, */*; q=0.01',
+     'x-requested-with': 'XMLHttpRequest',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36',
+     referer: 'http://localhost:3005/api/index.html',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'zh-CN,zh;q=0.8' },
+  cookies: {},
+  session: undefined,
+  action: 'getDoc',
+  DocIndex: 'doc_5407990886749809' }
+[2016-05-20 14:35:31.853] [INFO] console - getwebdocNew  odata
+[2016-05-20 14:35:31.853] [INFO] console - {"url":"/getdocapi?DocIndex=doc_5407990886749809","method":"GET","headers":{"host":"localhost:3005","connection":"keep-alive","accept":"application/json, text/javascript, */*; q=0.01","x-requested-with":"XMLHttpRequest","user-agent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36","referer":"http://localhost:3005/api/index.html","accept-encoding":"gzip, deflate, sdch","accept-language":"zh-CN,zh;q=0.8"},"cookies":{},"action":"getDoc","DocIndex":"doc_5407990886749809"}
+[2016-05-20 14:35:31.862] [INFO] console - get doc success
+[2016-05-20 14:37:26.768] [INFO] console - { url: '/getdocapi?DocIndex=doc_7281512124824125',
+  method: 'GET',
+  headers: 
+   { host: 'localhost:3005',
+     connection: 'keep-alive',
+     accept: 'application/json, text/javascript, */*; q=0.01',
+     'x-requested-with': 'XMLHttpRequest',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36',
+     referer: 'http://localhost:3005/api/index.html',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'zh-CN,zh;q=0.8' },
+  cookies: {},
+  session: undefined,
+  action: 'getDoc',
+  DocIndex: 'doc_7281512124824125' }
+[2016-05-20 14:37:26.775] [INFO] console - getwebdocNew  odata
+[2016-05-20 14:37:26.775] [INFO] console - {"url":"/getdocapi?DocIndex=doc_7281512124824125","method":"GET","headers":{"host":"localhost:3005","connection":"keep-alive","accept":"application/json, text/javascript, */*; q=0.01","x-requested-with":"XMLHttpRequest","user-agent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36","referer":"http://localhost:3005/api/index.html","accept-encoding":"gzip, deflate, sdch","accept-language":"zh-CN,zh;q=0.8"},"cookies":{},"action":"getDoc","DocIndex":"doc_7281512124824125"}
+[2016-05-20 14:39:17.393] [INFO] console - addwebdocnew[object Object]
+[2016-05-20 14:39:17.394] [INFO] console - {"Name":"dota","DocIndex":"doc_20942460988377376","author":"元粤坤","description":"无敌锤","AllItems":[]}
+[2016-05-20 14:39:17.407] [INFO] console - { url: '/getdoclist',
+  method: 'GET',
+  headers: 
+   { host: 'localhost:3005',
+     connection: 'keep-alive',
+     accept: 'application/json, text/javascript, */*; q=0.01',
+     'x-requested-with': 'XMLHttpRequest',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36',
+     referer: 'http://localhost:3005/api/index.html',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'zh-CN,zh;q=0.8' },
+  cookies: {},
+  session: undefined,
+  action: 'getdoclist' }
+[2016-05-20 14:39:17.429] [INFO] console - [ { DocIndex: 'doc_5407990886749809',
+    Name: 'data2新兵',
+    time: 1463726088390 } ]
+[2016-05-20 14:39:17.431] [INFO] console - [ { DocIndex: 'doc_5407990886749809',
+    Name: 'data2新兵',
+    time: 1463726088390 },
+  { DocIndex: 'doc_6218856095735865',
+    Name: '无线定位接口文档',
+    time: 1463715630783 } ]
+[2016-05-20 14:39:17.436] [INFO] console - [ { DocIndex: 'doc_5407990886749809',
+    Name: 'data2新兵',
+    time: 1463726088390 },
+  { DocIndex: 'doc_6218856095735865',
+    Name: '无线定位接口文档',
+    time: 1463715630783 },
+  { DocIndex: '123456', Name: '文档管理微服务', time: 1463715493556 } ]
+[2016-05-20 14:39:17.438] [INFO] console - {"doclist":[{"DocIndex":"doc_5407990886749809","Name":"data2新兵","time":1463726088390},{"DocIndex":"doc_6218856095735865","Name":"无线定位接口文档","time":1463715630783},{"DocIndex":"123456","Name":"文档管理微服务","time":1463715493556}],"retCode":0}
+[2016-05-20 14:39:17.463] [INFO] console - { url: '/getdocapi?DocIndex=doc_20942460988377376',
+  method: 'GET',
+  headers: 
+   { host: 'localhost:3005',
+     connection: 'keep-alive',
+     accept: 'application/json, text/javascript, */*; q=0.01',
+     'x-requested-with': 'XMLHttpRequest',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36',
+     referer: 'http://localhost:3005/api/index.html',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'zh-CN,zh;q=0.8' },
+  cookies: {},
+  session: undefined,
+  action: 'getDoc',
+  DocIndex: 'doc_20942460988377376' }
+[2016-05-20 14:39:17.466] [INFO] console - getwebdocNew  odata
+[2016-05-20 14:39:17.467] [INFO] console - {"url":"/getdocapi?DocIndex=doc_20942460988377376","method":"GET","headers":{"host":"localhost:3005","connection":"keep-alive","accept":"application/json, text/javascript, */*; q=0.01","x-requested-with":"XMLHttpRequest","user-agent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36","referer":"http://localhost:3005/api/index.html","accept-encoding":"gzip, deflate, sdch","accept-language":"zh-CN,zh;q=0.8"},"cookies":{},"action":"getDoc","DocIndex":"doc_20942460988377376"}
+[2016-05-20 14:39:26.785] [INFO] console - { url: '/getdocapi?DocIndex=doc_7281512124824125',
+  method: 'GET',
+  headers: 
+   { host: 'localhost:3005',
+     connection: 'keep-alive',
+     accept: 'application/json, text/javascript, */*; q=0.01',
+     'x-requested-with': 'XMLHttpRequest',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36',
+     referer: 'http://localhost:3005/api/index.html',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'zh-CN,zh;q=0.8' },
+  cookies: {},
+  session: undefined,
+  action: 'getDoc',
+  DocIndex: 'doc_7281512124824125' }
+[2016-05-20 14:39:26.787] [INFO] console - getwebdocNew  odata
+[2016-05-20 14:39:26.788] [INFO] console - {"url":"/getdocapi?DocIndex=doc_7281512124824125","method":"GET","headers":{"host":"localhost:3005","connection":"keep-alive","accept":"application/json, text/javascript, */*; q=0.01","x-requested-with":"XMLHttpRequest","user-agent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36","referer":"http://localhost:3005/api/index.html","accept-encoding":"gzip, deflate, sdch","accept-language":"zh-CN,zh;q=0.8"},"cookies":{},"action":"getDoc","DocIndex":"doc_7281512124824125"}
+[2016-05-20 14:40:24.902] [INFO] console - Fri May 20 2016 14:40:24 GMT+0800 (中国标准时间)doc server use http/https port 3005/3006
+[2016-05-20 14:40:24.942] [INFO] console - Fri May 20 2016 14:40:24 GMT+0800 (中国标准时间) doc server start http server and listen on: {"address":"::","family":"IPv6","port":3005}
+[2016-05-20 14:40:24.945] [INFO] console - Fri May 20 2016 14:40:24 GMT+0800 (中国标准时间) doc server start https server and listen on: {"address":"::","family":"IPv6","port":3006}
+[2016-05-20 14:40:24.983] [INFO] console - Fri May 20 2016 14:40:24 GMT+0800 (中国标准时间) Connect to mongoose success: mongodb://127.0.0.1:27017/webdoc_db
+[2016-05-20 14:40:40.443] [INFO] console - addwebdocnew[object Object]
+[2016-05-20 14:40:40.444] [INFO] console - {"Name":"干哈","DocIndex":"doc_9274099563009028","author":"元粤坤","description":"无敌锤","AllItems":[]}
+[2016-05-20 14:40:40.460] [INFO] console - time doc_9274099563009028
+[2016-05-20 14:40:40.461] [INFO] console - oUpdate {"Name":"干哈","DocIndex":"doc_9274099563009028","AllItems":[],"time":1463726440460,"author":"元粤坤","description":"无敌锤"}
+[2016-05-20 14:40:40.548] [INFO] console - { url: '/getdoclist',
+  method: 'GET',
+  headers: 
+   { host: 'localhost:3005',
+     connection: 'keep-alive',
+     accept: 'application/json, text/javascript, */*; q=0.01',
+     'x-requested-with': 'XMLHttpRequest',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36',
+     referer: 'http://localhost:3005/api/index.html',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'zh-CN,zh;q=0.8' },
+  cookies: {},
+  session: undefined,
+  action: 'getdoclist' }
+[2016-05-20 14:40:40.604] [INFO] console - [ { DocIndex: 'doc_5407990886749809',
+    Name: 'data2新兵',
+    time: 1463726088390 } ]
+[2016-05-20 14:40:40.612] [INFO] console - [ { DocIndex: 'doc_5407990886749809',
+    Name: 'data2新兵',
+    time: 1463726088390 },
+  { DocIndex: 'doc_6218856095735865',
+    Name: '无线定位接口文档',
+    time: 1463715630783 } ]
+[2016-05-20 14:40:40.613] [INFO] console - [ { DocIndex: 'doc_5407990886749809',
+    Name: 'data2新兵',
+    time: 1463726088390 },
+  { DocIndex: 'doc_6218856095735865',
+    Name: '无线定位接口文档',
+    time: 1463715630783 },
+  { DocIndex: 'doc_9274099563009028',
+    Name: '干哈',
+    time: 1463726440460 } ]
+[2016-05-20 14:40:40.619] [INFO] console - [ { DocIndex: 'doc_5407990886749809',
+    Name: 'data2新兵',
+    time: 1463726088390 },
+  { DocIndex: 'doc_6218856095735865',
+    Name: '无线定位接口文档',
+    time: 1463715630783 },
+  { DocIndex: 'doc_9274099563009028',
+    Name: '干哈',
+    time: 1463726440460 },
+  { DocIndex: '123456', Name: '文档管理微服务', time: 1463715493556 } ]
+[2016-05-20 14:40:40.625] [INFO] console - {"doclist":[{"DocIndex":"doc_5407990886749809","Name":"data2新兵","time":1463726088390},{"DocIndex":"doc_6218856095735865","Name":"无线定位接口文档","time":1463715630783},{"DocIndex":"doc_9274099563009028","Name":"干哈","time":1463726440460},{"DocIndex":"123456","Name":"文档管理微服务","time":1463715493556}],"retCode":0}
+[2016-05-20 14:40:40.652] [INFO] console - { url: '/getdocapi?DocIndex=doc_9274099563009028',
+  method: 'GET',
+  headers: 
+   { host: 'localhost:3005',
+     connection: 'keep-alive',
+     accept: 'application/json, text/javascript, */*; q=0.01',
+     'x-requested-with': 'XMLHttpRequest',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36',
+     referer: 'http://localhost:3005/api/index.html',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'zh-CN,zh;q=0.8' },
+  cookies: {},
+  session: undefined,
+  action: 'getDoc',
+  DocIndex: 'doc_9274099563009028' }
+[2016-05-20 14:40:40.654] [INFO] console - getwebdocNew  odata
+[2016-05-20 14:40:40.654] [INFO] console - {"url":"/getdocapi?DocIndex=doc_9274099563009028","method":"GET","headers":{"host":"localhost:3005","connection":"keep-alive","accept":"application/json, text/javascript, */*; q=0.01","x-requested-with":"XMLHttpRequest","user-agent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36","referer":"http://localhost:3005/api/index.html","accept-encoding":"gzip, deflate, sdch","accept-language":"zh-CN,zh;q=0.8"},"cookies":{},"action":"getDoc","DocIndex":"doc_9274099563009028"}
+[2016-05-20 14:40:40.659] [INFO] console - get doc success
+[2016-05-20 14:41:05.579] [INFO] console - addwebdocnew[object Object]
+[2016-05-20 14:41:05.583] [INFO] console - {"Name":"干哈","DocIndex":"doc_9274099563009028","AllItems":[{"SubItem":"啊啊","ItemName":"111","Path":"11111","Method":"Get","Parameters":[{"name":"啊啊啊","description":"是 "}],"Return":"{\n}\n","Error":[{"name":"啊啊","description":"啊 啊"}]}],"retcode":0}
+[2016-05-20 14:41:05.613] [INFO] console - { url: '/getdocapi?DocIndex=doc_9274099563009028',
+  method: 'GET',
+  headers: 
+   { host: 'localhost:3005',
+     connection: 'keep-alive',
+     accept: 'application/json, text/javascript, */*; q=0.01',
+     'x-requested-with': 'XMLHttpRequest',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36',
+     referer: 'http://localhost:3005/api/index.html',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'zh-CN,zh;q=0.8' },
+  cookies: {},
+  session: undefined,
+  action: 'getDoc',
+  DocIndex: 'doc_9274099563009028' }
+[2016-05-20 14:41:05.615] [INFO] console - getwebdocNew  odata
+[2016-05-20 14:41:05.616] [INFO] console - {"url":"/getdocapi?DocIndex=doc_9274099563009028","method":"GET","headers":{"host":"localhost:3005","connection":"keep-alive","accept":"application/json, text/javascript, */*; q=0.01","x-requested-with":"XMLHttpRequest","user-agent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36","referer":"http://localhost:3005/api/index.html","accept-encoding":"gzip, deflate, sdch","accept-language":"zh-CN,zh;q=0.8"},"cookies":{},"action":"getDoc","DocIndex":"doc_9274099563009028"}
+[2016-05-20 14:41:05.624] [INFO] console - get doc success
+[2016-05-20 14:41:09.677] [INFO] console - { url: '/getdoclist',
+  method: 'GET',
+  headers: 
+   { host: 'localhost:3005',
+     connection: 'keep-alive',
+     'cache-control': 'max-age=0',
+     accept: 'application/json, text/javascript, */*; q=0.01',
+     'x-requested-with': 'XMLHttpRequest',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36',
+     referer: 'http://localhost:3005/api/index.html',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'zh-CN,zh;q=0.8' },
+  cookies: {},
+  session: undefined,
+  action: 'getdoclist' }
+[2016-05-20 14:41:09.690] [INFO] console - [ { DocIndex: 'doc_5407990886749809',
+    Name: 'data2新兵',
+    time: 1463726088390 } ]
+[2016-05-20 14:41:09.691] [INFO] console - [ { DocIndex: 'doc_5407990886749809',
+    Name: 'data2新兵',
+    time: 1463726088390 },
+  { DocIndex: 'doc_6218856095735865',
+    Name: '无线定位接口文档',
+    time: 1463715630783 } ]
+[2016-05-20 14:41:09.696] [INFO] console - [ { DocIndex: 'doc_5407990886749809',
+    Name: 'data2新兵',
+    time: 1463726088390 },
+  { DocIndex: 'doc_6218856095735865',
+    Name: '无线定位接口文档',
+    time: 1463715630783 },
+  { DocIndex: 'doc_9274099563009028',
+    Name: '干哈',
+    time: 1463726440460 } ]
+[2016-05-20 14:41:09.700] [INFO] console - [ { DocIndex: 'doc_5407990886749809',
+    Name: 'data2新兵',
+    time: 1463726088390 },
+  { DocIndex: 'doc_6218856095735865',
+    Name: '无线定位接口文档',
+    time: 1463715630783 },
+  { DocIndex: 'doc_9274099563009028',
+    Name: '干哈',
+    time: 1463726440460 },
+  { DocIndex: '123456', Name: '文档管理微服务', time: 1463715493556 } ]
+[2016-05-20 14:41:09.702] [INFO] console - {"doclist":[{"DocIndex":"doc_5407990886749809","Name":"data2新兵","time":1463726088390},{"DocIndex":"doc_6218856095735865","Name":"无线定位接口文档","time":1463715630783},{"DocIndex":"doc_9274099563009028","Name":"干哈","time":1463726440460},{"DocIndex":"123456","Name":"文档管理微服务","time":1463715493556}],"retCode":0}
+[2016-05-20 14:41:09.730] [INFO] console - { url: '/getdocapi?DocIndex=doc_5407990886749809',
+  method: 'GET',
+  headers: 
+   { host: 'localhost:3005',
+     connection: 'keep-alive',
+     accept: 'application/json, text/javascript, */*; q=0.01',
+     'x-requested-with': 'XMLHttpRequest',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36',
+     referer: 'http://localhost:3005/api/index.html',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'zh-CN,zh;q=0.8' },
+  cookies: {},
+  session: undefined,
+  action: 'getDoc',
+  DocIndex: 'doc_5407990886749809' }
+[2016-05-20 14:41:09.733] [INFO] console - getwebdocNew  odata
+[2016-05-20 14:41:09.733] [INFO] console - {"url":"/getdocapi?DocIndex=doc_5407990886749809","method":"GET","headers":{"host":"localhost:3005","connection":"keep-alive","accept":"application/json, text/javascript, */*; q=0.01","x-requested-with":"XMLHttpRequest","user-agent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36","referer":"http://localhost:3005/api/index.html","accept-encoding":"gzip, deflate, sdch","accept-language":"zh-CN,zh;q=0.8"},"cookies":{},"action":"getDoc","DocIndex":"doc_5407990886749809"}
+[2016-05-20 14:41:09.738] [INFO] console - get doc success
+[2016-05-20 14:41:11.249] [INFO] console - { url: '/getdocapi?DocIndex=doc_9274099563009028',
+  method: 'GET',
+  headers: 
+   { host: 'localhost:3005',
+     connection: 'keep-alive',
+     accept: 'application/json, text/javascript, */*; q=0.01',
+     'x-requested-with': 'XMLHttpRequest',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36',
+     referer: 'http://localhost:3005/api/index.html',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'zh-CN,zh;q=0.8' },
+  cookies: {},
+  session: undefined,
+  action: 'getDoc',
+  DocIndex: 'doc_9274099563009028' }
+[2016-05-20 14:41:11.252] [INFO] console - getwebdocNew  odata
+[2016-05-20 14:41:11.253] [INFO] console - {"url":"/getdocapi?DocIndex=doc_9274099563009028","method":"GET","headers":{"host":"localhost:3005","connection":"keep-alive","accept":"application/json, text/javascript, */*; q=0.01","x-requested-with":"XMLHttpRequest","user-agent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36","referer":"http://localhost:3005/api/index.html","accept-encoding":"gzip, deflate, sdch","accept-language":"zh-CN,zh;q=0.8"},"cookies":{},"action":"getDoc","DocIndex":"doc_9274099563009028"}
+[2016-05-20 14:41:11.260] [INFO] console - get doc success
+[2016-05-20 14:42:15.065] [INFO] console - addwebdocnew[object Object]
+[2016-05-20 14:42:15.066] [INFO] console - {"Name":"干哈","DocIndex":"doc_9274099563009028","AllItems":[{"SubItem":"yuan","ItemName":"type","Path":"/url/aa","Method":"Get","Parameters":[{"name":"nem","description":"去死"}],"Return":"{\n    \"aaa\":\"ssss\"\n}\n","Error":[{"name":"0","description":"正确"}]}],"retcode":0}
+[2016-05-20 14:42:15.088] [INFO] console - { url: '/getdocapi?DocIndex=doc_9274099563009028',
+  method: 'GET',
+  headers: 
+   { host: 'localhost:3005',
+     connection: 'keep-alive',
+     accept: 'application/json, text/javascript, */*; q=0.01',
+     'x-requested-with': 'XMLHttpRequest',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36',
+     referer: 'http://localhost:3005/api/index.html',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'zh-CN,zh;q=0.8' },
+  cookies: {},
+  session: undefined,
+  action: 'getDoc',
+  DocIndex: 'doc_9274099563009028' }
+[2016-05-20 14:42:15.100] [INFO] console - getwebdocNew  odata
+[2016-05-20 14:42:15.101] [INFO] console - {"url":"/getdocapi?DocIndex=doc_9274099563009028","method":"GET","headers":{"host":"localhost:3005","connection":"keep-alive","accept":"application/json, text/javascript, */*; q=0.01","x-requested-with":"XMLHttpRequest","user-agent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36","referer":"http://localhost:3005/api/index.html","accept-encoding":"gzip, deflate, sdch","accept-language":"zh-CN,zh;q=0.8"},"cookies":{},"action":"getDoc","DocIndex":"doc_9274099563009028"}
+[2016-05-20 14:42:15.111] [INFO] console - get doc success
+[2016-05-20 14:42:17.789] [INFO] console - { url: '/getdoclist',
+  method: 'GET',
+  headers: 
+   { host: 'localhost:3005',
+     connection: 'keep-alive',
+     'cache-control': 'max-age=0',
+     accept: 'application/json, text/javascript, */*; q=0.01',
+     'x-requested-with': 'XMLHttpRequest',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36',
+     referer: 'http://localhost:3005/api/index.html',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'zh-CN,zh;q=0.8' },
+  cookies: {},
+  session: undefined,
+  action: 'getdoclist' }
+[2016-05-20 14:42:17.820] [INFO] console - [ { DocIndex: 'doc_9274099563009028',
+    Name: '干哈',
+    time: 1463726440460 } ]
+[2016-05-20 14:42:17.821] [INFO] console - [ { DocIndex: 'doc_9274099563009028',
+    Name: '干哈',
+    time: 1463726440460 },
+  { DocIndex: '123456', Name: '文档管理微服务', time: 1463715493556 } ]
+[2016-05-20 14:42:17.829] [INFO] console - [ { DocIndex: 'doc_9274099563009028',
+    Name: '干哈',
+    time: 1463726440460 },
+  { DocIndex: '123456', Name: '文档管理微服务', time: 1463715493556 },
+  { DocIndex: 'doc_5407990886749809',
+    Name: 'data2新兵',
+    time: 1463726088390 } ]
+[2016-05-20 14:42:17.832] [INFO] console - [ { DocIndex: 'doc_9274099563009028',
+    Name: '干哈',
+    time: 1463726440460 },
+  { DocIndex: '123456', Name: '文档管理微服务', time: 1463715493556 },
+  { DocIndex: 'doc_5407990886749809',
+    Name: 'data2新兵',
+    time: 1463726088390 },
+  { DocIndex: 'doc_6218856095735865',
+    Name: '无线定位接口文档',
+    time: 1463715630783 } ]
+[2016-05-20 14:42:17.837] [INFO] console - {"doclist":[{"DocIndex":"doc_9274099563009028","Name":"干哈","time":1463726440460},{"DocIndex":"123456","Name":"文档管理微服务","time":1463715493556},{"DocIndex":"doc_5407990886749809","Name":"data2新兵","time":1463726088390},{"DocIndex":"doc_6218856095735865","Name":"无线定位接口文档","time":1463715630783}],"retCode":0}
+[2016-05-20 14:42:17.877] [INFO] console - { url: '/getdocapi?DocIndex=doc_9274099563009028',
+  method: 'GET',
+  headers: 
+   { host: 'localhost:3005',
+     connection: 'keep-alive',
+     accept: 'application/json, text/javascript, */*; q=0.01',
+     'x-requested-with': 'XMLHttpRequest',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36',
+     referer: 'http://localhost:3005/api/index.html',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'zh-CN,zh;q=0.8' },
+  cookies: {},
+  session: undefined,
+  action: 'getDoc',
+  DocIndex: 'doc_9274099563009028' }
+[2016-05-20 14:42:17.879] [INFO] console - getwebdocNew  odata
+[2016-05-20 14:42:17.879] [INFO] console - {"url":"/getdocapi?DocIndex=doc_9274099563009028","method":"GET","headers":{"host":"localhost:3005","connection":"keep-alive","accept":"application/json, text/javascript, */*; q=0.01","x-requested-with":"XMLHttpRequest","user-agent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36","referer":"http://localhost:3005/api/index.html","accept-encoding":"gzip, deflate, sdch","accept-language":"zh-CN,zh;q=0.8"},"cookies":{},"action":"getDoc","DocIndex":"doc_9274099563009028"}
+[2016-05-20 14:42:17.885] [INFO] console - get doc success
+[2016-05-20 14:45:54.529] [INFO] console - Fri May 20 2016 14:45:54 GMT+0800 (中国标准时间)doc server use http/https port 3005/3006
+[2016-05-20 14:45:54.591] [INFO] console - Fri May 20 2016 14:45:54 GMT+0800 (中国标准时间) doc server start http server and listen on: {"address":"::","family":"IPv6","port":3005}
+[2016-05-20 14:45:54.593] [INFO] console - Fri May 20 2016 14:45:54 GMT+0800 (中国标准时间) doc server start https server and listen on: {"address":"::","family":"IPv6","port":3006}
+[2016-05-20 14:45:54.649] [INFO] console - Fri May 20 2016 14:45:54 GMT+0800 (中国标准时间) Connect to mongoose success: mongodb://127.0.0.1:27017/webdoc_db
+[2016-05-20 14:46:40.828] [INFO] console - addwebdocnew[object Object]
+[2016-05-20 14:46:40.829] [INFO] console - {"Name":"干哈","DocIndex":"doc_9274099563009028","AllItems":[{"SubItem":"啊啊啊","ItemName":"啊啊啊啊","Path":"啊啊啊","Method":"Get","Parameters":[{"name":"啊啊","description":"啊啊"}],"Return":"{\n    \"name\":\"ssss\"\n}\n","Error":[{"name":"sss","description":"sss"}]}],"retcode":0}
+[2016-05-20 14:46:40.846] [INFO] console - [ { _id: 'doc_9274099563009028', time: 1463726440460 } ]
+[2016-05-20 14:46:40.862] [INFO] console - time doc_9274099563009028
+[2016-05-20 14:46:40.862] [INFO] console - oUpdate {"Name":"干哈","DocIndex":"doc_9274099563009028","AllItems":[{"SubItem":"啊啊啊","ItemName":"啊啊啊啊","Path":"啊啊啊","Method":"Get","Parameters":[{"name":"啊啊","description":"啊啊"}],"Return":"{\n    \"name\":\"ssss\"\n}\n","Error":[{"name":"sss","description":"sss"}]}],"time":1463726800861}
+[2016-05-20 14:46:40.983] [INFO] console - getwebdocNew  odata
+[2016-05-20 14:46:40.984] [INFO] console - {"url":"/getdocapi?DocIndex=doc_9274099563009028","method":"GET","headers":{"host":"localhost:3005","connection":"keep-alive","accept":"application/json, text/javascript, */*; q=0.01","x-requested-with":"XMLHttpRequest","user-agent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36","referer":"http://localhost:3005/api/index.html","accept-encoding":"gzip, deflate, sdch","accept-language":"zh-CN,zh;q=0.8"},"cookies":{},"action":"getDoc","DocIndex":"doc_9274099563009028"}
+[2016-05-20 14:46:40.995] [INFO] console - get doc success
+[2016-05-20 14:46:57.637] [INFO] console - getwebdocNew  odata
+[2016-05-20 14:46:57.638] [INFO] console - {"url":"/getdocapi?DocIndex=123456","method":"GET","headers":{"host":"localhost:3005","connection":"keep-alive","accept":"application/json, text/javascript, */*; q=0.01","x-requested-with":"XMLHttpRequest","user-agent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36","referer":"http://localhost:3005/api/index.html","accept-encoding":"gzip, deflate, sdch","accept-language":"zh-CN,zh;q=0.8"},"cookies":{},"action":"getDoc","DocIndex":"123456"}
+[2016-05-20 14:46:57.666] [INFO] console - get doc success
+[2016-05-20 14:47:04.778] [INFO] console - getwebdocNew  odata
+[2016-05-20 14:47:04.782] [INFO] console - {"url":"/getdocapi?DocIndex=doc_5407990886749809","method":"GET","headers":{"host":"localhost:3005","connection":"keep-alive","accept":"application/json, text/javascript, */*; q=0.01","x-requested-with":"XMLHttpRequest","user-agent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36","referer":"http://localhost:3005/api/index.html","accept-encoding":"gzip, deflate, sdch","accept-language":"zh-CN,zh;q=0.8"},"cookies":{},"action":"getDoc","DocIndex":"doc_5407990886749809"}
+[2016-05-20 14:47:04.794] [INFO] console - get doc success
+[2016-05-20 14:47:08.123] [INFO] console - { url: '/getdoclist',
+  method: 'GET',
+  headers: 
+   { host: 'localhost:3005',
+     connection: 'keep-alive',
+     'cache-control': 'max-age=0',
+     accept: 'application/json, text/javascript, */*; q=0.01',
+     'x-requested-with': 'XMLHttpRequest',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36',
+     referer: 'http://localhost:3005/api/index.html',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'zh-CN,zh;q=0.8' },
+  cookies: {},
+  session: undefined,
+  action: 'getdoclist' }
+[2016-05-20 14:47:08.181] [INFO] console - [ { DocIndex: 'doc_5407990886749809',
+    Name: 'data2新兵',
+    time: 1463726088390 } ]
+[2016-05-20 14:47:08.184] [INFO] console - [ { DocIndex: 'doc_5407990886749809',
+    Name: 'data2新兵',
+    time: 1463726088390 },
+  { DocIndex: 'doc_6218856095735865',
+    Name: '无线定位接口文档',
+    time: 1463715630783 } ]
+[2016-05-20 14:47:08.185] [INFO] console - [ { DocIndex: 'doc_5407990886749809',
+    Name: 'data2新兵',
+    time: 1463726088390 },
+  { DocIndex: 'doc_6218856095735865',
+    Name: '无线定位接口文档',
+    time: 1463715630783 },
+  { DocIndex: 'doc_9274099563009028',
+    Name: '干哈',
+    time: 1463726800861 } ]
+[2016-05-20 14:47:08.190] [INFO] console - [ { DocIndex: 'doc_5407990886749809',
+    Name: 'data2新兵',
+    time: 1463726088390 },
+  { DocIndex: 'doc_6218856095735865',
+    Name: '无线定位接口文档',
+    time: 1463715630783 },
+  { DocIndex: 'doc_9274099563009028',
+    Name: '干哈',
+    time: 1463726800861 },
+  { DocIndex: '123456', Name: '文档管理微服务', time: 1463715493556 } ]
+[2016-05-20 14:47:08.192] [INFO] console - {"doclist":[{"DocIndex":"doc_5407990886749809","Name":"data2新兵","time":1463726088390},{"DocIndex":"doc_6218856095735865","Name":"无线定位接口文档","time":1463715630783},{"DocIndex":"doc_9274099563009028","Name":"干哈","time":1463726800861},{"DocIndex":"123456","Name":"文档管理微服务","time":1463715493556}],"retCode":0}
+[2016-05-20 14:47:08.233] [INFO] console - getwebdocNew  odata
+[2016-05-20 14:47:08.234] [INFO] console - {"url":"/getdocapi?DocIndex=doc_5407990886749809","method":"GET","headers":{"host":"localhost:3005","connection":"keep-alive","accept":"application/json, text/javascript, */*; q=0.01","x-requested-with":"XMLHttpRequest","user-agent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36","referer":"http://localhost:3005/api/index.html","accept-encoding":"gzip, deflate, sdch","accept-language":"zh-CN,zh;q=0.8"},"cookies":{},"action":"getDoc","DocIndex":"doc_5407990886749809"}
+[2016-05-20 14:47:08.241] [INFO] console - get doc success
+[2016-05-20 14:47:11.940] [INFO] console - { url: '/getdoclist',
+  method: 'GET',
+  headers: 
+   { host: 'localhost:3005',
+     connection: 'keep-alive',
+     'cache-control': 'max-age=0',
+     accept: 'application/json, text/javascript, */*; q=0.01',
+     'x-requested-with': 'XMLHttpRequest',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36',
+     referer: 'http://localhost:3005/api/index.html',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'zh-CN,zh;q=0.8' },
+  cookies: {},
+  session: undefined,
+  action: 'getdoclist' }
+[2016-05-20 14:47:11.958] [INFO] console - [ { DocIndex: 'doc_5407990886749809',
+    Name: 'data2新兵',
+    time: 1463726088390 } ]
+[2016-05-20 14:47:11.961] [INFO] console - [ { DocIndex: 'doc_5407990886749809',
+    Name: 'data2新兵',
+    time: 1463726088390 },
+  { DocIndex: 'doc_9274099563009028',
+    Name: '干哈',
+    time: 1463726800861 } ]
+[2016-05-20 14:47:11.964] [INFO] console - [ { DocIndex: 'doc_5407990886749809',
+    Name: 'data2新兵',
+    time: 1463726088390 },
+  { DocIndex: 'doc_9274099563009028',
+    Name: '干哈',
+    time: 1463726800861 },
+  { DocIndex: '123456', Name: '文档管理微服务', time: 1463715493556 } ]
+[2016-05-20 14:47:11.968] [INFO] console - [ { DocIndex: 'doc_5407990886749809',
+    Name: 'data2新兵',
+    time: 1463726088390 },
+  { DocIndex: 'doc_9274099563009028',
+    Name: '干哈',
+    time: 1463726800861 },
+  { DocIndex: '123456', Name: '文档管理微服务', time: 1463715493556 },
+  { DocIndex: 'doc_6218856095735865',
+    Name: '无线定位接口文档',
+    time: 1463715630783 } ]
+[2016-05-20 14:47:11.969] [INFO] console - {"doclist":[{"DocIndex":"doc_5407990886749809","Name":"data2新兵","time":1463726088390},{"DocIndex":"doc_9274099563009028","Name":"干哈","time":1463726800861},{"DocIndex":"123456","Name":"文档管理微服务","time":1463715493556},{"DocIndex":"doc_6218856095735865","Name":"无线定位接口文档","time":1463715630783}],"retCode":0}
+[2016-05-20 14:47:11.995] [INFO] console - getwebdocNew  odata
+[2016-05-20 14:47:11.996] [INFO] console - {"url":"/getdocapi?DocIndex=doc_5407990886749809","method":"GET","headers":{"host":"localhost:3005","connection":"keep-alive","accept":"application/json, text/javascript, */*; q=0.01","x-requested-with":"XMLHttpRequest","user-agent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36","referer":"http://localhost:3005/api/index.html","accept-encoding":"gzip, deflate, sdch","accept-language":"zh-CN,zh;q=0.8"},"cookies":{},"action":"getDoc","DocIndex":"doc_5407990886749809"}
+[2016-05-20 14:47:12.003] [INFO] console - get doc success
+[2016-05-20 14:47:14.434] [INFO] console - getwebdocNew  odata
+[2016-05-20 14:47:14.435] [INFO] console - {"url":"/getdocapi?DocIndex=doc_9274099563009028","method":"GET","headers":{"host":"localhost:3005","connection":"keep-alive","accept":"application/json, text/javascript, */*; q=0.01","x-requested-with":"XMLHttpRequest","user-agent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36","referer":"http://localhost:3005/api/index.html","accept-encoding":"gzip, deflate, sdch","accept-language":"zh-CN,zh;q=0.8"},"cookies":{},"action":"getDoc","DocIndex":"doc_9274099563009028"}
+[2016-05-20 14:47:14.440] [INFO] console - get doc success
+[2016-05-20 14:47:15.719] [INFO] console - { url: '/getdoclist',
+  method: 'GET',
+  headers: 
+   { host: 'localhost:3005',
+     connection: 'keep-alive',
+     'cache-control': 'max-age=0',
+     accept: 'application/json, text/javascript, */*; q=0.01',
+     'x-requested-with': 'XMLHttpRequest',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36',
+     referer: 'http://localhost:3005/api/index.html',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'zh-CN,zh;q=0.8' },
+  cookies: {},
+  session: undefined,
+  action: 'getdoclist' }
+[2016-05-20 14:47:15.743] [INFO] console - [ { DocIndex: 'doc_6218856095735865',
+    Name: '无线定位接口文档',
+    time: 1463715630783 } ]
+[2016-05-20 14:47:15.745] [INFO] console - [ { DocIndex: 'doc_6218856095735865',
+    Name: '无线定位接口文档',
+    time: 1463715630783 },
+  { DocIndex: 'doc_9274099563009028',
+    Name: '干哈',
+    time: 1463726800861 } ]
+[2016-05-20 14:47:15.762] [INFO] console - [ { DocIndex: 'doc_6218856095735865',
+    Name: '无线定位接口文档',
+    time: 1463715630783 },
+  { DocIndex: 'doc_9274099563009028',
+    Name: '干哈',
+    time: 1463726800861 },
+  { DocIndex: 'doc_5407990886749809',
+    Name: 'data2新兵',
+    time: 1463726088390 } ]
+[2016-05-20 14:47:15.766] [INFO] console - [ { DocIndex: 'doc_6218856095735865',
+    Name: '无线定位接口文档',
+    time: 1463715630783 },
+  { DocIndex: 'doc_9274099563009028',
+    Name: '干哈',
+    time: 1463726800861 },
+  { DocIndex: 'doc_5407990886749809',
+    Name: 'data2新兵',
+    time: 1463726088390 },
+  { DocIndex: '123456', Name: '文档管理微服务', time: 1463715493556 } ]
+[2016-05-20 14:47:15.770] [INFO] console - {"doclist":[{"DocIndex":"doc_6218856095735865","Name":"无线定位接口文档","time":1463715630783},{"DocIndex":"doc_9274099563009028","Name":"干哈","time":1463726800861},{"DocIndex":"doc_5407990886749809","Name":"data2新兵","time":1463726088390},{"DocIndex":"123456","Name":"文档管理微服务","time":1463715493556}],"retCode":0}
+[2016-05-20 14:47:15.811] [INFO] console - getwebdocNew  odata
+[2016-05-20 14:47:15.811] [INFO] console - {"url":"/getdocapi?DocIndex=doc_6218856095735865","method":"GET","headers":{"host":"localhost:3005","connection":"keep-alive","accept":"application/json, text/javascript, */*; q=0.01","x-requested-with":"XMLHttpRequest","user-agent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36","referer":"http://localhost:3005/api/index.html","accept-encoding":"gzip, deflate, sdch","accept-language":"zh-CN,zh;q=0.8"},"cookies":{},"action":"getDoc","DocIndex":"doc_6218856095735865"}
+[2016-05-20 14:47:15.820] [INFO] console - get doc success
+[2016-05-20 14:47:18.648] [INFO] console - { url: '/getdoclist',
+  method: 'GET',
+  headers: 
+   { host: 'localhost:3005',
+     connection: 'keep-alive',
+     'cache-control': 'max-age=0',
+     accept: 'application/json, text/javascript, */*; q=0.01',
+     'x-requested-with': 'XMLHttpRequest',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36',
+     referer: 'http://localhost:3005/api/index.html',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'zh-CN,zh;q=0.8' },
+  cookies: {},
+  session: undefined,
+  action: 'getdoclist' }
+[2016-05-20 14:47:18.670] [INFO] console - [ { DocIndex: '123456', Name: '文档管理微服务', time: 1463715493556 } ]
+[2016-05-20 14:47:18.673] [INFO] console - [ { DocIndex: '123456', Name: '文档管理微服务', time: 1463715493556 },
+  { DocIndex: 'doc_5407990886749809',
+    Name: 'data2新兵',
+    time: 1463726088390 } ]
+[2016-05-20 14:47:18.680] [INFO] console - [ { DocIndex: '123456', Name: '文档管理微服务', time: 1463715493556 },
+  { DocIndex: 'doc_5407990886749809',
+    Name: 'data2新兵',
+    time: 1463726088390 },
+  { DocIndex: 'doc_6218856095735865',
+    Name: '无线定位接口文档',
+    time: 1463715630783 } ]
+[2016-05-20 14:47:18.687] [INFO] console - [ { DocIndex: '123456', Name: '文档管理微服务', time: 1463715493556 },
+  { DocIndex: 'doc_5407990886749809',
+    Name: 'data2新兵',
+    time: 1463726088390 },
+  { DocIndex: 'doc_6218856095735865',
+    Name: '无线定位接口文档',
+    time: 1463715630783 },
+  { DocIndex: 'doc_9274099563009028',
+    Name: '干哈',
+    time: 1463726800861 } ]
+[2016-05-20 14:47:18.692] [INFO] console - {"doclist":[{"DocIndex":"123456","Name":"文档管理微服务","time":1463715493556},{"DocIndex":"doc_5407990886749809","Name":"data2新兵","time":1463726088390},{"DocIndex":"doc_6218856095735865","Name":"无线定位接口文档","time":1463715630783},{"DocIndex":"doc_9274099563009028","Name":"干哈","time":1463726800861}],"retCode":0}
+[2016-05-20 14:47:18.725] [INFO] console - getwebdocNew  odata
+[2016-05-20 14:47:18.726] [INFO] console - {"url":"/getdocapi?DocIndex=123456","method":"GET","headers":{"host":"localhost:3005","connection":"keep-alive","accept":"application/json, text/javascript, */*; q=0.01","x-requested-with":"XMLHttpRequest","user-agent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36","referer":"http://localhost:3005/api/index.html","accept-encoding":"gzip, deflate, sdch","accept-language":"zh-CN,zh;q=0.8"},"cookies":{},"action":"getDoc","DocIndex":"123456"}
+[2016-05-20 14:47:18.739] [INFO] console - get doc success
+[2016-05-20 14:47:22.027] [INFO] console - { url: '/getdoclist',
+  method: 'GET',
+  headers: 
+   { host: 'localhost:3005',
+     connection: 'keep-alive',
+     'cache-control': 'max-age=0',
+     accept: 'application/json, text/javascript, */*; q=0.01',
+     'x-requested-with': 'XMLHttpRequest',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36',
+     referer: 'http://localhost:3005/api/index.html',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'zh-CN,zh;q=0.8' },
+  cookies: {},
+  session: undefined,
+  action: 'getdoclist' }
+[2016-05-20 14:47:22.054] [INFO] console - [ { DocIndex: 'doc_5407990886749809',
+    Name: 'data2新兵',
+    time: 1463726088390 } ]
+[2016-05-20 14:47:22.056] [INFO] console - [ { DocIndex: 'doc_5407990886749809',
+    Name: 'data2新兵',
+    time: 1463726088390 },
+  { DocIndex: 'doc_6218856095735865',
+    Name: '无线定位接口文档',
+    time: 1463715630783 } ]
+[2016-05-20 14:47:22.057] [INFO] console - [ { DocIndex: 'doc_5407990886749809',
+    Name: 'data2新兵',
+    time: 1463726088390 },
+  { DocIndex: 'doc_6218856095735865',
+    Name: '无线定位接口文档',
+    time: 1463715630783 },
+  { DocIndex: 'doc_9274099563009028',
+    Name: '干哈',
+    time: 1463726800861 } ]
+[2016-05-20 14:47:22.063] [INFO] console - [ { DocIndex: 'doc_5407990886749809',
+    Name: 'data2新兵',
+    time: 1463726088390 },
+  { DocIndex: 'doc_6218856095735865',
+    Name: '无线定位接口文档',
+    time: 1463715630783 },
+  { DocIndex: 'doc_9274099563009028',
+    Name: '干哈',
+    time: 1463726800861 },
+  { DocIndex: '123456', Name: '文档管理微服务', time: 1463715493556 } ]
+[2016-05-20 14:47:22.065] [INFO] console - {"doclist":[{"DocIndex":"doc_5407990886749809","Name":"data2新兵","time":1463726088390},{"DocIndex":"doc_6218856095735865","Name":"无线定位接口文档","time":1463715630783},{"DocIndex":"doc_9274099563009028","Name":"干哈","time":1463726800861},{"DocIndex":"123456","Name":"文档管理微服务","time":1463715493556}],"retCode":0}
+[2016-05-20 14:47:22.105] [INFO] console - getwebdocNew  odata
+[2016-05-20 14:47:22.105] [INFO] console - {"url":"/getdocapi?DocIndex=doc_5407990886749809","method":"GET","headers":{"host":"localhost:3005","connection":"keep-alive","accept":"application/json, text/javascript, */*; q=0.01","x-requested-with":"XMLHttpRequest","user-agent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36","referer":"http://localhost:3005/api/index.html","accept-encoding":"gzip, deflate, sdch","accept-language":"zh-CN,zh;q=0.8"},"cookies":{},"action":"getDoc","DocIndex":"doc_5407990886749809"}
+[2016-05-20 14:47:22.111] [INFO] console - get doc success
+[2016-05-20 14:47:23.251] [INFO] console - { url: '/getdoclist',
+  method: 'GET',
+  headers: 
+   { host: 'localhost:3005',
+     connection: 'keep-alive',
+     'cache-control': 'max-age=0',
+     accept: 'application/json, text/javascript, */*; q=0.01',
+     'x-requested-with': 'XMLHttpRequest',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36',
+     referer: 'http://localhost:3005/api/index.html',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'zh-CN,zh;q=0.8' },
+  cookies: {},
+  session: undefined,
+  action: 'getdoclist' }
+[2016-05-20 14:47:23.265] [INFO] console - [ { DocIndex: 'doc_5407990886749809',
+    Name: 'data2新兵',
+    time: 1463726088390 } ]
+[2016-05-20 14:47:23.267] [INFO] console - [ { DocIndex: 'doc_5407990886749809',
+    Name: 'data2新兵',
+    time: 1463726088390 },
+  { DocIndex: 'doc_6218856095735865',
+    Name: '无线定位接口文档',
+    time: 1463715630783 } ]
+[2016-05-20 14:47:23.268] [INFO] console - [ { DocIndex: 'doc_5407990886749809',
+    Name: 'data2新兵',
+    time: 1463726088390 },
+  { DocIndex: 'doc_6218856095735865',
+    Name: '无线定位接口文档',
+    time: 1463715630783 },
+  { DocIndex: 'doc_9274099563009028',
+    Name: '干哈',
+    time: 1463726800861 } ]
+[2016-05-20 14:47:23.270] [INFO] console - [ { DocIndex: 'doc_5407990886749809',
+    Name: 'data2新兵',
+    time: 1463726088390 },
+  { DocIndex: 'doc_6218856095735865',
+    Name: '无线定位接口文档',
+    time: 1463715630783 },
+  { DocIndex: 'doc_9274099563009028',
+    Name: '干哈',
+    time: 1463726800861 },
+  { DocIndex: '123456', Name: '文档管理微服务', time: 1463715493556 } ]
+[2016-05-20 14:47:23.272] [INFO] console - {"doclist":[{"DocIndex":"doc_5407990886749809","Name":"data2新兵","time":1463726088390},{"DocIndex":"doc_6218856095735865","Name":"无线定位接口文档","time":1463715630783},{"DocIndex":"doc_9274099563009028","Name":"干哈","time":1463726800861},{"DocIndex":"123456","Name":"文档管理微服务","time":1463715493556}],"retCode":0}
+[2016-05-20 14:47:23.301] [INFO] console - getwebdocNew  odata
+[2016-05-20 14:47:23.302] [INFO] console - {"url":"/getdocapi?DocIndex=doc_5407990886749809","method":"GET","headers":{"host":"localhost:3005","connection":"keep-alive","accept":"application/json, text/javascript, */*; q=0.01","x-requested-with":"XMLHttpRequest","user-agent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36","referer":"http://localhost:3005/api/index.html","accept-encoding":"gzip, deflate, sdch","accept-language":"zh-CN,zh;q=0.8"},"cookies":{},"action":"getDoc","DocIndex":"doc_5407990886749809"}
+[2016-05-20 14:47:23.308] [INFO] console - get doc success
+[2016-05-20 14:47:24.339] [INFO] console - { url: '/getdoclist',
+  method: 'GET',
+  headers: 
+   { host: 'localhost:3005',
+     connection: 'keep-alive',
+     'cache-control': 'max-age=0',
+     accept: 'application/json, text/javascript, */*; q=0.01',
+     'x-requested-with': 'XMLHttpRequest',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36',
+     referer: 'http://localhost:3005/api/index.html',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'zh-CN,zh;q=0.8' },
+  cookies: {},
+  session: undefined,
+  action: 'getdoclist' }
+[2016-05-20 14:47:24.353] [INFO] console - [ { DocIndex: 'doc_5407990886749809',
+    Name: 'data2新兵',
+    time: 1463726088390 } ]
+[2016-05-20 14:47:24.353] [INFO] console - [ { DocIndex: 'doc_5407990886749809',
+    Name: 'data2新兵',
+    time: 1463726088390 },
+  { DocIndex: 'doc_6218856095735865',
+    Name: '无线定位接口文档',
+    time: 1463715630783 } ]
+[2016-05-20 14:47:24.357] [INFO] console - [ { DocIndex: 'doc_5407990886749809',
+    Name: 'data2新兵',
+    time: 1463726088390 },
+  { DocIndex: 'doc_6218856095735865',
+    Name: '无线定位接口文档',
+    time: 1463715630783 },
+  { DocIndex: 'doc_9274099563009028',
+    Name: '干哈',
+    time: 1463726800861 } ]
+[2016-05-20 14:47:24.358] [INFO] console - [ { DocIndex: 'doc_5407990886749809',
+    Name: 'data2新兵',
+    time: 1463726088390 },
+  { DocIndex: 'doc_6218856095735865',
+    Name: '无线定位接口文档',
+    time: 1463715630783 },
+  { DocIndex: 'doc_9274099563009028',
+    Name: '干哈',
+    time: 1463726800861 },
+  { DocIndex: '123456', Name: '文档管理微服务', time: 1463715493556 } ]
+[2016-05-20 14:47:24.359] [INFO] console - {"doclist":[{"DocIndex":"doc_5407990886749809","Name":"data2新兵","time":1463726088390},{"DocIndex":"doc_6218856095735865","Name":"无线定位接口文档","time":1463715630783},{"DocIndex":"doc_9274099563009028","Name":"干哈","time":1463726800861},{"DocIndex":"123456","Name":"文档管理微服务","time":1463715493556}],"retCode":0}
+[2016-05-20 14:47:24.406] [INFO] console - getwebdocNew  odata
+[2016-05-20 14:47:24.407] [INFO] console - {"url":"/getdocapi?DocIndex=doc_5407990886749809","method":"GET","headers":{"host":"localhost:3005","connection":"keep-alive","accept":"application/json, text/javascript, */*; q=0.01","x-requested-with":"XMLHttpRequest","user-agent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36","referer":"http://localhost:3005/api/index.html","accept-encoding":"gzip, deflate, sdch","accept-language":"zh-CN,zh;q=0.8"},"cookies":{},"action":"getDoc","DocIndex":"doc_5407990886749809"}
+[2016-05-20 14:47:24.413] [INFO] console - get doc success
+[2016-05-20 14:47:25.331] [INFO] console - { url: '/getdoclist',
+  method: 'GET',
+  headers: 
+   { host: 'localhost:3005',
+     connection: 'keep-alive',
+     'cache-control': 'max-age=0',
+     accept: 'application/json, text/javascript, */*; q=0.01',
+     'x-requested-with': 'XMLHttpRequest',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36',
+     referer: 'http://localhost:3005/api/index.html',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'zh-CN,zh;q=0.8' },
+  cookies: {},
+  session: undefined,
+  action: 'getdoclist' }
+[2016-05-20 14:47:25.344] [INFO] console - [ { DocIndex: 'doc_5407990886749809',
+    Name: 'data2新兵',
+    time: 1463726088390 } ]
+[2016-05-20 14:47:25.346] [INFO] console - [ { DocIndex: 'doc_5407990886749809',
+    Name: 'data2新兵',
+    time: 1463726088390 },
+  { DocIndex: 'doc_6218856095735865',
+    Name: '无线定位接口文档',
+    time: 1463715630783 } ]
+[2016-05-20 14:47:25.350] [INFO] console - [ { DocIndex: 'doc_5407990886749809',
+    Name: 'data2新兵',
+    time: 1463726088390 },
+  { DocIndex: 'doc_6218856095735865',
+    Name: '无线定位接口文档',
+    time: 1463715630783 },
+  { DocIndex: '123456', Name: '文档管理微服务', time: 1463715493556 } ]
+[2016-05-20 14:47:25.363] [INFO] console - [ { DocIndex: 'doc_5407990886749809',
+    Name: 'data2新兵',
+    time: 1463726088390 },
+  { DocIndex: 'doc_6218856095735865',
+    Name: '无线定位接口文档',
+    time: 1463715630783 },
+  { DocIndex: '123456', Name: '文档管理微服务', time: 1463715493556 },
+  { DocIndex: 'doc_9274099563009028',
+    Name: '干哈',
+    time: 1463726800861 } ]
+[2016-05-20 14:47:25.365] [INFO] console - {"doclist":[{"DocIndex":"doc_5407990886749809","Name":"data2新兵","time":1463726088390},{"DocIndex":"doc_6218856095735865","Name":"无线定位接口文档","time":1463715630783},{"DocIndex":"123456","Name":"文档管理微服务","time":1463715493556},{"DocIndex":"doc_9274099563009028","Name":"干哈","time":1463726800861}],"retCode":0}
+[2016-05-20 14:47:25.393] [INFO] console - getwebdocNew  odata
+[2016-05-20 14:47:25.394] [INFO] console - {"url":"/getdocapi?DocIndex=doc_5407990886749809","method":"GET","headers":{"host":"localhost:3005","connection":"keep-alive","accept":"application/json, text/javascript, */*; q=0.01","x-requested-with":"XMLHttpRequest","user-agent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36","referer":"http://localhost:3005/api/index.html","accept-encoding":"gzip, deflate, sdch","accept-language":"zh-CN,zh;q=0.8"},"cookies":{},"action":"getDoc","DocIndex":"doc_5407990886749809"}
+[2016-05-20 14:47:25.399] [INFO] console - get doc success
+[2016-05-20 14:47:26.282] [INFO] console - { url: '/getdoclist',
+  method: 'GET',
+  headers: 
+   { host: 'localhost:3005',
+     connection: 'keep-alive',
+     'cache-control': 'max-age=0',
+     accept: 'application/json, text/javascript, */*; q=0.01',
+     'x-requested-with': 'XMLHttpRequest',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36',
+     referer: 'http://localhost:3005/api/index.html',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'zh-CN,zh;q=0.8' },
+  cookies: {},
+  session: undefined,
+  action: 'getdoclist' }
+[2016-05-20 14:47:26.294] [INFO] console - [ { DocIndex: 'doc_5407990886749809',
+    Name: 'data2新兵',
+    time: 1463726088390 } ]
+[2016-05-20 14:47:26.295] [INFO] console - [ { DocIndex: 'doc_5407990886749809',
+    Name: 'data2新兵',
+    time: 1463726088390 },
+  { DocIndex: 'doc_6218856095735865',
+    Name: '无线定位接口文档',
+    time: 1463715630783 } ]
+[2016-05-20 14:47:26.295] [INFO] console - [ { DocIndex: 'doc_5407990886749809',
+    Name: 'data2新兵',
+    time: 1463726088390 },
+  { DocIndex: 'doc_6218856095735865',
+    Name: '无线定位接口文档',
+    time: 1463715630783 },
+  { DocIndex: 'doc_9274099563009028',
+    Name: '干哈',
+    time: 1463726800861 } ]
+[2016-05-20 14:47:26.298] [INFO] console - [ { DocIndex: 'doc_5407990886749809',
+    Name: 'data2新兵',
+    time: 1463726088390 },
+  { DocIndex: 'doc_6218856095735865',
+    Name: '无线定位接口文档',
+    time: 1463715630783 },
+  { DocIndex: 'doc_9274099563009028',
+    Name: '干哈',
+    time: 1463726800861 },
+  { DocIndex: '123456', Name: '文档管理微服务', time: 1463715493556 } ]
+[2016-05-20 14:47:26.300] [INFO] console - {"doclist":[{"DocIndex":"doc_5407990886749809","Name":"data2新兵","time":1463726088390},{"DocIndex":"doc_6218856095735865","Name":"无线定位接口文档","time":1463715630783},{"DocIndex":"doc_9274099563009028","Name":"干哈","time":1463726800861},{"DocIndex":"123456","Name":"文档管理微服务","time":1463715493556}],"retCode":0}
+[2016-05-20 14:47:26.334] [INFO] console - getwebdocNew  odata
+[2016-05-20 14:47:26.335] [INFO] console - {"url":"/getdocapi?DocIndex=doc_5407990886749809","method":"GET","headers":{"host":"localhost:3005","connection":"keep-alive","accept":"application/json, text/javascript, */*; q=0.01","x-requested-with":"XMLHttpRequest","user-agent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36","referer":"http://localhost:3005/api/index.html","accept-encoding":"gzip, deflate, sdch","accept-language":"zh-CN,zh;q=0.8"},"cookies":{},"action":"getDoc","DocIndex":"doc_5407990886749809"}
+[2016-05-20 14:47:26.339] [INFO] console - get doc success
+[2016-05-20 14:47:27.271] [INFO] console - { url: '/getdoclist',
+  method: 'GET',
+  headers: 
+   { host: 'localhost:3005',
+     connection: 'keep-alive',
+     'cache-control': 'max-age=0',
+     accept: 'application/json, text/javascript, */*; q=0.01',
+     'x-requested-with': 'XMLHttpRequest',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36',
+     referer: 'http://localhost:3005/api/index.html',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'zh-CN,zh;q=0.8' },
+  cookies: {},
+  session: undefined,
+  action: 'getdoclist' }
+[2016-05-20 14:47:27.283] [INFO] console - [ { DocIndex: 'doc_5407990886749809',
+    Name: 'data2新兵',
+    time: 1463726088390 } ]
+[2016-05-20 14:47:27.284] [INFO] console - [ { DocIndex: 'doc_5407990886749809',
+    Name: 'data2新兵',
+    time: 1463726088390 },
+  { DocIndex: 'doc_6218856095735865',
+    Name: '无线定位接口文档',
+    time: 1463715630783 } ]
+[2016-05-20 14:47:27.286] [INFO] console - [ { DocIndex: 'doc_5407990886749809',
+    Name: 'data2新兵',
+    time: 1463726088390 },
+  { DocIndex: 'doc_6218856095735865',
+    Name: '无线定位接口文档',
+    time: 1463715630783 },
+  { DocIndex: 'doc_9274099563009028',
+    Name: '干哈',
+    time: 1463726800861 } ]
+[2016-05-20 14:47:27.288] [INFO] console - [ { DocIndex: 'doc_5407990886749809',
+    Name: 'data2新兵',
+    time: 1463726088390 },
+  { DocIndex: 'doc_6218856095735865',
+    Name: '无线定位接口文档',
+    time: 1463715630783 },
+  { DocIndex: 'doc_9274099563009028',
+    Name: '干哈',
+    time: 1463726800861 },
+  { DocIndex: '123456', Name: '文档管理微服务', time: 1463715493556 } ]
+[2016-05-20 14:47:27.289] [INFO] console - {"doclist":[{"DocIndex":"doc_5407990886749809","Name":"data2新兵","time":1463726088390},{"DocIndex":"doc_6218856095735865","Name":"无线定位接口文档","time":1463715630783},{"DocIndex":"doc_9274099563009028","Name":"干哈","time":1463726800861},{"DocIndex":"123456","Name":"文档管理微服务","time":1463715493556}],"retCode":0}
+[2016-05-20 14:47:27.337] [INFO] console - getwebdocNew  odata
+[2016-05-20 14:47:27.338] [INFO] console - {"url":"/getdocapi?DocIndex=doc_5407990886749809","method":"GET","headers":{"host":"localhost:3005","connection":"keep-alive","accept":"application/json, text/javascript, */*; q=0.01","x-requested-with":"XMLHttpRequest","user-agent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.7 Safari/537.36","referer":"http://localhost:3005/api/index.html","accept-encoding":"gzip, deflate, sdch","accept-language":"zh-CN,zh;q=0.8"},"cookies":{},"action":"getDoc","DocIndex":"doc_5407990886749809"}
+[2016-05-20 14:47:27.343] [INFO] console - get doc success

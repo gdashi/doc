@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+         <style>
+        .bs-example > .tab-content {
+            padding: 0;
+        }
+        
+        .tab-pane:nth-of-type(3)::before,
+        .tab-pane:nth-of-type(3)::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        
+        textarea {
+            display: block;
+            width: 100%;
+        }
+		
+		h4{
+			text-align:center;
+		}
+        #dialog-test{
+        	width:215px;
+        	margin:0px auto;
+        }
+    </style>
+    </head>
+    <body>	     
+    	<div class="code-formate" id="test"></div>
+        
+        
+		<div id="dialog-test">
+			<h4>提示框</h4>
+			<button id="suc" class="btn btn-primary">成功</button>
+			<button id="fal" class="btn btn-primary">失败</button>
+		</div>
+
+    </body>
+</html>
+
+<script language="javascript" type="text/javascript">
+    Utils.Pages.loadJS("widget.dialog");
+</script>
+
+   
+
+

@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <style>
+			/*label{
+				text-align:center;
+				
+			}*/
+			/*.listHeight{
+				line-height:50px;
+				vertical-align:middle;
+			}*/	
+			/*h4{
+				font-size:16px;
+				
+			}*/
+			/*.switchMiddle{
+				margin-top:11px;
+				margin-bottom:-11px;
+			}*/
+			/*.checkMiddle{
+				margin-top:-3px;
+				
+			}
+*/
+			/*.bind{
+				display:inline-block;
+				position:absolute;
+				left:1100px;
+				top:95px;
+				cursor: pointer;
+			}*/
+			/*.modal{
+				width:560px;
+
+			}
+			.modal-footer{
+				height:60px;
+			}*/
+		</style>
+    </head>
+    <body>
+    	<div class="page-row xb">
+	        <div class="app-colum">
+	            <div class="app-box">
+	            	<!-- 标题 -->
+	                <div class="box-footer">
+	                    <span class="title">勿扰设置</span>
+	                </div>
+					<!-- 内容 -->
+	                <div class="box-body no-height">
+					
+	                    <h4 class="wechat-warning-title">微信通知</h4>
+	                    <span class="wechat-warning-bind" data-toggle="modal" data-target="#myModal">绑定说明</span>
+	                  	<div class="modal fade" id="myModal" >					     	
+				        	<div class="modal-header">
+								<h4 class="modal-title" id="myModalLabel">
+					               微信绑定流程
+					            </h4>
+				       		</div>
+
+							<div class="modal-content">
+						        <div class="modal-body">
+						            1.打开微信<br/>
+						            2.打开公众号<br/>
+						            3.扫一扫二维码
+						            <br/><br/><br/><br/><br/><br/><br/>
+						        </div>
+
+						        <div class="modal-footer">
+						            <button type="button" class="btn btn-default" 
+						               data-dismiss="modal">关闭
+						            </button>
+						         </div>
+					     	</div>
+						</div>
+					
+						
+
+	                    
+	                    
+
+	                    <hr/>
+	                        <div class="form-group">
+	                            <label class="col-sm-2 wechat-waring-label listHeight">指定通知时间</label>
+								<!-- 开关控件 -->
+	                            <div class="col-sm-10 wechat-listheight">
+	                                <div  class="switch wechat-switch">
+	                                   <input type="checkbox" id="switch" checked/>
+	                                </div>
+	                                <input id="timer" type="text" class="datetimerange" yearRangeClose="true">
+	                            </div>	                     
+	 						</div>
+	                        
+	                        <div class="form-group wechat-listheight">
+	                            <label class="col-sm-2 wechat-waring-label listHeight">单体最大条数</label>
+	                            <div class="col-sm-10 wechat-listheight">
+	                                <select class="singleSelect" name="Interface" id="Interface" placeholder="10"></select>
+	                            </div>
+	                        </div>
+	                        <br/><br/><br/>
+	                    
+				
+	                    <h4 class="wechat-warning-title">短信通知</h4>
+	                	<hr/>
+	                        <div class="form-group">
+	                            <label class="col-sm-2 wechat-waring-label listHeight">指定通知时间</label>
+	                            <div class="col-sm-10 wechat-listheight">
+	                                <div class="switch wechat-switch" >
+	                                   <input type="checkbox"  id="mesSwitch" checked/>
+	                                </div>	                             
+	                                <input id="timerTwo" type="text" class="datetimerange" yearRangeClose="true">
+	                            </div>
+	                        </div>
+	                        
+	                        <div class="form-group">
+	                            <label class="col-sm-2 wechat-waring-label listHeight">单体最大条数</label>
+	                            <div class="col-sm-10 wechat-listheight">
+	                                <select class="singleSelect" name="Interface" id="Interface" placeholder="10">
+	                               	</select>
+	                            </div>
+	                        </div>
+	                    
+	                </div>
+	            </div>
+	        </div>
+
+	        <div class="app-colum">
+	            <div class="app-box">
+	                <div class="box-footer">
+	                    <span class="title">通知设置</span>
+	                </div>
+
+	                <div class="box-body no-height">
+	                    <h4 class="wechat-warning-title">设备上下线</h4>
+	                    <hr/>
+	                	
+	                        <div class="form-group">
+	                            <label class="col-sm-2 wechat-waring-label listHeight">允许通知</label>							
+	                            <div class="col-sm-10 wechat-listheight">
+	                                <div class="switch wechat-switch" >
+	                                   <input type="checkbox"  id="switchThree" name="Switch"  checked/>
+	                                </div>
+	                            </div>
+	 						</div>
+	                        
+	                         <div class="form-group" id="noticeThree">
+	                            <label class="col-sm-2 wechat-waring-label listHeight">通知方式</label>
+	                            <div class="col-sm-10 wechat-listheight">
+	                                <div class="btn-group wechat-check" data-toggle="buttons">
+									   <label>
+									      <input type="checkbox"> 绿洲聊聊
+									   </label>
+									   <label>
+									      <input type="checkbox"> 微信
+									   </label>
+									   <label>
+									      <input type="checkbox"> 短信
+									   </label>
+									</div>
+	                            </div>
+	                        </div>
+	                        <br/><br/><br/>
+	                    
+	                    <h4 class="wechat-warning-title">AP上下线</h4>
+	                    <hr/>
+	                	
+	                        <div class="form-group">
+	                            <label class="col-sm-2 wechat-waring-label listHeight">允许通知</label> 
+	                            <div class="col-sm-10 wechat-listheight">
+	                                <div class="switch wechat-switch" >
+	                                   <input type="checkbox"  id="switchFour"  name="Switch"  checked/>
+	                                </div>
+	                            </div>
+	                        </div>
+	                        
+	                         <div class="form-group" id="noticeFour">
+	                            <label class="col-sm-2 wechat-waring-label listHeight">通知方式</label>
+								<div class="col-sm-10 wechat-listheight">
+	                                <div class="btn-group wechat-check" data-toggle="buttons">
+									   <label>
+									      <input type="checkbox"> 绿洲聊聊
+									   </label>
+									   <label>
+									      <input type="checkbox"> 微信
+									   </label>
+									   <label>
+									      <input type="checkbox"> 短信
+									   </label>
+									</div>
+	                            </div>
+	                        </div>
+	                        <br/><br/><br/>
+	                    
+
+	                    <h4 class="wechat-warning-title">设备重启</h4>
+	                	<hr/>
+	                        <div class="form-group">
+	                            <label class="col-sm-2 wechat-waring-label listHeight">允许通知</label>
+								 <div class="col-sm-10 wechat-listheight">
+	                                <div class="switch wechat-switch" >
+	                                   <input type="checkbox"  id="switchFive" name="Switch"  checked/>
+	                                </div>
+	                            </div>
+	 						</div>
+	                        
+	                         <div class="form-group" id="noticeFive">
+	                            <label class="col-sm-2 wechat-waring-label listHeight">通知方式</label>
+								<div class="col-sm-10 wechat-listheight">
+	                                <div class="btn-group wechat-check" data-toggle="buttons">
+									   <label>
+									      <input type="checkbox"> 绿洲聊聊
+									   </label>
+									   <label>
+									      <input type="checkbox"> 微信
+									   </label>
+									   <label>
+									      <input type="checkbox"> 短信
+									   </label>
+									</div>
+	                            </div>
+	                        </div>
+	                    
+	                </div>
+	        	</div>
+	        </div>
+	  	</div> 
+</body>
+</html>
+<script	language="javascript" type="text/javascript">
+    Utils.Pages.loadJS("weixinwarning.weixinwarning");
+</script>

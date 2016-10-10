@@ -1,0 +1,45 @@
+{
+    "name":"文档名",
+    "desc":"文档描述",
+    "author":"文档创建人",
+    "aggregate":[
+        {
+            "name":"地图管理",
+            "desc":"用来管理用户上传地图的微服务",
+            "items":[
+                {
+                    "name":"添加地图",
+                    "desc":"WEB向地图微服务添加地图信息接口",
+                    "author":"yuanyuekun",
+                    "path": "/v3/wloc_map",
+                    "method":"Post",
+                    "return" :{"devSN" : "123456"},
+                    "params":[
+                        {
+                         "name":"desSN",
+                         "description":"当前设备的序列号,内容为字符串"
+                        },
+                        {
+                         "name":"mapName",
+                         "description":"地图名字"
+                        },
+                        {
+                         "name":"apList",
+                         "description":"ap列表，内容为一个数组，数组的内容是一个对象"
+                        }
+                    ],
+                    "errors":[
+                        {
+                            "name":"0",
+                            "description":"添加成功"
+                         },
+                         {
+                            "name":"-1",
+                            "description":"添加失败"
+                         }
+                    ]
+                }
+            ]
+        }
+    ]
+}

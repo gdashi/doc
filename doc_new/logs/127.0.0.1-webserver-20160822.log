@@ -1,0 +1,10 @@
+[2016-08-22 20:41:36.232] [INFO] console - Mon Aug 22 2016 20:41:36 GMT+0800 (中国标准时间)doc server use http/https port 3005/3006
+[2016-08-22 20:41:36.250] [ERROR] console - (node:24916) DeprecationWarning: sys is deprecated. Use util instead.
+[2016-08-22 20:41:36.251] [INFO] console - Mon Aug 22 2016 20:41:36 GMT+0800 (中国标准时间) doc server start http server and listen on: {"address":"::","family":"IPv6","port":3005}
+[2016-08-22 20:41:36.251] [INFO] console - Mon Aug 22 2016 20:41:36 GMT+0800 (中国标准时间) doc server start https server and listen on: {"address":"::","family":"IPv6","port":3006}
+[2016-08-22 20:41:36.262] [INFO] console - Mon Aug 22 2016 20:41:36 GMT+0800 (中国标准时间) Connect to mongoose success: mongodb://127.0.0.1:27017/webdoc_db
+[2016-08-22 22:33:27.288] [INFO] console - Mon Aug 22 2016 22:33:27 GMT+0800 (中国标准时间)doc server use http/https port 3005/3006
+[2016-08-22 22:33:27.303] [ERROR] console - (node:27884) DeprecationWarning: sys is deprecated. Use util instead.
+[2016-08-22 22:33:27.304] [INFO] console - Mon Aug 22 2016 22:33:27 GMT+0800 (中国标准时间) doc server start http server and listen on: {"address":"::","family":"IPv6","port":3005}
+[2016-08-22 22:33:27.304] [INFO] console - Mon Aug 22 2016 22:33:27 GMT+0800 (中国标准时间) doc server start https server and listen on: {"address":"::","family":"IPv6","port":3006}
+[2016-08-22 22:33:27.315] [INFO] console - Mon Aug 22 2016 22:33:27 GMT+0800 (中国标准时间) Connect to mongoose success: mongodb://127.0.0.1:27017/webdoc_db

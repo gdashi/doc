@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+         <style>
+        .bs-example > .tab-content {
+            padding: 0;
+        }
+        
+        .tab-pane:nth-of-type(3)::before,
+        .tab-pane:nth-of-type(3)::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        
+        textarea {
+            display: block;
+            width: 100%;
+        }
+        
+        h4{
+            text-align:center;
+        }
+        p{
+            text-align:center;
+        }
+        #poem{
+            margin-top:20px;
+            margin-left:20px;
+        }
+    </style>
+    </head>
+    <body>       
+        <div class="code-formate" id="test"></div>
+
+        
+        <div id="form-test">
+            <button id="poem" class="btn">点击这里</button>
+            
+
+            <div class="modal hide" id="devDlg"> 
+                <p>这是一个模态框</p>
+                <p>弹出一个form表单</p>
+                <form id="dev_form" class="form edit"> 
+                    <div id="healthList" class="simple-list hide"></div> 
+                </form> 
+            </div>
+        </div>
+
+    </body>
+</html>
+
+<script language="javascript" type="text/javascript">
+    Utils.Pages.loadJS("widget.form");
+</script>

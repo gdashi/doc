@@ -1,0 +1,33 @@
+{
+    "name":"这是一个测试文档",
+    "desc":"这是测试文档的描述",
+    "author":"文档创建人",
+    "aggregate":[
+        {
+            "name":"接口所属大类",
+            "desc":"类别描述",
+            "items":[
+                {
+                    "name":"接口名字",
+                    "desc":"接口描述",
+                    "author":"作者",
+                    "path": "接口url",
+                    "method":"Get",
+                    "return" :{"JSON":"返回数据要为JSON格式"},
+                    "params":[
+                        {
+                         "name":"参数名",
+                         "description":"参数描述"
+                        }
+                    ],
+                    "errors":[
+                        {
+                            "name":"错误码值",
+                            "description":"错误码描述"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

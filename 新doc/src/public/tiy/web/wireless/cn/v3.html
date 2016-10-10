@@ -1,0 +1,141 @@
+<html>
+<head>
+<body>
+
+<div class="col-xs-12 app-colum">
+    <div class="app-box no-height">
+        <div class="box-footer">
+            <span class="title">无线服务配置</span>
+        </div>
+        <div class="box-body no-height">
+            <div id="ssidList" class="simple-list"></div>
+        </div>
+    </div>
+</div>
+
+<div class="hide modal fade" id="AddSsidDlg">
+    <div class="modal-body">
+        <form class="form edit" id="AddSsidForm">
+            <div class="form-group">
+                <label class="col-sm-3 control-label required">SSID</label>
+                <div class="col-sm-9">
+                    <input type="text" class="string big required" id="ssid_name" name ="ssid_name" errid="ssid_name_error" maxlength=64 />
+                    <label class="info-explain">（1-64字符）</label>
+                    <label class="error" id="ssid_name_error"></label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-sm-3">
+                    <label class="control-label">服务模板状态</label>
+                </div>
+                <div class="col-sm-9">
+                    <input type="radio" id="status_open" name="status" value="1">
+                    <label for="status_open">开启</label>
+                    &nbsp;&nbsp;
+                    <input type="radio" id="status_close" name="status" value="2" checked>
+                    <label for="status_close">关闭</label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-sm-3">
+                    <label class="control-label">隐藏SSID</label>
+                </div>
+                <div class="col-sm-9">
+                    <input type="radio" id="HS1" name="hideSSID" value="1">
+                    <label for="HS1">开启</label>
+                    &nbsp;&nbsp;
+                    <input type="radio" id="HS2" name="hideSSID" value="0" checked>
+                    <label for="HS2">关闭</label>
+                 </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-sm-3">
+                    <label class="control-label">加密</label>
+                </div>
+                <div class="col-sm-9">
+                    <input type="radio" id="encrypt_yes" name="cipherSuite" value="16">
+                    <label for="encrypt_yes">开启</label>
+                    &nbsp;&nbsp;
+                    <input type="radio" id="encrypt_no" name="cipherSuite" value="0" checked>
+                    <label for="encrypt_no">关闭</label>
+                </div>
+            </div>
+
+            <div class="form-group hide" id="passwordHide">
+                <div class="col-sm-3">
+                    <label class="control-label">PSK</label>
+                </div>
+                <div class="col-sm-9">
+                    <input type="password" class="string big" id="psk" name="psk" min="8" maxlength="63"
+                        error_id="psk_error" />
+                    <label class="info-explain">（8-63字符）</label> 
+                    <label class="error" id="psk_error"></label>   
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-sm-3">
+                    <label class="control-label">Portal</label>
+                </div>
+                <div class="col-sm-9">
+                    <input type="radio" id="portal_yes" name="portal_policy_status" value="1">
+                    <label for="portal_yes">开启</label>
+                    &nbsp;&nbsp;
+                    <input type="radio" id="portal_no" name="portal_policy_status" value="0" checked>
+                    <label for="portal_no">关闭</label>
+                </div>
+            </div> 
+
+            <div class="form-group">
+                <div  class="col-sm-3">
+                    <label class="control-label">最大发送速率</label>
+                </div>
+                <div class="col-sm-9">
+                    <input type="text" class="string big" id="maxSendRatio" name="maxSendRatio" errid="maxSendRatio_error"/>
+                    <span class="unit">Kbps</span>
+                    <label class="error" id="maxSendRatio_error"></label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div  class="col-sm-3">
+                    <label class="control-label">最大接收速率</label>
+                </div>
+                <div class="col-sm-9">
+                    <input type="text" class="string big" id="maxReceiveRatio" errid="maxReceiveRatio_error"/>
+                    <span class="unit">Kbps</span>
+                    <label class="error" id="maxReceiveRatio_error"></label>
+                </div>
+            </div>
+
+
+
+        </form>
+    </div>
+</div>
+
+<div id="ws_ssid_rc" class="rc-define"
+     SSID_HEADER = "SSID,隐藏SSID,最大发送速率,最大接收速率,加密,状态"
+     ADD_TITLE = "增加服务"
+     SSID_HIDE = "不隐藏,隐藏"
+     CIPHER_SUITE = "不加密,加密"
+     STATUS = "使能,去使能"
+
+        ></div>
+</body>
+</html>
+<script language="javascript" type="text/javascript">
+    Utils.Pages.loadJS("wireless.v3");
+</script>
+
+
+
+
+
+
+
+
+

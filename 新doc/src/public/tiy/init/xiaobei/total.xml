@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu-root>
+	<menu id="M_ConfigRestore">
+		<menu id="M_ConfigRe" access="read|write|execute"  url="configrestore/[lang]/index.html" />
+	</menu>
+	<menu id="M_UpdateVersion">
+		<menu id="M_Version" access="read|write|execute"  url="versionupdate/[lang]/versionupdate.html" />
+	</menu>
+	<menu id="M_Reboot">
+		<menu id="M_Reboot_01" access="read|write|execute"  url="reboot/[lang]/index.html" />
+	</menu>
+	<menu id="M_RadioMeasure">
+		<menu id="M_Measure" access="read|write|execute"  url="measure/[lang]/index.html" />
+	</menu>
+	<menu id="M_FileSystem">
+		<menu id="M_File" access="read|write|execute"  url="systemfile/[lang]/index.html" />
+	</menu>
+	<!-- <menu id="M_DeepCheck">
+		<menu id="M_DCheck" access="read|write|execute"  url="soon/[lang]/index.html" />
+	</menu> -->
+	<menu id="M_TOTAL">
+		<menu id="M_Order" access="read|write|execute"  url="commandline/[lang]/commandline.html" />
+	</menu>
+
+	<menu id="M_DEVOPT">
+		<menu id="M_Opt" access="read|write|execute" url="devopt/[lang]/devopt.html"/>
+	</menu>
+
+	<menu id="M_LOGWARNING">
+		<menu id="M_LOG" access="read|write|execute" url="log/[lang]/log.html"/>
+	</menu>
+	<menu id="M_UpdateVersionV3">	
+		<menu id="M_VersionV3" access="read|write|execute"  url="versionupdate/[lang]/versionupdatev3.html" />
+	</menu>
+	<menu id="M_WEIXINWARNING">
+		<menu id="M_WEIXIN" access="read|write|execute" url="weixinwarning/[lang]/weixinwarning.html"/>
+	</menu>
+	<menu id="M_FAULTLOG">
+		<menu id="M_FAULT" access="read|write|execute" url="faultlog/[lang]/faultlog.html"/>
+	</menu>
+	
+	
+</menu-root>

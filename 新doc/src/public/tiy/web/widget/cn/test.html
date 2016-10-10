@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <style>
+        .bs-example > .tab-content {
+            padding: 0;
+        }
+        
+        .tab-pane:nth-of-type(3)::before,
+        .tab-pane:nth-of-type(3)::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        
+        textarea {
+            display: block;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="code-formate" id="test"></div>
+    <div class="page-row" id="test-1">
+        <div class="col-xs-12 app-colum">
+            <div class="app-box no-height">
+                <div class="box-footer">
+                    
+                </div>
+                <div class="box-body no-height">
+                    <div id="health-detail" class="simple-list"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
+
+<script language="javascript" type="text/javascript">
+    Utils.Pages.loadJS("widget.test");
+
+</script>

@@ -1,0 +1,386 @@
+[2016-05-31 10:34:55.125] [INFO] console - Tue May 31 2016 10:34:55 GMT+0800 (中国标准时间)doc server use http/https port 3005/3006
+[2016-05-31 10:34:55.163] [INFO] console - 0
+[2016-05-31 10:34:55.167] [INFO] console - 1
+[2016-05-31 10:34:55.167] [INFO] console - 2
+[2016-05-31 10:34:55.168] [INFO] console - 3
+[2016-05-31 10:34:55.168] [INFO] console - 4
+[2016-05-31 10:34:55.168] [INFO] console - 5
+[2016-05-31 10:34:55.169] [INFO] console - 6
+[2016-05-31 10:34:55.169] [INFO] console - 7
+[2016-05-31 10:34:55.169] [INFO] console - 8
+[2016-05-31 10:34:55.170] [INFO] console - 9
+[2016-05-31 10:34:55.170] [INFO] console - [Function]
+[2016-05-31 10:34:55.176] [INFO] console - Tue May 31 2016 10:34:55 GMT+0800 (中国标准时间) doc server start http server and listen on: {"address":"::","family":"IPv6","port":3005}
+[2016-05-31 10:34:55.176] [INFO] console - Tue May 31 2016 10:34:55 GMT+0800 (中国标准时间) doc server start https server and listen on: {"address":"::","family":"IPv6","port":3006}
+[2016-05-31 10:34:55.222] [INFO] console - Tue May 31 2016 10:34:55 GMT+0800 (中国标准时间) Connect to mongoose success: mongodb://127.0.0.1:27017/webdoc_db
+[2016-05-31 10:37:33.169] [INFO] console - Tue May 31 2016 10:37:33 GMT+0800 (中国标准时间)doc server use http/https port 3005/3006
+[2016-05-31 10:37:33.216] [INFO] console - 0
+[2016-05-31 10:37:33.219] [INFO] console - 48
+[2016-05-31 10:37:33.223] [INFO] console - 1
+[2016-05-31 10:37:33.223] [INFO] console - 49
+[2016-05-31 10:37:33.223] [INFO] console - 2
+[2016-05-31 10:37:33.223] [INFO] console - 50
+[2016-05-31 10:37:33.224] [INFO] console - 3
+[2016-05-31 10:37:33.225] [INFO] console - 51
+[2016-05-31 10:37:33.225] [INFO] console - 4
+[2016-05-31 10:37:33.225] [INFO] console - 52
+[2016-05-31 10:37:33.225] [INFO] console - 5
+[2016-05-31 10:37:33.226] [INFO] console - 53
+[2016-05-31 10:37:33.227] [INFO] console - 6
+[2016-05-31 10:37:33.227] [INFO] console - 54
+[2016-05-31 10:37:33.228] [INFO] console - 7
+[2016-05-31 10:37:33.228] [INFO] console - 55
+[2016-05-31 10:37:33.228] [INFO] console - 8
+[2016-05-31 10:37:33.230] [INFO] console - 56
+[2016-05-31 10:37:33.230] [INFO] console - 9
+[2016-05-31 10:37:33.231] [INFO] console - 57
+[2016-05-31 10:37:33.231] [INFO] console - [Function]
+[2016-05-31 10:37:33.234] [INFO] console - 48
+[2016-05-31 10:37:33.236] [INFO] console - Tue May 31 2016 10:37:33 GMT+0800 (中国标准时间) doc server start http server and listen on: {"address":"::","family":"IPv6","port":3005}
+[2016-05-31 10:37:33.238] [INFO] console - Tue May 31 2016 10:37:33 GMT+0800 (中国标准时间) doc server start https server and listen on: {"address":"::","family":"IPv6","port":3006}
+[2016-05-31 10:37:33.274] [INFO] console - Tue May 31 2016 10:37:33 GMT+0800 (中国标准时间) Connect to mongoose success: mongodb://127.0.0.1:27017/webdoc_db
+[2016-05-31 10:39:29.119] [INFO] console - Tue May 31 2016 10:39:29 GMT+0800 (中国标准时间)doc server use http/https port 3005/3006
+[2016-05-31 10:39:29.150] [INFO] console - undefined
+[2016-05-31 10:39:29.153] [INFO] console - 48
+[2016-05-31 10:39:29.154] [INFO] console - 0
+[2016-05-31 10:39:29.155] [INFO] console - 49
+[2016-05-31 10:39:29.155] [INFO] console - 1
+[2016-05-31 10:39:29.155] [INFO] console - 50
+[2016-05-31 10:39:29.155] [INFO] console - 2
+[2016-05-31 10:39:29.156] [INFO] console - 51
+[2016-05-31 10:39:29.156] [INFO] console - 3
+[2016-05-31 10:39:29.156] [INFO] console - 52
+[2016-05-31 10:39:29.156] [INFO] console - 4
+[2016-05-31 10:39:29.157] [INFO] console - 53
+[2016-05-31 10:39:29.157] [INFO] console - 5
+[2016-05-31 10:39:29.157] [INFO] console - 54
+[2016-05-31 10:39:29.158] [INFO] console - 6
+[2016-05-31 10:39:29.159] [INFO] console - 55
+[2016-05-31 10:39:29.160] [INFO] console - 7
+[2016-05-31 10:39:29.160] [INFO] console - 56
+[2016-05-31 10:39:29.160] [INFO] console - 8
+[2016-05-31 10:39:29.160] [INFO] console - 57
+[2016-05-31 10:39:29.161] [INFO] console - undefined
+[2016-05-31 10:39:29.161] [INFO] console - 48
+[2016-05-31 10:39:29.164] [INFO] console - Tue May 31 2016 10:39:29 GMT+0800 (中国标准时间) doc server start http server and listen on: {"address":"::","family":"IPv6","port":3005}
+[2016-05-31 10:39:29.165] [INFO] console - Tue May 31 2016 10:39:29 GMT+0800 (中国标准时间) doc server start https server and listen on: {"address":"::","family":"IPv6","port":3006}
+[2016-05-31 10:39:29.199] [INFO] console - Tue May 31 2016 10:39:29 GMT+0800 (中国标准时间) Connect to mongoose success: mongodb://127.0.0.1:27017/webdoc_db
+[2016-05-31 10:39:46.732] [INFO] console - Tue May 31 2016 10:39:46 GMT+0800 (中国标准时间)doc server use http/https port 3005/3006
+[2016-05-31 10:39:46.780] [INFO] console - 0
+[2016-05-31 10:39:46.782] [INFO] console - 48
+[2016-05-31 10:39:46.784] [INFO] console - 1
+[2016-05-31 10:39:46.785] [INFO] console - 49
+[2016-05-31 10:39:46.785] [INFO] console - 2
+[2016-05-31 10:39:46.786] [INFO] console - 50
+[2016-05-31 10:39:46.786] [INFO] console - 3
+[2016-05-31 10:39:46.786] [INFO] console - 51
+[2016-05-31 10:39:46.786] [INFO] console - 4
+[2016-05-31 10:39:46.787] [INFO] console - 52
+[2016-05-31 10:39:46.787] [INFO] console - 5
+[2016-05-31 10:39:46.788] [INFO] console - 53
+[2016-05-31 10:39:46.788] [INFO] console - 6
+[2016-05-31 10:39:46.788] [INFO] console - 54
+[2016-05-31 10:39:46.789] [INFO] console - 7
+[2016-05-31 10:39:46.791] [INFO] console - 55
+[2016-05-31 10:39:46.792] [INFO] console - 8
+[2016-05-31 10:39:46.793] [INFO] console - 56
+[2016-05-31 10:39:46.793] [INFO] console - 9
+[2016-05-31 10:39:46.793] [INFO] console - 57
+[2016-05-31 10:39:46.795] [INFO] console - [Function]
+[2016-05-31 10:39:46.797] [INFO] console - 48
+[2016-05-31 10:39:46.800] [INFO] console - Tue May 31 2016 10:39:46 GMT+0800 (中国标准时间) doc server start http server and listen on: {"address":"::","family":"IPv6","port":3005}
+[2016-05-31 10:39:46.800] [INFO] console - Tue May 31 2016 10:39:46 GMT+0800 (中国标准时间) doc server start https server and listen on: {"address":"::","family":"IPv6","port":3006}
+[2016-05-31 10:39:46.838] [INFO] console - Tue May 31 2016 10:39:46 GMT+0800 (中国标准时间) Connect to mongoose success: mongodb://127.0.0.1:27017/webdoc_db
+[2016-05-31 10:44:17.313] [INFO] console - Tue May 31 2016 10:44:17 GMT+0800 (中国标准时间)doc server use http/https port 3005/3006
+[2016-05-31 10:44:17.357] [INFO] console - a
+[2016-05-31 10:44:17.359] [INFO] console - 97
+[2016-05-31 10:44:17.361] [INFO] console - b
+[2016-05-31 10:44:17.362] [INFO] console - 98
+[2016-05-31 10:44:17.362] [INFO] console - c
+[2016-05-31 10:44:17.362] [INFO] console - 99
+[2016-05-31 10:44:17.362] [INFO] console - d
+[2016-05-31 10:44:17.363] [INFO] console - 100
+[2016-05-31 10:44:17.363] [INFO] console - e
+[2016-05-31 10:44:17.363] [INFO] console - 101
+[2016-05-31 10:44:17.363] [INFO] console - f
+[2016-05-31 10:44:17.364] [INFO] console - 102
+[2016-05-31 10:44:17.364] [INFO] console - g
+[2016-05-31 10:44:17.364] [INFO] console - 103
+[2016-05-31 10:44:17.365] [INFO] console - h
+[2016-05-31 10:44:17.366] [INFO] console - 104
+[2016-05-31 10:44:17.366] [INFO] console - i
+[2016-05-31 10:44:17.367] [INFO] console - 105
+[2016-05-31 10:44:17.367] [INFO] console - j
+[2016-05-31 10:44:17.367] [INFO] console - 106
+[2016-05-31 10:44:17.368] [INFO] console - k
+[2016-05-31 10:44:17.369] [INFO] console - 107
+[2016-05-31 10:44:17.370] [INFO] console - l
+[2016-05-31 10:44:17.370] [INFO] console - 108
+[2016-05-31 10:44:17.370] [INFO] console - m
+[2016-05-31 10:44:17.370] [INFO] console - 109
+[2016-05-31 10:44:17.371] [INFO] console - n
+[2016-05-31 10:44:17.371] [INFO] console - 110
+[2016-05-31 10:44:17.371] [INFO] console - o
+[2016-05-31 10:44:17.371] [INFO] console - 111
+[2016-05-31 10:44:17.372] [INFO] console - p
+[2016-05-31 10:44:17.372] [INFO] console - 112
+[2016-05-31 10:44:17.373] [INFO] console - q
+[2016-05-31 10:44:17.373] [INFO] console - 113
+[2016-05-31 10:44:17.374] [INFO] console - r
+[2016-05-31 10:44:17.374] [INFO] console - 114
+[2016-05-31 10:44:17.374] [INFO] console - s
+[2016-05-31 10:44:17.374] [INFO] console - 115
+[2016-05-31 10:44:17.375] [INFO] console - t
+[2016-05-31 10:44:17.375] [INFO] console - 116
+[2016-05-31 10:44:17.376] [INFO] console - u
+[2016-05-31 10:44:17.376] [INFO] console - 117
+[2016-05-31 10:44:17.376] [INFO] console - v
+[2016-05-31 10:44:17.376] [INFO] console - 118
+[2016-05-31 10:44:17.377] [INFO] console - w
+[2016-05-31 10:44:17.377] [INFO] console - 119
+[2016-05-31 10:44:17.377] [INFO] console - x
+[2016-05-31 10:44:17.377] [INFO] console - 120
+[2016-05-31 10:44:17.378] [INFO] console - y
+[2016-05-31 10:44:17.378] [INFO] console - 121
+[2016-05-31 10:44:17.378] [INFO] console - z
+[2016-05-31 10:44:17.379] [INFO] console - 122
+[2016-05-31 10:44:17.379] [INFO] console - [Function]
+[2016-05-31 10:44:17.380] [INFO] console - 97
+[2016-05-31 10:44:17.383] [INFO] console - Tue May 31 2016 10:44:17 GMT+0800 (中国标准时间) doc server start http server and listen on: {"address":"::","family":"IPv6","port":3005}
+[2016-05-31 10:44:17.383] [INFO] console - Tue May 31 2016 10:44:17 GMT+0800 (中国标准时间) doc server start https server and listen on: {"address":"::","family":"IPv6","port":3006}
+[2016-05-31 10:44:17.421] [INFO] console - Tue May 31 2016 10:44:17 GMT+0800 (中国标准时间) Connect to mongoose success: mongodb://127.0.0.1:27017/webdoc_db
+[2016-05-31 10:53:07.959] [INFO] console - Tue May 31 2016 10:53:07 GMT+0800 (中国标准时间)doc server use http/https port 3005/3006
+[2016-05-31 10:53:07.994] [INFO] console - a
+[2016-05-31 10:53:07.996] [INFO] console - 97
+[2016-05-31 10:53:07.998] [INFO] console - b
+[2016-05-31 10:53:07.999] [INFO] console - 98
+[2016-05-31 10:53:07.999] [INFO] console - c
+[2016-05-31 10:53:07.999] [INFO] console - 99
+[2016-05-31 10:53:08.000] [INFO] console - d
+[2016-05-31 10:53:08.000] [INFO] console - 100
+[2016-05-31 10:53:08.000] [INFO] console - e
+[2016-05-31 10:53:08.000] [INFO] console - 101
+[2016-05-31 10:53:08.001] [INFO] console - f
+[2016-05-31 10:53:08.001] [INFO] console - 102
+[2016-05-31 10:53:08.002] [INFO] console - g
+[2016-05-31 10:53:08.002] [INFO] console - 103
+[2016-05-31 10:53:08.002] [INFO] console - h
+[2016-05-31 10:53:08.005] [INFO] console - 104
+[2016-05-31 10:53:08.005] [INFO] console - i
+[2016-05-31 10:53:08.006] [INFO] console - 105
+[2016-05-31 10:53:08.006] [INFO] console - j
+[2016-05-31 10:53:08.006] [INFO] console - 106
+[2016-05-31 10:53:08.007] [INFO] console - k
+[2016-05-31 10:53:08.008] [INFO] console - 107
+[2016-05-31 10:53:08.008] [INFO] console - l
+[2016-05-31 10:53:08.008] [INFO] console - 108
+[2016-05-31 10:53:08.009] [INFO] console - m
+[2016-05-31 10:53:08.009] [INFO] console - 109
+[2016-05-31 10:53:08.009] [INFO] console - n
+[2016-05-31 10:53:08.010] [INFO] console - 110
+[2016-05-31 10:53:08.010] [INFO] console - o
+[2016-05-31 10:53:08.010] [INFO] console - 111
+[2016-05-31 10:53:08.011] [INFO] console - p
+[2016-05-31 10:53:08.011] [INFO] console - 112
+[2016-05-31 10:53:08.012] [INFO] console - q
+[2016-05-31 10:53:08.012] [INFO] console - 113
+[2016-05-31 10:53:08.012] [INFO] console - r
+[2016-05-31 10:53:08.013] [INFO] console - 114
+[2016-05-31 10:53:08.013] [INFO] console - s
+[2016-05-31 10:53:08.013] [INFO] console - 115
+[2016-05-31 10:53:08.014] [INFO] console - t
+[2016-05-31 10:53:08.014] [INFO] console - 116
+[2016-05-31 10:53:08.014] [INFO] console - u
+[2016-05-31 10:53:08.017] [INFO] console - 117
+[2016-05-31 10:53:08.018] [INFO] console - v
+[2016-05-31 10:53:08.018] [INFO] console - 118
+[2016-05-31 10:53:08.018] [INFO] console - w
+[2016-05-31 10:53:08.018] [INFO] console - 119
+[2016-05-31 10:53:08.019] [INFO] console - x
+[2016-05-31 10:53:08.019] [INFO] console - 120
+[2016-05-31 10:53:08.019] [INFO] console - y
+[2016-05-31 10:53:08.019] [INFO] console - 121
+[2016-05-31 10:53:08.020] [INFO] console - z
+[2016-05-31 10:53:08.020] [INFO] console - 122
+[2016-05-31 10:53:08.020] [INFO] console -  
+[2016-05-31 10:53:08.020] [INFO] console - 32
+[2016-05-31 10:53:08.021] [INFO] console - [Function]
+[2016-05-31 10:53:08.021] [INFO] console - 97
+[2016-05-31 10:53:08.024] [INFO] console - Tue May 31 2016 10:53:08 GMT+0800 (中国标准时间) doc server start http server and listen on: {"address":"::","family":"IPv6","port":3005}
+[2016-05-31 10:53:08.025] [INFO] console - Tue May 31 2016 10:53:08 GMT+0800 (中国标准时间) doc server start https server and listen on: {"address":"::","family":"IPv6","port":3006}
+[2016-05-31 10:53:08.068] [INFO] console - Tue May 31 2016 10:53:08 GMT+0800 (中国标准时间) Connect to mongoose success: mongodb://127.0.0.1:27017/webdoc_db
+[2016-05-31 10:54:00.009] [INFO] console - Tue May 31 2016 10:54:00 GMT+0800 (中国标准时间)doc server use http/https port 3005/3006
+[2016-05-31 10:54:00.050] [INFO] console - 啊
+[2016-05-31 10:54:00.052] [INFO] console - 21834
+[2016-05-31 10:54:00.056] [INFO] console - 啊
+[2016-05-31 10:54:00.058] [INFO] console - 21834
+[2016-05-31 10:54:00.058] [INFO] console - [Function]
+[2016-05-31 10:54:00.061] [INFO] console - 21834
+[2016-05-31 10:54:00.064] [INFO] console - Tue May 31 2016 10:54:00 GMT+0800 (中国标准时间) doc server start http server and listen on: {"address":"::","family":"IPv6","port":3005}
+[2016-05-31 10:54:00.064] [INFO] console - Tue May 31 2016 10:54:00 GMT+0800 (中国标准时间) doc server start https server and listen on: {"address":"::","family":"IPv6","port":3006}
+[2016-05-31 10:54:00.102] [INFO] console - Tue May 31 2016 10:54:00 GMT+0800 (中国标准时间) Connect to mongoose success: mongodb://127.0.0.1:27017/webdoc_db
+[2016-05-31 10:54:13.582] [INFO] console - Tue May 31 2016 10:54:13 GMT+0800 (中国标准时间)doc server use http/https port 3005/3006
+[2016-05-31 10:54:13.625] [INFO] console - 四
+[2016-05-31 10:54:13.628] [INFO] console - 22235
+[2016-05-31 10:54:13.631] [INFO] console - 的
+[2016-05-31 10:54:13.631] [INFO] console - 30340
+[2016-05-31 10:54:13.631] [INFO] console - 發
+[2016-05-31 10:54:13.631] [INFO] console - 30332
+[2016-05-31 10:54:13.631] [INFO] console - 送
+[2016-05-31 10:54:13.632] [INFO] console - 36865
+[2016-05-31 10:54:13.632] [INFO] console - 到
+[2016-05-31 10:54:13.632] [INFO] console - 21040
+[2016-05-31 10:54:13.632] [INFO] console - [Function]
+[2016-05-31 10:54:13.635] [INFO] console - 22235
+[2016-05-31 10:54:13.641] [INFO] console - Tue May 31 2016 10:54:13 GMT+0800 (中国标准时间) doc server start http server and listen on: {"address":"::","family":"IPv6","port":3005}
+[2016-05-31 10:54:13.641] [INFO] console - Tue May 31 2016 10:54:13 GMT+0800 (中国标准时间) doc server start https server and listen on: {"address":"::","family":"IPv6","port":3006}
+[2016-05-31 10:54:13.696] [INFO] console - Tue May 31 2016 10:54:13 GMT+0800 (中国标准时间) Connect to mongoose success: mongodb://127.0.0.1:27017/webdoc_db
+[2016-05-31 13:59:01.053] [INFO] console - Tue May 31 2016 13:59:01 GMT+0800 (中国标准时间)doc server use http/https port 3005/3006
+[2016-05-31 13:59:01.097] [INFO] console - 四
+[2016-05-31 13:59:01.101] [INFO] console - 22235
+[2016-05-31 13:59:01.103] [INFO] console - 的
+[2016-05-31 13:59:01.104] [INFO] console - 30340
+[2016-05-31 13:59:01.104] [INFO] console - 發
+[2016-05-31 13:59:01.104] [INFO] console - 30332
+[2016-05-31 13:59:01.105] [INFO] console - 送
+[2016-05-31 13:59:01.105] [INFO] console - 36865
+[2016-05-31 13:59:01.105] [INFO] console - 到
+[2016-05-31 13:59:01.105] [INFO] console - 21040
+[2016-05-31 13:59:01.106] [INFO] console - [Function]
+[2016-05-31 13:59:01.107] [INFO] console - 22235
+[2016-05-31 13:59:01.110] [INFO] console - Tue May 31 2016 13:59:01 GMT+0800 (中国标准时间) doc server start http server and listen on: {"address":"::","family":"IPv6","port":3005}
+[2016-05-31 13:59:01.111] [INFO] console - Tue May 31 2016 13:59:01 GMT+0800 (中国标准时间) doc server start https server and listen on: {"address":"::","family":"IPv6","port":3006}
+[2016-05-31 13:59:01.195] [INFO] console - Tue May 31 2016 13:59:01 GMT+0800 (中国标准时间) Connect to mongoose success: mongodb://127.0.0.1:27017/webdoc_db
+[2016-05-31 13:59:44.117] [INFO] console - Tue May 31 2016 13:59:44 GMT+0800 (中国标准时间)doc server use http/https port 3005/3006
+[2016-05-31 13:59:44.159] [INFO] console - 0  四
+[2016-05-31 13:59:44.161] [INFO] console - 22235
+[2016-05-31 13:59:44.163] [INFO] console - 1  的
+[2016-05-31 13:59:44.163] [INFO] console - 30340
+[2016-05-31 13:59:44.163] [INFO] console - 2  發
+[2016-05-31 13:59:44.164] [INFO] console - 30332
+[2016-05-31 13:59:44.164] [INFO] console - 3  送
+[2016-05-31 13:59:44.164] [INFO] console - 36865
+[2016-05-31 13:59:44.164] [INFO] console - 4  到
+[2016-05-31 13:59:44.165] [INFO] console - 21040
+[2016-05-31 13:59:44.165] [INFO] console - encodeHTML  function () {
+		return this.replace(/&/g, '&amp;')
+			.replace(/</g, '&lt;')
+			.replace(/>/g, '&gt;')
+			.replace(/"/g, '&quot;');
+	}
+[2016-05-31 13:59:44.166] [INFO] console - 22235
+[2016-05-31 13:59:44.168] [INFO] console - Tue May 31 2016 13:59:44 GMT+0800 (中国标准时间) doc server start http server and listen on: {"address":"::","family":"IPv6","port":3005}
+[2016-05-31 13:59:44.169] [INFO] console - Tue May 31 2016 13:59:44 GMT+0800 (中国标准时间) doc server start https server and listen on: {"address":"::","family":"IPv6","port":3006}
+[2016-05-31 13:59:44.209] [INFO] console - Tue May 31 2016 13:59:44 GMT+0800 (中国标准时间) Connect to mongoose success: mongodb://127.0.0.1:27017/webdoc_db
+[2016-05-31 14:00:38.751] [INFO] console - Tue May 31 2016 14:00:38 GMT+0800 (中国标准时间)doc server use http/https port 3005/3006
+[2016-05-31 14:00:38.796] [INFO] console - 0  四
+[2016-05-31 14:00:38.799] [INFO] console - 22235
+[2016-05-31 14:00:38.801] [INFO] console - 1  的
+[2016-05-31 14:00:38.802] [INFO] console - 30340
+[2016-05-31 14:00:38.802] [INFO] console - 2  發
+[2016-05-31 14:00:38.802] [INFO] console - 30332
+[2016-05-31 14:00:38.803] [INFO] console - 3  送
+[2016-05-31 14:00:38.803] [INFO] console - 36865
+[2016-05-31 14:00:38.803] [INFO] console - 4  到
+[2016-05-31 14:00:38.804] [INFO] console - 21040
+[2016-05-31 14:00:38.805] [INFO] console - encodeHTML  function () {
+		return this.replace(/&/g, '&amp;')
+			.replace(/</g, '&lt;')
+			.replace(/>/g, '&gt;')
+			.replace(/"/g, '&quot;');
+	}
+[2016-05-31 14:00:38.806] [INFO] console - 22235
+[2016-05-31 14:00:38.811] [INFO] console - Tue May 31 2016 14:00:38 GMT+0800 (中国标准时间) doc server start http server and listen on: {"address":"::","family":"IPv6","port":3005}
+[2016-05-31 14:00:38.812] [INFO] console - Tue May 31 2016 14:00:38 GMT+0800 (中国标准时间) doc server start https server and listen on: {"address":"::","family":"IPv6","port":3006}
+[2016-05-31 14:00:38.870] [INFO] console - Tue May 31 2016 14:00:38 GMT+0800 (中国标准时间) Connect to mongoose success: mongodb://127.0.0.1:27017/webdoc_db
+[2016-05-31 14:01:21.596] [INFO] console - Tue May 31 2016 14:01:21 GMT+0800 (中国标准时间)doc server use http/https port 3005/3006
+[2016-05-31 14:01:21.640] [INFO] console - 0  四
+[2016-05-31 14:01:21.643] [INFO] console - 22235
+[2016-05-31 14:01:21.646] [INFO] console - 5
+[2016-05-31 14:01:21.646] [INFO] console - 1  的
+[2016-05-31 14:01:21.646] [INFO] console - 30340
+[2016-05-31 14:01:21.647] [INFO] console - 5
+[2016-05-31 14:01:21.647] [INFO] console - 2  發
+[2016-05-31 14:01:21.647] [INFO] console - 30332
+[2016-05-31 14:01:21.647] [INFO] console - 5
+[2016-05-31 14:01:21.648] [INFO] console - 3  送
+[2016-05-31 14:01:21.648] [INFO] console - 36865
+[2016-05-31 14:01:21.648] [INFO] console - 5
+[2016-05-31 14:01:21.649] [INFO] console - 4  到
+[2016-05-31 14:01:21.649] [INFO] console - 21040
+[2016-05-31 14:01:21.649] [INFO] console - 5
+[2016-05-31 14:01:21.649] [INFO] console - encodeHTML  function () {
+		return this.replace(/&/g, '&amp;')
+			.replace(/</g, '&lt;')
+			.replace(/>/g, '&gt;')
+			.replace(/"/g, '&quot;');
+	}
+[2016-05-31 14:01:21.651] [INFO] console - 22235
+[2016-05-31 14:01:21.651] [INFO] console - 5
+[2016-05-31 14:01:21.655] [INFO] console - Tue May 31 2016 14:01:21 GMT+0800 (中国标准时间) doc server start http server and listen on: {"address":"::","family":"IPv6","port":3005}
+[2016-05-31 14:01:21.656] [INFO] console - Tue May 31 2016 14:01:21 GMT+0800 (中国标准时间) doc server start https server and listen on: {"address":"::","family":"IPv6","port":3006}
+[2016-05-31 14:01:21.705] [INFO] console - Tue May 31 2016 14:01:21 GMT+0800 (中国标准时间) Connect to mongoose success: mongodb://127.0.0.1:27017/webdoc_db
+[2016-05-31 14:02:21.934] [INFO] console - Tue May 31 2016 14:02:21 GMT+0800 (中国标准时间)doc server use http/https port 3005/3006
+[2016-05-31 14:02:21.980] [INFO] console - 0  四
+[2016-05-31 14:02:21.983] [INFO] console - 22235
+[2016-05-31 14:02:21.985] [INFO] console - 5
+[2016-05-31 14:02:21.986] [INFO] console - 四
+[2016-05-31 14:02:21.986] [INFO] console - 的
+[2016-05-31 14:02:21.986] [INFO] console - 發
+[2016-05-31 14:02:21.986] [INFO] console - 送
+[2016-05-31 14:02:21.987] [INFO] console - 到
+[2016-05-31 14:02:21.987] [INFO] console - undefined
+[2016-05-31 14:02:21.988] [INFO] console - 1  的
+[2016-05-31 14:02:21.988] [INFO] console - 30340
+[2016-05-31 14:02:21.988] [INFO] console - 5
+[2016-05-31 14:02:21.989] [INFO] console - 四
+[2016-05-31 14:02:21.989] [INFO] console - 的
+[2016-05-31 14:02:21.990] [INFO] console - 發
+[2016-05-31 14:02:21.991] [INFO] console - 送
+[2016-05-31 14:02:21.991] [INFO] console - 到
+[2016-05-31 14:02:21.992] [INFO] console - undefined
+[2016-05-31 14:02:21.992] [INFO] console - 2  發
+[2016-05-31 14:02:21.992] [INFO] console - 30332
+[2016-05-31 14:02:21.994] [INFO] console - 5
+[2016-05-31 14:02:21.994] [INFO] console - 四
+[2016-05-31 14:02:21.994] [INFO] console - 的
+[2016-05-31 14:02:21.994] [INFO] console - 發
+[2016-05-31 14:02:21.995] [INFO] console - 送
+[2016-05-31 14:02:21.995] [INFO] console - 到
+[2016-05-31 14:02:21.996] [INFO] console - undefined
+[2016-05-31 14:02:21.996] [INFO] console - 3  送
+[2016-05-31 14:02:21.996] [INFO] console - 36865
+[2016-05-31 14:02:21.996] [INFO] console - 5
+[2016-05-31 14:02:21.997] [INFO] console - 四
+[2016-05-31 14:02:21.997] [INFO] console - 的
+[2016-05-31 14:02:21.998] [INFO] console - 發
+[2016-05-31 14:02:21.998] [INFO] console - 送
+[2016-05-31 14:02:21.998] [INFO] console - 到
+[2016-05-31 14:02:21.999] [INFO] console - undefined
+[2016-05-31 14:02:21.999] [INFO] console - 4  到
+[2016-05-31 14:02:22.000] [INFO] console - 21040
+[2016-05-31 14:02:22.000] [INFO] console - 5
+[2016-05-31 14:02:22.001] [INFO] console - 四
+[2016-05-31 14:02:22.001] [INFO] console - 的
+[2016-05-31 14:02:22.001] [INFO] console - 發
+[2016-05-31 14:02:22.002] [INFO] console - 送
+[2016-05-31 14:02:22.003] [INFO] console - 到
+[2016-05-31 14:02:22.003] [INFO] console - undefined
+[2016-05-31 14:02:22.003] [INFO] console - encodeHTML  function () {
+		return this.replace(/&/g, '&amp;')
+			.replace(/</g, '&lt;')
+			.replace(/>/g, '&gt;')
+			.replace(/"/g, '&quot;');
+	}
+[2016-05-31 14:02:22.003] [INFO] console - 22235
+[2016-05-31 14:02:22.004] [INFO] console - 5
+[2016-05-31 14:02:22.004] [INFO] console - 四
+[2016-05-31 14:02:22.005] [INFO] console - 的
+[2016-05-31 14:02:22.005] [INFO] console - 發
+[2016-05-31 14:02:22.006] [INFO] console - 送
+[2016-05-31 14:02:22.006] [INFO] console - 到
+[2016-05-31 14:02:22.006] [INFO] console - undefined
+[2016-05-31 14:02:22.009] [INFO] console - Tue May 31 2016 14:02:22 GMT+0800 (中国标准时间) doc server start http server and listen on: {"address":"::","family":"IPv6","port":3005}
+[2016-05-31 14:02:22.010] [INFO] console - Tue May 31 2016 14:02:22 GMT+0800 (中国标准时间) doc server start https server and listen on: {"address":"::","family":"IPv6","port":3006}
+[2016-05-31 14:02:22.059] [INFO] console - Tue May 31 2016 14:02:22 GMT+0800 (中国标准时间) Connect to mongoose success: mongodb://127.0.0.1:27017/webdoc_db
+[2016-05-31 14:24:07.182] [INFO] console - {"doclist":[{"DocIndex":"doc_08407999381071218","Name":"应用分析接口文档","time":1464148513243},{"DocIndex":"doc_4872120753061644","Name":"无线定位接口文档","time":1464329426734},{"DocIndex":"doc_7577103296698844","Name":"asfasdfdsdsafadfasdfsad","time":1464078943982},{"DocIndex":"doc_8466751070093037","Name":"yuanyuekun","time":1464077563211}],"retCode":0}

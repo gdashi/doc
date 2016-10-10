@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+         <style>
+        .bs-example > .tab-content {
+            padding: 0;
+        }
+        
+        .tab-pane:nth-of-type(3)::before,
+        .tab-pane:nth-of-type(3)::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        
+        textarea {
+            display: block;
+            width: 100%;
+        }		
+    </style>
+    </head>
+    <body>	     
+    	<div class="code-formate" id="test"></div>
+              
+		<div id="daterange-test">
+			<input type="text" class="datetimerange" />
+			<input type="text" class="daterange" />
+			<input type="text" class="datetimerange" yearRangeClose="true" />
+		</div>
+
+    </body>
+</html>
+
+<script language="javascript" type="text/javascript">
+    Utils.Pages.loadJS("widget.daterange");
+</script>
+
+   
+
+

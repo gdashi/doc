@@ -1,0 +1,43 @@
+<% include ../header %>
+<h1>Slist</h1>
+
+<h2>$.Slist(&#39;head&#39;, oOption)</h2>
+
+<ul><li><code>oOption</code> {Object}</li></ul>
+
+<p>功能：初始化slist</p>
+
+<p>oOption 可选字段：
+如果 
+- <code>buttons</code> - {Array} 按钮列表，需要数组中每一项类型为 {Object}
+    + <code>name</code> - {String} 按钮类型，支持的类型有 detail, delete, edit, reboot, download, upgrade, import
+                        会调用 createDefButtons 添加按钮，
+                        支持的按钮会被放在每行的最后，不支持的按钮会放在表格上方，               <br/>    + <code>enable</code> - {Bool} 按钮使能，如果不使能，则不会显示。
+    + <code>action</code> - {Function} 
+    + <code>value</code> - {String} 按钮中间的文本
+    + <code>mode</code> - {Object} 配置icon图标使用，不推荐使用，会将icon 字段替换为mode.icons.primary
+    + <code>icon</code> - {String} 按钮图标样式，可以使用 font-awesome 提供的字体 如 fa fa-sign-in。如果不填该字段 会生成无图标的按钮 
+    + <code>description</code> - {String} 按钮的 title 属性，如果不存在使用 value 字段</p>
+
+<ul><li><p><code>colModel</code> - {Array} 每项列配置</p><ul><li><code>name</code> - {String} 每列数据对应的 key 值，名称不能为 slist_operation</li><li><code>showTip</code> - {Bool} 是否显示，默认为 true</li><li><p><code>width</code> - {Integer} 每列的宽度 默认值为平均分配 这块代码没仔细看</p></li></ul></li><li><p><code>colName</code> - {Array}|{String} 表头名称，如果是字符串需要用<code>,</code>分割，长度和colModel保持一致</p></li><li><code>multiSelect</code> - {Bool} 是否支持多选</li><li><code>sortable</code> - {Bool} 是否支持排序</li><li><code>onToggle</code> - {Object} slist列展开<ul><li><code>action</code> - {Function} 参数 oRowData ，显示点击时的下拉展开</li><li><code>jScope</code> - {Object} 下拉列表 jQuery 对象</li><li><code>BtnDel</code> - {Object} 删除按钮<ul><li><code>Show</code> - {Bool} 是否显示</li><li><code>action</code> - {Function} 参数 oRowData ,响应删除事件</li></ul></li></ul></li><li><code>pageSize</code> - {Integer} 每页最大行数，默认是0，不会分页显示</li><li><code>onPageChange</code> - {Function} 分页响应事件，需要 pageSize 的参数不为0，参数 pageSize pageNum oFilter</li><li><code>asyncPaging</code> - {Bool} 分页查询使能，</li><li><code>onSearch</code> - {Function} 查询回调函数，参数 oFilter oSorter</li><li><code>onSort</code> - {Function} 排序回调函数，参数 sName isDesc</li></ul>
+
+<h2>$.Slist(&#39;refresh&#39;, aData)</h2>
+
+<p>功能：更新数据</p>
+
+<ul><li><code>aData</code> {Object}|{Array}</li></ul>
+
+<p>aData 字段说明
+1. asyncPaging 使能：
+    - <code>total</code> - {Integer} 数据的总数
+    - <code>pageNum</code> - {Integer} 当前的页码
+    - <code>data</code> - {Array} 当前页的数据</p>
+
+<ol><li>asyncPaging 不使能 直接传入数据就好</li></ol>
+
+<h2>$.Slist(&#39;extend&#39;, aData)</h2>
+
+<p>功能：增加数据</p>
+
+<p>aData 『』</p>
+<% include ../footer %>

@@ -1,0 +1,1963 @@
+[2016-05-25 08:34:37.723] [INFO] console - {"doclist":[{"DocIndex":"doc_9842227725675352","Name":"无线定位接口文档","time":1464078962963},{"DocIndex":"doc_18264992210987874","Name":"2322","time":1464078710066},{"DocIndex":"doc_7577103296698844","Name":"asfasdfdsdsafadfasdfsad","time":1464078943982},{"DocIndex":"doc_3048787579029264","Name":"asas","time":1464077639702},{"DocIndex":"doc_5866521044873243","Name":"aaa","time":1464078067389},{"DocIndex":"doc_8466751070093037","Name":"yuanyuekun","time":1464077563211}],"retCode":0}
+[2016-05-25 08:56:12.963] [INFO] console - /load
+[2016-05-25 08:56:13.011] [INFO] console - { docindex: [ 'doc_6913644165241073' ] }
+[2016-05-25 08:56:13.018] [INFO] console - gaochao
+[2016-05-25 08:56:13.018] [INFO] console - object
+[2016-05-25 08:56:13.019] [INFO] console - []
+[2016-05-25 08:56:13.020] [INFO] console - gaochao
+[2016-05-25 08:56:13.020] [INFO] console - object
+[2016-05-25 08:56:13.021] [INFO] console - []
+[2016-05-25 08:56:13.021] [INFO] console - gaochao
+[2016-05-25 08:56:13.022] [INFO] console - object
+[2016-05-25 08:56:13.025] [INFO] console - []
+[2016-05-25 08:56:13.026] [INFO] console - gaochao
+[2016-05-25 08:56:13.026] [INFO] console - object
+[2016-05-25 08:56:13.027] [INFO] console - []
+[2016-05-25 08:56:13.027] [INFO] console - gaochao
+[2016-05-25 08:56:13.028] [INFO] console - object
+[2016-05-25 08:56:13.028] [INFO] console - []
+[2016-05-25 08:56:13.028] [INFO] console - gaochao
+[2016-05-25 08:56:13.028] [INFO] console - object
+[2016-05-25 08:56:13.029] [INFO] console - []
+[2016-05-25 08:56:13.029] [INFO] console - gaochao
+[2016-05-25 08:56:13.029] [INFO] console - object
+[2016-05-25 08:56:13.029] [INFO] console - []
+[2016-05-25 08:56:13.030] [INFO] console - gaochao
+[2016-05-25 08:56:13.030] [INFO] console - object
+[2016-05-25 08:56:13.030] [INFO] console - []
+[2016-05-25 08:56:13.031] [INFO] console - gaochao
+[2016-05-25 08:56:13.031] [INFO] console - object
+[2016-05-25 08:56:13.032] [INFO] console - []
+[2016-05-25 08:56:13.032] [INFO] console - gaochao
+[2016-05-25 08:56:13.032] [INFO] console - object
+[2016-05-25 08:56:13.033] [INFO] console - []
+[2016-05-25 08:56:13.033] [INFO] console - gaochao
+[2016-05-25 08:56:13.033] [INFO] console - object
+[2016-05-25 08:56:13.034] [INFO] console - []
+[2016-05-25 08:56:13.034] [INFO] console - gaochao
+[2016-05-25 08:56:13.034] [INFO] console - object
+[2016-05-25 08:56:13.034] [INFO] console - []
+[2016-05-25 08:56:13.035] [INFO] console - addwebdocnew[object Object]
+[2016-05-25 08:56:13.035] [INFO] console - {"DocIndex":"doc_6913644165241073","Name":"应用分析接口文档","description":"本文档是用来描述应用分析的接口信息 包括 应用微服务和网站微服务","author":"yuzhiqiang","AllItems":[{"ItemName":"应用统计","Itemdesc":"用来获取应用数据的微服务","SubItem":"InterfacesStatis","subitemdesc":"获取接口数据","Method":"post","author":"yuzhiqiang","Return":"[\n]\n","Parameters":[{"name":"Method:InterfacesStatis","description":"接口名称"},{"name":"Param","description":{"ACSN":"设备序列号","family":" //0 表示ipv4  1表示ipv6","direct":" //0表示上行 1表示下行","StartTime":"Xxxxxxxxxx  // 开始时间 单位秒","EndTime":"xxxxxxxxxx //结束时间 单位秒"}}],"Error":[{"name":"retCode","description":"0成功  1失败"},{"name":"message","description":"[返回的数据存放在数组中]"}],"Path":"/ant/read_dpi_app"},{"ItemName":"应用统计","Itemdesc":"用来获取应用数据的微服务","SubItem":"GetAppLine","subitemdesc":"应用分析获取折线图的数据","Method":"post","author":"yuzhiqiang","Return":"[\n]\n","Parameters":[{"name":"Method:GetAppLine","description":"接口名称"},{"name":"MAC","description":"MAC地址过滤 不过滤输入 "},{"name":"APPName","description":"应用名称过滤 不过滤 输入"},{"name":"SelectWay","description":"统计方式过滤 0 按人次过滤统计 2按流量统计"},{"name":"APPGroupName","description":"应用类型过滤 不过滤输入"},{"name":"Param","description":{"ACSN":"设备序列号","family":" //0表示ipv4  1表示ipv6","direct":"  //0表示上行 1表示下行","StartTime":"Xxxxxxxxxx  //开始时间 单位秒","EndTime":"xxxxxxxxxx //结束时间 单位秒"}}],"Error":[{"name":"retCode","description":"0成功 1失败"},{"name":"message","description":"[返回的数据存放在数组中]"}],"Path":"/ant/read_dpi_app"},{"ItemName":"应用统计","Itemdesc":"用来获取应用数据的微服务","SubItem":"WelComeApp","subitemdesc":"最受欢迎的应用","Method":"post","author":"yuzhiqiang","Return":"[\n]\n","Parameters":[{"name":"Method:WelComeApp","description":"接口名称"},{"name":"Param","description":{"ACSN":"设备序列号","family":" //0 表示ipv4  1表示ipv6","direct":"  //0表示上行 1表示下行","StartTime":"Xxxxxxxxxx  // 开始时间 单位秒","EndTime":"xxxxxxxxxx //结束时间 单位秒"}},{"name":"Return","description":{"UserMAC":"用户mac地址","APPName":"App的名字"}}],"Error":[{"name":"retCode","description":"0成功  1失败"},{"name":"message","description":"[返回的数据存放在数组中]"}],"Path":"/ant/read_dpi_app"},{"ItemName":"应用统计","Itemdesc":"用来获取应用数据的微服务","SubItem":"GetAppPie","subitemdesc":"应用分析获取以MAC地址 应用名称 统计方式 应用类型 为索引的数据","Method":"post","author":"yuzhiqiang","Return":"[\n]\n","Parameters":[{"name":"Method:GetAppPie","description":"接口名称"},{"name":"MAC","description":"MAC地址过滤 不过滤输入"},{"name":"APPName","description":"应用名称过滤 不过滤 输入"},{"name":"SelectWay","description":"统计方式过滤 0 按人次过滤统计 2按流量统计"},{"name":"APPGroupName","description":"应用类型过滤 不过滤输入"},{"name":"Param","description":{"ACSN":"设备序列号","family":"  //0 表示ipv4  1表示ipv6 direct:  //0表示上行 1表示下行","StartTime":"Xxxxxxxxxx  // 开始时间 单位秒","EndTime":"xxxxxxxxxx //结束时间 单位秒"}}],"Error":[{"name":"retCode","description":"0成功  1失败"},{"name":"message","description":"[返回的数据存放在数组中]"}],"Path":"/ant/read_dpi_app"},{"ItemName":"应用统计","Itemdesc":"用来获取应用数据的微服务","SubItem":"GetFlowChart","subitemdesc":"应用分析获取流量展示到折线图中","Method":"post","author":"yuzhiqiang","Return":"[\n]\n","Parameters":[{"name":"Method:GetFlowChart","description":"接口名称"},{"name":"Time","description":"当前时间的小时 请用new Date().getHour()获取小时"},{"name":"Param","description":{"ACSN":"设备序列号","family":"  //0 表示ipv4  1表示ipv6","direct":" //0表示上行 1表示下行","StartTime":"Xxxxxxxxxx  // 开始时间 单位秒","EndTime":"xxxxxxxxxx //结束时间 单位秒"}}],"Error":[{"name":"retCode","description":"0成功  1失败"},{"name":"message","description":"[返回的数据存放在数组中]"}],"Path":"/ant/read_dpi_app"},{"ItemName":"应用统计","Itemdesc":"用来获取应用数据的微服务","SubItem":"GetFlow","subitemdesc":"应用分析获取流量","Method":"post","author":"yuzhiqiang","Return":"[\n]\n","Parameters":[{"name":"Method:GetFlow","description":"接口名称"},{"name":"Param","description":{"ACSN":"设备序列号","family":"  //0 表示ipv4  1表示ipv6","direct":"  //0表示上行 1表示下行","StartTime":"Xxxxxxxxxx  // 开始时间 单位秒","EndTime":"xxxxxxxxxx //结束时间 单位秒"}},{"name":"Return","description":["DropPktBytes","Pkt","PktBytes","DropPkt"]}],"Error":[{"name":"retCode","description":"0成功  1失败"},{"name":"message","description":"[返回的数据存放在数组中]"}],"Path":"/ant/read_dpi_app"},{"ItemName":"应用统计","Itemdesc":"用来获取应用数据的微服务","SubItem":"GetApp","subitemdesc":"获取应用数据","Method":"post","author":"yuzhiqiang","Return":"[\n]\n","Parameters":[{"name":"Method:GetApp","description":"接口名称"},{"name":"Param","description":{"ACSN":"设备序列号","family":"  //0 表示ipv4  1表示ipv6","direct":"  //0表示上行 1表示下行","StartTime":"Xxxxxxxxxx  // 开始时间 单位秒","EndTime":"xxxxxxxxxx //结束时间 单位秒"}},{"name":"Return","description":["需要那个字段填写即可"]}],"Error":[{"name":"retCode","description":"0成功  1失败"},{"name":"message","description":"[返回的数据存放在数组中]"}],"Path":"/ant/read_dpi_app"},{"ItemName":"应用统计","Itemdesc":"用来获取应用数据的微服务","SubItem":"GetLog","subitemdesc":"获取应用的历史数据","Method":"post","author":"yuzhiqiang","Return":"[\n]\n","Parameters":[{"name":"Method:GetLog","description":"接口名称"},{"name":"Param","description":{"ACSN":"设备序列号","family":"  //0 表示ipv4  1表示ipv6","direct":"  //0表示上行 1表示下行","StartTime":"Xxxxxxxxxx  // 开始时间 单位秒","EndTime":"xxxxxxxxxx //结束时间 单位秒"}},{"name":"Return","description":["需要那个字段填写即可"]}],"Error":[{"name":"retCode","description":"0成功  1失败"},{"name":"message","description":"[返回的数据存放在数组中]"}],"Path":"/ant/read_dpi_app"},{"ItemName":"网站统计","Itemdesc":"本文档提供了获取网站数据的接口","SubItem":"NatPlayNum","subitemdesc":"获取上网人次显示到折线图中","Method":"post","author":"yuzhiqiang","Return":"[\n]\n","Parameters":[{"name":"Method:NatPlayNum","description":"接口名称"},{"name":"UrlType","description":"网站类型过滤 不过滤输入 "},{"name":"Time","description":"当前时间的小时 请用new Date().getHour()获取"},{"name":"Param","description":{"ACSN":"设备序列号","family":"  //0 表示ipv4  1表示ipv6","direct":"  //0表示上行 1表示下行","StartTime":"Xxxxxxxxxx  // 开始时间 单位秒","EndTime":"xxxxxxxxxx //结束时间 单位秒"}}],"Error":[{"name":"retCode","description":"0成功  1失败"},{"name":"message","description":"[返回的数据存放在数组中]"}],"Path":"/ant/read_dpi_url"},{"ItemName":"网站统计","Itemdesc":"本文档提供了获取网站数据的接口","SubItem":"WelComeUrl","subitemdesc":"最受欢迎的网站","Method":"post","author":"yuzhiqiang","Return":"[\n]\n","Parameters":[{"name":"Method:WelComeUrl","description":"接口名称"},{"name":"UrlType","description":"网站类型过滤 不过滤输入 "},{"name":"Param","description":{"ACSN":"设备序列号","family":" //0 表示ipv4  1表示ipv6","direct":"  //0表示上行 1表示下行","StartTime":"Xxxxxxxxxx  // 开始时间 单位秒","EndTime":"xxxxxxxxxx //结束时间 单位秒"}},{"name":"Return","description":{"UserMAC":"用户mac地址","WebsiteName":"web名字"}}],"Error":[{"name":"retCode","description":"0成功  1失败"},{"name":"message","description":"[返回的数据存放在数组中]"}],"Path":"/ant/read_dpi_url"},{"ItemName":"网站统计","Itemdesc":"本文档提供了获取网站数据的接口","SubItem":"UrlTopFive","subitemdesc":"以网站名称或网站类型获取URL的前五","Method":"post","author":"yuzhiqiang","Return":"[\n]\n","Parameters":[{"name":"Method:UrlTopFive","description":"接口名称"},{"name":"UrlType","description":"网站类型过滤 可不填 "},{"name":"URL","description":"网站名称过滤 可不填"},{"name":"Param","description":{"ACSN":"设备序列号","family":" //0 表示ipv4  1表示ipv6","direct":"  //0表示上行 1表示下行","StartTime":"Xxxxxxxxxx  // 开始时间 单位秒","EndTime":"xxxxxxxxxx //结束时间 单位秒"}}],"Error":[{"name":"retCode","description":"0成功  1失败"},{"name":"message","description":"[返回的数据存放在数组中]"}],"Path":"/ant/read_dpi_url"},{"ItemName":"网站统计","Itemdesc":"本文档提供了获取网站数据的接口","SubItem":"GetUrl","subitemdesc":"获取Url数据","Method":"post","author":"yuzhiqiang","Return":"[\n]\n","Parameters":[{"name":"Param","description":{"ACSN":"设备序列号","family":"  //0 表示ipv4  1表示ipv6","direct":"  //0表示上行 1表示下行","StartTime":"Xxxxxxxxxx  // 开始时间 单位秒","EndTime":"xxxxxxxxxx //结束时间 单位秒"}},{"name":"Return","description":["填写需要返回的数据"]}],"Error":[{"name":"retCode","description":"0成功  1失败"},{"name":"message","description":"[返回的数据存放在数组中]"}],"Path":"/ant/read_dpi_url"}]}
+[2016-05-25 08:56:13.052] [INFO] console - time doc_6913644165241073
+[2016-05-25 08:56:13.053] [INFO] console - oUpdate {"Name":"应用分析接口文档","DocIndex":"doc_6913644165241073","AllItems":[{"ItemName":"应用统计","Itemdesc":"用来获取应用数据的微服务","SubItem":"InterfacesStatis","subitemdesc":"获取接口数据","Method":"post","author":"yuzhiqiang","Return":"[\n]\n","Parameters":[{"name":"Method:InterfacesStatis","description":"接口名称"},{"name":"Param","description":{"ACSN":"设备序列号","family":" //0 表示ipv4  1表示ipv6","direct":" //0表示上行 1表示下行","StartTime":"Xxxxxxxxxx  // 开始时间 单位秒","EndTime":"xxxxxxxxxx //结束时间 单位秒"}}],"Error":[{"name":"retCode","description":"0成功  1失败"},{"name":"message","description":"[返回的数据存放在数组中]"}],"Path":"/ant/read_dpi_app"},{"ItemName":"应用统计","Itemdesc":"用来获取应用数据的微服务","SubItem":"GetAppLine","subitemdesc":"应用分析获取折线图的数据","Method":"post","author":"yuzhiqiang","Return":"[\n]\n","Parameters":[{"name":"Method:GetAppLine","description":"接口名称"},{"name":"MAC","description":"MAC地址过滤 不过滤输入 "},{"name":"APPName","description":"应用名称过滤 不过滤 输入"},{"name":"SelectWay","description":"统计方式过滤 0 按人次过滤统计 2按流量统计"},{"name":"APPGroupName","description":"应用类型过滤 不过滤输入"},{"name":"Param","description":{"ACSN":"设备序列号","family":" //0表示ipv4  1表示ipv6","direct":"  //0表示上行 1表示下行","StartTime":"Xxxxxxxxxx  //开始时间 单位秒","EndTime":"xxxxxxxxxx //结束时间 单位秒"}}],"Error":[{"name":"retCode","description":"0成功 1失败"},{"name":"message","description":"[返回的数据存放在数组中]"}],"Path":"/ant/read_dpi_app"},{"ItemName":"应用统计","Itemdesc":"用来获取应用数据的微服务","SubItem":"WelComeApp","subitemdesc":"最受欢迎的应用","Method":"post","author":"yuzhiqiang","Return":"[\n]\n","Parameters":[{"name":"Method:WelComeApp","description":"接口名称"},{"name":"Param","description":{"ACSN":"设备序列号","family":" //0 表示ipv4  1表示ipv6","direct":"  //0表示上行 1表示下行","StartTime":"Xxxxxxxxxx  // 开始时间 单位秒","EndTime":"xxxxxxxxxx //结束时间 单位秒"}},{"name":"Return","description":{"UserMAC":"用户mac地址","APPName":"App的名字"}}],"Error":[{"name":"retCode","description":"0成功  1失败"},{"name":"message","description":"[返回的数据存放在数组中]"}],"Path":"/ant/read_dpi_app"},{"ItemName":"应用统计","Itemdesc":"用来获取应用数据的微服务","SubItem":"GetAppPie","subitemdesc":"应用分析获取以MAC地址 应用名称 统计方式 应用类型 为索引的数据","Method":"post","author":"yuzhiqiang","Return":"[\n]\n","Parameters":[{"name":"Method:GetAppPie","description":"接口名称"},{"name":"MAC","description":"MAC地址过滤 不过滤输入"},{"name":"APPName","description":"应用名称过滤 不过滤 输入"},{"name":"SelectWay","description":"统计方式过滤 0 按人次过滤统计 2按流量统计"},{"name":"APPGroupName","description":"应用类型过滤 不过滤输入"},{"name":"Param","description":{"ACSN":"设备序列号","family":"  //0 表示ipv4  1表示ipv6 direct:  //0表示上行 1表示下行","StartTime":"Xxxxxxxxxx  // 开始时间 单位秒","EndTime":"xxxxxxxxxx //结束时间 单位秒"}}],"Error":[{"name":"retCode","description":"0成功  1失败"},{"name":"message","description":"[返回的数据存放在数组中]"}],"Path":"/ant/read_dpi_app"},{"ItemName":"应用统计","Itemdesc":"用来获取应用数据的微服务","SubItem":"GetFlowChart","subitemdesc":"应用分析获取流量展示到折线图中","Method":"post","author":"yuzhiqiang","Return":"[\n]\n","Parameters":[{"name":"Method:GetFlowChart","description":"接口名称"},{"name":"Time","description":"当前时间的小时 请用new Date().getHour()获取小时"},{"name":"Param","description":{"ACSN":"设备序列号","family":"  //0 表示ipv4  1表示ipv6","direct":" //0表示上行 1表示下行","StartTime":"Xxxxxxxxxx  // 开始时间 单位秒","EndTime":"xxxxxxxxxx //结束时间 单位秒"}}],"Error":[{"name":"retCode","description":"0成功  1失败"},{"name":"message","description":"[返回的数据存放在数组中]"}],"Path":"/ant/read_dpi_app"},{"ItemName":"应用统计","Itemdesc":"用来获取应用数据的微服务","SubItem":"GetFlow","subitemdesc":"应用分析获取流量","Method":"post","author":"yuzhiqiang","Return":"[\n]\n","Parameters":[{"name":"Method:GetFlow","description":"接口名称"},{"name":"Param","description":{"ACSN":"设备序列号","family":"  //0 表示ipv4  1表示ipv6","direct":"  //0表示上行 1表示下行","StartTime":"Xxxxxxxxxx  // 开始时间 单位秒","EndTime":"xxxxxxxxxx //结束时间 单位秒"}},{"name":"Return","description":["DropPktBytes","Pkt","PktBytes","DropPkt"]}],"Error":[{"name":"retCode","description":"0成功  1失败"},{"name":"message","description":"[返回的数据存放在数组中]"}],"Path":"/ant/read_dpi_app"},{"ItemName":"应用统计","Itemdesc":"用来获取应用数据的微服务","SubItem":"GetApp","subitemdesc":"获取应用数据","Method":"post","author":"yuzhiqiang","Return":"[\n]\n","Parameters":[{"name":"Method:GetApp","description":"接口名称"},{"name":"Param","description":{"ACSN":"设备序列号","family":"  //0 表示ipv4  1表示ipv6","direct":"  //0表示上行 1表示下行","StartTime":"Xxxxxxxxxx  // 开始时间 单位秒","EndTime":"xxxxxxxxxx //结束时间 单位秒"}},{"name":"Return","description":["需要那个字段填写即可"]}],"Error":[{"name":"retCode","description":"0成功  1失败"},{"name":"message","description":"[返回的数据存放在数组中]"}],"Path":"/ant/read_dpi_app"},{"ItemName":"应用统计","Itemdesc":"用来获取应用数据的微服务","SubItem":"GetLog","subitemdesc":"获取应用的历史数据","Method":"post","author":"yuzhiqiang","Return":"[\n]\n","Parameters":[{"name":"Method:GetLog","description":"接口名称"},{"name":"Param","description":{"ACSN":"设备序列号","family":"  //0 表示ipv4  1表示ipv6","direct":"  //0表示上行 1表示下行","StartTime":"Xxxxxxxxxx  // 开始时间 单位秒","EndTime":"xxxxxxxxxx //结束时间 单位秒"}},{"name":"Return","description":["需要那个字段填写即可"]}],"Error":[{"name":"retCode","description":"0成功  1失败"},{"name":"message","description":"[返回的数据存放在数组中]"}],"Path":"/ant/read_dpi_app"},{"ItemName":"网站统计","Itemdesc":"本文档提供了获取网站数据的接口","SubItem":"NatPlayNum","subitemdesc":"获取上网人次显示到折线图中","Method":"post","author":"yuzhiqiang","Return":"[\n]\n","Parameters":[{"name":"Method:NatPlayNum","description":"接口名称"},{"name":"UrlType","description":"网站类型过滤 不过滤输入 "},{"name":"Time","description":"当前时间的小时 请用new Date().getHour()获取"},{"name":"Param","description":{"ACSN":"设备序列号","family":"  //0 表示ipv4  1表示ipv6","direct":"  //0表示上行 1表示下行","StartTime":"Xxxxxxxxxx  // 开始时间 单位秒","EndTime":"xxxxxxxxxx //结束时间 单位秒"}}],"Error":[{"name":"retCode","description":"0成功  1失败"},{"name":"message","description":"[返回的数据存放在数组中]"}],"Path":"/ant/read_dpi_url"},{"ItemName":"网站统计","Itemdesc":"本文档提供了获取网站数据的接口","SubItem":"WelComeUrl","subitemdesc":"最受欢迎的网站","Method":"post","author":"yuzhiqiang","Return":"[\n]\n","Parameters":[{"name":"Method:WelComeUrl","description":"接口名称"},{"name":"UrlType","description":"网站类型过滤 不过滤输入 "},{"name":"Param","description":{"ACSN":"设备序列号","family":" //0 表示ipv4  1表示ipv6","direct":"  //0表示上行 1表示下行","StartTime":"Xxxxxxxxxx  // 开始时间 单位秒","EndTime":"xxxxxxxxxx //结束时间 单位秒"}},{"name":"Return","description":{"UserMAC":"用户mac地址","WebsiteName":"web名字"}}],"Error":[{"name":"retCode","description":"0成功  1失败"},{"name":"message","description":"[返回的数据存放在数组中]"}],"Path":"/ant/read_dpi_url"},{"ItemName":"网站统计","Itemdesc":"本文档提供了获取网站数据的接口","SubItem":"UrlTopFive","subitemdesc":"以网站名称或网站类型获取URL的前五","Method":"post","author":"yuzhiqiang","Return":"[\n]\n","Parameters":[{"name":"Method:UrlTopFive","description":"接口名称"},{"name":"UrlType","description":"网站类型过滤 可不填 "},{"name":"URL","description":"网站名称过滤 可不填"},{"name":"Param","description":{"ACSN":"设备序列号","family":" //0 表示ipv4  1表示ipv6","direct":"  //0表示上行 1表示下行","StartTime":"Xxxxxxxxxx  // 开始时间 单位秒","EndTime":"xxxxxxxxxx //结束时间 单位秒"}}],"Error":[{"name":"retCode","description":"0成功  1失败"},{"name":"message","description":"[返回的数据存放在数组中]"}],"Path":"/ant/read_dpi_url"},{"ItemName":"网站统计","Itemdesc":"本文档提供了获取网站数据的接口","SubItem":"GetUrl","subitemdesc":"获取Url数据","Method":"post","author":"yuzhiqiang","Return":"[\n]\n","Parameters":[{"name":"Param","description":{"ACSN":"设备序列号","family":"  //0 表示ipv4  1表示ipv6","direct":"  //0表示上行 1表示下行","StartTime":"Xxxxxxxxxx  // 开始时间 单位秒","EndTime":"xxxxxxxxxx //结束时间 单位秒"}},{"name":"Return","description":["填写需要返回的数据"]}],"Error":[{"name":"retCode","description":"0成功  1失败"},{"name":"message","description":"[返回的数据存放在数组中]"}],"Path":"/ant/read_dpi_url"}],"time":1464137773052,"author":"yuzhiqiang","description":"本文档是用来描述应用分析的接口信息 包括 应用微服务和网站微服务"}
+[2016-05-25 08:56:13.190] [INFO] console - {"doclist":[{"DocIndex":"doc_8466751070093037","Name":"yuanyuekun","time":1464077563211},{"DocIndex":"doc_6913644165241073","Name":"应用分析接口文档","time":1464137773052},{"DocIndex":"doc_5866521044873243","Name":"aaa","time":1464078067389},{"DocIndex":"doc_9842227725675352","Name":"无线定位接口文档","time":1464078962963},{"DocIndex":"doc_7577103296698844","Name":"asfasdfdsdsafadfasdfsad","time":1464078943982},{"DocIndex":"doc_18264992210987874","Name":"2322","time":1464078710066},{"DocIndex":"doc_3048787579029264","Name":"asas","time":1464077639702}],"retCode":0}
+[2016-05-25 08:57:16.921] [INFO] console - Wed May 25 2016 08:57:16 GMT+0800 (中国标准时间)doc server use http/https port 3005/3006
+[2016-05-25 08:57:17.022] [INFO] console - Wed May 25 2016 08:57:17 GMT+0800 (中国标准时间) doc server start http server and listen on: {"address":"::","family":"IPv6","port":3005}
+[2016-05-25 08:57:17.024] [INFO] console - Wed May 25 2016 08:57:17 GMT+0800 (中国标准时间) doc server start https server and listen on: {"address":"::","family":"IPv6","port":3006}
+[2016-05-25 08:57:17.077] [INFO] console - Wed May 25 2016 08:57:17 GMT+0800 (中国标准时间) Connect to mongoose success: mongodb://127.0.0.1:27017/webdoc_db
+[2016-05-25 08:57:43.673] [INFO] console - /load
+[2016-05-25 08:57:43.761] [INFO] console - { docindex: [ 'doc_6913644165241073' ] }
+[2016-05-25 08:57:43.775] [INFO] console - [ { name: 'Method:InterfacesStatis', description: '接口名称' },
+  { name: 'Param',
+    description: 
+     { ACSN: '设备序列号',
+       family: ' //0 表示ipv4  1表示ipv6',
+       direct: ' //0表示上行 1表示下行',
+       StartTime: 'Xxxxxxxxxx  // 开始时间 单位秒',
+       EndTime: 'xxxxxxxxxx //结束时间 单位秒' } } ]
+[2016-05-25 08:57:43.780] [INFO] console - [ { name: 'Method:GetAppLine', description: '接口名称' },
+  { name: 'MAC', description: 'MAC地址过滤 不过滤输入 ' },
+  { name: 'APPName', description: '应用名称过滤 不过滤 输入' },
+  { name: 'SelectWay', description: '统计方式过滤 0 按人次过滤统计 2按流量统计' },
+  { name: 'APPGroupName', description: '应用类型过滤 不过滤输入' },
+  { name: 'Param',
+    description: 
+     { ACSN: '设备序列号',
+       family: ' //0表示ipv4  1表示ipv6',
+       direct: '  //0表示上行 1表示下行',
+       StartTime: 'Xxxxxxxxxx  //开始时间 单位秒',
+       EndTime: 'xxxxxxxxxx //结束时间 单位秒' } } ]
+[2016-05-25 08:57:43.784] [INFO] console - [ { name: 'Method:WelComeApp', description: '接口名称' },
+  { name: 'Param',
+    description: 
+     { ACSN: '设备序列号',
+       family: ' //0 表示ipv4  1表示ipv6',
+       direct: '  //0表示上行 1表示下行',
+       StartTime: 'Xxxxxxxxxx  // 开始时间 单位秒',
+       EndTime: 'xxxxxxxxxx //结束时间 单位秒' } },
+  { name: 'Return',
+    description: { UserMAC: '用户mac地址', APPName: 'App的名字' } } ]
+[2016-05-25 08:57:43.788] [INFO] console - [ { name: 'Method:GetAppPie', description: '接口名称' },
+  { name: 'MAC', description: 'MAC地址过滤 不过滤输入' },
+  { name: 'APPName', description: '应用名称过滤 不过滤 输入' },
+  { name: 'SelectWay', description: '统计方式过滤 0 按人次过滤统计 2按流量统计' },
+  { name: 'APPGroupName', description: '应用类型过滤 不过滤输入' },
+  { name: 'Param',
+    description: 
+     { ACSN: '设备序列号',
+       family: '  //0 表示ipv4  1表示ipv6 direct:  //0表示上行 1表示下行',
+       StartTime: 'Xxxxxxxxxx  // 开始时间 单位秒',
+       EndTime: 'xxxxxxxxxx //结束时间 单位秒' } } ]
+[2016-05-25 08:57:43.794] [INFO] console - [ { name: 'Method:GetFlowChart', description: '接口名称' },
+  { name: 'Time',
+    description: '当前时间的小时 请用new Date().getHour()获取小时' },
+  { name: 'Param',
+    description: 
+     { ACSN: '设备序列号',
+       family: '  //0 表示ipv4  1表示ipv6',
+       direct: ' //0表示上行 1表示下行',
+       StartTime: 'Xxxxxxxxxx  // 开始时间 单位秒',
+       EndTime: 'xxxxxxxxxx //结束时间 单位秒' } } ]
+[2016-05-25 08:57:43.795] [INFO] console - [ { name: 'Method:GetFlow', description: '接口名称' },
+  { name: 'Param',
+    description: 
+     { ACSN: '设备序列号',
+       family: '  //0 表示ipv4  1表示ipv6',
+       direct: '  //0表示上行 1表示下行',
+       StartTime: 'Xxxxxxxxxx  // 开始时间 单位秒',
+       EndTime: 'xxxxxxxxxx //结束时间 单位秒' } },
+  { name: 'Return',
+    description: [ 'DropPktBytes', 'Pkt', 'PktBytes', 'DropPkt' ] } ]
+[2016-05-25 08:57:43.797] [INFO] console - [ { name: 'Method:GetApp', description: '接口名称' },
+  { name: 'Param',
+    description: 
+     { ACSN: '设备序列号',
+       family: '  //0 表示ipv4  1表示ipv6',
+       direct: '  //0表示上行 1表示下行',
+       StartTime: 'Xxxxxxxxxx  // 开始时间 单位秒',
+       EndTime: 'xxxxxxxxxx //结束时间 单位秒' } },
+  { name: 'Return', description: [ '需要那个字段填写即可' ] } ]
+[2016-05-25 08:57:43.802] [INFO] console - [ { name: 'Method:GetLog', description: '接口名称' },
+  { name: 'Param',
+    description: 
+     { ACSN: '设备序列号',
+       family: '  //0 表示ipv4  1表示ipv6',
+       direct: '  //0表示上行 1表示下行',
+       StartTime: 'Xxxxxxxxxx  // 开始时间 单位秒',
+       EndTime: 'xxxxxxxxxx //结束时间 单位秒' } },
+  { name: 'Return', description: [ '需要那个字段填写即可' ] } ]
+[2016-05-25 08:57:43.805] [INFO] console - [ { name: 'Method:NatPlayNum', description: '接口名称' },
+  { name: 'UrlType', description: '网站类型过滤 不过滤输入 ' },
+  { name: 'Time',
+    description: '当前时间的小时 请用new Date().getHour()获取' },
+  { name: 'Param',
+    description: 
+     { ACSN: '设备序列号',
+       family: '  //0 表示ipv4  1表示ipv6',
+       direct: '  //0表示上行 1表示下行',
+       StartTime: 'Xxxxxxxxxx  // 开始时间 单位秒',
+       EndTime: 'xxxxxxxxxx //结束时间 单位秒' } } ]
+[2016-05-25 08:57:43.807] [INFO] console - [ { name: 'Method:WelComeUrl', description: '接口名称' },
+  { name: 'UrlType', description: '网站类型过滤 不过滤输入 ' },
+  { name: 'Param',
+    description: 
+     { ACSN: '设备序列号',
+       family: ' //0 表示ipv4  1表示ipv6',
+       direct: '  //0表示上行 1表示下行',
+       StartTime: 'Xxxxxxxxxx  // 开始时间 单位秒',
+       EndTime: 'xxxxxxxxxx //结束时间 单位秒' } },
+  { name: 'Return',
+    description: { UserMAC: '用户mac地址', WebsiteName: 'web名字' } } ]
+[2016-05-25 08:57:43.812] [INFO] console - [ { name: 'Method:UrlTopFive', description: '接口名称' },
+  { name: 'UrlType', description: '网站类型过滤 可不填 ' },
+  { name: 'URL', description: '网站名称过滤 可不填' },
+  { name: 'Param',
+    description: 
+     { ACSN: '设备序列号',
+       family: ' //0 表示ipv4  1表示ipv6',
+       direct: '  //0表示上行 1表示下行',
+       StartTime: 'Xxxxxxxxxx  // 开始时间 单位秒',
+       EndTime: 'xxxxxxxxxx //结束时间 单位秒' } } ]
+[2016-05-25 08:57:43.816] [INFO] console - [ { name: 'Param',
+    description: 
+     { ACSN: '设备序列号',
+       family: '  //0 表示ipv4  1表示ipv6',
+       direct: '  //0表示上行 1表示下行',
+       StartTime: 'Xxxxxxxxxx  // 开始时间 单位秒',
+       EndTime: 'xxxxxxxxxx //结束时间 单位秒' } },
+  { name: 'Return', description: [ '填写需要返回的数据' ] } ]
+[2016-05-25 08:57:43.824] [INFO] console - addwebdocnew[object Object]
+[2016-05-25 08:57:43.825] [INFO] console - {"DocIndex":"doc_6913644165241073","Name":"应用分析接口文档","description":"本文档是用来描述应用分析的接口信息 包括 应用微服务和网站微服务","author":"yuzhiqiang","AllItems":[{"ItemName":"应用统计","Itemdesc":"用来获取应用数据的微服务","SubItem":"InterfacesStatis","subitemdesc":"获取接口数据","Method":"post","author":"yuzhiqiang","Return":"[\n]\n","Parameters":[{"name":"Method:InterfacesStatis","description":"接口名称"},{"name":"Param","description":{"ACSN":"设备序列号","family":" //0 表示ipv4  1表示ipv6","direct":" //0表示上行 1表示下行","StartTime":"Xxxxxxxxxx  // 开始时间 单位秒","EndTime":"xxxxxxxxxx //结束时间 单位秒"}}],"Error":[{"name":"retCode","description":"0成功  1失败"},{"name":"message","description":"[返回的数据存放在数组中]"}],"Path":"/ant/read_dpi_app"},{"ItemName":"应用统计","Itemdesc":"用来获取应用数据的微服务","SubItem":"GetAppLine","subitemdesc":"应用分析获取折线图的数据","Method":"post","author":"yuzhiqiang","Return":"[\n]\n","Parameters":[{"name":"Method:GetAppLine","description":"接口名称"},{"name":"MAC","description":"MAC地址过滤 不过滤输入 "},{"name":"APPName","description":"应用名称过滤 不过滤 输入"},{"name":"SelectWay","description":"统计方式过滤 0 按人次过滤统计 2按流量统计"},{"name":"APPGroupName","description":"应用类型过滤 不过滤输入"},{"name":"Param","description":{"ACSN":"设备序列号","family":" //0表示ipv4  1表示ipv6","direct":"  //0表示上行 1表示下行","StartTime":"Xxxxxxxxxx  //开始时间 单位秒","EndTime":"xxxxxxxxxx //结束时间 单位秒"}}],"Error":[{"name":"retCode","description":"0成功 1失败"},{"name":"message","description":"[返回的数据存放在数组中]"}],"Path":"/ant/read_dpi_app"},{"ItemName":"应用统计","Itemdesc":"用来获取应用数据的微服务","SubItem":"WelComeApp","subitemdesc":"最受欢迎的应用","Method":"post","author":"yuzhiqiang","Return":"[\n]\n","Parameters":[{"name":"Method:WelComeApp","description":"接口名称"},{"name":"Param","description":{"ACSN":"设备序列号","family":" //0 表示ipv4  1表示ipv6","direct":"  //0表示上行 1表示下行","StartTime":"Xxxxxxxxxx  // 开始时间 单位秒","EndTime":"xxxxxxxxxx //结束时间 单位秒"}},{"name":"Return","description":{"UserMAC":"用户mac地址","APPName":"App的名字"}}],"Error":[{"name":"retCode","description":"0成功  1失败"},{"name":"message","description":"[返回的数据存放在数组中]"}],"Path":"/ant/read_dpi_app"},{"ItemName":"应用统计","Itemdesc":"用来获取应用数据的微服务","SubItem":"GetAppPie","subitemdesc":"应用分析获取以MAC地址 应用名称 统计方式 应用类型 为索引的数据","Method":"post","author":"yuzhiqiang","Return":"[\n]\n","Parameters":[{"name":"Method:GetAppPie","description":"接口名称"},{"name":"MAC","description":"MAC地址过滤 不过滤输入"},{"name":"APPName","description":"应用名称过滤 不过滤 输入"},{"name":"SelectWay","description":"统计方式过滤 0 按人次过滤统计 2按流量统计"},{"name":"APPGroupName","description":"应用类型过滤 不过滤输入"},{"name":"Param","description":{"ACSN":"设备序列号","family":"  //0 表示ipv4  1表示ipv6 direct:  //0表示上行 1表示下行","StartTime":"Xxxxxxxxxx  // 开始时间 单位秒","EndTime":"xxxxxxxxxx //结束时间 单位秒"}}],"Error":[{"name":"retCode","description":"0成功  1失败"},{"name":"message","description":"[返回的数据存放在数组中]"}],"Path":"/ant/read_dpi_app"},{"ItemName":"应用统计","Itemdesc":"用来获取应用数据的微服务","SubItem":"GetFlowChart","subitemdesc":"应用分析获取流量展示到折线图中","Method":"post","author":"yuzhiqiang","Return":"[\n]\n","Parameters":[{"name":"Method:GetFlowChart","description":"接口名称"},{"name":"Time","description":"当前时间的小时 请用new Date().getHour()获取小时"},{"name":"Param","description":{"ACSN":"设备序列号","family":"  //0 表示ipv4  1表示ipv6","direct":" //0表示上行 1表示下行","StartTime":"Xxxxxxxxxx  // 开始时间 单位秒","EndTime":"xxxxxxxxxx //结束时间 单位秒"}}],"Error":[{"name":"retCode","description":"0成功  1失败"},{"name":"message","description":"[返回的数据存放在数组中]"}],"Path":"/ant/read_dpi_app"},{"ItemName":"应用统计","Itemdesc":"用来获取应用数据的微服务","SubItem":"GetFlow","subitemdesc":"应用分析获取流量","Method":"post","author":"yuzhiqiang","Return":"[\n]\n","Parameters":[{"name":"Method:GetFlow","description":"接口名称"},{"name":"Param","description":{"ACSN":"设备序列号","family":"  //0 表示ipv4  1表示ipv6","direct":"  //0表示上行 1表示下行","StartTime":"Xxxxxxxxxx  // 开始时间 单位秒","EndTime":"xxxxxxxxxx //结束时间 单位秒"}},{"name":"Return","description":["DropPktBytes","Pkt","PktBytes","DropPkt"]}],"Error":[{"name":"retCode","description":"0成功  1失败"},{"name":"message","description":"[返回的数据存放在数组中]"}],"Path":"/ant/read_dpi_app"},{"ItemName":"应用统计","Itemdesc":"用来获取应用数据的微服务","SubItem":"GetApp","subitemdesc":"获取应用数据","Method":"post","author":"yuzhiqiang","Return":"[\n]\n","Parameters":[{"name":"Method:GetApp","description":"接口名称"},{"name":"Param","description":{"ACSN":"设备序列号","family":"  //0 表示ipv4  1表示ipv6","direct":"  //0表示上行 1表示下行","StartTime":"Xxxxxxxxxx  // 开始时间 单位秒","EndTime":"xxxxxxxxxx //结束时间 单位秒"}},{"name":"Return","description":["需要那个字段填写即可"]}],"Error":[{"name":"retCode","description":"0成功  1失败"},{"name":"message","description":"[返回的数据存放在数组中]"}],"Path":"/ant/read_dpi_app"},{"ItemName":"应用统计","Itemdesc":"用来获取应用数据的微服务","SubItem":"GetLog","subitemdesc":"获取应用的历史数据","Method":"post","author":"yuzhiqiang","Return":"[\n]\n","Parameters":[{"name":"Method:GetLog","description":"接口名称"},{"name":"Param","description":{"ACSN":"设备序列号","family":"  //0 表示ipv4  1表示ipv6","direct":"  //0表示上行 1表示下行","StartTime":"Xxxxxxxxxx  // 开始时间 单位秒","EndTime":"xxxxxxxxxx //结束时间 单位秒"}},{"name":"Return","description":["需要那个字段填写即可"]}],"Error":[{"name":"retCode","description":"0成功  1失败"},{"name":"message","description":"[返回的数据存放在数组中]"}],"Path":"/ant/read_dpi_app"},{"ItemName":"网站统计","Itemdesc":"本文档提供了获取网站数据的接口","SubItem":"NatPlayNum","subitemdesc":"获取上网人次显示到折线图中","Method":"post","author":"yuzhiqiang","Return":"[\n]\n","Parameters":[{"name":"Method:NatPlayNum","description":"接口名称"},{"name":"UrlType","description":"网站类型过滤 不过滤输入 "},{"name":"Time","description":"当前时间的小时 请用new Date().getHour()获取"},{"name":"Param","description":{"ACSN":"设备序列号","family":"  //0 表示ipv4  1表示ipv6","direct":"  //0表示上行 1表示下行","StartTime":"Xxxxxxxxxx  // 开始时间 单位秒","EndTime":"xxxxxxxxxx //结束时间 单位秒"}}],"Error":[{"name":"retCode","description":"0成功  1失败"},{"name":"message","description":"[返回的数据存放在数组中]"}],"Path":"/ant/read_dpi_url"},{"ItemName":"网站统计","Itemdesc":"本文档提供了获取网站数据的接口","SubItem":"WelComeUrl","subitemdesc":"最受欢迎的网站","Method":"post","author":"yuzhiqiang","Return":"[\n]\n","Parameters":[{"name":"Method:WelComeUrl","description":"接口名称"},{"name":"UrlType","description":"网站类型过滤 不过滤输入 "},{"name":"Param","description":{"ACSN":"设备序列号","family":" //0 表示ipv4  1表示ipv6","direct":"  //0表示上行 1表示下行","StartTime":"Xxxxxxxxxx  // 开始时间 单位秒","EndTime":"xxxxxxxxxx //结束时间 单位秒"}},{"name":"Return","description":{"UserMAC":"用户mac地址","WebsiteName":"web名字"}}],"Error":[{"name":"retCode","description":"0成功  1失败"},{"name":"message","description":"[返回的数据存放在数组中]"}],"Path":"/ant/read_dpi_url"},{"ItemName":"网站统计","Itemdesc":"本文档提供了获取网站数据的接口","SubItem":"UrlTopFive","subitemdesc":"以网站名称或网站类型获取URL的前五","Method":"post","author":"yuzhiqiang","Return":"[\n]\n","Parameters":[{"name":"Method:UrlTopFive","description":"接口名称"},{"name":"UrlType","description":"网站类型过滤 可不填 "},{"name":"URL","description":"网站名称过滤 可不填"},{"name":"Param","description":{"ACSN":"设备序列号","family":" //0 表示ipv4  1表示ipv6","direct":"  //0表示上行 1表示下行","StartTime":"Xxxxxxxxxx  // 开始时间 单位秒","EndTime":"xxxxxxxxxx //结束时间 单位秒"}}],"Error":[{"name":"retCode","description":"0成功  1失败"},{"name":"message","description":"[返回的数据存放在数组中]"}],"Path":"/ant/read_dpi_url"},{"ItemName":"网站统计","Itemdesc":"本文档提供了获取网站数据的接口","SubItem":"GetUrl","subitemdesc":"获取Url数据","Method":"post","author":"yuzhiqiang","Return":"[\n]\n","Parameters":[{"name":"Param","description":{"ACSN":"设备序列号","family":"  //0 表示ipv4  1表示ipv6","direct":"  //0表示上行 1表示下行","StartTime":"Xxxxxxxxxx  // 开始时间 单位秒","EndTime":"xxxxxxxxxx //结束时间 单位秒"}},{"name":"Return","description":["填写需要返回的数据"]}],"Error":[{"name":"retCode","description":"0成功  1失败"},{"name":"message","description":"[返回的数据存放在数组中]"}],"Path":"/ant/read_dpi_url"}]}
+[2016-05-25 08:57:43.852] [INFO] console - [ { _id: 'doc_6913644165241073', time: 1464137773052 } ]
+[2016-05-25 08:57:43.853] [INFO] console - time doc_6913644165241073
+[2016-05-25 08:57:43.854] [INFO] console - oUpdate {"Name":"应用分析接口文档","DocIndex":"doc_6913644165241073","AllItems":[{"ItemName":"应用统计","Itemdesc":"用来获取应用数据的微服务","SubItem":"InterfacesStatis","subitemdesc":"获取接口数据","Method":"post","author":"yuzhiqiang","Return":"[\n]\n","Parameters":[{"name":"Method:InterfacesStatis","description":"接口名称"},{"name":"Param","description":{"ACSN":"设备序列号","family":" //0 表示ipv4  1表示ipv6","direct":" //0表示上行 1表示下行","StartTime":"Xxxxxxxxxx  // 开始时间 单位秒","EndTime":"xxxxxxxxxx //结束时间 单位秒"}}],"Error":[{"name":"retCode","description":"0成功  1失败"},{"name":"message","description":"[返回的数据存放在数组中]"}],"Path":"/ant/read_dpi_app"},{"ItemName":"应用统计","Itemdesc":"用来获取应用数据的微服务","SubItem":"GetAppLine","subitemdesc":"应用分析获取折线图的数据","Method":"post","author":"yuzhiqiang","Return":"[\n]\n","Parameters":[{"name":"Method:GetAppLine","description":"接口名称"},{"name":"MAC","description":"MAC地址过滤 不过滤输入 "},{"name":"APPName","description":"应用名称过滤 不过滤 输入"},{"name":"SelectWay","description":"统计方式过滤 0 按人次过滤统计 2按流量统计"},{"name":"APPGroupName","description":"应用类型过滤 不过滤输入"},{"name":"Param","description":{"ACSN":"设备序列号","family":" //0表示ipv4  1表示ipv6","direct":"  //0表示上行 1表示下行","StartTime":"Xxxxxxxxxx  //开始时间 单位秒","EndTime":"xxxxxxxxxx //结束时间 单位秒"}}],"Error":[{"name":"retCode","description":"0成功 1失败"},{"name":"message","description":"[返回的数据存放在数组中]"}],"Path":"/ant/read_dpi_app"},{"ItemName":"应用统计","Itemdesc":"用来获取应用数据的微服务","SubItem":"WelComeApp","subitemdesc":"最受欢迎的应用","Method":"post","author":"yuzhiqiang","Return":"[\n]\n","Parameters":[{"name":"Method:WelComeApp","description":"接口名称"},{"name":"Param","description":{"ACSN":"设备序列号","family":" //0 表示ipv4  1表示ipv6","direct":"  //0表示上行 1表示下行","StartTime":"Xxxxxxxxxx  // 开始时间 单位秒","EndTime":"xxxxxxxxxx //结束时间 单位秒"}},{"name":"Return","description":{"UserMAC":"用户mac地址","APPName":"App的名字"}}],"Error":[{"name":"retCode","description":"0成功  1失败"},{"name":"message","description":"[返回的数据存放在数组中]"}],"Path":"/ant/read_dpi_app"},{"ItemName":"应用统计","Itemdesc":"用来获取应用数据的微服务","SubItem":"GetAppPie","subitemdesc":"应用分析获取以MAC地址 应用名称 统计方式 应用类型 为索引的数据","Method":"post","author":"yuzhiqiang","Return":"[\n]\n","Parameters":[{"name":"Method:GetAppPie","description":"接口名称"},{"name":"MAC","description":"MAC地址过滤 不过滤输入"},{"name":"APPName","description":"应用名称过滤 不过滤 输入"},{"name":"SelectWay","description":"统计方式过滤 0 按人次过滤统计 2按流量统计"},{"name":"APPGroupName","description":"应用类型过滤 不过滤输入"},{"name":"Param","description":{"ACSN":"设备序列号","family":"  //0 表示ipv4  1表示ipv6 direct:  //0表示上行 1表示下行","StartTime":"Xxxxxxxxxx  // 开始时间 单位秒","EndTime":"xxxxxxxxxx //结束时间 单位秒"}}],"Error":[{"name":"retCode","description":"0成功  1失败"},{"name":"message","description":"[返回的数据存放在数组中]"}],"Path":"/ant/read_dpi_app"},{"ItemName":"应用统计","Itemdesc":"用来获取应用数据的微服务","SubItem":"GetFlowChart","subitemdesc":"应用分析获取流量展示到折线图中","Method":"post","author":"yuzhiqiang","Return":"[\n]\n","Parameters":[{"name":"Method:GetFlowChart","description":"接口名称"},{"name":"Time","description":"当前时间的小时 请用new Date().getHour()获取小时"},{"name":"Param","description":{"ACSN":"设备序列号","family":"  //0 表示ipv4  1表示ipv6","direct":" //0表示上行 1表示下行","StartTime":"Xxxxxxxxxx  // 开始时间 单位秒","EndTime":"xxxxxxxxxx //结束时间 单位秒"}}],"Error":[{"name":"retCode","description":"0成功  1失败"},{"name":"message","description":"[返回的数据存放在数组中]"}],"Path":"/ant/read_dpi_app"},{"ItemName":"应用统计","Itemdesc":"用来获取应用数据的微服务","SubItem":"GetFlow","subitemdesc":"应用分析获取流量","Method":"post","author":"yuzhiqiang","Return":"[\n]\n","Parameters":[{"name":"Method:GetFlow","description":"接口名称"},{"name":"Param","description":{"ACSN":"设备序列号","family":"  //0 表示ipv4  1表示ipv6","direct":"  //0表示上行 1表示下行","StartTime":"Xxxxxxxxxx  // 开始时间 单位秒","EndTime":"xxxxxxxxxx //结束时间 单位秒"}},{"name":"Return","description":["DropPktBytes","Pkt","PktBytes","DropPkt"]}],"Error":[{"name":"retCode","description":"0成功  1失败"},{"name":"message","description":"[返回的数据存放在数组中]"}],"Path":"/ant/read_dpi_app"},{"ItemName":"应用统计","Itemdesc":"用来获取应用数据的微服务","SubItem":"GetApp","subitemdesc":"获取应用数据","Method":"post","author":"yuzhiqiang","Return":"[\n]\n","Parameters":[{"name":"Method:GetApp","description":"接口名称"},{"name":"Param","description":{"ACSN":"设备序列号","family":"  //0 表示ipv4  1表示ipv6","direct":"  //0表示上行 1表示下行","StartTime":"Xxxxxxxxxx  // 开始时间 单位秒","EndTime":"xxxxxxxxxx //结束时间 单位秒"}},{"name":"Return","description":["需要那个字段填写即可"]}],"Error":[{"name":"retCode","description":"0成功  1失败"},{"name":"message","description":"[返回的数据存放在数组中]"}],"Path":"/ant/read_dpi_app"},{"ItemName":"应用统计","Itemdesc":"用来获取应用数据的微服务","SubItem":"GetLog","subitemdesc":"获取应用的历史数据","Method":"post","author":"yuzhiqiang","Return":"[\n]\n","Parameters":[{"name":"Method:GetLog","description":"接口名称"},{"name":"Param","description":{"ACSN":"设备序列号","family":"  //0 表示ipv4  1表示ipv6","direct":"  //0表示上行 1表示下行","StartTime":"Xxxxxxxxxx  // 开始时间 单位秒","EndTime":"xxxxxxxxxx //结束时间 单位秒"}},{"name":"Return","description":["需要那个字段填写即可"]}],"Error":[{"name":"retCode","description":"0成功  1失败"},{"name":"message","description":"[返回的数据存放在数组中]"}],"Path":"/ant/read_dpi_app"},{"ItemName":"网站统计","Itemdesc":"本文档提供了获取网站数据的接口","SubItem":"NatPlayNum","subitemdesc":"获取上网人次显示到折线图中","Method":"post","author":"yuzhiqiang","Return":"[\n]\n","Parameters":[{"name":"Method:NatPlayNum","description":"接口名称"},{"name":"UrlType","description":"网站类型过滤 不过滤输入 "},{"name":"Time","description":"当前时间的小时 请用new Date().getHour()获取"},{"name":"Param","description":{"ACSN":"设备序列号","family":"  //0 表示ipv4  1表示ipv6","direct":"  //0表示上行 1表示下行","StartTime":"Xxxxxxxxxx  // 开始时间 单位秒","EndTime":"xxxxxxxxxx //结束时间 单位秒"}}],"Error":[{"name":"retCode","description":"0成功  1失败"},{"name":"message","description":"[返回的数据存放在数组中]"}],"Path":"/ant/read_dpi_url"},{"ItemName":"网站统计","Itemdesc":"本文档提供了获取网站数据的接口","SubItem":"WelComeUrl","subitemdesc":"最受欢迎的网站","Method":"post","author":"yuzhiqiang","Return":"[\n]\n","Parameters":[{"name":"Method:WelComeUrl","description":"接口名称"},{"name":"UrlType","description":"网站类型过滤 不过滤输入 "},{"name":"Param","description":{"ACSN":"设备序列号","family":" //0 表示ipv4  1表示ipv6","direct":"  //0表示上行 1表示下行","StartTime":"Xxxxxxxxxx  // 开始时间 单位秒","EndTime":"xxxxxxxxxx //结束时间 单位秒"}},{"name":"Return","description":{"UserMAC":"用户mac地址","WebsiteName":"web名字"}}],"Error":[{"name":"retCode","description":"0成功  1失败"},{"name":"message","description":"[返回的数据存放在数组中]"}],"Path":"/ant/read_dpi_url"},{"ItemName":"网站统计","Itemdesc":"本文档提供了获取网站数据的接口","SubItem":"UrlTopFive","subitemdesc":"以网站名称或网站类型获取URL的前五","Method":"post","author":"yuzhiqiang","Return":"[\n]\n","Parameters":[{"name":"Method:UrlTopFive","description":"接口名称"},{"name":"UrlType","description":"网站类型过滤 可不填 "},{"name":"URL","description":"网站名称过滤 可不填"},{"name":"Param","description":{"ACSN":"设备序列号","family":" //0 表示ipv4  1表示ipv6","direct":"  //0表示上行 1表示下行","StartTime":"Xxxxxxxxxx  // 开始时间 单位秒","EndTime":"xxxxxxxxxx //结束时间 单位秒"}}],"Error":[{"name":"retCode","description":"0成功  1失败"},{"name":"message","description":"[返回的数据存放在数组中]"}],"Path":"/ant/read_dpi_url"},{"ItemName":"网站统计","Itemdesc":"本文档提供了获取网站数据的接口","SubItem":"GetUrl","subitemdesc":"获取Url数据","Method":"post","author":"yuzhiqiang","Return":"[\n]\n","Parameters":[{"name":"Param","description":{"ACSN":"设备序列号","family":"  //0 表示ipv4  1表示ipv6","direct":"  //0表示上行 1表示下行","StartTime":"Xxxxxxxxxx  // 开始时间 单位秒","EndTime":"xxxxxxxxxx //结束时间 单位秒"}},{"name":"Return","description":["填写需要返回的数据"]}],"Error":[{"name":"retCode","description":"0成功  1失败"},{"name":"message","description":"[返回的数据存放在数组中]"}],"Path":"/ant/read_dpi_url"}],"time":1464137863853,"author":"yuzhiqiang","description":"本文档是用来描述应用分析的接口信息 包括 应用微服务和网站微服务"}
+[2016-05-25 08:57:44.171] [INFO] console - {"doclist":[{"DocIndex":"doc_6913644165241073","Name":"应用分析接口文档","time":1464137863853},{"DocIndex":"doc_7577103296698844","Name":"asfasdfdsdsafadfasdfsad","time":1464078943982},{"DocIndex":"doc_5866521044873243","Name":"aaa","time":1464078067389},{"DocIndex":"doc_18264992210987874","Name":"2322","time":1464078710066},{"DocIndex":"doc_8466751070093037","Name":"yuanyuekun","time":1464077563211},{"DocIndex":"doc_9842227725675352","Name":"无线定位接口文档","time":1464078962963},{"DocIndex":"doc_3048787579029264","Name":"asas","time":1464077639702}],"retCode":0}
+[2016-05-25 09:02:38.117] [INFO] console - Wed May 25 2016 09:02:38 GMT+0800 (中国标准时间)doc server use http/https port 3005/3006
+[2016-05-25 09:02:38.205] [INFO] console - Wed May 25 2016 09:02:38 GMT+0800 (中国标准时间) doc server start http server and listen on: {"address":"::","family":"IPv6","port":3005}
+[2016-05-25 09:02:38.209] [INFO] console - Wed May 25 2016 09:02:38 GMT+0800 (中国标准时间) doc server start https server and listen on: {"address":"::","family":"IPv6","port":3006}
+[2016-05-25 09:02:38.269] [INFO] console - Wed May 25 2016 09:02:38 GMT+0800 (中国标准时间) Connect to mongoose success: mongodb://127.0.0.1:27017/webdoc_db
+[2016-05-25 09:02:52.281] [INFO] console - /load
+[2016-05-25 09:02:52.316] [INFO] console - { docindex: [ 'doc_12762718915304472' ] }
+[2016-05-25 09:02:52.328] [INFO] console - addwebdocnew[object Object]
+[2016-05-25 09:02:52.329] [INFO] console - {"DocIndex":"doc_12762718915304472","Name":"无线定位接口文档","description":"本文档是用来描述无线定位的接口信息，包括地图微服务，和终端坐标微服务","author":"yuanyuekun","AllItems":[{"ItemName":"地图管理","Itemdesc":"用来管理用户上传地图的微服务","SubItem":"添加地图","subitemdesc":"WEB向地图微服务添加地图信息接口","Method":"POST","author":"yuanyuekun","Return":"{\n    \"retCode\":\"0表示成功，非0表示失败\",\n    \"errorMessage\":\"错误信息用来调试\"\n}\n","Parameters":[{"name":"desSN","description":"当前设备的序列号,内容为字符串"},{"name":"Method","description":"addmapwithindex,标示添加地图操作"},{"name":"Param","description":"添加地图的具体信息，是一个结构{devSN://设备的devSN, mapName://添加的地图的名字}"}],"Error":[{"name":"0","description":"添加成功"},{"name":"-1","description":"添加失败"}],"Path":"/v3/wloc"},{"ItemName":"地图管理","Itemdesc":"用来管理用户上传地图的微服务","SubItem":"获取地图","subitemdesc":"WEB向地图微服务获取地图信息接口","Method":"POST","author":"yuanyuekun","Return":"{\n    \"data\":{\n        \"maplist\":[\n            {\n                \"mapName\":\"地图名字,类型为字符串\",\n                \"scale\":\"地图的比例尺信息，类型数字\",\n                \"apList\":[\n                    {\n                        \"macAddr\":\"ap的mac地址，类型字符串\",\n                        \"apName\":\"ap的名字，类型字符串\",\n                        \"XCord\":\"ap的x坐标，类型数字\",\n                        \"YCord\":\"ap的y坐标，类型数字\",\n                        \"status\":\"ap的状态，类型数字，1在线，2不在线\"\n                    }\n                ]\n            }\n        ]\n    }\n}\n","Parameters":[{"name":"desSN","description":"当前设备的序列号,内容为字符串"},{"name":"Method","description":"GetMap,标示获取地图操作"},{"name":"Param","description":"{devSN://设备的devSN}"},{"name":"Return","description":"微服务需要返回哪些字段，[mapName, scale, wallList, apList, bgInfo]"}],"Error":[{"name":"0","description":"添加成功"},{"name":"-1","description":"添加失败"}],"Path":"/v3/wloc"},{"ItemName":"地图管理","Itemdesc":"用来管理用户上传地图的微服务","SubItem":"删除地图","subitemdesc":"WEB向地图微服务删除地图信息接口","Method":"POST","author":"yuanyuekun","Return":"{\n    \"retCode\":\"错误码，类型数字 0表示成功 -1表示失败\"\n}\n","Parameters":[{"name":"desSN","description":"当前设备的序列号,内容为字符串"},{"name":"Method","description":"delMapFile,标示获取地图操作"},{"name":"Param","description":"{devSN://设备的devSN,mapName://删除地图的名字}"}],"Error":[{"name":"0","description":"删除成功"},{"name":"-1","description":"删除失败"}],"Path":"/v3/wloc/delMapAndDir"}]}
+[2016-05-25 09:02:52.350] [INFO] console - [ { _id: 'doc_9842227725675352', time: 1464078962963 } ]
+[2016-05-25 09:02:52.353] [INFO] console - time doc_9842227725675352
+[2016-05-25 09:02:52.354] [INFO] console - oUpdate {"Name":"无线定位接口文档","DocIndex":"doc_9842227725675352","AllItems":[{"ItemName":"地图管理","Itemdesc":"用来管理用户上传地图的微服务","SubItem":"添加地图","subitemdesc":"WEB向地图微服务添加地图信息接口","Method":"POST","author":"yuanyuekun","Return":"{\n    \"retCode\":\"0表示成功，非0表示失败\",\n    \"errorMessage\":\"错误信息用来调试\"\n}\n","Parameters":[{"name":"desSN","description":"当前设备的序列号,内容为字符串"},{"name":"Method","description":"addmapwithindex,标示添加地图操作"},{"name":"Param","description":"添加地图的具体信息，是一个结构{devSN://设备的devSN, mapName://添加的地图的名字}"}],"Error":[{"name":"0","description":"添加成功"},{"name":"-1","description":"添加失败"}],"Path":"/v3/wloc"},{"ItemName":"地图管理","Itemdesc":"用来管理用户上传地图的微服务","SubItem":"获取地图","subitemdesc":"WEB向地图微服务获取地图信息接口","Method":"POST","author":"yuanyuekun","Return":"{\n    \"data\":{\n        \"maplist\":[\n            {\n                \"mapName\":\"地图名字,类型为字符串\",\n                \"scale\":\"地图的比例尺信息，类型数字\",\n                \"apList\":[\n                    {\n                        \"macAddr\":\"ap的mac地址，类型字符串\",\n                        \"apName\":\"ap的名字，类型字符串\",\n                        \"XCord\":\"ap的x坐标，类型数字\",\n                        \"YCord\":\"ap的y坐标，类型数字\",\n                        \"status\":\"ap的状态，类型数字，1在线，2不在线\"\n                    }\n                ]\n            }\n        ]\n    }\n}\n","Parameters":[{"name":"desSN","description":"当前设备的序列号,内容为字符串"},{"name":"Method","description":"GetMap,标示获取地图操作"},{"name":"Param","description":"{devSN://设备的devSN}"},{"name":"Return","description":"微服务需要返回哪些字段，[mapName, scale, wallList, apList, bgInfo]"}],"Error":[{"name":"0","description":"添加成功"},{"name":"-1","description":"添加失败"}],"Path":"/v3/wloc"},{"ItemName":"地图管理","Itemdesc":"用来管理用户上传地图的微服务","SubItem":"删除地图","subitemdesc":"WEB向地图微服务删除地图信息接口","Method":"POST","author":"yuanyuekun","Return":"{\n    \"retCode\":\"错误码，类型数字 0表示成功 -1表示失败\"\n}\n","Parameters":[{"name":"desSN","description":"当前设备的序列号,内容为字符串"},{"name":"Method","description":"delMapFile,标示获取地图操作"},{"name":"Param","description":"{devSN://设备的devSN,mapName://删除地图的名字}"}],"Error":[{"name":"0","description":"删除成功"},{"name":"-1","description":"删除失败"}],"Path":"/v3/wloc/delMapAndDir"}],"time":1464138172353,"author":"yuanyuekun","description":"本文档是用来描述无线定位的接口信息，包括地图微服务，和终端坐标微服务"}
+[2016-05-25 09:02:52.623] [INFO] console - {"doclist":[{"DocIndex":"doc_6913644165241073","Name":"应用分析接口文档","time":1464137863853},{"DocIndex":"doc_9842227725675352","Name":"无线定位接口文档","time":1464138172353},{"DocIndex":"doc_3048787579029264","Name":"asas","time":1464077639702},{"DocIndex":"doc_7577103296698844","Name":"asfasdfdsdsafadfasdfsad","time":1464078943982},{"DocIndex":"doc_5866521044873243","Name":"aaa","time":1464078067389},{"DocIndex":"doc_8466751070093037","Name":"yuanyuekun","time":1464077563211},{"DocIndex":"doc_18264992210987874","Name":"2322","time":1464078710066}],"retCode":0}
+[2016-05-25 09:07:39.798] [INFO] console - {"doclist":[{"DocIndex":"doc_8466751070093037","Name":"yuanyuekun","time":1464077563211},{"DocIndex":"doc_6913644165241073","Name":"应用分析接口文档","time":1464137863853},{"DocIndex":"doc_5866521044873243","Name":"aaa","time":1464078067389},{"DocIndex":"doc_9842227725675352","Name":"无线定位接口文档","time":1464138172353},{"DocIndex":"doc_3048787579029264","Name":"asas","time":1464077639702},{"DocIndex":"doc_7577103296698844","Name":"asfasdfdsdsafadfasdfsad","time":1464078943982},{"DocIndex":"doc_18264992210987874","Name":"2322","time":1464078710066}],"retCode":0}
+[2016-05-25 09:07:54.960] [INFO] console - Wed May 25 2016 09:07:54 GMT+0800 (中国标准时间)doc server use http/https port 3005/3006
+[2016-05-25 09:07:55.046] [INFO] console - Wed May 25 2016 09:07:55 GMT+0800 (中国标准时间) doc server start http server and listen on: {"address":"::","family":"IPv6","port":3005}
+[2016-05-25 09:07:55.050] [INFO] console - Wed May 25 2016 09:07:55 GMT+0800 (中国标准时间) doc server start https server and listen on: {"address":"::","family":"IPv6","port":3006}
+[2016-05-25 09:07:55.103] [INFO] console - Wed May 25 2016 09:07:55 GMT+0800 (中国标准时间) Connect to mongoose success: mongodb://127.0.0.1:27017/webdoc_db
+[2016-05-25 09:08:05.377] [INFO] console - /load
+[2016-05-25 09:08:05.434] [INFO] console - { docindex: [ 'doc_9217196954381413' ] }
+[2016-05-25 09:08:05.452] [INFO] console - addwebdocnew[object Object]
+[2016-05-25 09:08:05.454] [ERROR] console - TypeError: Converting circular structure to JSON
+    at Object.stringify (native)
+    at Object.exports.addwebdocnew (f:\4-6\doc\src\routes\handlers\database.js:108:22)
+    at f:\4-6\doc\src\routes\api.js:285:30
+    at fs.js:334:14
+    at FSReqWrap.oncomplete (fs.js:95:15)
+[2016-05-25 09:08:52.979] [INFO] console - Wed May 25 2016 09:08:52 GMT+0800 (中国标准时间)doc server use http/https port 3005/3006
+[2016-05-25 09:08:53.115] [INFO] console - Wed May 25 2016 09:08:53 GMT+0800 (中国标准时间) doc server start http server and listen on: {"address":"::","family":"IPv6","port":3005}
+[2016-05-25 09:08:53.119] [INFO] console - Wed May 25 2016 09:08:53 GMT+0800 (中国标准时间) doc server start https server and listen on: {"address":"::","family":"IPv6","port":3006}
+[2016-05-25 09:08:53.263] [INFO] console - Wed May 25 2016 09:08:53 GMT+0800 (中国标准时间) Connect to mongoose success: mongodb://127.0.0.1:27017/webdoc_db
+[2016-05-25 09:08:55.632] [INFO] console - {"doclist":[{"DocIndex":"doc_7577103296698844","Name":"asfasdfdsdsafadfasdfsad","time":1464078943982},{"DocIndex":"doc_18264992210987874","Name":"2322","time":1464078710066},{"DocIndex":"doc_6913644165241073","Name":"应用分析接口文档","time":1464137863853},{"DocIndex":"doc_5866521044873243","Name":"aaa","time":1464078067389},{"DocIndex":"doc_9842227725675352","Name":"无线定位接口文档","time":1464138172353},{"DocIndex":"doc_3048787579029264","Name":"asas","time":1464077639702},{"DocIndex":"doc_8466751070093037","Name":"yuanyuekun","time":1464077563211}],"retCode":0}
+[2016-05-25 09:08:56.029] [INFO] console - {"doclist":[{"DocIndex":"doc_8466751070093037","Name":"yuanyuekun","time":1464077563211},{"DocIndex":"doc_6913644165241073","Name":"应用分析接口文档","time":1464137863853},{"DocIndex":"doc_5866521044873243","Name":"aaa","time":1464078067389},{"DocIndex":"doc_9842227725675352","Name":"无线定位接口文档","time":1464138172353},{"DocIndex":"doc_3048787579029264","Name":"asas","time":1464077639702},{"DocIndex":"doc_7577103296698844","Name":"asfasdfdsdsafadfasdfsad","time":1464078943982},{"DocIndex":"doc_18264992210987874","Name":"2322","time":1464078710066}],"retCode":0}
+[2016-05-25 09:09:04.435] [INFO] console - {"doclist":[{"DocIndex":"doc_5866521044873243","Name":"aaa","time":1464078067389},{"DocIndex":"doc_9842227725675352","Name":"无线定位接口文档","time":1464138172353},{"DocIndex":"doc_3048787579029264","Name":"asas","time":1464077639702},{"DocIndex":"doc_7577103296698844","Name":"asfasdfdsdsafadfasdfsad","time":1464078943982},{"DocIndex":"doc_8466751070093037","Name":"yuanyuekun","time":1464077563211},{"DocIndex":"doc_18264992210987874","Name":"2322","time":1464078710066}],"retCode":0}
+[2016-05-25 09:09:15.597] [INFO] console - /load
+[2016-05-25 09:09:15.645] [INFO] console - { docindex: [ 'doc_7704907842028152' ] }
+[2016-05-25 09:09:15.682] [INFO] console - time doc_7704907842028152
+[2016-05-25 09:09:15.684] [ERROR] console - wloc_map_add() error:TypeError: Converting circular structure to JSON
+[2016-05-25 09:09:15.745] [INFO] console - {"doclist":[{"DocIndex":"doc_5866521044873243","Name":"aaa","time":1464078067389},{"DocIndex":"doc_9842227725675352","Name":"无线定位接口文档","time":1464138172353},{"DocIndex":"doc_3048787579029264","Name":"asas","time":1464077639702},{"DocIndex":"doc_7577103296698844","Name":"asfasdfdsdsafadfasdfsad","time":1464078943982},{"DocIndex":"doc_18264992210987874","Name":"2322","time":1464078710066},{"DocIndex":"doc_8466751070093037","Name":"yuanyuekun","time":1464077563211}],"retCode":0}
+[2016-05-25 09:09:20.612] [INFO] console - {"doclist":[{"DocIndex":"doc_9842227725675352","Name":"无线定位接口文档","time":1464138172353},{"DocIndex":"doc_7577103296698844","Name":"asfasdfdsdsafadfasdfsad","time":1464078943982},{"DocIndex":"doc_8466751070093037","Name":"yuanyuekun","time":1464077563211},{"DocIndex":"doc_3048787579029264","Name":"asas","time":1464077639702},{"DocIndex":"doc_18264992210987874","Name":"2322","time":1464078710066},{"DocIndex":"doc_5866521044873243","Name":"aaa","time":1464078067389}],"retCode":0}
+[2016-05-25 09:10:54.149] [INFO] console - Wed May 25 2016 09:10:54 GMT+0800 (中国标准时间)doc server use http/https port 3005/3006
+[2016-05-25 09:10:54.243] [INFO] console - Wed May 25 2016 09:10:54 GMT+0800 (中国标准时间) doc server start http server and listen on: {"address":"::","family":"IPv6","port":3005}
+[2016-05-25 09:10:54.244] [INFO] console - Wed May 25 2016 09:10:54 GMT+0800 (中国标准时间) doc server start https server and listen on: {"address":"::","family":"IPv6","port":3006}
+[2016-05-25 09:10:54.305] [INFO] console - Wed May 25 2016 09:10:54 GMT+0800 (中国标准时间) Connect to mongoose success: mongodb://127.0.0.1:27017/webdoc_db
+[2016-05-25 09:11:09.052] [INFO] console - /load
+[2016-05-25 09:11:09.091] [INFO] console - { docindex: [ 'doc_9871918916032703' ] }
+[2016-05-25 09:11:09.103] [INFO] console - [ { name: '"Param"',
+    description: '{\n    "ACSN":"设备序列号",\n    "family":" ",<code>//0 表示ipv4  1表示ipv6</code>\n    "direct":" ",<code>//0表示上行 1表示下行</code>\n    "StartTime":"Xxxxxxxxxx  ",<code>// 开始时间 单位秒</code>\n    "EndTime":"xxxxxxxxxx "<code>//结束时间 单位秒</code>\n}\n' } ]
+[2016-05-25 09:11:09.105] [INFO] console - [ { name: '"Param"',
+    description: '{\n    "ACSN":"设备序列号",\n    "family":" ",<code>//0表示ipv4  1表示ipv6</code>\n    "direct":"  ",<code>//0表示上行 1表示下行</code>\n    "StartTime":"Xxxxxxxxxx  ",<code>//开始时间 单位秒</code>\n    "EndTime":"xxxxxxxxxx "<code>//结束时间 单位秒</code>\n}\n' } ]
+[2016-05-25 09:11:09.107] [INFO] console - [ { name: '"Return"',
+    description: '{\n    "UserMAC":"用户mac地址",\n    "APPName":"App的名字"\n}\n' } ]
+[2016-05-25 09:11:09.108] [INFO] console - [ { name: '"Param"',
+    description: '{\n    "ACSN":"设备序列号",\n    "family":"  ",<code>//0 表示ipv4  1表示ipv6 direct:  //0表示上行 1表示下行</code>\n    "StartTime":"Xxxxxxxxxx  ",<code>// 开始时间 单位秒</code>\n    "EndTime":"xxxxxxxxxx "<code>//结束时间 单位秒</code>\n}\n' } ]
+[2016-05-25 09:11:09.109] [INFO] console - [ { name: '"Param"',
+    description: '{\n    "ACSN":"设备序列号",\n    "family":"  ",<code>//0 表示ipv4  1表示ipv6</code>\n    "direct":" ",<code>//0表示上行 1表示下行</code>\n    "StartTime":"Xxxxxxxxxx  ",<code>// 开始时间 单位秒</code>\n    "EndTime":"xxxxxxxxxx "<code>//结束时间 单位秒</code>\n}\n' } ]
+[2016-05-25 09:11:09.113] [INFO] console - [ { name: '"Return"',
+    description: '[\n    "DropPktBytes",\n    "Pkt",\n    "PktBytes",\n    "DropPkt"\n]\n' } ]
+[2016-05-25 09:11:09.114] [INFO] console - [ { name: '"Return"', description: '[\n    "需要那个字段填写即可"\n]\n' } ]
+[2016-05-25 09:11:09.116] [INFO] console - [ { name: '"Return"', description: '[\n    "需要那个字段填写即可"\n]\n' } ]
+[2016-05-25 09:11:09.117] [INFO] console - [ { name: '"Param"',
+    description: '{\n    "ACSN":"设备序列号",\n    "family":"  ",<code>//0 表示ipv4  1表示ipv6</code>\n    "direct":"  ",<code>//0表示上行 1表示下行</code>\n    "StartTime":"Xxxxxxxxxx  ",<code>// 开始时间 单位秒</code>\n    "EndTime":"xxxxxxxxxx "<code>//结束时间 单位秒</code>\n}\n' } ]
+[2016-05-25 09:11:09.119] [INFO] console - [ { name: '"Return"',
+    description: '{\n    "UserMAC":"用户mac地址",\n    "WebsiteName":"web名字"\n}\n' } ]
+[2016-05-25 09:11:09.119] [INFO] console - [ { name: '"Param"',
+    description: '{\n    "ACSN":"设备序列号",\n    "family":" ",<code>//0 表示ipv4  1表示ipv6</code>\n    "direct":"  ",<code>//0表示上行 1表示下行</code>\n    "StartTime":"Xxxxxxxxxx  ",<code>// 开始时间 单位秒</code>\n    "EndTime":"xxxxxxxxxx "<code>//结束时间 单位秒</code>\n}\n' } ]
+[2016-05-25 09:11:09.120] [INFO] console - [ { name: '"Return"', description: '[\n    "填写需要返回的数据"\n]\n' } ]
+[2016-05-25 09:11:09.143] [INFO] console - time doc_9871918916032703
+[2016-05-25 09:11:09.145] [ERROR] console - wloc_map_add() error:TypeError: Converting circular structure to JSON
+[2016-05-25 09:11:09.361] [INFO] console - {"doclist":[{"DocIndex":"doc_5866521044873243","Name":"aaa","time":1464078067389},{"DocIndex":"doc_9842227725675352","Name":"无线定位接口文档","time":1464138172353},{"DocIndex":"doc_3048787579029264","Name":"asas","time":1464077639702},{"DocIndex":"doc_7577103296698844","Name":"asfasdfdsdsafadfasdfsad","time":1464078943982},{"DocIndex":"doc_18264992210987874","Name":"2322","time":1464078710066},{"DocIndex":"doc_8466751070093037","Name":"yuanyuekun","time":1464077563211}],"retCode":0}
+[2016-05-25 09:13:51.469] [INFO] console - Wed May 25 2016 09:13:51 GMT+0800 (中国标准时间)doc server use http/https port 3005/3006
+[2016-05-25 09:13:51.551] [INFO] console - Wed May 25 2016 09:13:51 GMT+0800 (中国标准时间) doc server start http server and listen on: {"address":"::","family":"IPv6","port":3005}
+[2016-05-25 09:13:51.555] [INFO] console - Wed May 25 2016 09:13:51 GMT+0800 (中国标准时间) doc server start https server and listen on: {"address":"::","family":"IPv6","port":3006}
+[2016-05-25 09:13:51.756] [INFO] console - Wed May 25 2016 09:13:51 GMT+0800 (中国标准时间) Connect to mongoose success: mongodb://127.0.0.1:27017/webdoc_db
+[2016-05-25 09:14:11.884] [INFO] console - /load
+[2016-05-25 09:14:12.065] [INFO] console - { docindex: [ 'doc_9871918916032703' ] }
+[2016-05-25 09:14:12.155] [INFO] console - [ { name: 'Param',
+    description: '{\n    "ACSN":"设备序列号",\n    "family":" ",<code>//0 表示ipv4  1表示ipv6</code>\n    "direct":" ",<code>//0表示上行 1表示下行</code>\n    "StartTime":"Xxxxxxxxxx  ",<code>// 开始时间 单位秒</code>\n    "EndTime":"xxxxxxxxxx "<code>//结束时间 单位秒</code>\n}\n' } ]
+[2016-05-25 09:14:12.158] [INFO] console - [ { name: 'Param',
+    description: '{\n    "ACSN":"设备序列号",\n    "family":" ",<code>//0表示ipv4  1表示ipv6</code>\n    "direct":"  ",<code>//0表示上行 1表示下行</code>\n    "StartTime":"Xxxxxxxxxx  ",<code>//开始时间 单位秒</code>\n    "EndTime":"xxxxxxxxxx "<code>//结束时间 单位秒</code>\n}\n' } ]
+[2016-05-25 09:14:12.159] [INFO] console - [ { name: 'Return',
+    description: '{\n    "UserMAC":"用户mac地址",\n    "APPName":"App的名字"\n}\n' } ]
+[2016-05-25 09:14:12.160] [INFO] console - [ { name: 'Param',
+    description: '{\n    "ACSN":"设备序列号",\n    "family":"  ",<code>//0 表示ipv4  1表示ipv6 direct:  //0表示上行 1表示下行</code>\n    "StartTime":"Xxxxxxxxxx  ",<code>// 开始时间 单位秒</code>\n    "EndTime":"xxxxxxxxxx "<code>//结束时间 单位秒</code>\n}\n' } ]
+[2016-05-25 09:14:12.167] [INFO] console - [ { name: 'Param',
+    description: '{\n    "ACSN":"设备序列号",\n    "family":"  ",<code>//0 表示ipv4  1表示ipv6</code>\n    "direct":" ",<code>//0表示上行 1表示下行</code>\n    "StartTime":"Xxxxxxxxxx  ",<code>// 开始时间 单位秒</code>\n    "EndTime":"xxxxxxxxxx "<code>//结束时间 单位秒</code>\n}\n' } ]
+[2016-05-25 09:14:12.169] [INFO] console - [ { name: 'Return',
+    description: '[\n    "DropPktBytes",\n    "Pkt",\n    "PktBytes",\n    "DropPkt"\n]\n' } ]
+[2016-05-25 09:14:12.175] [INFO] console - [ { name: 'Return', description: '[\n    "需要那个字段填写即可"\n]\n' } ]
+[2016-05-25 09:14:12.176] [INFO] console - [ { name: 'Return', description: '[\n    "需要那个字段填写即可"\n]\n' } ]
+[2016-05-25 09:14:12.178] [INFO] console - [ { name: 'Param',
+    description: '{\n    "ACSN":"设备序列号",\n    "family":"  ",<code>//0 表示ipv4  1表示ipv6</code>\n    "direct":"  ",<code>//0表示上行 1表示下行</code>\n    "StartTime":"Xxxxxxxxxx  ",<code>// 开始时间 单位秒</code>\n    "EndTime":"xxxxxxxxxx "<code>//结束时间 单位秒</code>\n}\n' } ]
+[2016-05-25 09:14:12.179] [INFO] console - [ { name: 'Return',
+    description: '{\n    "UserMAC":"用户mac地址",\n    "WebsiteName":"web名字"\n}\n' } ]
+[2016-05-25 09:14:12.181] [INFO] console - [ { name: 'Param',
+    description: '{\n    "ACSN":"设备序列号",\n    "family":" ",<code>//0 表示ipv4  1表示ipv6</code>\n    "direct":"  ",<code>//0表示上行 1表示下行</code>\n    "StartTime":"Xxxxxxxxxx  ",<code>// 开始时间 单位秒</code>\n    "EndTime":"xxxxxxxxxx "<code>//结束时间 单位秒</code>\n}\n' } ]
+[2016-05-25 09:14:12.182] [INFO] console - [ { name: 'Return', description: '[\n    "填写需要返回的数据"\n]\n' } ]
+[2016-05-25 09:14:12.214] [INFO] console - time doc_9871918916032703
+[2016-05-25 09:14:12.215] [ERROR] console - wloc_map_add() error:TypeError: Converting circular structure to JSON
+[2016-05-25 09:14:12.815] [INFO] console - {"doclist":[{"DocIndex":"doc_9842227725675352","Name":"无线定位接口文档","time":1464138172353},{"DocIndex":"doc_3048787579029264","Name":"asas","time":1464077639702},{"DocIndex":"doc_8466751070093037","Name":"yuanyuekun","time":1464077563211},{"DocIndex":"doc_18264992210987874","Name":"2322","time":1464078710066},{"DocIndex":"doc_7577103296698844","Name":"asfasdfdsdsafadfasdfsad","time":1464078943982},{"DocIndex":"doc_5866521044873243","Name":"aaa","time":1464078067389}],"retCode":0}
+[2016-05-25 09:14:15.609] [INFO] console - {"doclist":[{"DocIndex":"doc_9842227725675352","Name":"无线定位接口文档","time":1464138172353},{"DocIndex":"doc_18264992210987874","Name":"2322","time":1464078710066},{"DocIndex":"doc_8466751070093037","Name":"yuanyuekun","time":1464077563211},{"DocIndex":"doc_5866521044873243","Name":"aaa","time":1464078067389},{"DocIndex":"doc_3048787579029264","Name":"asas","time":1464077639702},{"DocIndex":"doc_7577103296698844","Name":"asfasdfdsdsafadfasdfsad","time":1464078943982}],"retCode":0}
+[2016-05-25 09:16:30.197] [INFO] console - Wed May 25 2016 09:16:30 GMT+0800 (中国标准时间)doc server use http/https port 3005/3006
+[2016-05-25 09:16:30.279] [INFO] console - Wed May 25 2016 09:16:30 GMT+0800 (中国标准时间) doc server start http server and listen on: {"address":"::","family":"IPv6","port":3005}
+[2016-05-25 09:16:30.281] [INFO] console - Wed May 25 2016 09:16:30 GMT+0800 (中国标准时间) doc server start https server and listen on: {"address":"::","family":"IPv6","port":3006}
+[2016-05-25 09:16:30.377] [INFO] console - Wed May 25 2016 09:16:30 GMT+0800 (中国标准时间) Connect to mongoose success: mongodb://127.0.0.1:27017/webdoc_db
+[2016-05-25 09:16:41.260] [INFO] console - /load
+[2016-05-25 09:16:41.306] [INFO] console - { docindex: [ 'doc_5693251464157816' ] }
+[2016-05-25 09:16:41.319] [INFO] console - [ { name: 'Param',
+    description: '{\n    "ACSN":"设备序列号",\n    "family":" ",<code>//0 表示ipv4  1表示ipv6</code>\n    "direct":" ",<code>//0表示上行 1表示下行</code>\n    "StartTime":"Xxxxxxxxxx  ",<code>// 开始时间 单位秒</code>\n    "EndTime":"xxxxxxxxxx "<code>//结束时间 单位秒</code>\n}\n' } ]
+[2016-05-25 09:16:41.322] [INFO] console - [ { name: 'Param',
+    description: '{\n    "ACSN":"设备序列号",\n    "family":" ",<code>//0表示ipv4  1表示ipv6</code>\n    "direct":"  ",<code>//0表示上行 1表示下行</code>\n    "StartTime":"Xxxxxxxxxx  ",<code>//开始时间 单位秒</code>\n    "EndTime":"xxxxxxxxxx "<code>//结束时间 单位秒</code>\n}\n' } ]
+[2016-05-25 09:16:41.322] [INFO] console - [ { name: 'Return',
+    description: '{\n    "UserMAC":"用户mac地址",\n    "APPName":"App的名字"\n}\n' } ]
+[2016-05-25 09:16:41.324] [INFO] console - [ { name: 'Param',
+    description: '{\n    "ACSN":"设备序列号",\n    "family":"  ",<code>//0 表示ipv4  1表示ipv6 direct:  //0表示上行 1表示下行</code>\n    "StartTime":"Xxxxxxxxxx  ",<code>// 开始时间 单位秒</code>\n    "EndTime":"xxxxxxxxxx "<code>//结束时间 单位秒</code>\n}\n' } ]
+[2016-05-25 09:16:41.325] [INFO] console - [ { name: 'Param',
+    description: '{\n    "ACSN":"设备序列号",\n    "family":"  ",<code>//0 表示ipv4  1表示ipv6</code>\n    "direct":" ",<code>//0表示上行 1表示下行</code>\n    "StartTime":"Xxxxxxxxxx  ",<code>// 开始时间 单位秒</code>\n    "EndTime":"xxxxxxxxxx "<code>//结束时间 单位秒</code>\n}\n' } ]
+[2016-05-25 09:16:41.328] [INFO] console - [ { name: 'Return',
+    description: '[\n    "DropPktBytes",\n    "Pkt",\n    "PktBytes",\n    "DropPkt"\n]\n' } ]
+[2016-05-25 09:16:41.329] [INFO] console - [ { name: 'Return', description: '[\n    "需要那个字段填写即可"\n]\n' } ]
+[2016-05-25 09:16:41.332] [INFO] console - [ { name: 'Return', description: '[\n    "需要那个字段填写即可"\n]\n' } ]
+[2016-05-25 09:16:41.334] [INFO] console - [ { name: 'Param',
+    description: '{\n    "ACSN":"设备序列号",\n    "family":"  ",<code>//0 表示ipv4  1表示ipv6</code>\n    "direct":"  ",<code>//0表示上行 1表示下行</code>\n    "StartTime":"Xxxxxxxxxx  ",<code>// 开始时间 单位秒</code>\n    "EndTime":"xxxxxxxxxx "<code>//结束时间 单位秒</code>\n}\n' } ]
+[2016-05-25 09:16:41.336] [INFO] console - [ { name: 'Return',
+    description: '{\n    "UserMAC":"用户mac地址",\n    "WebsiteName":"web名字"\n}\n' } ]
+[2016-05-25 09:16:41.337] [INFO] console - [ { name: 'Param',
+    description: '{\n    "ACSN":"设备序列号",\n    "family":" ",<code>//0 表示ipv4  1表示ipv6</code>\n    "direct":"  ",<code>//0表示上行 1表示下行</code>\n    "StartTime":"Xxxxxxxxxx  ",<code>// 开始时间 单位秒</code>\n    "EndTime":"xxxxxxxxxx "<code>//结束时间 单位秒</code>\n}\n' } ]
+[2016-05-25 09:16:41.338] [INFO] console - [ { name: 'Return', description: '[\n    "填写需要返回的数据"\n]\n' } ]
+[2016-05-25 09:16:41.372] [INFO] console - time doc_5693251464157816
+[2016-05-25 09:16:41.527] [ERROR] console - RangeError: Maximum call stack size exceeded
+    at Function.keys (native)
+    at cloneObject (f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\lib\utils.js:283:19)
+    at clone (f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\lib\utils.js:233:16)
+    at cloneArray (f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\lib\utils.js:305:14)
+    at clone (f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\lib\utils.js:220:12)
+    at cloneObject (f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\lib\utils.js:288:13)
+    at clone (f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\lib\utils.js:233:16)
+    at cloneArray (f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\lib\utils.js:305:14)
+    at clone (f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\lib\utils.js:220:12)
+    at cloneObject (f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\lib\utils.js:288:13)
+    at clone (f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\lib\utils.js:233:16)
+    at cloneArray (f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\lib\utils.js:305:14)
+    at clone (f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\lib\utils.js:220:12)
+    at cloneObject (f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\lib\utils.js:288:13)
+    at clone (f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\lib\utils.js:233:16)
+    at cloneArray (f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\lib\utils.js:305:14)
+    at clone (f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\lib\utils.js:220:12)
+    at cloneObject (f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\lib\utils.js:288:13)
+    at clone (f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\lib\utils.js:233:16)
+    at cloneArray (f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\lib\utils.js:305:14)
+    at clone (f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\lib\utils.js:220:12)
+    at cloneObject (f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\lib\utils.js:288:13)
+[2016-05-25 09:18:26.888] [INFO] console - Wed May 25 2016 09:18:26 GMT+0800 (中国标准时间)doc server use http/https port 3005/3006
+[2016-05-25 09:18:26.967] [INFO] console - Wed May 25 2016 09:18:26 GMT+0800 (中国标准时间) doc server start http server and listen on: {"address":"::","family":"IPv6","port":3005}
+[2016-05-25 09:18:26.981] [INFO] console - Wed May 25 2016 09:18:26 GMT+0800 (中国标准时间) doc server start https server and listen on: {"address":"::","family":"IPv6","port":3006}
+[2016-05-25 09:18:27.038] [INFO] console - Wed May 25 2016 09:18:27 GMT+0800 (中国标准时间) Connect to mongoose success: mongodb://127.0.0.1:27017/webdoc_db
+[2016-05-25 09:18:42.891] [INFO] console - /load
+[2016-05-25 09:18:42.942] [INFO] console - { docindex: [ 'doc_5693251464157816' ] }
+[2016-05-25 09:18:42.951] [INFO] console - [ { name: 'Param',
+    description: '{"ACSN":"设备序列号","family":" //0 表示ipv4  1表示ipv6","direct":" //0表示上行 1表示下行","StartTime":"Xxxxxxxxxx  // 开始时间 单位秒","EndTime":"xxxxxxxxxx //结束时间 单位秒"}' } ]
+[2016-05-25 09:18:42.954] [INFO] console - [ { name: 'Param',
+    description: '{"ACSN":"设备序列号","family":" //0表示ipv4  1表示ipv6","direct":"  //0表示上行 1表示下行","StartTime":"Xxxxxxxxxx  //开始时间 单位秒","EndTime":"xxxxxxxxxx //结束时间 单位秒"}' } ]
+[2016-05-25 09:18:42.955] [INFO] console - [ { name: 'Return',
+    description: '{"UserMAC":"用户mac地址","APPName":"App的名字"}' } ]
+[2016-05-25 09:18:42.956] [INFO] console - [ { name: 'Param',
+    description: '{"ACSN":"设备序列号","family":"  //0 表示ipv4  1表示ipv6 direct:  //0表示上行 1表示下行","StartTime":"Xxxxxxxxxx  // 开始时间 单位秒","EndTime":"xxxxxxxxxx //结束时间 单位秒"}' } ]
+[2016-05-25 09:18:42.956] [INFO] console - [ { name: 'Param',
+    description: '{"ACSN":"设备序列号","family":"  //0 表示ipv4  1表示ipv6","direct":" //0表示上行 1表示下行","StartTime":"Xxxxxxxxxx  // 开始时间 单位秒","EndTime":"xxxxxxxxxx //结束时间 单位秒"}' } ]
+[2016-05-25 09:18:42.957] [INFO] console - [ { name: 'Return',
+    description: '["DropPktBytes","Pkt","PktBytes","DropPkt"]' } ]
+[2016-05-25 09:18:42.960] [INFO] console - [ { name: 'Return', description: '["需要那个字段填写即可"]' } ]
+[2016-05-25 09:18:42.960] [INFO] console - [ { name: 'Return', description: '["需要那个字段填写即可"]' } ]
+[2016-05-25 09:18:42.961] [INFO] console - [ { name: 'Param',
+    description: '{"ACSN":"设备序列号","family":"  //0 表示ipv4  1表示ipv6","direct":"  //0表示上行 1表示下行","StartTime":"Xxxxxxxxxx  // 开始时间 单位秒","EndTime":"xxxxxxxxxx //结束时间 单位秒"}' } ]
+[2016-05-25 09:18:42.965] [INFO] console - [ { name: 'Return',
+    description: '{"UserMAC":"用户mac地址","WebsiteName":"web名字"}' } ]
+[2016-05-25 09:18:42.966] [INFO] console - [ { name: 'Param',
+    description: '{"ACSN":"设备序列号","family":" //0 表示ipv4  1表示ipv6","direct":"  //0表示上行 1表示下行","StartTime":"Xxxxxxxxxx  // 开始时间 单位秒","EndTime":"xxxxxxxxxx //结束时间 单位秒"}' } ]
+[2016-05-25 09:18:42.967] [INFO] console - [ { name: 'Return', description: '["填写需要返回的数据"]' } ]
+[2016-05-25 09:18:43.016] [INFO] console - time doc_5693251464157816
+[2016-05-25 09:18:43.198] [ERROR] console - RangeError: Maximum call stack size exceeded
+    at clone (f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\lib\utils.js)
+    at cloneObject (f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\lib\utils.js:288:13)
+    at clone (f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\lib\utils.js:233:16)
+    at cloneArray (f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\lib\utils.js:305:14)
+    at clone (f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\lib\utils.js:220:12)
+    at cloneObject (f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\lib\utils.js:288:13)
+    at clone (f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\lib\utils.js:233:16)
+    at cloneArray (f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\lib\utils.js:305:14)
+    at clone (f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\lib\utils.js:220:12)
+    at cloneObject (f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\lib\utils.js:288:13)
+    at clone (f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\lib\utils.js:233:16)
+    at cloneArray (f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\lib\utils.js:305:14)
+    at clone (f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\lib\utils.js:220:12)
+    at cloneObject (f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\lib\utils.js:288:13)
+    at clone (f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\lib\utils.js:233:16)
+    at cloneArray (f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\lib\utils.js:305:14)
+    at clone (f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\lib\utils.js:220:12)
+    at cloneObject (f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\lib\utils.js:288:13)
+    at clone (f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\lib\utils.js:233:16)
+    at cloneArray (f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\lib\utils.js:305:14)
+    at clone (f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\lib\utils.js:220:12)
+    at cloneObject (f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\lib\utils.js:288:13)
+[2016-05-25 09:18:52.645] [INFO] console - Wed May 25 2016 09:18:52 GMT+0800 (中国标准时间)doc server use http/https port 3005/3006
+[2016-05-25 09:18:52.755] [INFO] console - Wed May 25 2016 09:18:52 GMT+0800 (中国标准时间) doc server start http server and listen on: {"address":"::","family":"IPv6","port":3005}
+[2016-05-25 09:18:52.758] [INFO] console - Wed May 25 2016 09:18:52 GMT+0800 (中国标准时间) doc server start https server and listen on: {"address":"::","family":"IPv6","port":3006}
+[2016-05-25 09:18:52.808] [INFO] console - Wed May 25 2016 09:18:52 GMT+0800 (中国标准时间) Connect to mongoose success: mongodb://127.0.0.1:27017/webdoc_db
+[2016-05-25 10:09:56.937] [INFO] console - /load
+[2016-05-25 10:09:56.985] [INFO] console - { docindex: [ 'doc_9525271398814801' ] }
+[2016-05-25 10:09:57.013] [INFO] console - {
+    "name": "应用分析接口文档",
+    "desc": "本文档是用来描述应用分析的接口信息 包括 应用微服务和网站微服务",
+    "author": "yuzhiqiang",
+    "aggregate": [
+        {
+            "name": "应用统计",
+            "desc": "用来获取应用数据的微服务",
+            "items": [
+                {
+                    "name": "InterfacesStatis",
+                    "desc": "获取接口数据",
+                    "author": "yuzhiqiang",
+                    "path": "/ant/read_dpi_app",
+                    "method": "post",
+                    "return": [],
+                    "params": [
+                        {
+                            "name": "Method:InterfacesStatis",
+                            "descriptions": "接口名称"
+                        },
+                        {
+                            "name": "Param",
+                            "descriptions": {
+                                "ACSN": "设备序列号",
+                                "family": " //0 表示ipv4  1表示ipv6",
+                                "direct": " //0表示上行 1表示下行",
+                                "StartTime": "Xxxxxxxxxx  // 开始时间 单位秒",
+                                "EndTime": "xxxxxxxxxx //结束时间 单位秒"
+                            }
+                        }
+                    ],
+                    "errors": [
+                        {
+                            "name": "retCode",
+                            "descriptions": "0成功  1失败"
+                        },
+                        {
+                            "name": "message",
+                            "descriptions": "[返回的数据存放在数组中]"
+                        }
+                    ]
+                },
+                {
+                    "name": "GetAppLine",
+                    "desc": "应用分析获取折线图的数据",
+                    "author": "yuzhiqiang",
+                    "path": "/ant/read_dpi_app",
+                    "method": "post",
+                    "return": [],
+                    "params": [
+                        {
+                            "name": "Method:GetAppLine",
+                            "descriptions": "接口名称"
+                        },
+                        {
+                            "name": "MAC",
+                            "descriptions": "MAC地址过滤 不过滤输入 "
+                        },
+                        {
+                            "name": "APPName",
+                            "descriptions": "应用名称过滤 不过滤 输入"
+                        },
+                        {
+                            "name": "SelectWay",
+                            "descriptions": "统计方式过滤 0 按人次过滤统计 2按流量统计"
+                        },
+                        {
+                            "name": "APPGroupName",
+                            "descriptions": "应用类型过滤 不过滤输入"
+                        },
+                        {
+                            "name": "Param",
+                            "descriptions": {
+                                "ACSN": "设备序列号",
+                                "family": " //0表示ipv4  1表示ipv6",
+                                "direct": "  //0表示上行 1表示下行",
+                                "StartTime": "Xxxxxxxxxx  //开始时间 单位秒",
+                                "EndTime": "xxxxxxxxxx //结束时间 单位秒"
+                            }
+                        }
+                    ],
+                    "errors": [
+                        {
+                            "name": "retCode",
+                            "descriptions": "0成功 1失败"
+                        },
+                        {
+                            "name": "message",
+                            "descriptions": "[返回的数据存放在数组中]"
+                        }
+                    ]
+                },
+                {
+                    "name": "WelComeApp",
+                    "desc": "最受欢迎的应用",
+                    "author": "yuzhiqiang",
+                    "path": "/ant/read_dpi_app",
+                    "method": "post",
+                    "return": [],
+                    "params": [
+                        {
+                            "name": "Method:WelComeApp",
+                            "descriptions": "接口名称"
+                        },
+                        {
+                            "name": "Param",
+                            "descriptions": {
+                                "ACSN": "设备序列号",
+                                "family": " //0 表示ipv4  1表示ipv6",
+                                "direct": "  //0表示上行 1表示下行",
+                                "StartTime": "Xxxxxxxxxx  // 开始时间 单位秒",
+                                "EndTime": "xxxxxxxxxx //结束时间 单位秒"
+                            }
+                        },
+                        {
+                            "name": "Return",
+                            "descriptions": {
+                                "UserMAC": "用户mac地址",
+                                "APPName": "App的名字"
+                            }
+                        }
+                    ],
+                    "errors": [
+                        {
+                            "name": "retCode",
+                            "descriptions": "0成功  1失败"
+                        },
+                        {
+                            "name": "message",
+                            "descriptions": "[返回的数据存放在数组中]"
+                        }
+                    ]
+                },
+                {
+                    "name": "GetAppPie",
+                    "desc": "应用分析获取以MAC地址 应用名称 统计方式 应用类型 为索引的数据",
+                    "author": "yuzhiqiang",
+                    "path": "/ant/read_dpi_app",
+                    "method": "post",
+                    "return": [],
+                    "params": [
+                        {
+                            "name": "Method:GetAppPie",
+                            "descriptions": "接口名称"
+                        },
+                        {
+                            "name": "MAC",
+                            "descriptions": "MAC地址过滤 不过滤输入"
+                        },
+                        {
+                            "name": "APPName",
+                            "descriptions": "应用名称过滤 不过滤 输入"
+                        },
+                        {
+                            "name": "SelectWay",
+                            "descriptions": "统计方式过滤 0 按人次过滤统计 2按流量统计"
+                        },
+                        {
+                            "name": "APPGroupName",
+                            "descriptions": "应用类型过滤 不过滤输入"
+                        },
+                        {
+                            "name": "Param",
+                            "descriptions": {
+                                "ACSN": "设备序列号",
+                                "family": "  //0 表示ipv4  1表示ipv6 direct:  //0表示上行 1表示下行",
+                                "StartTime": "Xxxxxxxxxx  // 开始时间 单位秒",
+                                "EndTime": "xxxxxxxxxx //结束时间 单位秒"
+                            }
+                        }
+                    ],
+                    "errors": [
+                        {
+                            "name": "retCode",
+                            "descriptions": "0成功  1失败"
+                        },
+                        {
+                            "name": "message",
+                            "descriptions": "[返回的数据存放在数组中]"
+                        }
+                    ]
+                },
+                {
+                    "name": "GetFlowChart",
+                    "desc": "应用分析获取流量展示到折线图中",
+                    "author": "yuzhiqiang",
+                    "path": "/ant/read_dpi_app",
+                    "method": "post",
+                    "return": [],
+                    "params": [
+                        {
+                            "name": "Method:GetFlowChart",
+                            "descriptions": "接口名称"
+                        },
+                        {
+                            "name": "Time",
+                            "descriptions": "当前时间的小时 请用new Date().getHour()获取小时"
+                        },
+                        {
+                            "name": "Param",
+                            "descriptions": {
+                                "ACSN": "设备序列号",
+                                "family": "  //0 表示ipv4  1表示ipv6",
+                                "direct": " //0表示上行 1表示下行",
+                                "StartTime": "Xxxxxxxxxx  // 开始时间 单位秒",
+                                "EndTime": "xxxxxxxxxx //结束时间 单位秒"
+                            }
+                        }
+                    ],
+                    "errors": [
+                        {
+                            "name": "retCode",
+                            "descriptions": "0成功  1失败"
+                        },
+                        {
+                            "name": "message",
+                            "descriptions": "[返回的数据存放在数组中]"
+                        }
+                    ]
+                },
+                {
+                    "name": "GetFlow",
+                    "desc": "应用分析获取流量",
+                    "author": "yuzhiqiang",
+                    "path": "/ant/read_dpi_app",
+                    "method": "post",
+                    "return": [],
+                    "params": [
+                        {
+                            "name": "Method:GetFlow",
+                            "descriptions": "接口名称"
+                        },
+                        {
+                            "name": "Param",
+                            "descriptions": {
+                                "ACSN": "设备序列号",
+                                "family": "  //0 表示ipv4  1表示ipv6",
+                                "direct": "  //0表示上行 1表示下行",
+                                "StartTime": "Xxxxxxxxxx  // 开始时间 单位秒",
+                                "EndTime": "xxxxxxxxxx //结束时间 单位秒"
+                            }
+                        },
+                        {
+                            "name": "Return",
+                            "descriptions": [
+                                "DropPktBytes",
+                                "Pkt",
+                                "PktBytes",
+                                "DropPkt"
+                            ]
+                        }
+                    ],
+                    "errors": [
+                        {
+                            "name": "retCode",
+                            "descriptions": "0成功  1失败"
+                        },
+                        {
+                            "name": "message",
+                            "descriptions": "[返回的数据存放在数组中]"
+                        }
+                    ]
+                },
+                {
+                    "name": "GetApp",
+                    "desc": "获取应用数据",
+                    "author": "yuzhiqiang",
+                    "path": "/ant/read_dpi_app",
+                    "method": "post",
+                    "return": [],
+                    "params": [
+                        {
+                            "name": "Method:GetApp",
+                            "descriptions": "接口名称"
+                        },
+                        {
+                            "name": "Param",
+                            "descriptions": {
+                                "ACSN": "设备序列号",
+                                "family": "  //0 表示ipv4  1表示ipv6",
+                                "direct": "  //0表示上行 1表示下行",
+                                "StartTime": "Xxxxxxxxxx  // 开始时间 单位秒",
+                                "EndTime": "xxxxxxxxxx //结束时间 单位秒"
+                            }
+                        },
+                        {
+                            "name": "Return",
+                            "descriptions": [
+                                "需要那个字段填写即可"
+                            ]
+                        }
+                    ],
+                    "errors": [
+                        {
+                            "name": "retCode",
+                            "descriptions": "0成功  1失败"
+                        },
+                        {
+                            "name": "message",
+                            "descriptions": "[返回的数据存放在数组中]"
+                        }
+                    ]
+                },
+                {
+                    "name": "GetLog",
+                    "desc": "获取应用的历史数据",
+                    "author": "yuzhiqiang",
+                    "path": "/ant/read_dpi_app",
+                    "method": "post",
+                    "return": [],
+                    "params": [
+                        {
+                            "name": "Method:GetLog",
+                            "descriptions": "接口名称"
+                        },
+                        {
+                            "name": "Param",
+                            "descriptions": {
+                                "ACSN": "设备序列号",
+                                "family": "  //0 表示ipv4  1表示ipv6",
+                                "direct": "  //0表示上行 1表示下行",
+                                "StartTime": "Xxxxxxxxxx  // 开始时间 单位秒",
+                                "EndTime": "xxxxxxxxxx //结束时间 单位秒"
+                            }
+                        },
+                        {
+                            "name": "Return",
+                            "descriptions": [
+                                "需要那个字段填写即可"
+                            ]
+                        }
+                    ],
+                    "errors": [
+                        {
+                            "name": "retCode",
+                            "descriptions": "0成功  1失败"
+                        },
+                        {
+                            "name": "message",
+                            "descriptions": "[返回的数据存放在数组中]"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "网站统计",
+            "desc": "本文档提供了获取网站数据的接口",
+            "items": [
+                {
+                    "name": "NatPlayNum",
+                    "desc": "获取上网人次显示到折线图中",
+                    "author": "yuzhiqiang",
+                    "path": "/ant/read_dpi_url",
+                    "method": "post",
+                    "return": [],
+                    "params": [
+                        {
+                            "name": "Method:NatPlayNum",
+                            "descriptions": "接口名称"
+                        },
+                        {
+                            "name": "UrlType",
+                            "descriptions": "网站类型过滤 不过滤输入 "
+                        },
+                        {
+                            "name": "Time",
+                            "descriptions": "当前时间的小时 请用new Date().getHour()获取"
+                        },
+                        {
+                            "name": "Param",
+                            "descriptions": {
+                                "ACSN": "设备序列号",
+                                "family": "  //0 表示ipv4  1表示ipv6",
+                                "direct": "  //0表示上行 1表示下行",
+                                "StartTime": "Xxxxxxxxxx  // 开始时间 单位秒",
+                                "EndTime": "xxxxxxxxxx //结束时间 单位秒"
+                            }
+                        }
+                    ],
+                    "errors": [
+                        {
+                            "name": "retCode",
+                            "descriptions": "0成功  1失败"
+                        },
+                        {
+                            "name": "message",
+                            "descriptions": "[返回的数据存放在数组中]"
+                        }
+                    ]
+                },
+                {
+                    "name": "WelComeUrl",
+                    "desc": "最受欢迎的网站",
+                    "author": "yuzhiqiang",
+                    "path": "/ant/read_dpi_url",
+                    "method": "post",
+                    "return": [],
+                    "params": [
+                        {
+                            "name": "Method:WelComeUrl",
+                            "descriptions": "接口名称"
+                        },
+                        {
+                            "name": "UrlType",
+                            "descriptions": "网站类型过滤 不过滤输入 "
+                        },
+                        {
+                            "name": "Param",
+                            "descriptions": {
+                                "ACSN": "设备序列号",
+                                "family": " //0 表示ipv4  1表示ipv6",
+                                "direct": "  //0表示上行 1表示下行",
+                                "StartTime": "Xxxxxxxxxx  // 开始时间 单位秒",
+                                "EndTime": "xxxxxxxxxx //结束时间 单位秒"
+                            }
+                        },
+                        {
+                            "name": "Return",
+                            "descriptions": {
+                                "UserMAC": "用户mac地址",
+                                "WebsiteName": "web名字"
+                            }
+                        }
+                    ],
+                    "errors": [
+                        {
+                            "name": "retCode",
+                            "descriptions": "0成功  1失败"
+                        },
+                        {
+                            "name": "message",
+                            "descriptions": "[返回的数据存放在数组中]"
+                        }
+                    ]
+                },
+                {
+                    "name": "UrlTopFive",
+                    "desc": "以网站名称或网站类型获取URL的前五",
+                    "author": "yuzhiqiang",
+                    "path": "/ant/read_dpi_url",
+                    "method": "post",
+                    "return": [],
+                    "params": [
+                        {
+                            "name": "Method:UrlTopFive",
+                            "descriptions": "接口名称"
+                        },
+                        {
+                            "name": "UrlType",
+                            "descriptions": "网站类型过滤 可不填 "
+                        },
+                        {
+                            "name": "URL",
+                            "descriptions": "网站名称过滤 可不填"
+                        },
+                        {
+                            "name": "Param",
+                            "descriptions": {
+                                "ACSN": "设备序列号",
+                                "family": " //0 表示ipv4  1表示ipv6",
+                                "direct": "  //0表示上行 1表示下行",
+                                "StartTime": "Xxxxxxxxxx  // 开始时间 单位秒",
+                                "EndTime": "xxxxxxxxxx //结束时间 单位秒"
+                            }
+                        }
+                    ],
+                    "errors": [
+                        {
+                            "name": "retCode",
+                            "descriptions": "0成功  1失败"
+                        },
+                        {
+                            "name": "message",
+                            "descriptions": "[返回的数据存放在数组中]"
+                        }
+                    ]
+                },
+                {
+                    "name": "GetUrl",
+                    "desc": "获取Url数据",
+                    "author": "yuzhiqiang",
+                    "path": "/ant/read_dpi_url",
+                    "method": "post",
+                    "return": [],
+                    "params": [
+                        {
+                            "name": "Param",
+                            "descriptions": {
+                                "ACSN": "设备序列号",
+                                "family": "  //0 表示ipv4  1表示ipv6",
+                                "direct": "  //0表示上行 1表示下行",
+                                "StartTime": "Xxxxxxxxxx  // 开始时间 单位秒",
+                                "EndTime": "xxxxxxxxxx //结束时间 单位秒"
+                            }
+                        },
+                        {
+                            "name": "Return",
+                            "descriptions": [
+                                "填写需要返回的数据"
+                            ]
+                        }
+                    ],
+                    "errors": [
+                        {
+                            "name": "retCode",
+                            "descriptions": "0成功  1失败"
+                        },
+                        {
+                            "name": "message",
+                            "descriptions": "[返回的数据存放在数组中]"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
+[2016-05-25 10:09:57.026] [INFO] console - 55555
+[2016-05-25 10:09:57.030] [INFO] console - [ { name: 'Param', description: undefined } ]
+[2016-05-25 10:09:57.032] [INFO] console - [ { name: 'Param', description: undefined } ]
+[2016-05-25 10:09:57.033] [INFO] console - [ { name: 'Return', description: undefined } ]
+[2016-05-25 10:09:57.033] [INFO] console - [ { name: 'Param', description: undefined } ]
+[2016-05-25 10:09:57.034] [INFO] console - [ { name: 'Param', description: undefined } ]
+[2016-05-25 10:09:57.035] [INFO] console - [ { name: 'Return', description: undefined } ]
+[2016-05-25 10:09:57.037] [INFO] console - [ { name: 'Return', description: undefined } ]
+[2016-05-25 10:09:57.037] [INFO] console - [ { name: 'Return', description: undefined } ]
+[2016-05-25 10:09:57.039] [INFO] console - [ { name: 'Param', description: undefined } ]
+[2016-05-25 10:09:57.040] [INFO] console - [ { name: 'Return', description: undefined } ]
+[2016-05-25 10:09:57.041] [INFO] console - [ { name: 'Param', description: undefined } ]
+[2016-05-25 10:09:57.043] [INFO] console - [ { name: 'Return', description: undefined } ]
+[2016-05-25 10:09:57.064] [INFO] console - time doc_9525271398814801
+[2016-05-25 10:09:57.201] [ERROR] console - RangeError: Maximum call stack size exceeded
+    at clone (f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\lib\utils.js)
+    at cloneArray (f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\lib\utils.js:305:14)
+    at clone (f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\lib\utils.js:220:12)
+    at cloneObject (f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\lib\utils.js:288:13)
+    at clone (f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\lib\utils.js:233:16)
+    at cloneArray (f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\lib\utils.js:305:14)
+    at clone (f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\lib\utils.js:220:12)
+    at cloneObject (f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\lib\utils.js:288:13)
+    at clone (f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\lib\utils.js:233:16)
+    at cloneArray (f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\lib\utils.js:305:14)
+    at clone (f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\lib\utils.js:220:12)
+    at cloneObject (f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\lib\utils.js:288:13)
+    at clone (f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\lib\utils.js:233:16)
+    at cloneArray (f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\lib\utils.js:305:14)
+    at clone (f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\lib\utils.js:220:12)
+    at cloneObject (f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\lib\utils.js:288:13)
+    at clone (f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\lib\utils.js:233:16)
+    at cloneArray (f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\lib\utils.js:305:14)
+    at clone (f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\lib\utils.js:220:12)
+    at cloneObject (f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\lib\utils.js:288:13)
+    at clone (f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\lib\utils.js:233:16)
+    at cloneArray (f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\lib\utils.js:305:14)
+    at clone (f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\lib\utils.js:220:12)
+[2016-05-25 10:13:21.054] [INFO] console - Wed May 25 2016 10:13:21 GMT+0800 (中国标准时间)doc server use http/https port 3005/3006
+[2016-05-25 10:13:21.112] [INFO] console - Wed May 25 2016 10:13:21 GMT+0800 (中国标准时间) doc server start http server and listen on: {"address":"::","family":"IPv6","port":3005}
+[2016-05-25 10:13:21.114] [INFO] console - Wed May 25 2016 10:13:21 GMT+0800 (中国标准时间) doc server start https server and listen on: {"address":"::","family":"IPv6","port":3006}
+[2016-05-25 10:13:21.155] [INFO] console - Wed May 25 2016 10:13:21 GMT+0800 (中国标准时间) Connect to mongoose success: mongodb://127.0.0.1:27017/webdoc_db
+[2016-05-25 10:13:25.463] [INFO] console - {"doclist":[{"DocIndex":"doc_5866521044873243","Name":"aaa","time":1464078067389},{"DocIndex":"doc_9842227725675352","Name":"无线定位接口文档","time":1464138172353},{"DocIndex":"doc_3048787579029264","Name":"asas","time":1464077639702},{"DocIndex":"doc_7577103296698844","Name":"asfasdfdsdsafadfasdfsad","time":1464078943982},{"DocIndex":"doc_18264992210987874","Name":"2322","time":1464078710066},{"DocIndex":"doc_8466751070093037","Name":"yuanyuekun","time":1464077563211}],"retCode":0}
+[2016-05-25 10:13:39.218] [INFO] console - /load
+[2016-05-25 10:13:39.318] [INFO] console - { docindex: [ 'doc_09679985529118595' ] }
+[2016-05-25 10:13:39.328] [INFO] console - [ { name: 'Param',
+    description: '{"ACSN":"设备序列号","family":" //0 表示ipv4  1表示ipv6","direct":" //0表示上行 1表示下行","StartTime":"Xxxxxxxxxx  // 开始时间 单位秒","EndTime":"xxxxxxxxxx //结束时间 单位秒"}' } ]
+[2016-05-25 10:13:39.330] [INFO] console - [ { name: 'Param',
+    description: '{"ACSN":"设备序列号","family":" //0表示ipv4  1表示ipv6","direct":"  //0表示上行 1表示下行","StartTime":"Xxxxxxxxxx  //开始时间 单位秒","EndTime":"xxxxxxxxxx //结束时间 单位秒"}' } ]
+[2016-05-25 10:13:39.331] [INFO] console - [ { name: 'Return',
+    description: '{"UserMAC":"用户mac地址","APPName":"App的名字"}' } ]
+[2016-05-25 10:13:39.332] [INFO] console - [ { name: 'Param',
+    description: '{"ACSN":"设备序列号","family":"  //0 表示ipv4  1表示ipv6 direct:  //0表示上行 1表示下行","StartTime":"Xxxxxxxxxx  // 开始时间 单位秒","EndTime":"xxxxxxxxxx //结束时间 单位秒"}' } ]
+[2016-05-25 10:13:39.333] [INFO] console - [ { name: 'Param',
+    description: '{"ACSN":"设备序列号","family":"  //0 表示ipv4  1表示ipv6","direct":" //0表示上行 1表示下行","StartTime":"Xxxxxxxxxx  // 开始时间 单位秒","EndTime":"xxxxxxxxxx //结束时间 单位秒"}' } ]
+[2016-05-25 10:13:39.334] [INFO] console - [ { name: 'Return',
+    description: '["DropPktBytes","Pkt","PktBytes","DropPkt"]' } ]
+[2016-05-25 10:13:39.337] [INFO] console - [ { name: 'Return', description: '["需要那个字段填写即可"]' } ]
+[2016-05-25 10:13:39.337] [INFO] console - [ { name: 'Return', description: '["需要那个字段填写即可"]' } ]
+[2016-05-25 10:13:39.338] [INFO] console - [ { name: 'Param',
+    description: '{"ACSN":"设备序列号","family":"  //0 表示ipv4  1表示ipv6","direct":"  //0表示上行 1表示下行","StartTime":"Xxxxxxxxxx  // 开始时间 单位秒","EndTime":"xxxxxxxxxx //结束时间 单位秒"}' } ]
+[2016-05-25 10:13:39.340] [INFO] console - [ { name: 'Return',
+    description: '{"UserMAC":"用户mac地址","WebsiteName":"web名字"}' } ]
+[2016-05-25 10:13:39.341] [INFO] console - [ { name: 'Param',
+    description: '{"ACSN":"设备序列号","family":" //0 表示ipv4  1表示ipv6","direct":"  //0表示上行 1表示下行","StartTime":"Xxxxxxxxxx  // 开始时间 单位秒","EndTime":"xxxxxxxxxx //结束时间 单位秒"}' } ]
+[2016-05-25 10:13:39.342] [INFO] console - [ { name: 'Return', description: '["填写需要返回的数据"]' } ]
+[2016-05-25 10:13:39.352] [INFO] console - time doc_09679985529118595
+[2016-05-25 10:13:39.404] [ERROR] console - RangeError: Maximum call stack size exceeded
+    at cloneObject (f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\lib\utils.js)
+    at clone (f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\lib\utils.js:233:16)
+    at cloneArray (f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\lib\utils.js:305:14)
+    at clone (f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\lib\utils.js:220:12)
+    at cloneObject (f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\lib\utils.js:288:13)
+    at clone (f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\lib\utils.js:233:16)
+    at cloneArray (f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\lib\utils.js:305:14)
+    at clone (f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\lib\utils.js:220:12)
+    at cloneObject (f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\lib\utils.js:288:13)
+    at clone (f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\lib\utils.js:233:16)
+    at cloneArray (f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\lib\utils.js:305:14)
+    at clone (f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\lib\utils.js:220:12)
+    at cloneObject (f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\lib\utils.js:288:13)
+    at clone (f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\lib\utils.js:233:16)
+    at cloneArray (f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\lib\utils.js:305:14)
+    at clone (f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\lib\utils.js:220:12)
+    at cloneObject (f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\lib\utils.js:288:13)
+    at clone (f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\lib\utils.js:233:16)
+    at cloneArray (f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\lib\utils.js:305:14)
+    at clone (f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\lib\utils.js:220:12)
+    at cloneObject (f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\lib\utils.js:288:13)
+    at clone (f:\4-6\doc\src\node_modules\wlanpub\node_modules\mongoose\lib\utils.js:233:16)
+[2016-05-25 10:15:45.383] [INFO] console - Wed May 25 2016 10:15:45 GMT+0800 (中国标准时间)doc server use http/https port 3005/3006
+[2016-05-25 10:15:45.448] [INFO] console - Wed May 25 2016 10:15:45 GMT+0800 (中国标准时间) doc server start http server and listen on: {"address":"::","family":"IPv6","port":3005}
+[2016-05-25 10:15:45.450] [INFO] console - Wed May 25 2016 10:15:45 GMT+0800 (中国标准时间) doc server start https server and listen on: {"address":"::","family":"IPv6","port":3006}
+[2016-05-25 10:15:45.501] [INFO] console - Wed May 25 2016 10:15:45 GMT+0800 (中国标准时间) Connect to mongoose success: mongodb://127.0.0.1:27017/webdoc_db
+[2016-05-25 10:16:24.469] [INFO] console - {"doclist":[{"DocIndex":"doc_5866521044873243","Name":"aaa","time":1464078067389},{"DocIndex":"doc_9842227725675352","Name":"无线定位接口文档","time":1464138172353},{"DocIndex":"doc_3048787579029264","Name":"asas","time":1464077639702},{"DocIndex":"doc_18264992210987874","Name":"2322","time":1464078710066},{"DocIndex":"doc_7577103296698844","Name":"asfasdfdsdsafadfasdfsad","time":1464078943982},{"DocIndex":"doc_8466751070093037","Name":"yuanyuekun","time":1464077563211}],"retCode":0}
+[2016-05-25 10:16:36.582] [INFO] console - /load
+[2016-05-25 10:16:36.710] [INFO] console - { docindex: [ 'doc_6842029593769665' ] }
+[2016-05-25 10:16:36.737] [INFO] console - time doc_6842029593769665
+[2016-05-25 10:16:36.840] [INFO] console - {"doclist":[{"DocIndex":"doc_8466751070093037","Name":"yuanyuekun","time":1464077563211},{"DocIndex":"doc_6842029593769665","Name":"应用分析接口文档","time":1464142596736},{"DocIndex":"doc_9842227725675352","Name":"无线定位接口文档","time":1464138172353},{"DocIndex":"doc_18264992210987874","Name":"2322","time":1464078710066},{"DocIndex":"doc_7577103296698844","Name":"asfasdfdsdsafadfasdfsad","time":1464078943982},{"DocIndex":"doc_5866521044873243","Name":"aaa","time":1464078067389},{"DocIndex":"doc_3048787579029264","Name":"asas","time":1464077639702}],"retCode":0}
+[2016-05-25 10:19:36.057] [INFO] console - Wed May 25 2016 10:19:36 GMT+0800 (中国标准时间)doc server use http/https port 3005/3006
+[2016-05-25 10:19:36.122] [INFO] console - Wed May 25 2016 10:19:36 GMT+0800 (中国标准时间) doc server start http server and listen on: {"address":"::","family":"IPv6","port":3005}
+[2016-05-25 10:19:36.124] [INFO] console - Wed May 25 2016 10:19:36 GMT+0800 (中国标准时间) doc server start https server and listen on: {"address":"::","family":"IPv6","port":3006}
+[2016-05-25 10:19:36.185] [INFO] console - Wed May 25 2016 10:19:36 GMT+0800 (中国标准时间) Connect to mongoose success: mongodb://127.0.0.1:27017/webdoc_db
+[2016-05-25 10:19:51.248] [INFO] console - {"doclist":[{"DocIndex":"doc_5866521044873243","Name":"aaa","time":1464078067389},{"DocIndex":"doc_9842227725675352","Name":"无线定位接口文档","time":1464138172353},{"DocIndex":"doc_3048787579029264","Name":"asas","time":1464077639702},{"DocIndex":"doc_7577103296698844","Name":"asfasdfdsdsafadfasdfsad","time":1464078943982},{"DocIndex":"doc_18264992210987874","Name":"2322","time":1464078710066},{"DocIndex":"doc_8466751070093037","Name":"yuanyuekun","time":1464077563211}],"retCode":0}
+[2016-05-25 10:19:59.084] [INFO] console - /load
+[2016-05-25 10:19:59.135] [INFO] console - { docindex: [ 'doc_6842029593769665' ] }
+[2016-05-25 10:19:59.146] [ERROR] console - load  load file is illegalSyntaxError: Unexpected token 
+[2016-05-25 10:19:59.260] [INFO] console - {"doclist":[{"DocIndex":"doc_7577103296698844","Name":"asfasdfdsdsafadfasdfsad","time":1464078943982},{"DocIndex":"doc_18264992210987874","Name":"2322","time":1464078710066},{"DocIndex":"doc_9842227725675352","Name":"无线定位接口文档","time":1464138172353},{"DocIndex":"doc_3048787579029264","Name":"asas","time":1464077639702},{"DocIndex":"doc_8466751070093037","Name":"yuanyuekun","time":1464077563211},{"DocIndex":"doc_5866521044873243","Name":"aaa","time":1464078067389}],"retCode":0}
+[2016-05-25 11:14:47.307] [INFO] console - /load
+[2016-05-25 11:14:47.335] [INFO] console - { docindex: [ 'doc_6842029593769665' ] }
+[2016-05-25 11:14:47.361] [INFO] console - time doc_6842029593769665
+[2016-05-25 11:14:47.509] [INFO] console - {"doclist":[{"DocIndex":"doc_8466751070093037","Name":"yuanyuekun","time":1464077563211},{"DocIndex":"doc_6842029593769665","Name":"应用分析接口文档","time":1464146087361},{"DocIndex":"doc_5866521044873243","Name":"aaa","time":1464078067389},{"DocIndex":"doc_9842227725675352","Name":"无线定位接口文档","time":1464138172353},{"DocIndex":"doc_18264992210987874","Name":"2322","time":1464078710066},{"DocIndex":"doc_7577103296698844","Name":"asfasdfdsdsafadfasdfsad","time":1464078943982},{"DocIndex":"doc_3048787579029264","Name":"asas","time":1464077639702}],"retCode":0}
+[2016-05-25 11:15:57.127] [INFO] console - /load
+[2016-05-25 11:15:57.155] [INFO] console - { docindex: [ 'doc_6842029593769665' ] }
+[2016-05-25 11:15:57.184] [INFO] console - [ { _id: 'doc_6842029593769665', time: 1464146087361 } ]
+[2016-05-25 11:15:57.187] [INFO] console - time doc_6842029593769665
+[2016-05-25 11:15:57.255] [INFO] console - {"doclist":[{"DocIndex":"doc_6842029593769665","Name":"应用分析接口文档","time":1464146157187},{"DocIndex":"doc_9842227725675352","Name":"无线定位接口文档","time":1464138172353},{"DocIndex":"doc_3048787579029264","Name":"asas","time":1464077639702},{"DocIndex":"doc_7577103296698844","Name":"asfasdfdsdsafadfasdfsad","time":1464078943982},{"DocIndex":"doc_18264992210987874","Name":"2322","time":1464078710066},{"DocIndex":"doc_8466751070093037","Name":"yuanyuekun","time":1464077563211},{"DocIndex":"doc_5866521044873243","Name":"aaa","time":1464078067389}],"retCode":0}
+[2016-05-25 11:15:59.106] [INFO] console - {"doclist":[{"DocIndex":"doc_8466751070093037","Name":"yuanyuekun","time":1464077563211},{"DocIndex":"doc_6842029593769665","Name":"应用分析接口文档","time":1464146157187},{"DocIndex":"doc_5866521044873243","Name":"aaa","time":1464078067389},{"DocIndex":"doc_18264992210987874","Name":"2322","time":1464078710066},{"DocIndex":"doc_7577103296698844","Name":"asfasdfdsdsafadfasdfsad","time":1464078943982},{"DocIndex":"doc_9842227725675352","Name":"无线定位接口文档","time":1464138172353},{"DocIndex":"doc_3048787579029264","Name":"asas","time":1464077639702}],"retCode":0}
+[2016-05-25 11:16:07.083] [INFO] console - {"doclist":[{"DocIndex":"doc_5866521044873243","Name":"aaa","time":1464078067389},{"DocIndex":"doc_9842227725675352","Name":"无线定位接口文档","time":1464138172353},{"DocIndex":"doc_3048787579029264","Name":"asas","time":1464077639702},{"DocIndex":"doc_7577103296698844","Name":"asfasdfdsdsafadfasdfsad","time":1464078943982},{"DocIndex":"doc_18264992210987874","Name":"2322","time":1464078710066},{"DocIndex":"doc_8466751070093037","Name":"yuanyuekun","time":1464077563211}],"retCode":0}
+[2016-05-25 11:16:13.163] [INFO] console - /load
+[2016-05-25 11:16:13.187] [INFO] console - { docindex: [ 'doc_7327388881714902' ] }
+[2016-05-25 11:16:13.201] [INFO] console - time doc_7327388881714902
+[2016-05-25 11:16:13.275] [INFO] console - {"doclist":[{"DocIndex":"doc_9842227725675352","Name":"无线定位接口文档","time":1464138172353},{"DocIndex":"doc_7577103296698844","Name":"asfasdfdsdsafadfasdfsad","time":1464078943982},{"DocIndex":"doc_18264992210987874","Name":"2322","time":1464078710066},{"DocIndex":"doc_7327388881714902","Name":"应用分析接口文档","time":1464146173201},{"DocIndex":"doc_8466751070093037","Name":"yuanyuekun","time":1464077563211},{"DocIndex":"doc_5866521044873243","Name":"aaa","time":1464078067389},{"DocIndex":"doc_3048787579029264","Name":"asas","time":1464077639702}],"retCode":0}
+[2016-05-25 11:18:49.571] [INFO] console - Wed May 25 2016 11:18:49 GMT+0800 (中国标准时间)doc server use http/https port 3005/3006
+[2016-05-25 11:18:49.620] [INFO] console - Wed May 25 2016 11:18:49 GMT+0800 (中国标准时间) doc server start http server and listen on: {"address":"::","family":"IPv6","port":3005}
+[2016-05-25 11:18:49.622] [INFO] console - Wed May 25 2016 11:18:49 GMT+0800 (中国标准时间) doc server start https server and listen on: {"address":"::","family":"IPv6","port":3006}
+[2016-05-25 11:18:49.669] [INFO] console - Wed May 25 2016 11:18:49 GMT+0800 (中国标准时间) Connect to mongoose success: mongodb://127.0.0.1:27017/webdoc_db
+[2016-05-25 11:19:00.787] [INFO] console - /load
+[2016-05-25 11:19:00.833] [INFO] console - { docindex: [ 'doc_7327388881714902' ] }
+[2016-05-25 11:19:00.841] [INFO] console - 接口名称
+[2016-05-25 11:19:00.842] [INFO] console - { ACSN: '设备序列号',
+  family: ' //0 表示ipv4  1表示ipv6',
+  direct: ' //0表示上行 1表示下行',
+  StartTime: 'Xxxxxxxxxx  // 开始时间 单位秒',
+  EndTime: 'xxxxxxxxxx //结束时间 单位秒' }
+[2016-05-25 11:19:00.843] [INFO] console - 接口名称
+[2016-05-25 11:19:00.843] [INFO] console - MAC地址过滤 不过滤输入 
+[2016-05-25 11:19:00.843] [INFO] console - 应用名称过滤 不过滤 输入
+[2016-05-25 11:19:00.844] [INFO] console - 统计方式过滤 0 按人次过滤统计 2按流量统计
+[2016-05-25 11:19:00.844] [INFO] console - 应用类型过滤 不过滤输入
+[2016-05-25 11:19:00.844] [INFO] console - { ACSN: '设备序列号',
+  family: ' //0表示ipv4  1表示ipv6',
+  direct: '  //0表示上行 1表示下行',
+  StartTime: 'Xxxxxxxxxx  //开始时间 单位秒',
+  EndTime: 'xxxxxxxxxx //结束时间 单位秒' }
+[2016-05-25 11:19:00.845] [INFO] console - 接口名称
+[2016-05-25 11:19:00.846] [INFO] console - { ACSN: '设备序列号',
+  family: ' //0 表示ipv4  1表示ipv6',
+  direct: '  //0表示上行 1表示下行',
+  StartTime: 'Xxxxxxxxxx  // 开始时间 单位秒',
+  EndTime: 'xxxxxxxxxx //结束时间 单位秒' }
+[2016-05-25 11:19:00.847] [INFO] console - { UserMAC: '用户mac地址', APPName: 'App的名字' }
+[2016-05-25 11:19:00.848] [INFO] console - 接口名称
+[2016-05-25 11:19:00.848] [INFO] console - MAC地址过滤 不过滤输入
+[2016-05-25 11:19:00.848] [INFO] console - 应用名称过滤 不过滤 输入
+[2016-05-25 11:19:00.854] [INFO] console - 统计方式过滤 0 按人次过滤统计 2按流量统计
+[2016-05-25 11:19:00.854] [INFO] console - 应用类型过滤 不过滤输入
+[2016-05-25 11:19:00.855] [INFO] console - { ACSN: '设备序列号',
+  family: '  //0 表示ipv4  1表示ipv6 direct:  //0表示上行 1表示下行',
+  StartTime: 'Xxxxxxxxxx  // 开始时间 单位秒',
+  EndTime: 'xxxxxxxxxx //结束时间 单位秒' }
+[2016-05-25 11:19:00.856] [INFO] console - 接口名称
+[2016-05-25 11:19:00.857] [INFO] console - 当前时间的小时 请用new Date().getHour()获取小时
+[2016-05-25 11:19:00.858] [INFO] console - { ACSN: '设备序列号',
+  family: '  //0 表示ipv4  1表示ipv6',
+  direct: ' //0表示上行 1表示下行',
+  StartTime: 'Xxxxxxxxxx  // 开始时间 单位秒',
+  EndTime: 'xxxxxxxxxx //结束时间 单位秒' }
+[2016-05-25 11:19:00.858] [INFO] console - 接口名称
+[2016-05-25 11:19:00.859] [INFO] console - { ACSN: '设备序列号',
+  family: '  //0 表示ipv4  1表示ipv6',
+  direct: '  //0表示上行 1表示下行',
+  StartTime: 'Xxxxxxxxxx  // 开始时间 单位秒',
+  EndTime: 'xxxxxxxxxx //结束时间 单位秒' }
+[2016-05-25 11:19:00.860] [INFO] console - [ 'DropPktBytes', 'Pkt', 'PktBytes', 'DropPkt' ]
+[2016-05-25 11:19:00.862] [INFO] console - 接口名称
+[2016-05-25 11:19:00.862] [INFO] console - { ACSN: '设备序列号',
+  family: '  //0 表示ipv4  1表示ipv6',
+  direct: '  //0表示上行 1表示下行',
+  StartTime: 'Xxxxxxxxxx  // 开始时间 单位秒',
+  EndTime: 'xxxxxxxxxx //结束时间 单位秒' }
+[2016-05-25 11:19:00.862] [INFO] console - [ '需要那个字段填写即可' ]
+[2016-05-25 11:19:00.863] [INFO] console - 接口名称
+[2016-05-25 11:19:00.864] [INFO] console - { ACSN: '设备序列号',
+  family: '  //0 表示ipv4  1表示ipv6',
+  direct: '  //0表示上行 1表示下行',
+  StartTime: 'Xxxxxxxxxx  // 开始时间 单位秒',
+  EndTime: 'xxxxxxxxxx //结束时间 单位秒' }
+[2016-05-25 11:19:00.865] [INFO] console - [ '需要那个字段填写即可' ]
+[2016-05-25 11:19:00.866] [INFO] console - 接口名称
+[2016-05-25 11:19:00.866] [INFO] console - 网站类型过滤 不过滤输入 
+[2016-05-25 11:19:00.866] [INFO] console - 当前时间的小时 请用new Date().getHour()获取
+[2016-05-25 11:19:00.866] [INFO] console - { ACSN: '设备序列号',
+  family: '  //0 表示ipv4  1表示ipv6',
+  direct: '  //0表示上行 1表示下行',
+  StartTime: 'Xxxxxxxxxx  // 开始时间 单位秒',
+  EndTime: 'xxxxxxxxxx //结束时间 单位秒' }
+[2016-05-25 11:19:00.867] [INFO] console - 接口名称
+[2016-05-25 11:19:00.868] [INFO] console - 网站类型过滤 不过滤输入 
+[2016-05-25 11:19:00.868] [INFO] console - { ACSN: '设备序列号',
+  family: ' //0 表示ipv4  1表示ipv6',
+  direct: '  //0表示上行 1表示下行',
+  StartTime: 'Xxxxxxxxxx  // 开始时间 单位秒',
+  EndTime: 'xxxxxxxxxx //结束时间 单位秒' }
+[2016-05-25 11:19:00.869] [INFO] console - { UserMAC: '用户mac地址', WebsiteName: 'web名字' }
+[2016-05-25 11:19:00.869] [INFO] console - 接口名称
+[2016-05-25 11:19:00.869] [INFO] console - 网站类型过滤 可不填 
+[2016-05-25 11:19:00.870] [INFO] console - 网站名称过滤 可不填
+[2016-05-25 11:19:00.870] [INFO] console - { ACSN: '设备序列号',
+  family: ' //0 表示ipv4  1表示ipv6',
+  direct: '  //0表示上行 1表示下行',
+  StartTime: 'Xxxxxxxxxx  // 开始时间 单位秒',
+  EndTime: 'xxxxxxxxxx //结束时间 单位秒' }
+[2016-05-25 11:19:00.871] [INFO] console - { ACSN: '设备序列号',
+  family: '  //0 表示ipv4  1表示ipv6',
+  direct: '  //0表示上行 1表示下行',
+  StartTime: 'Xxxxxxxxxx  // 开始时间 单位秒',
+  EndTime: 'xxxxxxxxxx //结束时间 单位秒' }
+[2016-05-25 11:19:00.872] [INFO] console - [ '填写需要返回的数据' ]
+[2016-05-25 11:19:00.898] [INFO] console - [ { _id: 'doc_7327388881714902', time: 1464146173201 } ]
+[2016-05-25 11:19:00.901] [INFO] console - time doc_7327388881714902
+[2016-05-25 11:19:01.100] [INFO] console - {"doclist":[{"DocIndex":"doc_9842227725675352","Name":"无线定位接口文档","time":1464138172353},{"DocIndex":"doc_7327388881714902","Name":"应用分析接口文档","time":1464146340901},{"DocIndex":"doc_18264992210987874","Name":"2322","time":1464078710066},{"DocIndex":"doc_5866521044873243","Name":"aaa","time":1464078067389},{"DocIndex":"doc_8466751070093037","Name":"yuanyuekun","time":1464077563211},{"DocIndex":"doc_7577103296698844","Name":"asfasdfdsdsafadfasdfsad","time":1464078943982},{"DocIndex":"doc_3048787579029264","Name":"asas","time":1464077639702}],"retCode":0}
+[2016-05-25 11:20:03.764] [INFO] console - Wed May 25 2016 11:20:03 GMT+0800 (中国标准时间)doc server use http/https port 3005/3006
+[2016-05-25 11:20:03.823] [INFO] console - Wed May 25 2016 11:20:03 GMT+0800 (中国标准时间) doc server start http server and listen on: {"address":"::","family":"IPv6","port":3005}
+[2016-05-25 11:20:03.825] [INFO] console - Wed May 25 2016 11:20:03 GMT+0800 (中国标准时间) doc server start https server and listen on: {"address":"::","family":"IPv6","port":3006}
+[2016-05-25 11:20:03.872] [INFO] console - Wed May 25 2016 11:20:03 GMT+0800 (中国标准时间) Connect to mongoose success: mongodb://127.0.0.1:27017/webdoc_db
+[2016-05-25 11:21:32.089] [INFO] console - /load
+[2016-05-25 11:21:32.127] [INFO] console - { docindex: [ 'doc_7327388881714902' ] }
+[2016-05-25 11:21:32.135] [INFO] console - 接口名称
+[2016-05-25 11:21:32.136] [INFO] console - { ACSN: '设备序列号',
+  family: ' //0 表示ipv4  1表示ipv6',
+  direct: ' //0表示上行 1表示下行',
+  StartTime: 'Xxxxxxxxxx  // 开始时间 单位秒',
+  EndTime: 'xxxxxxxxxx //结束时间 单位秒' }
+[2016-05-25 11:21:32.138] [INFO] console - 接口名称
+[2016-05-25 11:21:32.138] [INFO] console - MAC地址过滤 不过滤输入 
+[2016-05-25 11:21:32.138] [INFO] console - 应用名称过滤 不过滤 输入
+[2016-05-25 11:21:32.138] [INFO] console - 统计方式过滤 0 按人次过滤统计 2按流量统计
+[2016-05-25 11:21:32.139] [INFO] console - 应用类型过滤 不过滤输入
+[2016-05-25 11:21:32.139] [INFO] console - { ACSN: '设备序列号',
+  family: ' //0表示ipv4  1表示ipv6',
+  direct: '  //0表示上行 1表示下行',
+  StartTime: 'Xxxxxxxxxx  //开始时间 单位秒',
+  EndTime: 'xxxxxxxxxx //结束时间 单位秒' }
+[2016-05-25 11:21:32.141] [INFO] console - 接口名称
+[2016-05-25 11:21:32.142] [INFO] console - { ACSN: '设备序列号',
+  family: ' //0 表示ipv4  1表示ipv6',
+  direct: '  //0表示上行 1表示下行',
+  StartTime: 'Xxxxxxxxxx  // 开始时间 单位秒',
+  EndTime: 'xxxxxxxxxx //结束时间 单位秒' }
+[2016-05-25 11:21:32.144] [INFO] console - { UserMAC: '用户mac地址', APPName: 'App的名字' }
+[2016-05-25 11:21:32.145] [INFO] console - 接口名称
+[2016-05-25 11:21:32.146] [INFO] console - MAC地址过滤 不过滤输入
+[2016-05-25 11:21:32.148] [INFO] console - 应用名称过滤 不过滤 输入
+[2016-05-25 11:21:32.148] [INFO] console - 统计方式过滤 0 按人次过滤统计 2按流量统计
+[2016-05-25 11:21:32.148] [INFO] console - 应用类型过滤 不过滤输入
+[2016-05-25 11:21:32.149] [INFO] console - { ACSN: '设备序列号',
+  family: '  //0 表示ipv4  1表示ipv6 direct:  //0表示上行 1表示下行',
+  StartTime: 'Xxxxxxxxxx  // 开始时间 单位秒',
+  EndTime: 'xxxxxxxxxx //结束时间 单位秒' }
+[2016-05-25 11:21:32.149] [INFO] console - 接口名称
+[2016-05-25 11:21:32.150] [INFO] console - 当前时间的小时 请用new Date().getHour()获取小时
+[2016-05-25 11:21:32.150] [INFO] console - { ACSN: '设备序列号',
+  family: '  //0 表示ipv4  1表示ipv6',
+  direct: ' //0表示上行 1表示下行',
+  StartTime: 'Xxxxxxxxxx  // 开始时间 单位秒',
+  EndTime: 'xxxxxxxxxx //结束时间 单位秒' }
+[2016-05-25 11:21:32.151] [INFO] console - 接口名称
+[2016-05-25 11:21:32.151] [INFO] console - { ACSN: '设备序列号',
+  family: '  //0 表示ipv4  1表示ipv6',
+  direct: '  //0表示上行 1表示下行',
+  StartTime: 'Xxxxxxxxxx  // 开始时间 单位秒',
+  EndTime: 'xxxxxxxxxx //结束时间 单位秒' }
+[2016-05-25 11:21:32.152] [INFO] console - [ 'DropPktBytes', 'Pkt', 'PktBytes', 'DropPkt' ]
+[2016-05-25 11:21:32.154] [INFO] console - 接口名称
+[2016-05-25 11:21:32.159] [INFO] console - { ACSN: '设备序列号',
+  family: '  //0 表示ipv4  1表示ipv6',
+  direct: '  //0表示上行 1表示下行',
+  StartTime: 'Xxxxxxxxxx  // 开始时间 单位秒',
+  EndTime: 'xxxxxxxxxx //结束时间 单位秒' }
+[2016-05-25 11:21:32.160] [INFO] console - [ '需要那个字段填写即可' ]
+[2016-05-25 11:21:32.161] [INFO] console - 接口名称
+[2016-05-25 11:21:32.161] [INFO] console - { ACSN: '设备序列号',
+  family: '  //0 表示ipv4  1表示ipv6',
+  direct: '  //0表示上行 1表示下行',
+  StartTime: 'Xxxxxxxxxx  // 开始时间 单位秒',
+  EndTime: 'xxxxxxxxxx //结束时间 单位秒' }
+[2016-05-25 11:21:32.162] [INFO] console - [ '需要那个字段填写即可' ]
+[2016-05-25 11:21:32.163] [INFO] console - 接口名称
+[2016-05-25 11:21:32.163] [INFO] console - 网站类型过滤 不过滤输入 
+[2016-05-25 11:21:32.164] [INFO] console - 当前时间的小时 请用new Date().getHour()获取
+[2016-05-25 11:21:32.164] [INFO] console - { ACSN: '设备序列号',
+  family: '  //0 表示ipv4  1表示ipv6',
+  direct: '  //0表示上行 1表示下行',
+  StartTime: 'Xxxxxxxxxx  // 开始时间 单位秒',
+  EndTime: 'xxxxxxxxxx //结束时间 单位秒' }
+[2016-05-25 11:21:32.165] [INFO] console - 接口名称
+[2016-05-25 11:21:32.165] [INFO] console - 网站类型过滤 不过滤输入 
+[2016-05-25 11:21:32.166] [INFO] console - { ACSN: '设备序列号',
+  family: ' //0 表示ipv4  1表示ipv6',
+  direct: '  //0表示上行 1表示下行',
+  StartTime: 'Xxxxxxxxxx  // 开始时间 单位秒',
+  EndTime: 'xxxxxxxxxx //结束时间 单位秒' }
+[2016-05-25 11:21:32.167] [INFO] console - { UserMAC: '用户mac地址', WebsiteName: 'web名字' }
+[2016-05-25 11:21:32.167] [INFO] console - 接口名称
+[2016-05-25 11:21:32.168] [INFO] console - 网站类型过滤 可不填 
+[2016-05-25 11:21:32.168] [INFO] console - 网站名称过滤 可不填
+[2016-05-25 11:21:32.169] [INFO] console - { ACSN: '设备序列号',
+  family: ' //0 表示ipv4  1表示ipv6',
+  direct: '  //0表示上行 1表示下行',
+  StartTime: 'Xxxxxxxxxx  // 开始时间 单位秒',
+  EndTime: 'xxxxxxxxxx //结束时间 单位秒' }
+[2016-05-25 11:21:32.169] [INFO] console - { ACSN: '设备序列号',
+  family: '  //0 表示ipv4  1表示ipv6',
+  direct: '  //0表示上行 1表示下行',
+  StartTime: 'Xxxxxxxxxx  // 开始时间 单位秒',
+  EndTime: 'xxxxxxxxxx //结束时间 单位秒' }
+[2016-05-25 11:21:32.170] [INFO] console - [ '填写需要返回的数据' ]
+[2016-05-25 11:21:32.192] [INFO] console - [ { _id: 'doc_7327388881714902', time: 1464146340901 } ]
+[2016-05-25 11:21:32.193] [INFO] console - time doc_7327388881714902
+[2016-05-25 11:21:32.441] [INFO] console - {"doclist":[{"DocIndex":"doc_8466751070093037","Name":"yuanyuekun","time":1464077563211},{"DocIndex":"doc_9842227725675352","Name":"无线定位接口文档","time":1464138172353},{"DocIndex":"doc_5866521044873243","Name":"aaa","time":1464078067389},{"DocIndex":"doc_7577103296698844","Name":"asfasdfdsdsafadfasdfsad","time":1464078943982},{"DocIndex":"doc_3048787579029264","Name":"asas","time":1464077639702},{"DocIndex":"doc_7327388881714902","Name":"应用分析接口文档","time":1464146492193},{"DocIndex":"doc_18264992210987874","Name":"2322","time":1464078710066}],"retCode":0}
+[2016-05-25 11:24:28.708] [INFO] console - Wed May 25 2016 11:24:28 GMT+0800 (中国标准时间)doc server use http/https port 3005/3006
+[2016-05-25 11:24:28.796] [INFO] console - Wed May 25 2016 11:24:28 GMT+0800 (中国标准时间) doc server start http server and listen on: {"address":"::","family":"IPv6","port":3005}
+[2016-05-25 11:24:28.799] [INFO] console - Wed May 25 2016 11:24:28 GMT+0800 (中国标准时间) doc server start https server and listen on: {"address":"::","family":"IPv6","port":3006}
+[2016-05-25 11:24:28.861] [INFO] console - Wed May 25 2016 11:24:28 GMT+0800 (中国标准时间) Connect to mongoose success: mongodb://127.0.0.1:27017/webdoc_db
+[2016-05-25 11:24:51.334] [INFO] console - /load
+[2016-05-25 11:24:51.370] [INFO] console - { docindex: [ 'doc_7327388881714902' ] }
+[2016-05-25 11:24:51.381] [INFO] console - 接口名称
+[2016-05-25 11:24:51.382] [INFO] console - { ACSN: '设备序列号',
+  family: ' //0 表示ipv4  1表示ipv6',
+  direct: ' //0表示上行 1表示下行',
+  StartTime: 'Xxxxxxxxxx  // 开始时间 单位秒',
+  EndTime: 'xxxxxxxxxx //结束时间 单位秒' }
+[2016-05-25 11:24:51.383] [INFO] console - 接口名称
+[2016-05-25 11:24:51.384] [INFO] console - MAC地址过滤 不过滤输入 
+[2016-05-25 11:24:51.384] [INFO] console - 应用名称过滤 不过滤 输入
+[2016-05-25 11:24:51.384] [INFO] console - 统计方式过滤 0 按人次过滤统计 2按流量统计
+[2016-05-25 11:24:51.385] [INFO] console - 应用类型过滤 不过滤输入
+[2016-05-25 11:24:51.385] [INFO] console - { ACSN: '设备序列号',
+  family: ' //0表示ipv4  1表示ipv6',
+  direct: '  //0表示上行 1表示下行',
+  StartTime: 'Xxxxxxxxxx  //开始时间 单位秒',
+  EndTime: 'xxxxxxxxxx //结束时间 单位秒' }
+[2016-05-25 11:24:51.392] [INFO] console - 接口名称
+[2016-05-25 11:24:51.393] [INFO] console - { ACSN: '设备序列号',
+  family: ' //0 表示ipv4  1表示ipv6',
+  direct: '  //0表示上行 1表示下行',
+  StartTime: 'Xxxxxxxxxx  // 开始时间 单位秒',
+  EndTime: 'xxxxxxxxxx //结束时间 单位秒' }
+[2016-05-25 11:24:51.395] [INFO] console - { UserMAC: '用户mac地址', APPName: 'App的名字' }
+[2016-05-25 11:24:51.397] [INFO] console - 接口名称
+[2016-05-25 11:24:51.398] [INFO] console - MAC地址过滤 不过滤输入
+[2016-05-25 11:24:51.398] [INFO] console - 应用名称过滤 不过滤 输入
+[2016-05-25 11:24:51.399] [INFO] console - 统计方式过滤 0 按人次过滤统计 2按流量统计
+[2016-05-25 11:24:51.399] [INFO] console - 应用类型过滤 不过滤输入
+[2016-05-25 11:24:51.399] [INFO] console - { ACSN: '设备序列号',
+  family: '  //0 表示ipv4  1表示ipv6 direct:  //0表示上行 1表示下行',
+  StartTime: 'Xxxxxxxxxx  // 开始时间 单位秒',
+  EndTime: 'xxxxxxxxxx //结束时间 单位秒' }
+[2016-05-25 11:24:51.400] [INFO] console - 接口名称
+[2016-05-25 11:24:51.401] [INFO] console - 当前时间的小时 请用new Date().getHour()获取小时
+[2016-05-25 11:24:51.402] [INFO] console - { ACSN: '设备序列号',
+  family: '  //0 表示ipv4  1表示ipv6',
+  direct: ' //0表示上行 1表示下行',
+  StartTime: 'Xxxxxxxxxx  // 开始时间 单位秒',
+  EndTime: 'xxxxxxxxxx //结束时间 单位秒' }
+[2016-05-25 11:24:51.402] [INFO] console - 接口名称
+[2016-05-25 11:24:51.403] [INFO] console - { ACSN: '设备序列号',
+  family: '  //0 表示ipv4  1表示ipv6',
+  direct: '  //0表示上行 1表示下行',
+  StartTime: 'Xxxxxxxxxx  // 开始时间 单位秒',
+  EndTime: 'xxxxxxxxxx //结束时间 单位秒' }
+[2016-05-25 11:24:51.404] [INFO] console - [ 'DropPktBytes', 'Pkt', 'PktBytes', 'DropPkt' ]
+[2016-05-25 11:24:51.406] [INFO] console - 接口名称
+[2016-05-25 11:24:51.406] [INFO] console - { ACSN: '设备序列号',
+  family: '  //0 表示ipv4  1表示ipv6',
+  direct: '  //0表示上行 1表示下行',
+  StartTime: 'Xxxxxxxxxx  // 开始时间 单位秒',
+  EndTime: 'xxxxxxxxxx //结束时间 单位秒' }
+[2016-05-25 11:24:51.407] [INFO] console - [ '需要那个字段填写即可' ]
+[2016-05-25 11:24:51.408] [INFO] console - 接口名称
+[2016-05-25 11:24:51.408] [INFO] console - { ACSN: '设备序列号',
+  family: '  //0 表示ipv4  1表示ipv6',
+  direct: '  //0表示上行 1表示下行',
+  StartTime: 'Xxxxxxxxxx  // 开始时间 单位秒',
+  EndTime: 'xxxxxxxxxx //结束时间 单位秒' }
+[2016-05-25 11:24:51.411] [INFO] console - [ '需要那个字段填写即可' ]
+[2016-05-25 11:24:51.412] [INFO] console - 接口名称
+[2016-05-25 11:24:51.412] [INFO] console - 网站类型过滤 不过滤输入 
+[2016-05-25 11:24:51.412] [INFO] console - 当前时间的小时 请用new Date().getHour()获取
+[2016-05-25 11:24:51.412] [INFO] console - { ACSN: '设备序列号',
+  family: '  //0 表示ipv4  1表示ipv6',
+  direct: '  //0表示上行 1表示下行',
+  StartTime: 'Xxxxxxxxxx  // 开始时间 单位秒',
+  EndTime: 'xxxxxxxxxx //结束时间 单位秒' }
+[2016-05-25 11:24:51.412] [INFO] console - 接口名称
+[2016-05-25 11:24:51.412] [INFO] console - 网站类型过滤 不过滤输入 
+[2016-05-25 11:24:51.412] [INFO] console - { ACSN: '设备序列号',
+  family: ' //0 表示ipv4  1表示ipv6',
+  direct: '  //0表示上行 1表示下行',
+  StartTime: 'Xxxxxxxxxx  // 开始时间 单位秒',
+  EndTime: 'xxxxxxxxxx //结束时间 单位秒' }
+[2016-05-25 11:24:51.413] [INFO] console - { UserMAC: '用户mac地址', WebsiteName: 'web名字' }
+[2016-05-25 11:24:51.413] [INFO] console - 接口名称
+[2016-05-25 11:24:51.414] [INFO] console - 网站类型过滤 可不填 
+[2016-05-25 11:24:51.414] [INFO] console - 网站名称过滤 可不填
+[2016-05-25 11:24:51.415] [INFO] console - { ACSN: '设备序列号',
+  family: ' //0 表示ipv4  1表示ipv6',
+  direct: '  //0表示上行 1表示下行',
+  StartTime: 'Xxxxxxxxxx  // 开始时间 单位秒',
+  EndTime: 'xxxxxxxxxx //结束时间 单位秒' }
+[2016-05-25 11:24:51.416] [INFO] console - { ACSN: '设备序列号',
+  family: '  //0 表示ipv4  1表示ipv6',
+  direct: '  //0表示上行 1表示下行',
+  StartTime: 'Xxxxxxxxxx  // 开始时间 单位秒',
+  EndTime: 'xxxxxxxxxx //结束时间 单位秒' }
+[2016-05-25 11:24:51.416] [INFO] console - [ '填写需要返回的数据' ]
+[2016-05-25 11:24:51.437] [INFO] console - [ { _id: 'doc_7327388881714902', time: 1464146492193 } ]
+[2016-05-25 11:24:51.439] [INFO] console - time doc_7327388881714902
+[2016-05-25 11:24:51.614] [INFO] console - {"doclist":[{"DocIndex":"doc_9842227725675352","Name":"无线定位接口文档","time":1464138172353},{"DocIndex":"doc_7577103296698844","Name":"asfasdfdsdsafadfasdfsad","time":1464078943982},{"DocIndex":"doc_7327388881714902","Name":"应用分析接口文档","time":1464146691439},{"DocIndex":"doc_8466751070093037","Name":"yuanyuekun","time":1464077563211},{"DocIndex":"doc_5866521044873243","Name":"aaa","time":1464078067389},{"DocIndex":"doc_18264992210987874","Name":"2322","time":1464078710066},{"DocIndex":"doc_3048787579029264","Name":"asas","time":1464077639702}],"retCode":0}
+[2016-05-25 11:24:53.858] [INFO] console - {"doclist":[{"DocIndex":"doc_9842227725675352","Name":"无线定位接口文档","time":1464138172353},{"DocIndex":"doc_7577103296698844","Name":"asfasdfdsdsafadfasdfsad","time":1464078943982},{"DocIndex":"doc_18264992210987874","Name":"2322","time":1464078710066},{"DocIndex":"doc_7327388881714902","Name":"应用分析接口文档","time":1464146691439},{"DocIndex":"doc_3048787579029264","Name":"asas","time":1464077639702},{"DocIndex":"doc_5866521044873243","Name":"aaa","time":1464078067389},{"DocIndex":"doc_8466751070093037","Name":"yuanyuekun","time":1464077563211}],"retCode":0}
+[2016-05-25 11:24:55.343] [INFO] console - {"doclist":[{"DocIndex":"doc_9842227725675352","Name":"无线定位接口文档","time":1464138172353},{"DocIndex":"doc_18264992210987874","Name":"2322","time":1464078710066},{"DocIndex":"doc_8466751070093037","Name":"yuanyuekun","time":1464077563211},{"DocIndex":"doc_7577103296698844","Name":"asfasdfdsdsafadfasdfsad","time":1464078943982},{"DocIndex":"doc_3048787579029264","Name":"asas","time":1464077639702},{"DocIndex":"doc_7327388881714902","Name":"应用分析接口文档","time":1464146691439},{"DocIndex":"doc_5866521044873243","Name":"aaa","time":1464078067389}],"retCode":0}
+[2016-05-25 11:32:06.663] [INFO] console - {"doclist":[{"DocIndex":"doc_9842227725675352","Name":"无线定位接口文档","time":1464138172353},{"DocIndex":"doc_5866521044873243","Name":"aaa","time":1464078067389},{"DocIndex":"doc_18264992210987874","Name":"2322","time":1464078710066},{"DocIndex":"doc_7577103296698844","Name":"asfasdfdsdsafadfasdfsad","time":1464078943982},{"DocIndex":"doc_3048787579029264","Name":"asas","time":1464077639702},{"DocIndex":"doc_8466751070093037","Name":"yuanyuekun","time":1464077563211},{"DocIndex":"doc_7327388881714902","Name":"应用分析接口文档","time":1464146691439}],"retCode":0}
+[2016-05-25 11:35:22.802] [INFO] console - Wed May 25 2016 11:35:22 GMT+0800 (中国标准时间)doc server use http/https port 3005/3006
+[2016-05-25 11:35:22.892] [INFO] console - Wed May 25 2016 11:35:22 GMT+0800 (中国标准时间) doc server start http server and listen on: {"address":"::","family":"IPv6","port":3005}
+[2016-05-25 11:35:22.895] [INFO] console - Wed May 25 2016 11:35:22 GMT+0800 (中国标准时间) doc server start https server and listen on: {"address":"::","family":"IPv6","port":3006}
+[2016-05-25 11:35:22.929] [INFO] console - Wed May 25 2016 11:35:22 GMT+0800 (中国标准时间) Connect to mongoose success: mongodb://127.0.0.1:27017/webdoc_db
+[2016-05-25 11:35:31.226] [INFO] console - {"doclist":[{"DocIndex":"doc_8466751070093037","Name":"yuanyuekun","time":1464077563211},{"DocIndex":"doc_9842227725675352","Name":"无线定位接口文档","time":1464138172353},{"DocIndex":"doc_5866521044873243","Name":"aaa","time":1464078067389},{"DocIndex":"doc_7577103296698844","Name":"asfasdfdsdsafadfasdfsad","time":1464078943982},{"DocIndex":"doc_3048787579029264","Name":"asas","time":1464077639702},{"DocIndex":"doc_7327388881714902","Name":"应用分析接口文档","time":1464146691439},{"DocIndex":"doc_18264992210987874","Name":"2322","time":1464078710066}],"retCode":0}
+[2016-05-25 11:36:02.175] [INFO] console - [ { _id: 'doc_5866521044873243', time: 1464078067389 } ]
+[2016-05-25 11:36:02.179] [INFO] console - time doc_5866521044873243
+[2016-05-25 11:36:25.422] [INFO] console - {"doclist":[{"DocIndex":"doc_9842227725675352","Name":"无线定位接口文档","time":1464138172353},{"DocIndex":"doc_5866521044873243","Name":"aaa","time":1464147362179},{"DocIndex":"doc_7577103296698844","Name":"asfasdfdsdsafadfasdfsad","time":1464078943982},{"DocIndex":"doc_3048787579029264","Name":"asas","time":1464077639702},{"DocIndex":"doc_7327388881714902","Name":"应用分析接口文档","time":1464146691439},{"DocIndex":"doc_18264992210987874","Name":"2322","time":1464078710066},{"DocIndex":"doc_8466751070093037","Name":"yuanyuekun","time":1464077563211}],"retCode":0}
+[2016-05-25 11:36:49.232] [INFO] console - [ { _id: 'doc_5866521044873243', time: 1464147362179 } ]
+[2016-05-25 11:36:49.234] [INFO] console - time doc_5866521044873243
+[2016-05-25 11:36:49.301] [INFO] console - {"doclist":[{"DocIndex":"doc_8466751070093037","Name":"yuanyuekun","time":1464077563211},{"DocIndex":"doc_9842227725675352","Name":"无线定位接口文档","time":1464138172353},{"DocIndex":"doc_7577103296698844","Name":"asfasdfdsdsafadfasdfsad","time":1464078943982},{"DocIndex":"doc_3048787579029264","Name":"asas","time":1464077639702},{"DocIndex":"doc_7327388881714902","Name":"应用分析接口文档","time":1464146691439},{"DocIndex":"doc_18264992210987874","Name":"2322","time":1464078710066},{"DocIndex":"doc_5866521044873243","Name":"aaa","time":1464147409234}],"retCode":0}
+[2016-05-25 11:37:06.204] [INFO] console - [ { _id: 'doc_5866521044873243', time: 1464147409234 } ]
+[2016-05-25 11:37:06.205] [INFO] console - time doc_5866521044873243
+[2016-05-25 11:37:07.946] [INFO] console - {"doclist":[{"DocIndex":"doc_8466751070093037","Name":"yuanyuekun","time":1464077563211},{"DocIndex":"doc_9842227725675352","Name":"无线定位接口文档","time":1464138172353},{"DocIndex":"doc_5866521044873243","Name":"aaa","time":1464147426205},{"DocIndex":"doc_7577103296698844","Name":"asfasdfdsdsafadfasdfsad","time":1464078943982},{"DocIndex":"doc_3048787579029264","Name":"asas","time":1464077639702},{"DocIndex":"doc_7327388881714902","Name":"应用分析接口文档","time":1464146691439},{"DocIndex":"doc_18264992210987874","Name":"2322","time":1464078710066}],"retCode":0}
+[2016-05-25 11:40:22.784] [INFO] console - {"doclist":[{"DocIndex":"doc_8466751070093037","Name":"yuanyuekun","time":1464077563211},{"DocIndex":"doc_9842227725675352","Name":"无线定位接口文档","time":1464138172353},{"DocIndex":"doc_7327388881714902","Name":"应用分析接口文档","time":1464146691439},{"DocIndex":"doc_7577103296698844","Name":"asfasdfdsdsafadfasdfsad","time":1464078943982},{"DocIndex":"doc_3048787579029264","Name":"asas","time":1464077639702},{"DocIndex":"doc_18264992210987874","Name":"2322","time":1464078710066},{"DocIndex":"doc_5866521044873243","Name":"aaa","time":1464147426205}],"retCode":0}
+[2016-05-25 11:44:23.746] [INFO] console - {"doclist":[{"DocIndex":"doc_8466751070093037","Name":"yuanyuekun","time":1464077563211},{"DocIndex":"doc_9842227725675352","Name":"无线定位接口文档","time":1464138172353},{"DocIndex":"doc_5866521044873243","Name":"aaa","time":1464147426205},{"DocIndex":"doc_7577103296698844","Name":"asfasdfdsdsafadfasdfsad","time":1464078943982},{"DocIndex":"doc_3048787579029264","Name":"asas","time":1464077639702},{"DocIndex":"doc_18264992210987874","Name":"2322","time":1464078710066},{"DocIndex":"doc_7327388881714902","Name":"应用分析接口文档","time":1464146691439}],"retCode":0}
+[2016-05-25 11:44:25.100] [INFO] console - {"doclist":[{"DocIndex":"doc_8466751070093037","Name":"yuanyuekun","time":1464077563211},{"DocIndex":"doc_9842227725675352","Name":"无线定位接口文档","time":1464138172353},{"DocIndex":"doc_5866521044873243","Name":"aaa","time":1464147426205},{"DocIndex":"doc_7577103296698844","Name":"asfasdfdsdsafadfasdfsad","time":1464078943982},{"DocIndex":"doc_3048787579029264","Name":"asas","time":1464077639702},{"DocIndex":"doc_7327388881714902","Name":"应用分析接口文档","time":1464146691439},{"DocIndex":"doc_18264992210987874","Name":"2322","time":1464078710066}],"retCode":0}
+[2016-05-25 11:44:35.141] [INFO] console - /load
+[2016-05-25 11:44:35.172] [INFO] console - { docindex: [ 'doc_3084082190345525' ] }
+[2016-05-25 11:44:35.176] [INFO] console - 接口名称
+[2016-05-25 11:44:35.176] [INFO] console - { ACSN: '设备序列号',
+  family: ' //0 表示ipv4  1表示ipv6',
+  direct: ' //0表示上行 1表示下行',
+  StartTime: 'Xxxxxxxxxx  // 开始时间 单位秒',
+  EndTime: 'xxxxxxxxxx //结束时间 单位秒' }
+[2016-05-25 11:44:35.180] [INFO] console - 接口名称
+[2016-05-25 11:44:35.184] [INFO] console - MAC地址过滤 不过滤输入 
+[2016-05-25 11:44:35.185] [INFO] console - 应用名称过滤 不过滤 输入
+[2016-05-25 11:44:35.185] [INFO] console - 统计方式过滤 0 按人次过滤统计 2按流量统计
+[2016-05-25 11:44:35.186] [INFO] console - 应用类型过滤 不过滤输入
+[2016-05-25 11:44:35.186] [INFO] console - { ACSN: '设备序列号',
+  family: ' //0表示ipv4  1表示ipv6',
+  direct: '  //0表示上行 1表示下行',
+  StartTime: 'Xxxxxxxxxx  //开始时间 单位秒',
+  EndTime: 'xxxxxxxxxx //结束时间 单位秒' }
+[2016-05-25 11:44:35.188] [INFO] console - 接口名称
+[2016-05-25 11:44:35.188] [INFO] console - { ACSN: '设备序列号',
+  family: ' //0 表示ipv4  1表示ipv6',
+  direct: '  //0表示上行 1表示下行',
+  StartTime: 'Xxxxxxxxxx  // 开始时间 单位秒',
+  EndTime: 'xxxxxxxxxx //结束时间 单位秒' }
+[2016-05-25 11:44:35.191] [INFO] console - { UserMAC: '用户mac地址', APPName: 'App的名字' }
+[2016-05-25 11:44:35.192] [INFO] console - 接口名称
+[2016-05-25 11:44:35.193] [INFO] console - MAC地址过滤 不过滤输入
+[2016-05-25 11:44:35.194] [INFO] console - 应用名称过滤 不过滤 输入
+[2016-05-25 11:44:35.195] [INFO] console - 统计方式过滤 0 按人次过滤统计 2按流量统计
+[2016-05-25 11:44:35.195] [INFO] console - 应用类型过滤 不过滤输入
+[2016-05-25 11:44:35.196] [INFO] console - { ACSN: '设备序列号',
+  family: '  //0 表示ipv4  1表示ipv6 direct:  //0表示上行 1表示下行',
+  StartTime: 'Xxxxxxxxxx  // 开始时间 单位秒',
+  EndTime: 'xxxxxxxxxx //结束时间 单位秒' }
+[2016-05-25 11:44:35.196] [INFO] console - 接口名称
+[2016-05-25 11:44:35.197] [INFO] console - 当前时间的小时 请用new Date().getHour()获取小时
+[2016-05-25 11:44:35.197] [INFO] console - { ACSN: '设备序列号',
+  family: '  //0 表示ipv4  1表示ipv6',
+  direct: ' //0表示上行 1表示下行',
+  StartTime: 'Xxxxxxxxxx  // 开始时间 单位秒',
+  EndTime: 'xxxxxxxxxx //结束时间 单位秒' }
+[2016-05-25 11:44:35.198] [INFO] console - 接口名称
+[2016-05-25 11:44:35.198] [INFO] console - { ACSN: '设备序列号',
+  family: '  //0 表示ipv4  1表示ipv6',
+  direct: '  //0表示上行 1表示下行',
+  StartTime: 'Xxxxxxxxxx  // 开始时间 单位秒',
+  EndTime: 'xxxxxxxxxx //结束时间 单位秒' }
+[2016-05-25 11:44:35.199] [INFO] console - [ 'DropPktBytes', 'Pkt', 'PktBytes', 'DropPkt' ]
+[2016-05-25 11:44:35.199] [INFO] console - 接口名称
+[2016-05-25 11:44:35.200] [INFO] console - { ACSN: '设备序列号',
+  family: '  //0 表示ipv4  1表示ipv6',
+  direct: '  //0表示上行 1表示下行',
+  StartTime: 'Xxxxxxxxxx  // 开始时间 单位秒',
+  EndTime: 'xxxxxxxxxx //结束时间 单位秒' }
+[2016-05-25 11:44:35.201] [INFO] console - [ '需要那个字段填写即可' ]
+[2016-05-25 11:44:35.201] [INFO] console - 接口名称
+[2016-05-25 11:44:35.202] [INFO] console - { ACSN: '设备序列号',
+  family: '  //0 表示ipv4  1表示ipv6',
+  direct: '  //0表示上行 1表示下行',
+  StartTime: 'Xxxxxxxxxx  // 开始时间 单位秒',
+  EndTime: 'xxxxxxxxxx //结束时间 单位秒' }
+[2016-05-25 11:44:35.202] [INFO] console - [ '需要那个字段填写即可' ]
+[2016-05-25 11:44:35.203] [INFO] console - 接口名称
+[2016-05-25 11:44:35.203] [INFO] console - 网站类型过滤 不过滤输入 
+[2016-05-25 11:44:35.203] [INFO] console - 当前时间的小时 请用new Date().getHour()获取
+[2016-05-25 11:44:35.204] [INFO] console - { ACSN: '设备序列号',
+  family: '  //0 表示ipv4  1表示ipv6',
+  direct: '  //0表示上行 1表示下行',
+  StartTime: 'Xxxxxxxxxx  // 开始时间 单位秒',
+  EndTime: 'xxxxxxxxxx //结束时间 单位秒' }
+[2016-05-25 11:44:35.205] [INFO] console - 接口名称
+[2016-05-25 11:44:35.205] [INFO] console - 网站类型过滤 不过滤输入 
+[2016-05-25 11:44:35.205] [INFO] console - { ACSN: '设备序列号',
+  family: ' //0 表示ipv4  1表示ipv6',
+  direct: '  //0表示上行 1表示下行',
+  StartTime: 'Xxxxxxxxxx  // 开始时间 单位秒',
+  EndTime: 'xxxxxxxxxx //结束时间 单位秒' }
+[2016-05-25 11:44:35.210] [INFO] console - { UserMAC: '用户mac地址', WebsiteName: 'web名字' }
+[2016-05-25 11:44:35.211] [INFO] console - 接口名称
+[2016-05-25 11:44:35.211] [INFO] console - 网站类型过滤 可不填 
+[2016-05-25 11:44:35.212] [INFO] console - 网站名称过滤 可不填
+[2016-05-25 11:44:35.212] [INFO] console - { ACSN: '设备序列号',
+  family: ' //0 表示ipv4  1表示ipv6',
+  direct: '  //0表示上行 1表示下行',
+  StartTime: 'Xxxxxxxxxx  // 开始时间 单位秒',
+  EndTime: 'xxxxxxxxxx //结束时间 单位秒' }
+[2016-05-25 11:44:35.213] [INFO] console - { ACSN: '设备序列号',
+  family: '  //0 表示ipv4  1表示ipv6',
+  direct: '  //0表示上行 1表示下行',
+  StartTime: 'Xxxxxxxxxx  // 开始时间 单位秒',
+  EndTime: 'xxxxxxxxxx //结束时间 单位秒' }
+[2016-05-25 11:44:35.213] [INFO] console - [ '填写需要返回的数据' ]
+[2016-05-25 11:44:35.222] [INFO] console - [ { _id: 'doc_7327388881714902', time: 1464146691439 } ]
+[2016-05-25 11:44:35.224] [INFO] console - time doc_7327388881714902
+[2016-05-25 11:44:35.325] [INFO] console - {"doclist":[{"DocIndex":"doc_8466751070093037","Name":"yuanyuekun","time":1464077563211},{"DocIndex":"doc_9842227725675352","Name":"无线定位接口文档","time":1464138172353},{"DocIndex":"doc_7577103296698844","Name":"asfasdfdsdsafadfasdfsad","time":1464078943982},{"DocIndex":"doc_3048787579029264","Name":"asas","time":1464077639702},{"DocIndex":"doc_7327388881714902","Name":"应用分析接口文档","time":1464147875224},{"DocIndex":"doc_18264992210987874","Name":"2322","time":1464078710066},{"DocIndex":"doc_5866521044873243","Name":"aaa","time":1464147426205}],"retCode":0}
+[2016-05-25 11:44:47.432] [INFO] console - {"doclist":[{"DocIndex":"doc_5866521044873243","Name":"aaa","time":1464147426205},{"DocIndex":"doc_9842227725675352","Name":"无线定位接口文档","time":1464138172353},{"DocIndex":"doc_3048787579029264","Name":"asas","time":1464077639702},{"DocIndex":"doc_7577103296698844","Name":"asfasdfdsdsafadfasdfsad","time":1464078943982},{"DocIndex":"doc_18264992210987874","Name":"2322","time":1464078710066},{"DocIndex":"doc_8466751070093037","Name":"yuanyuekun","time":1464077563211}],"retCode":0}
+[2016-05-25 11:44:58.279] [INFO] console - /load
+[2016-05-25 11:44:58.306] [INFO] console - { docindex: [ 'doc_3084082190345525' ] }
+[2016-05-25 11:44:58.310] [INFO] console - 接口名称
+[2016-05-25 11:44:58.311] [INFO] console - { ACSN: '设备序列号',
+  family: ' //0 表示ipv4  1表示ipv6',
+  direct: ' //0表示上行 1表示下行',
+  StartTime: 'Xxxxxxxxxx  // 开始时间 单位秒',
+  EndTime: 'xxxxxxxxxx //结束时间 单位秒' }
+[2016-05-25 11:44:58.312] [INFO] console - 接口名称
+[2016-05-25 11:44:58.312] [INFO] console - MAC地址过滤 不过滤输入 
+[2016-05-25 11:44:58.312] [INFO] console - 应用名称过滤 不过滤 输入
+[2016-05-25 11:44:58.313] [INFO] console - 统计方式过滤 0 按人次过滤统计 2按流量统计
+[2016-05-25 11:44:58.313] [INFO] console - 应用类型过滤 不过滤输入
+[2016-05-25 11:44:58.314] [INFO] console - { ACSN: '设备序列号',
+  family: ' //0表示ipv4  1表示ipv6',
+  direct: '  //0表示上行 1表示下行',
+  StartTime: 'Xxxxxxxxxx  //开始时间 单位秒',
+  EndTime: 'xxxxxxxxxx //结束时间 单位秒' }
+[2016-05-25 11:44:58.315] [INFO] console - 接口名称
+[2016-05-25 11:44:58.315] [INFO] console - { ACSN: '设备序列号',
+  family: ' //0 表示ipv4  1表示ipv6',
+  direct: '  //0表示上行 1表示下行',
+  StartTime: 'Xxxxxxxxxx  // 开始时间 单位秒',
+  EndTime: 'xxxxxxxxxx //结束时间 单位秒' }
+[2016-05-25 11:44:58.318] [INFO] console - { UserMAC: '用户mac地址', APPName: 'App的名字' }
+[2016-05-25 11:44:58.320] [INFO] console - 接口名称
+[2016-05-25 11:44:58.320] [INFO] console - MAC地址过滤 不过滤输入
+[2016-05-25 11:44:58.323] [INFO] console - 应用名称过滤 不过滤 输入
+[2016-05-25 11:44:58.323] [INFO] console - 统计方式过滤 0 按人次过滤统计 2按流量统计
+[2016-05-25 11:44:58.324] [INFO] console - 应用类型过滤 不过滤输入
+[2016-05-25 11:44:58.324] [INFO] console - { ACSN: '设备序列号',
+  family: '  //0 表示ipv4  1表示ipv6 direct:  //0表示上行 1表示下行',
+  StartTime: 'Xxxxxxxxxx  // 开始时间 单位秒',
+  EndTime: 'xxxxxxxxxx //结束时间 单位秒' }
+[2016-05-25 11:44:58.325] [INFO] console - 接口名称
+[2016-05-25 11:44:58.325] [INFO] console - 当前时间的小时 请用new Date().getHour()获取小时
+[2016-05-25 11:44:58.325] [INFO] console - { ACSN: '设备序列号',
+  family: '  //0 表示ipv4  1表示ipv6',
+  direct: ' //0表示上行 1表示下行',
+  StartTime: 'Xxxxxxxxxx  // 开始时间 单位秒',
+  EndTime: 'xxxxxxxxxx //结束时间 单位秒' }
+[2016-05-25 11:44:58.327] [INFO] console - 接口名称
+[2016-05-25 11:44:58.327] [INFO] console - { ACSN: '设备序列号',
+  family: '  //0 表示ipv4  1表示ipv6',
+  direct: '  //0表示上行 1表示下行',
+  StartTime: 'Xxxxxxxxxx  // 开始时间 单位秒',
+  EndTime: 'xxxxxxxxxx //结束时间 单位秒' }
+[2016-05-25 11:44:58.328] [INFO] console - [ 'DropPktBytes', 'Pkt', 'PktBytes', 'DropPkt' ]
+[2016-05-25 11:44:58.332] [INFO] console - 接口名称
+[2016-05-25 11:44:58.332] [INFO] console - { ACSN: '设备序列号',
+  family: '  //0 表示ipv4  1表示ipv6',
+  direct: '  //0表示上行 1表示下行',
+  StartTime: 'Xxxxxxxxxx  // 开始时间 单位秒',
+  EndTime: 'xxxxxxxxxx //结束时间 单位秒' }
+[2016-05-25 11:44:58.334] [INFO] console - [ '需要那个字段填写即可' ]
+[2016-05-25 11:44:58.334] [INFO] console - 接口名称
+[2016-05-25 11:44:58.335] [INFO] console - { ACSN: '设备序列号',
+  family: '  //0 表示ipv4  1表示ipv6',
+  direct: '  //0表示上行 1表示下行',
+  StartTime: 'Xxxxxxxxxx  // 开始时间 单位秒',
+  EndTime: 'xxxxxxxxxx //结束时间 单位秒' }
+[2016-05-25 11:44:58.336] [INFO] console - [ '需要那个字段填写即可' ]
+[2016-05-25 11:44:58.336] [INFO] console - 接口名称
+[2016-05-25 11:44:58.337] [INFO] console - 网站类型过滤 不过滤输入 
+[2016-05-25 11:44:58.337] [INFO] console - 当前时间的小时 请用new Date().getHour()获取
+[2016-05-25 11:44:58.338] [INFO] console - { ACSN: '设备序列号',
+  family: '  //0 表示ipv4  1表示ipv6',
+  direct: '  //0表示上行 1表示下行',
+  StartTime: 'Xxxxxxxxxx  // 开始时间 单位秒',
+  EndTime: 'xxxxxxxxxx //结束时间 单位秒' }
+[2016-05-25 11:44:58.338] [INFO] console - 接口名称
+[2016-05-25 11:44:58.339] [INFO] console - 网站类型过滤 不过滤输入 
+[2016-05-25 11:44:58.339] [INFO] console - { ACSN: '设备序列号',
+  family: ' //0 表示ipv4  1表示ipv6',
+  direct: '  //0表示上行 1表示下行',
+  StartTime: 'Xxxxxxxxxx  // 开始时间 单位秒',
+  EndTime: 'xxxxxxxxxx //结束时间 单位秒' }
+[2016-05-25 11:44:58.340] [INFO] console - { UserMAC: '用户mac地址', WebsiteName: 'web名字' }
+[2016-05-25 11:44:58.340] [INFO] console - 接口名称
+[2016-05-25 11:44:58.341] [INFO] console - 网站类型过滤 可不填 
+[2016-05-25 11:44:58.341] [INFO] console - 网站名称过滤 可不填
+[2016-05-25 11:44:58.341] [INFO] console - { ACSN: '设备序列号',
+  family: ' //0 表示ipv4  1表示ipv6',
+  direct: '  //0表示上行 1表示下行',
+  StartTime: 'Xxxxxxxxxx  // 开始时间 单位秒',
+  EndTime: 'xxxxxxxxxx //结束时间 单位秒' }
+[2016-05-25 11:44:58.341] [INFO] console - { ACSN: '设备序列号',
+  family: '  //0 表示ipv4  1表示ipv6',
+  direct: '  //0表示上行 1表示下行',
+  StartTime: 'Xxxxxxxxxx  // 开始时间 单位秒',
+  EndTime: 'xxxxxxxxxx //结束时间 单位秒' }
+[2016-05-25 11:44:58.342] [INFO] console - [ '填写需要返回的数据' ]
+[2016-05-25 11:44:58.366] [INFO] console - time doc_3084082190345525
+[2016-05-25 11:44:58.500] [INFO] console - {"doclist":[{"DocIndex":"doc_8466751070093037","Name":"yuanyuekun","time":1464077563211},{"DocIndex":"doc_3084082190345525","Name":"应用分析接口文档","time":1464147898365},{"DocIndex":"doc_5866521044873243","Name":"aaa","time":1464147426205},{"DocIndex":"doc_9842227725675352","Name":"无线定位接口文档","time":1464138172353},{"DocIndex":"doc_3048787579029264","Name":"asas","time":1464077639702},{"DocIndex":"doc_7577103296698844","Name":"asfasdfdsdsafadfasdfsad","time":1464078943982},{"DocIndex":"doc_18264992210987874","Name":"2322","time":1464078710066}],"retCode":0}
+[2016-05-25 11:49:27.450] [INFO] console - {"doclist":[{"DocIndex":"doc_3084082190345525","Name":"应用分析接口文档","time":1464147898365},{"DocIndex":"doc_5866521044873243","Name":"aaa","time":1464147426205},{"DocIndex":"doc_9842227725675352","Name":"无线定位接口文档","time":1464138172353},{"DocIndex":"doc_3048787579029264","Name":"asas","time":1464077639702},{"DocIndex":"doc_7577103296698844","Name":"asfasdfdsdsafadfasdfsad","time":1464078943982},{"DocIndex":"doc_18264992210987874","Name":"2322","time":1464078710066},{"DocIndex":"doc_8466751070093037","Name":"yuanyuekun","time":1464077563211}],"retCode":0}
+[2016-05-25 11:49:36.862] [INFO] console - /load
+[2016-05-25 11:49:36.891] [INFO] console - {}
+[2016-05-25 11:49:36.894] [ERROR] console - TypeError: first argument must be a string or Buffer
+    at ServerResponse.OutgoingMessage.write (_http_outgoing.js:433:11)
+    at f:\4-6\doc\src\routes\api.js:242:21
+    at f:\4-6\doc\src\node_modules\multiparty\index.js:129:9
+    at f:\4-6\doc\src\node_modules\multiparty\index.js:108:9
+    at process._tickCallback (node.js:355:11)
+[2016-05-25 11:51:36.993] [INFO] console - Wed May 25 2016 11:51:36 GMT+0800 (中国标准时间)doc server use http/https port 3005/3006
+[2016-05-25 11:51:37.062] [INFO] console - Wed May 25 2016 11:51:37 GMT+0800 (中国标准时间) doc server start http server and listen on: {"address":"::","family":"IPv6","port":3005}
+[2016-05-25 11:51:37.064] [INFO] console - Wed May 25 2016 11:51:37 GMT+0800 (中国标准时间) doc server start https server and listen on: {"address":"::","family":"IPv6","port":3006}
+[2016-05-25 11:51:37.103] [INFO] console - Wed May 25 2016 11:51:37 GMT+0800 (中国标准时间) Connect to mongoose success: mongodb://127.0.0.1:27017/webdoc_db
+[2016-05-25 11:51:50.766] [INFO] console - {"doclist":[{"DocIndex":"doc_8466751070093037","Name":"yuanyuekun","time":1464077563211},{"DocIndex":"doc_3084082190345525","Name":"应用分析接口文档","time":1464147898365},{"DocIndex":"doc_5866521044873243","Name":"aaa","time":1464147426205},{"DocIndex":"doc_9842227725675352","Name":"无线定位接口文档","time":1464138172353},{"DocIndex":"doc_3048787579029264","Name":"asas","time":1464077639702},{"DocIndex":"doc_7577103296698844","Name":"asfasdfdsdsafadfasdfsad","time":1464078943982},{"DocIndex":"doc_18264992210987874","Name":"2322","time":1464078710066}],"retCode":0}
+[2016-05-25 11:51:57.369] [INFO] console - {"doclist":[{"DocIndex":"doc_8466751070093037","Name":"yuanyuekun","time":1464077563211},{"DocIndex":"doc_3084082190345525","Name":"应用分析接口文档","time":1464147898365},{"DocIndex":"doc_9842227725675352","Name":"无线定位接口文档","time":1464138172353},{"DocIndex":"doc_3048787579029264","Name":"asas","time":1464077639702},{"DocIndex":"doc_7577103296698844","Name":"asfasdfdsdsafadfasdfsad","time":1464078943982},{"DocIndex":"doc_18264992210987874","Name":"2322","time":1464078710066},{"DocIndex":"doc_5866521044873243","Name":"aaa","time":1464147426205}],"retCode":0}
+[2016-05-25 11:52:20.679] [INFO] console - /load
+[2016-05-25 11:52:20.729] [INFO] console - {}
+[2016-05-25 11:52:20.734] [ERROR] console - TypeError: first argument must be a string or Buffer
+    at ServerResponse.OutgoingMessage.write (_http_outgoing.js:433:11)
+    at f:\4-6\doc\src\routes\api.js:242:21
+    at f:\4-6\doc\src\node_modules\multiparty\index.js:129:9
+    at f:\4-6\doc\src\node_modules\multiparty\index.js:108:9
+    at process._tickCallback (node.js:355:11)
+[2016-05-25 11:54:03.608] [INFO] console - Wed May 25 2016 11:54:03 GMT+0800 (中国标准时间)doc server use http/https port 3005/3006
+[2016-05-25 11:54:03.677] [INFO] console - Wed May 25 2016 11:54:03 GMT+0800 (中国标准时间) doc server start http server and listen on: {"address":"::","family":"IPv6","port":3005}
+[2016-05-25 11:54:03.678] [INFO] console - Wed May 25 2016 11:54:03 GMT+0800 (中国标准时间) doc server start https server and listen on: {"address":"::","family":"IPv6","port":3006}
+[2016-05-25 11:54:03.740] [INFO] console - Wed May 25 2016 11:54:03 GMT+0800 (中国标准时间) Connect to mongoose success: mongodb://127.0.0.1:27017/webdoc_db
+[2016-05-25 11:54:08.403] [INFO] console - {"doclist":[{"DocIndex":"doc_8466751070093037","Name":"yuanyuekun","time":1464077563211},{"DocIndex":"doc_3084082190345525","Name":"应用分析接口文档","time":1464147898365},{"DocIndex":"doc_5866521044873243","Name":"aaa","time":1464147426205},{"DocIndex":"doc_9842227725675352","Name":"无线定位接口文档","time":1464138172353},{"DocIndex":"doc_3048787579029264","Name":"asas","time":1464077639702},{"DocIndex":"doc_7577103296698844","Name":"asfasdfdsdsafadfasdfsad","time":1464078943982},{"DocIndex":"doc_18264992210987874","Name":"2322","time":1464078710066}],"retCode":0}
+[2016-05-25 11:54:15.274] [INFO] console - /load
+[2016-05-25 11:54:15.365] [INFO] console - { docindex: [ 'doc_6592758763269528' ] }
+[2016-05-25 11:54:15.374] [INFO] console - 接口名称
+[2016-05-25 11:54:15.375] [INFO] console - { ACSN: '设备序列号',
+  family: ' //0 表示ipv4  1表示ipv6',
+  direct: ' //0表示上行 1表示下行',
+  StartTime: 'Xxxxxxxxxx  // 开始时间 单位秒',
+  EndTime: 'xxxxxxxxxx //结束时间 单位秒' }
+[2016-05-25 11:54:15.377] [INFO] console - 接口名称
+[2016-05-25 11:54:15.378] [INFO] console - MAC地址过滤 不过滤输入 
+[2016-05-25 11:54:15.378] [INFO] console - 应用名称过滤 不过滤 输入
+[2016-05-25 11:54:15.379] [INFO] console - 统计方式过滤 0 按人次过滤统计 2按流量统计
+[2016-05-25 11:54:15.379] [INFO] console - 应用类型过滤 不过滤输入
+[2016-05-25 11:54:15.380] [INFO] console - { ACSN: '设备序列号',
+  family: ' //0表示ipv4  1表示ipv6',
+  direct: '  //0表示上行 1表示下行',
+  StartTime: 'Xxxxxxxxxx  //开始时间 单位秒',
+  EndTime: 'xxxxxxxxxx //结束时间 单位秒' }
+[2016-05-25 11:54:15.382] [INFO] console - 接口名称
+[2016-05-25 11:54:15.382] [INFO] console - { ACSN: '设备序列号',
+  family: ' //0 表示ipv4  1表示ipv6',
+  direct: '  //0表示上行 1表示下行',
+  StartTime: 'Xxxxxxxxxx  // 开始时间 单位秒',
+  EndTime: 'xxxxxxxxxx //结束时间 单位秒' }
+[2016-05-25 11:54:15.384] [INFO] console - { UserMAC: '用户mac地址', APPName: 'App的名字' }
+[2016-05-25 11:54:15.385] [INFO] console - 接口名称
+[2016-05-25 11:54:15.386] [INFO] console - MAC地址过滤 不过滤输入
+[2016-05-25 11:54:15.386] [INFO] console - 应用名称过滤 不过滤 输入
+[2016-05-25 11:54:15.386] [INFO] console - 统计方式过滤 0 按人次过滤统计 2按流量统计
+[2016-05-25 11:54:15.387] [INFO] console - 应用类型过滤 不过滤输入
+[2016-05-25 11:54:15.387] [INFO] console - { ACSN: '设备序列号',
+  family: '  //0 表示ipv4  1表示ipv6 direct:  //0表示上行 1表示下行',
+  StartTime: 'Xxxxxxxxxx  // 开始时间 单位秒',
+  EndTime: 'xxxxxxxxxx //结束时间 单位秒' }
+[2016-05-25 11:54:15.388] [INFO] console - 接口名称
+[2016-05-25 11:54:15.389] [INFO] console - 当前时间的小时 请用new Date().getHour()获取小时
+[2016-05-25 11:54:15.389] [INFO] console - { ACSN: '设备序列号',
+  family: '  //0 表示ipv4  1表示ipv6',
+  direct: ' //0表示上行 1表示下行',
+  StartTime: 'Xxxxxxxxxx  // 开始时间 单位秒',
+  EndTime: 'xxxxxxxxxx //结束时间 单位秒' }
+[2016-05-25 11:54:15.390] [INFO] console - 接口名称
+[2016-05-25 11:54:15.390] [INFO] console - { ACSN: '设备序列号',
+  family: '  //0 表示ipv4  1表示ipv6',
+  direct: '  //0表示上行 1表示下行',
+  StartTime: 'Xxxxxxxxxx  // 开始时间 单位秒',
+  EndTime: 'xxxxxxxxxx //结束时间 单位秒' }
+[2016-05-25 11:54:15.391] [INFO] console - [ 'DropPktBytes', 'Pkt', 'PktBytes', 'DropPkt' ]
+[2016-05-25 11:54:15.392] [INFO] console - 接口名称
+[2016-05-25 11:54:15.392] [INFO] console - { ACSN: '设备序列号',
+  family: '  //0 表示ipv4  1表示ipv6',
+  direct: '  //0表示上行 1表示下行',
+  StartTime: 'Xxxxxxxxxx  // 开始时间 单位秒',
+  EndTime: 'xxxxxxxxxx //结束时间 单位秒' }
+[2016-05-25 11:54:15.393] [INFO] console - [ '需要那个字段填写即可' ]
+[2016-05-25 11:54:15.394] [INFO] console - 接口名称
+[2016-05-25 11:54:15.394] [INFO] console - { ACSN: '设备序列号',
+  family: '  //0 表示ipv4  1表示ipv6',
+  direct: '  //0表示上行 1表示下行',
+  StartTime: 'Xxxxxxxxxx  // 开始时间 单位秒',
+  EndTime: 'xxxxxxxxxx //结束时间 单位秒' }
+[2016-05-25 11:54:15.395] [INFO] console - [ '需要那个字段填写即可' ]
+[2016-05-25 11:54:15.395] [INFO] console - 接口名称
+[2016-05-25 11:54:15.396] [INFO] console - 网站类型过滤 不过滤输入 
+[2016-05-25 11:54:15.396] [INFO] console - 当前时间的小时 请用new Date().getHour()获取
+[2016-05-25 11:54:15.397] [INFO] console - { ACSN: '设备序列号',
+  family: '  //0 表示ipv4  1表示ipv6',
+  direct: '  //0表示上行 1表示下行',
+  StartTime: 'Xxxxxxxxxx  // 开始时间 单位秒',
+  EndTime: 'xxxxxxxxxx //结束时间 单位秒' }
+[2016-05-25 11:54:15.398] [INFO] console - 接口名称
+[2016-05-25 11:54:15.398] [INFO] console - 网站类型过滤 不过滤输入 
+[2016-05-25 11:54:15.398] [INFO] console - { ACSN: '设备序列号',
+  family: ' //0 表示ipv4  1表示ipv6',
+  direct: '  //0表示上行 1表示下行',
+  StartTime: 'Xxxxxxxxxx  // 开始时间 单位秒',
+  EndTime: 'xxxxxxxxxx //结束时间 单位秒' }
+[2016-05-25 11:54:15.398] [INFO] console - { UserMAC: '用户mac地址', WebsiteName: 'web名字' }
+[2016-05-25 11:54:15.400] [INFO] console - 接口名称
+[2016-05-25 11:54:15.400] [INFO] console - 网站类型过滤 可不填 
+[2016-05-25 11:54:15.400] [INFO] console - 网站名称过滤 可不填
+[2016-05-25 11:54:15.401] [INFO] console - { ACSN: '设备序列号',
+  family: ' //0 表示ipv4  1表示ipv6',
+  direct: '  //0表示上行 1表示下行',
+  StartTime: 'Xxxxxxxxxx  // 开始时间 单位秒',
+  EndTime: 'xxxxxxxxxx //结束时间 单位秒' }
+[2016-05-25 11:54:15.402] [INFO] console - { ACSN: '设备序列号',
+  family: '  //0 表示ipv4  1表示ipv6',
+  direct: '  //0表示上行 1表示下行',
+  StartTime: 'Xxxxxxxxxx  // 开始时间 单位秒',
+  EndTime: 'xxxxxxxxxx //结束时间 单位秒' }
+[2016-05-25 11:54:15.403] [INFO] console - [ '填写需要返回的数据' ]
+[2016-05-25 11:54:15.412] [INFO] console - [ { _id: 'doc_3084082190345525', time: 1464147898365 } ]
+[2016-05-25 11:54:15.414] [INFO] console - time doc_3084082190345525
+[2016-05-25 11:54:15.558] [INFO] console - {"doclist":[{"DocIndex":"doc_8466751070093037","Name":"yuanyuekun","time":1464077563211},{"DocIndex":"doc_3084082190345525","Name":"应用分析接口文档","time":1464148455414},{"DocIndex":"doc_5866521044873243","Name":"aaa","time":1464147426205},{"DocIndex":"doc_9842227725675352","Name":"无线定位接口文档","time":1464138172353},{"DocIndex":"doc_3048787579029264","Name":"asas","time":1464077639702},{"DocIndex":"doc_7577103296698844","Name":"asfasdfdsdsafadfasdfsad","time":1464078943982},{"DocIndex":"doc_18264992210987874","Name":"2322","time":1464078710066}],"retCode":0}
+[2016-05-25 11:54:35.305] [INFO] console - {"doclist":[{"DocIndex":"doc_9842227725675352","Name":"无线定位接口文档","time":1464138172353},{"DocIndex":"doc_7577103296698844","Name":"asfasdfdsdsafadfasdfsad","time":1464078943982},{"DocIndex":"doc_18264992210987874","Name":"2322","time":1464078710066},{"DocIndex":"doc_8466751070093037","Name":"yuanyuekun","time":1464077563211},{"DocIndex":"doc_5866521044873243","Name":"aaa","time":1464147426205},{"DocIndex":"doc_3048787579029264","Name":"asas","time":1464077639702}],"retCode":0}
+[2016-05-25 11:55:13.149] [INFO] console - /load
+[2016-05-25 11:55:13.169] [INFO] console - { docindex: [ 'doc_08407999381071218' ] }
+[2016-05-25 11:55:13.173] [INFO] console - 接口名称
+[2016-05-25 11:55:13.173] [INFO] console - { ACSN: '设备序列号',
+  family: ' //0 表示ipv4  1表示ipv6',
+  direct: ' //0表示上行 1表示下行',
+  StartTime: 'Xxxxxxxxxx  // 开始时间 单位秒',
+  EndTime: 'xxxxxxxxxx //结束时间 单位秒' }
+[2016-05-25 11:55:13.200] [INFO] console - 接口名称
+[2016-05-25 11:55:13.201] [INFO] console - MAC地址过滤 不过滤输入 
+[2016-05-25 11:55:13.201] [INFO] console - 应用名称过滤 不过滤 输入
+[2016-05-25 11:55:13.201] [INFO] console - 统计方式过滤 0 按人次过滤统计 2按流量统计
+[2016-05-25 11:55:13.202] [INFO] console - 应用类型过滤 不过滤输入
+[2016-05-25 11:55:13.202] [INFO] console - { ACSN: '设备序列号',
+  family: ' //0表示ipv4  1表示ipv6',
+  direct: '  //0表示上行 1表示下行',
+  StartTime: 'Xxxxxxxxxx  //开始时间 单位秒',
+  EndTime: 'xxxxxxxxxx //结束时间 单位秒' }
+[2016-05-25 11:55:13.203] [INFO] console - 接口名称
+[2016-05-25 11:55:13.204] [INFO] console - { ACSN: '设备序列号',
+  family: ' //0 表示ipv4  1表示ipv6',
+  direct: '  //0表示上行 1表示下行',
+  StartTime: 'Xxxxxxxxxx  // 开始时间 单位秒',
+  EndTime: 'xxxxxxxxxx //结束时间 单位秒' }
+[2016-05-25 11:55:13.207] [INFO] console - { UserMAC: '用户mac地址', APPName: 'App的名字' }
+[2016-05-25 11:55:13.209] [INFO] console - 接口名称
+[2016-05-25 11:55:13.209] [INFO] console - MAC地址过滤 不过滤输入
+[2016-05-25 11:55:13.210] [INFO] console - 应用名称过滤 不过滤 输入
+[2016-05-25 11:55:13.210] [INFO] console - 统计方式过滤 0 按人次过滤统计 2按流量统计
+[2016-05-25 11:55:13.211] [INFO] console - 应用类型过滤 不过滤输入
+[2016-05-25 11:55:13.211] [INFO] console - { ACSN: '设备序列号',
+  family: '  //0 表示ipv4  1表示ipv6 direct:  //0表示上行 1表示下行',
+  StartTime: 'Xxxxxxxxxx  // 开始时间 单位秒',
+  EndTime: 'xxxxxxxxxx //结束时间 单位秒' }
+[2016-05-25 11:55:13.212] [INFO] console - 接口名称
+[2016-05-25 11:55:13.212] [INFO] console - 当前时间的小时 请用new Date().getHour()获取小时
+[2016-05-25 11:55:13.213] [INFO] console - { ACSN: '设备序列号',
+  family: '  //0 表示ipv4  1表示ipv6',
+  direct: ' //0表示上行 1表示下行',
+  StartTime: 'Xxxxxxxxxx  // 开始时间 单位秒',
+  EndTime: 'xxxxxxxxxx //结束时间 单位秒' }
+[2016-05-25 11:55:13.213] [INFO] console - 接口名称
+[2016-05-25 11:55:13.214] [INFO] console - { ACSN: '设备序列号',
+  family: '  //0 表示ipv4  1表示ipv6',
+  direct: '  //0表示上行 1表示下行',
+  StartTime: 'Xxxxxxxxxx  // 开始时间 单位秒',
+  EndTime: 'xxxxxxxxxx //结束时间 单位秒' }
+[2016-05-25 11:55:13.215] [INFO] console - [ 'DropPktBytes', 'Pkt', 'PktBytes', 'DropPkt' ]
+[2016-05-25 11:55:13.216] [INFO] console - 接口名称
+[2016-05-25 11:55:13.216] [INFO] console - { ACSN: '设备序列号',
+  family: '  //0 表示ipv4  1表示ipv6',
+  direct: '  //0表示上行 1表示下行',
+  StartTime: 'Xxxxxxxxxx  // 开始时间 单位秒',
+  EndTime: 'xxxxxxxxxx //结束时间 单位秒' }
+[2016-05-25 11:55:13.217] [INFO] console - [ '需要那个字段填写即可' ]
+[2016-05-25 11:55:13.217] [INFO] console - 接口名称
+[2016-05-25 11:55:13.223] [INFO] console - { ACSN: '设备序列号',
+  family: '  //0 表示ipv4  1表示ipv6',
+  direct: '  //0表示上行 1表示下行',
+  StartTime: 'Xxxxxxxxxx  // 开始时间 单位秒',
+  EndTime: 'xxxxxxxxxx //结束时间 单位秒' }
+[2016-05-25 11:55:13.226] [INFO] console - [ '需要那个字段填写即可' ]
+[2016-05-25 11:55:13.227] [INFO] console - 接口名称
+[2016-05-25 11:55:13.227] [INFO] console - 网站类型过滤 不过滤输入 
+[2016-05-25 11:55:13.227] [INFO] console - 当前时间的小时 请用new Date().getHour()获取
+[2016-05-25 11:55:13.227] [INFO] console - { ACSN: '设备序列号',
+  family: '  //0 表示ipv4  1表示ipv6',
+  direct: '  //0表示上行 1表示下行',
+  StartTime: 'Xxxxxxxxxx  // 开始时间 单位秒',
+  EndTime: 'xxxxxxxxxx //结束时间 单位秒' }
+[2016-05-25 11:55:13.228] [INFO] console - 接口名称
+[2016-05-25 11:55:13.229] [INFO] console - 网站类型过滤 不过滤输入 
+[2016-05-25 11:55:13.229] [INFO] console - { ACSN: '设备序列号',
+  family: ' //0 表示ipv4  1表示ipv6',
+  direct: '  //0表示上行 1表示下行',
+  StartTime: 'Xxxxxxxxxx  // 开始时间 单位秒',
+  EndTime: 'xxxxxxxxxx //结束时间 单位秒' }
+[2016-05-25 11:55:13.230] [INFO] console - { UserMAC: '用户mac地址', WebsiteName: 'web名字' }
+[2016-05-25 11:55:13.231] [INFO] console - 接口名称
+[2016-05-25 11:55:13.231] [INFO] console - 网站类型过滤 可不填 
+[2016-05-25 11:55:13.231] [INFO] console - 网站名称过滤 可不填
+[2016-05-25 11:55:13.232] [INFO] console - { ACSN: '设备序列号',
+  family: ' //0 表示ipv4  1表示ipv6',
+  direct: '  //0表示上行 1表示下行',
+  StartTime: 'Xxxxxxxxxx  // 开始时间 单位秒',
+  EndTime: 'xxxxxxxxxx //结束时间 单位秒' }
+[2016-05-25 11:55:13.232] [INFO] console - { ACSN: '设备序列号',
+  family: '  //0 表示ipv4  1表示ipv6',
+  direct: '  //0表示上行 1表示下行',
+  StartTime: 'Xxxxxxxxxx  // 开始时间 单位秒',
+  EndTime: 'xxxxxxxxxx //结束时间 单位秒' }
+[2016-05-25 11:55:13.232] [INFO] console - [ '填写需要返回的数据' ]
+[2016-05-25 11:55:13.243] [INFO] console - time doc_08407999381071218
+[2016-05-25 13:50:32.839] [INFO] console - {"doclist":[{"DocIndex":"doc_08407999381071218","Name":"应用分析接口文档","time":1464148513243},{"DocIndex":"doc_9842227725675352","Name":"无线定位接口文档","time":1464138172353},{"DocIndex":"doc_5866521044873243","Name":"aaa","time":1464147426205},{"DocIndex":"doc_18264992210987874","Name":"2322","time":1464078710066},{"DocIndex":"doc_7577103296698844","Name":"asfasdfdsdsafadfasdfsad","time":1464078943982},{"DocIndex":"doc_3048787579029264","Name":"asas","time":1464077639702},{"DocIndex":"doc_8466751070093037","Name":"yuanyuekun","time":1464077563211}],"retCode":0}
+[2016-05-25 16:31:10.246] [INFO] console - {"doclist":[{"DocIndex":"doc_7577103296698844","Name":"asfasdfdsdsafadfasdfsad","time":1464078943982},{"DocIndex":"doc_18264992210987874","Name":"2322","time":1464078710066},{"DocIndex":"doc_8466751070093037","Name":"yuanyuekun","time":1464077563211},{"DocIndex":"doc_08407999381071218","Name":"应用分析接口文档","time":1464148513243},{"DocIndex":"doc_3048787579029264","Name":"asas","time":1464077639702},{"DocIndex":"doc_5866521044873243","Name":"aaa","time":1464147426205}],"retCode":0}
+[2016-05-25 16:31:19.900] [INFO] console - /load
+[2016-05-25 16:31:19.915] [INFO] console - { docindex: [ 'doc_9175058351032532' ] }
+[2016-05-25 16:31:19.919] [INFO] console - 当前设备的序列号,内容为字符串
+[2016-05-25 16:31:19.919] [INFO] console - addmapwithindex,标示添加地图操作
+[2016-05-25 16:31:19.919] [INFO] console - 添加地图的具体信息，是一个结构{devSN://设备的devSN, mapName://添加的地图的名字}
+[2016-05-25 16:31:19.920] [INFO] console - 当前设备的序列号,内容为字符串
+[2016-05-25 16:31:19.920] [INFO] console - GetMap,标示获取地图操作
+[2016-05-25 16:31:19.921] [INFO] console - {devSN://设备的devSN}
+[2016-05-25 16:31:19.921] [INFO] console - 微服务需要返回哪些字段，[mapName, scale, wallList, apList, bgInfo]
+[2016-05-25 16:31:19.922] [INFO] console - 当前设备的序列号,内容为字符串
+[2016-05-25 16:31:19.922] [INFO] console - delMapFile,标示获取地图操作
+[2016-05-25 16:31:19.922] [INFO] console - {devSN://设备的devSN,mapName://删除地图的名字}
+[2016-05-25 16:31:19.923] [INFO] console - 微服务根据这个字段来区分设备过来的消息类型，11表示请求所有地图，12表示请求未下发的地图
+[2016-05-25 16:31:19.923] [INFO] console - 设备上送的随机值，微服务不关心
+[2016-05-25 16:31:19.923] [INFO] console - 设备的序列号
+[2016-05-25 16:31:19.924] [INFO] console - 微服务的名字必须填成wloc_map
+[2016-05-25 16:31:19.924] [INFO] console - 设备端模块名必须填成wloc
+[2016-05-25 16:31:19.929] [INFO] console - time doc_9175058351032532
+[2016-05-25 16:31:19.974] [INFO] console - {"doclist":[{"DocIndex":"doc_9175058351032532","Name":"无线定位接口文档","time":1464165079929},{"DocIndex":"doc_7577103296698844","Name":"asfasdfdsdsafadfasdfsad","time":1464078943982},{"DocIndex":"doc_18264992210987874","Name":"2322","time":1464078710066},{"DocIndex":"doc_8466751070093037","Name":"yuanyuekun","time":1464077563211},{"DocIndex":"doc_08407999381071218","Name":"应用分析接口文档","time":1464148513243},{"DocIndex":"doc_5866521044873243","Name":"aaa","time":1464147426205},{"DocIndex":"doc_3048787579029264","Name":"asas","time":1464077639702}],"retCode":0}
+[2016-05-25 17:01:29.908] [INFO] console - /load
+[2016-05-25 17:01:29.926] [INFO] console - { docindex: [ 'doc_14123502852956848' ] }
+[2016-05-25 17:01:29.930] [ERROR] console - load  load file is illegalSyntaxError: Unexpected token }
+[2016-05-25 17:01:29.971] [INFO] console - {"doclist":[{"DocIndex":"doc_9175058351032532","Name":"无线定位接口文档","time":1464165079929},{"DocIndex":"doc_5866521044873243","Name":"aaa","time":1464147426205},{"DocIndex":"doc_7577103296698844","Name":"asfasdfdsdsafadfasdfsad","time":1464078943982},{"DocIndex":"doc_3048787579029264","Name":"asas","time":1464077639702},{"DocIndex":"doc_18264992210987874","Name":"2322","time":1464078710066},{"DocIndex":"doc_8466751070093037","Name":"yuanyuekun","time":1464077563211},{"DocIndex":"doc_08407999381071218","Name":"应用分析接口文档","time":1464148513243}],"retCode":0}
+[2016-05-25 17:01:46.989] [INFO] console - {"doclist":[{"DocIndex":"doc_9175058351032532","Name":"无线定位接口文档","time":1464165079929},{"DocIndex":"doc_5866521044873243","Name":"aaa","time":1464147426205},{"DocIndex":"doc_18264992210987874","Name":"2322","time":1464078710066},{"DocIndex":"doc_8466751070093037","Name":"yuanyuekun","time":1464077563211},{"DocIndex":"doc_08407999381071218","Name":"应用分析接口文档","time":1464148513243},{"DocIndex":"doc_7577103296698844","Name":"asfasdfdsdsafadfasdfsad","time":1464078943982},{"DocIndex":"doc_3048787579029264","Name":"asas","time":1464077639702}],"retCode":0}
+[2016-05-25 17:01:49.955] [INFO] console - {"doclist":[{"DocIndex":"doc_9175058351032532","Name":"无线定位接口文档","time":1464165079929},{"DocIndex":"doc_7577103296698844","Name":"asfasdfdsdsafadfasdfsad","time":1464078943982},{"DocIndex":"doc_18264992210987874","Name":"2322","time":1464078710066},{"DocIndex":"doc_8466751070093037","Name":"yuanyuekun","time":1464077563211},{"DocIndex":"doc_08407999381071218","Name":"应用分析接口文档","time":1464148513243},{"DocIndex":"doc_5866521044873243","Name":"aaa","time":1464147426205},{"DocIndex":"doc_3048787579029264","Name":"asas","time":1464077639702}],"retCode":0}
+[2016-05-25 17:01:53.676] [INFO] console - {"doclist":[{"DocIndex":"doc_7577103296698844","Name":"asfasdfdsdsafadfasdfsad","time":1464078943982},{"DocIndex":"doc_18264992210987874","Name":"2322","time":1464078710066},{"DocIndex":"doc_8466751070093037","Name":"yuanyuekun","time":1464077563211},{"DocIndex":"doc_08407999381071218","Name":"应用分析接口文档","time":1464148513243},{"DocIndex":"doc_5866521044873243","Name":"aaa","time":1464147426205},{"DocIndex":"doc_3048787579029264","Name":"asas","time":1464077639702}],"retCode":0}
+[2016-05-25 17:01:55.159] [INFO] console - {"doclist":[{"DocIndex":"doc_7577103296698844","Name":"asfasdfdsdsafadfasdfsad","time":1464078943982},{"DocIndex":"doc_8466751070093037","Name":"yuanyuekun","time":1464077563211},{"DocIndex":"doc_08407999381071218","Name":"应用分析接口文档","time":1464148513243},{"DocIndex":"doc_3048787579029264","Name":"asas","time":1464077639702},{"DocIndex":"doc_5866521044873243","Name":"aaa","time":1464147426205},{"DocIndex":"doc_18264992210987874","Name":"2322","time":1464078710066}],"retCode":0}
+[2016-05-25 17:02:00.886] [INFO] console - /load
+[2016-05-25 17:02:00.899] [INFO] console - { docindex: [ 'doc_05548041272359705' ] }
+[2016-05-25 17:02:00.912] [ERROR] console - load  load file is illegalSyntaxError: Unexpected token }
+[2016-05-25 17:02:00.951] [INFO] console - {"doclist":[{"DocIndex":"doc_7577103296698844","Name":"asfasdfdsdsafadfasdfsad","time":1464078943982},{"DocIndex":"doc_18264992210987874","Name":"2322","time":1464078710066},{"DocIndex":"doc_8466751070093037","Name":"yuanyuekun","time":1464077563211},{"DocIndex":"doc_08407999381071218","Name":"应用分析接口文档","time":1464148513243},{"DocIndex":"doc_5866521044873243","Name":"aaa","time":1464147426205},{"DocIndex":"doc_3048787579029264","Name":"asas","time":1464077639702}],"retCode":0}
+[2016-05-25 17:02:03.121] [INFO] console - {"doclist":[{"DocIndex":"doc_7577103296698844","Name":"asfasdfdsdsafadfasdfsad","time":1464078943982},{"DocIndex":"doc_18264992210987874","Name":"2322","time":1464078710066},{"DocIndex":"doc_8466751070093037","Name":"yuanyuekun","time":1464077563211},{"DocIndex":"doc_08407999381071218","Name":"应用分析接口文档","time":1464148513243},{"DocIndex":"doc_5866521044873243","Name":"aaa","time":1464147426205},{"DocIndex":"doc_3048787579029264","Name":"asas","time":1464077639702}],"retCode":0}
+[2016-05-25 17:04:31.560] [INFO] console - /load
+[2016-05-25 17:04:31.574] [INFO] console - { docindex: [ 'doc_28884584084023746' ] }
+[2016-05-25 17:04:31.579] [INFO] console - 当前设备的序列号,内容为字符串
+[2016-05-25 17:04:31.579] [INFO] console - addmapwithindex,标示添加地图操作
+[2016-05-25 17:04:31.580] [INFO] console - 添加地图的具体信息，是一个结构{devSN://设备的devSN, mapName://添加的地图的名字}
+[2016-05-25 17:04:31.580] [INFO] console - 当前设备的序列号,内容为字符串
+[2016-05-25 17:04:31.581] [INFO] console - GetMap,标示获取地图操作
+[2016-05-25 17:04:31.581] [INFO] console - {devSN://设备的devSN}
+[2016-05-25 17:04:31.581] [INFO] console - 微服务需要返回哪些字段，[mapName, scale, wallList, apList, bgInfo]
+[2016-05-25 17:04:31.582] [INFO] console - 当前设备的序列号,内容为字符串
+[2016-05-25 17:04:31.582] [INFO] console - delMapFile,标示获取地图操作
+[2016-05-25 17:04:31.582] [INFO] console - {devSN://设备的devSN,mapName://删除地图的名字}
+[2016-05-25 17:04:31.583] [INFO] console - 微服务根据这个字段来区分设备过来的消息类型，11表示请求所有地图，12表示请求未下发的地图
+[2016-05-25 17:04:31.583] [INFO] console - 设备上送的随机值，微服务不关心
+[2016-05-25 17:04:31.584] [INFO] console - 设备的序列号
+[2016-05-25 17:04:31.584] [INFO] console - 微服务的名字必须填成wloc_map
+[2016-05-25 17:04:31.584] [INFO] console - 设备端模块名必须填成wloc
+[2016-05-25 17:04:31.585] [INFO] console - 设备序列号
+[2016-05-25 17:04:31.585] [INFO] console - 固定字段，getClientSite，微服务用来区分前端消息
+[2016-05-25 17:04:31.586] [INFO] console - { devSN: '类型字符串 设备序列号',
+  mapName: '类型字符串，地图名',
+  time: '类型数字，获取time这个时间点的定位信息' }
+[2016-05-25 17:04:31.587] [INFO] console - [ 'clientMac', 'XCord', 'YCord', 'clientStatus' ]
+[2016-05-25 17:04:31.596] [INFO] console - time doc_28884584084023746
+[2016-05-25 17:04:31.665] [INFO] console - {"doclist":[{"DocIndex":"doc_08407999381071218","Name":"应用分析接口文档","time":1464148513243},{"DocIndex":"doc_28884584084023746","Name":"无线定位接口文档","time":1464167071596},{"DocIndex":"doc_5866521044873243","Name":"aaa","time":1464147426205},{"DocIndex":"doc_7577103296698844","Name":"asfasdfdsdsafadfasdfsad","time":1464078943982},{"DocIndex":"doc_3048787579029264","Name":"asas","time":1464077639702},{"DocIndex":"doc_18264992210987874","Name":"2322","time":1464078710066},{"DocIndex":"doc_8466751070093037","Name":"yuanyuekun","time":1464077563211}],"retCode":0}
+[2016-05-25 17:04:33.253] [INFO] console - {"doclist":[{"DocIndex":"doc_28884584084023746","Name":"无线定位接口文档","time":1464167071596},{"DocIndex":"doc_7577103296698844","Name":"asfasdfdsdsafadfasdfsad","time":1464078943982},{"DocIndex":"doc_18264992210987874","Name":"2322","time":1464078710066},{"DocIndex":"doc_8466751070093037","Name":"yuanyuekun","time":1464077563211},{"DocIndex":"doc_08407999381071218","Name":"应用分析接口文档","time":1464148513243},{"DocIndex":"doc_5866521044873243","Name":"aaa","time":1464147426205},{"DocIndex":"doc_3048787579029264","Name":"asas","time":1464077639702}],"retCode":0}
+[2016-05-25 17:44:06.101] [INFO] console - /load
+[2016-05-25 17:44:06.111] [INFO] console - { docindex: [ 'doc_48882648592970535' ] }
+[2016-05-25 17:44:06.115] [ERROR] console - load  load file is illegalSyntaxError: Unexpected token d
+[2016-05-25 17:44:06.177] [INFO] console - {"doclist":[{"DocIndex":"doc_28884584084023746","Name":"无线定位接口文档","time":1464167071596},{"DocIndex":"doc_7577103296698844","Name":"asfasdfdsdsafadfasdfsad","time":1464078943982},{"DocIndex":"doc_3048787579029264","Name":"asas","time":1464077639702},{"DocIndex":"doc_18264992210987874","Name":"2322","time":1464078710066},{"DocIndex":"doc_8466751070093037","Name":"yuanyuekun","time":1464077563211},{"DocIndex":"doc_08407999381071218","Name":"应用分析接口文档","time":1464148513243},{"DocIndex":"doc_5866521044873243","Name":"aaa","time":1464147426205}],"retCode":0}
+[2016-05-25 17:44:11.165] [INFO] console - {"doclist":[{"DocIndex":"doc_28884584084023746","Name":"无线定位接口文档","time":1464167071596},{"DocIndex":"doc_5866521044873243","Name":"aaa","time":1464147426205},{"DocIndex":"doc_7577103296698844","Name":"asfasdfdsdsafadfasdfsad","time":1464078943982},{"DocIndex":"doc_3048787579029264","Name":"asas","time":1464077639702},{"DocIndex":"doc_18264992210987874","Name":"2322","time":1464078710066},{"DocIndex":"doc_08407999381071218","Name":"应用分析接口文档","time":1464148513243},{"DocIndex":"doc_8466751070093037","Name":"yuanyuekun","time":1464077563211}],"retCode":0}
+[2016-05-25 17:44:24.738] [INFO] console - {"doclist":[{"DocIndex":"doc_7577103296698844","Name":"asfasdfdsdsafadfasdfsad","time":1464078943982},{"DocIndex":"doc_18264992210987874","Name":"2322","time":1464078710066},{"DocIndex":"doc_8466751070093037","Name":"yuanyuekun","time":1464077563211},{"DocIndex":"doc_5866521044873243","Name":"aaa","time":1464147426205},{"DocIndex":"doc_3048787579029264","Name":"asas","time":1464077639702},{"DocIndex":"doc_08407999381071218","Name":"应用分析接口文档","time":1464148513243}],"retCode":0}
+[2016-05-25 17:44:31.059] [INFO] console - /load
+[2016-05-25 17:44:31.065] [INFO] console - { docindex: [ 'doc_3742114456882355' ] }
+[2016-05-25 17:44:31.069] [ERROR] console - load  load file is illegalSyntaxError: Unexpected token d
+[2016-05-25 17:44:31.114] [INFO] console - {"doclist":[{"DocIndex":"doc_7577103296698844","Name":"asfasdfdsdsafadfasdfsad","time":1464078943982},{"DocIndex":"doc_8466751070093037","Name":"yuanyuekun","time":1464077563211},{"DocIndex":"doc_08407999381071218","Name":"应用分析接口文档","time":1464148513243},{"DocIndex":"doc_18264992210987874","Name":"2322","time":1464078710066},{"DocIndex":"doc_3048787579029264","Name":"asas","time":1464077639702},{"DocIndex":"doc_5866521044873243","Name":"aaa","time":1464147426205}],"retCode":0}
+[2016-05-25 17:44:32.854] [INFO] console - {"doclist":[{"DocIndex":"doc_18264992210987874","Name":"2322","time":1464078710066},{"DocIndex":"doc_8466751070093037","Name":"yuanyuekun","time":1464077563211},{"DocIndex":"doc_08407999381071218","Name":"应用分析接口文档","time":1464148513243},{"DocIndex":"doc_5866521044873243","Name":"aaa","time":1464147426205},{"DocIndex":"doc_7577103296698844","Name":"asfasdfdsdsafadfasdfsad","time":1464078943982},{"DocIndex":"doc_3048787579029264","Name":"asas","time":1464077639702}],"retCode":0}
+[2016-05-25 17:45:54.053] [INFO] console - /load
+[2016-05-25 17:45:54.062] [INFO] console - { docindex: [ 'doc_4872120753061644' ] }
+[2016-05-25 17:45:54.067] [INFO] console - 当前设备的序列号,内容为字符串
+[2016-05-25 17:45:54.067] [INFO] console - addmapwithindex,标示添加地图操作
+[2016-05-25 17:45:54.067] [INFO] console - 添加地图的具体信息，是一个结构{devSN://设备的devSN, mapName://添加的地图的名字}
+[2016-05-25 17:45:54.067] [INFO] console - 当前设备的序列号,内容为字符串
+[2016-05-25 17:45:54.068] [INFO] console - GetMap,标示获取地图操作
+[2016-05-25 17:45:54.068] [INFO] console - {devSN://设备的devSN}
+[2016-05-25 17:45:54.068] [INFO] console - 微服务需要返回哪些字段，[mapName, scale, wallList, apList, bgInfo]
+[2016-05-25 17:45:54.069] [INFO] console - 当前设备的序列号,内容为字符串
+[2016-05-25 17:45:54.070] [INFO] console - delMapFile,标示获取地图操作
+[2016-05-25 17:45:54.070] [INFO] console - {devSN://设备的devSN,mapName://删除地图的名字}
+[2016-05-25 17:45:54.071] [INFO] console - 微服务根据这个字段来区分设备过来的消息类型，11表示请求所有地图，12表示请求未下发的地图
+[2016-05-25 17:45:54.071] [INFO] console - 设备上送的随机值，微服务不关心
+[2016-05-25 17:45:54.071] [INFO] console - 设备的序列号
+[2016-05-25 17:45:54.071] [INFO] console - 微服务的名字必须填成wloc_map
+[2016-05-25 17:45:54.072] [INFO] console - 设备端模块名必须填成wloc
+[2016-05-25 17:45:54.072] [INFO] console - 设备序列号
+[2016-05-25 17:45:54.072] [INFO] console - 固定字段，getClientSite，微服务用来区分前端消息
+[2016-05-25 17:45:54.073] [INFO] console - { devSN: '类型字符串 设备序列号',
+  mapName: '类型字符串，地图名',
+  time: '类型数字，获取time这个时间点的定位信息' }
+[2016-05-25 17:45:54.074] [INFO] console - [ 'clientMac', 'XCord', 'YCord', 'clientStatus' ]
+[2016-05-25 17:45:54.074] [INFO] console - 设备序列号
+[2016-05-25 17:45:54.074] [INFO] console - 固定字段，getClientList，微服务用来区分前端消息
+[2016-05-25 17:45:54.075] [INFO] console - { devSN: '类型字符串，设备序列号',
+  mapName: '类型字符串，地图名',
+  startTime: '类型数字，起始时间',
+  endTime: '类型数字，终止时间' }
+[2016-05-25 17:45:54.075] [INFO] console - [ 'clientMac' ]
+[2016-05-25 17:45:54.081] [INFO] console - time doc_4872120753061644
+[2016-05-25 17:45:54.150] [INFO] console - {"doclist":[{"DocIndex":"doc_08407999381071218","Name":"应用分析接口文档","time":1464148513243},{"DocIndex":"doc_4872120753061644","Name":"无线定位接口文档","time":1464169554081},{"DocIndex":"doc_5866521044873243","Name":"aaa","time":1464147426205},{"DocIndex":"doc_7577103296698844","Name":"asfasdfdsdsafadfasdfsad","time":1464078943982},{"DocIndex":"doc_3048787579029264","Name":"asas","time":1464077639702},{"DocIndex":"doc_8466751070093037","Name":"yuanyuekun","time":1464077563211},{"DocIndex":"doc_18264992210987874","Name":"2322","time":1464078710066}],"retCode":0}
+[2016-05-25 17:45:55.680] [INFO] console - {"doclist":[{"DocIndex":"doc_7577103296698844","Name":"asfasdfdsdsafadfasdfsad","time":1464078943982},{"DocIndex":"doc_3048787579029264","Name":"asas","time":1464077639702},{"DocIndex":"doc_08407999381071218","Name":"应用分析接口文档","time":1464148513243},{"DocIndex":"doc_18264992210987874","Name":"2322","time":1464078710066},{"DocIndex":"doc_8466751070093037","Name":"yuanyuekun","time":1464077563211},{"DocIndex":"doc_4872120753061644","Name":"无线定位接口文档","time":1464169554081},{"DocIndex":"doc_5866521044873243","Name":"aaa","time":1464147426205}],"retCode":0}
+[2016-05-25 17:47:31.537] [INFO] console - /load
+[2016-05-25 17:47:31.546] [INFO] console - { docindex: [ 'doc_7628081725261524' ] }
+[2016-05-25 17:47:31.548] [INFO] console - 当前设备的序列号,内容为字符串
+[2016-05-25 17:47:31.548] [INFO] console - addmapwithindex,标示添加地图操作
+[2016-05-25 17:47:31.549] [INFO] console - 添加地图的具体信息，是一个结构{devSN://设备的devSN, mapName://添加的地图的名字}
+[2016-05-25 17:47:31.549] [INFO] console - 当前设备的序列号,内容为字符串
+[2016-05-25 17:47:31.549] [INFO] console - GetMap,标示获取地图操作
+[2016-05-25 17:47:31.550] [INFO] console - {devSN://设备的devSN}
+[2016-05-25 17:47:31.550] [INFO] console - 微服务需要返回哪些字段，[mapName, scale, wallList, apList, bgInfo]
+[2016-05-25 17:47:31.550] [INFO] console - 当前设备的序列号,内容为字符串
+[2016-05-25 17:47:31.551] [INFO] console - delMapFile,标示获取地图操作
+[2016-05-25 17:47:31.551] [INFO] console - {devSN://设备的devSN,mapName://删除地图的名字}
+[2016-05-25 17:47:31.551] [INFO] console - 微服务根据这个字段来区分设备过来的消息类型，11表示请求所有地图，12表示请求未下发的地图
+[2016-05-25 17:47:31.552] [INFO] console - 设备上送的随机值，微服务不关心
+[2016-05-25 17:47:31.552] [INFO] console - 设备的序列号
+[2016-05-25 17:47:31.552] [INFO] console - 微服务的名字必须填成wloc_map
+[2016-05-25 17:47:31.552] [INFO] console - 设备端模块名必须填成wloc
+[2016-05-25 17:47:31.553] [INFO] console - 设备序列号
+[2016-05-25 17:47:31.553] [INFO] console - 固定字段，getClientSite，微服务用来区分前端消息
+[2016-05-25 17:47:31.553] [INFO] console - { devSN: '类型字符串 设备序列号',
+  mapName: '类型字符串，地图名',
+  time: '类型数字，获取time这个时间点的定位信息' }
+[2016-05-25 17:47:31.554] [INFO] console - [ 'clientMac', 'XCord', 'YCord', 'clientStatus' ]
+[2016-05-25 17:47:31.558] [INFO] console - 设备序列号
+[2016-05-25 17:47:31.558] [INFO] console - 固定字段，getClientList，微服务用来区分前端消息
+[2016-05-25 17:47:31.558] [INFO] console - { devSN: '类型字符串，设备序列号',
+  mapName: '类型字符串，地图名',
+  startTime: '类型数字，起始时间',
+  endTime: '类型数字，终止时间' }
+[2016-05-25 17:47:31.559] [INFO] console - [ 'clientMac' ]
+[2016-05-25 17:47:31.566] [INFO] console - [ { _id: 'doc_4872120753061644', time: 1464169554081 } ]
+[2016-05-25 17:47:31.568] [INFO] console - time doc_4872120753061644
+[2016-05-25 17:47:31.624] [INFO] console - {"doclist":[{"DocIndex":"doc_4872120753061644","Name":"无线定位接口文档","time":1464169651568},{"DocIndex":"doc_7577103296698844","Name":"asfasdfdsdsafadfasdfsad","time":1464078943982},{"DocIndex":"doc_18264992210987874","Name":"2322","time":1464078710066},{"DocIndex":"doc_8466751070093037","Name":"yuanyuekun","time":1464077563211},{"DocIndex":"doc_08407999381071218","Name":"应用分析接口文档","time":1464148513243},{"DocIndex":"doc_5866521044873243","Name":"aaa","time":1464147426205},{"DocIndex":"doc_3048787579029264","Name":"asas","time":1464077639702}],"retCode":0}
+[2016-05-25 17:47:33.580] [INFO] console - {"doclist":[{"DocIndex":"doc_4872120753061644","Name":"无线定位接口文档","time":1464169651568},{"DocIndex":"doc_18264992210987874","Name":"2322","time":1464078710066},{"DocIndex":"doc_5866521044873243","Name":"aaa","time":1464147426205},{"DocIndex":"doc_8466751070093037","Name":"yuanyuekun","time":1464077563211},{"DocIndex":"doc_08407999381071218","Name":"应用分析接口文档","time":1464148513243},{"DocIndex":"doc_7577103296698844","Name":"asfasdfdsdsafadfasdfsad","time":1464078943982},{"DocIndex":"doc_3048787579029264","Name":"asas","time":1464077639702}],"retCode":0}
+[2016-05-25 17:49:29.916] [INFO] console - /load
+[2016-05-25 17:49:29.931] [INFO] console - { docindex: [ 'doc_3119079157238047' ] }
+[2016-05-25 17:49:29.943] [INFO] console - 当前设备的序列号,内容为字符串
+[2016-05-25 17:49:29.943] [INFO] console - addmapwithindex,标示添加地图操作
+[2016-05-25 17:49:29.943] [INFO] console - 添加地图的具体信息，是一个结构{devSN://设备的devSN, mapName://添加的地图的名字}
+[2016-05-25 17:49:29.944] [INFO] console - 当前设备的序列号,内容为字符串
+[2016-05-25 17:49:29.944] [INFO] console - GetMap,标示获取地图操作
+[2016-05-25 17:49:29.944] [INFO] console - {devSN://设备的devSN}
+[2016-05-25 17:49:29.945] [INFO] console - 微服务需要返回哪些字段，[mapName, scale, wallList, apList, bgInfo]
+[2016-05-25 17:49:29.945] [INFO] console - 当前设备的序列号,内容为字符串
+[2016-05-25 17:49:29.945] [INFO] console - delMapFile,标示获取地图操作
+[2016-05-25 17:49:29.946] [INFO] console - {devSN://设备的devSN,mapName://删除地图的名字}
+[2016-05-25 17:49:29.946] [INFO] console - 微服务根据这个字段来区分设备过来的消息类型，11表示请求所有地图，12表示请求未下发的地图
+[2016-05-25 17:49:29.947] [INFO] console - 设备上送的随机值，微服务不关心
+[2016-05-25 17:49:29.947] [INFO] console - 设备的序列号
+[2016-05-25 17:49:29.947] [INFO] console - 微服务的名字必须填成wloc_map
+[2016-05-25 17:49:29.948] [INFO] console - 设备端模块名必须填成wloc
+[2016-05-25 17:49:29.948] [INFO] console - 设备序列号
+[2016-05-25 17:49:29.949] [INFO] console - 固定字段，getClientSite，微服务用来区分前端消息
+[2016-05-25 17:49:29.949] [INFO] console - { devSN: '类型字符串 设备序列号',
+  mapName: '类型字符串，地图名',
+  time: '类型数字，获取time这个时间点的定位信息' }
+[2016-05-25 17:49:29.949] [INFO] console - [ 'clientMac', 'XCord', 'YCord', 'clientStatus' ]
+[2016-05-25 17:49:29.951] [INFO] console - 设备序列号
+[2016-05-25 17:49:29.951] [INFO] console - 固定字段，getClientList，微服务用来区分前端消息
+[2016-05-25 17:49:29.953] [INFO] console - { devSN: '类型字符串，设备序列号',
+  mapName: '类型字符串，地图名',
+  startTime: '类型数字，起始时间',
+  endTime: '类型数字，终止时间' }
+[2016-05-25 17:49:29.953] [INFO] console - [ 'clientMac' ]
+[2016-05-25 17:49:29.961] [INFO] console - [ { _id: 'doc_4872120753061644', time: 1464169651568 } ]
+[2016-05-25 17:49:29.962] [INFO] console - time doc_4872120753061644
+[2016-05-25 17:49:30.019] [INFO] console - {"doclist":[{"DocIndex":"doc_08407999381071218","Name":"应用分析接口文档","time":1464148513243},{"DocIndex":"doc_4872120753061644","Name":"无线定位接口文档","time":1464169769962},{"DocIndex":"doc_5866521044873243","Name":"aaa","time":1464147426205},{"DocIndex":"doc_18264992210987874","Name":"2322","time":1464078710066},{"DocIndex":"doc_8466751070093037","Name":"yuanyuekun","time":1464077563211},{"DocIndex":"doc_7577103296698844","Name":"asfasdfdsdsafadfasdfsad","time":1464078943982},{"DocIndex":"doc_3048787579029264","Name":"asas","time":1464077639702}],"retCode":0}
+[2016-05-25 17:49:33.353] [INFO] console - {"doclist":[{"DocIndex":"doc_7577103296698844","Name":"asfasdfdsdsafadfasdfsad","time":1464078943982},{"DocIndex":"doc_8466751070093037","Name":"yuanyuekun","time":1464077563211},{"DocIndex":"doc_18264992210987874","Name":"2322","time":1464078710066},{"DocIndex":"doc_3048787579029264","Name":"asas","time":1464077639702},{"DocIndex":"doc_4872120753061644","Name":"无线定位接口文档","time":1464169769962},{"DocIndex":"doc_5866521044873243","Name":"aaa","time":1464147426205},{"DocIndex":"doc_08407999381071218","Name":"应用分析接口文档","time":1464148513243}],"retCode":0}
+[2016-05-25 18:00:33.533] [INFO] console - /load
+[2016-05-25 18:00:33.550] [INFO] console - { docindex: [ 'doc_09033229497939321' ] }
+[2016-05-25 18:00:33.553] [INFO] console - 当前设备的序列号,内容为字符串
+[2016-05-25 18:00:33.554] [INFO] console - addmapwithindex,标示添加地图操作
+[2016-05-25 18:00:33.555] [INFO] console - 添加地图的具体信息，是一个结构{devSN://设备的devSN, mapName://添加的地图的名字}
+[2016-05-25 18:00:33.555] [INFO] console - 当前设备的序列号,内容为字符串
+[2016-05-25 18:00:33.555] [INFO] console - GetMap,标示获取地图操作
+[2016-05-25 18:00:33.556] [INFO] console - {devSN://设备的devSN}
+[2016-05-25 18:00:33.556] [INFO] console - 微服务需要返回哪些字段，[mapName, scale, wallList, apList, bgInfo]
+[2016-05-25 18:00:33.559] [INFO] console - 当前设备的序列号,内容为字符串
+[2016-05-25 18:00:33.559] [INFO] console - delMapFile,标示获取地图操作
+[2016-05-25 18:00:33.559] [INFO] console - {devSN://设备的devSN,mapName://删除地图的名字}
+[2016-05-25 18:00:33.560] [INFO] console - 微服务根据这个字段来区分设备过来的消息类型，11表示请求所有地图，12表示请求未下发的地图
+[2016-05-25 18:00:33.560] [INFO] console - 设备上送的随机值，微服务不关心
+[2016-05-25 18:00:33.560] [INFO] console - 设备的序列号
+[2016-05-25 18:00:33.561] [INFO] console - 微服务的名字必须填成wloc_map
+[2016-05-25 18:00:33.561] [INFO] console - 设备端模块名必须填成wloc
+[2016-05-25 18:00:33.561] [INFO] console - 设备序列号
+[2016-05-25 18:00:33.561] [INFO] console - 固定字段，getClientSite，微服务用来区分前端消息
+[2016-05-25 18:00:33.562] [INFO] console - { devSN: '类型字符串 设备序列号',
+  mapName: '类型字符串，地图名',
+  time: '类型数字，获取time这个时间点的定位信息' }
+[2016-05-25 18:00:33.562] [INFO] console - [ 'clientMac', 'XCord', 'YCord', 'clientStatus' ]
+[2016-05-25 18:00:33.564] [INFO] console - 设备序列号
+[2016-05-25 18:00:33.564] [INFO] console - 固定字段，getClientList，微服务用来区分前端消息
+[2016-05-25 18:00:33.565] [INFO] console - { devSN: '类型字符串，设备序列号',
+  mapName: '类型字符串，地图名',
+  startTime: '类型数字，起始时间',
+  endTime: '类型数字，终止时间' }
+[2016-05-25 18:00:33.565] [INFO] console - [ 'clientMac' ]
+[2016-05-25 18:00:33.566] [INFO] console - 设备序列号
+[2016-05-25 18:00:33.566] [INFO] console - 固定字段，getClientTrack，微服务用来区分前端消息
+[2016-05-25 18:00:33.566] [INFO] console - { devSN: '类型字符串，设备序列号',
+  mapName: '类型字符串，地图名',
+  startTime: '类型数字，起始时间',
+  endTime: '类型数字，终止时间',
+  intervalTime: '间隔时间' }
+[2016-05-25 18:00:33.566] [INFO] console - [ 'time', 'XCord', 'YCord', 'clientStatus' ]
+[2016-05-25 18:00:33.573] [INFO] console - [ { _id: 'doc_4872120753061644', time: 1464169769962 } ]
+[2016-05-25 18:00:33.573] [INFO] console - time doc_4872120753061644
+[2016-05-25 18:00:33.636] [INFO] console - {"doclist":[{"DocIndex":"doc_4872120753061644","Name":"无线定位接口文档","time":1464170433573},{"DocIndex":"doc_7577103296698844","Name":"asfasdfdsdsafadfasdfsad","time":1464078943982},{"DocIndex":"doc_18264992210987874","Name":"2322","time":1464078710066},{"DocIndex":"doc_8466751070093037","Name":"yuanyuekun","time":1464077563211},{"DocIndex":"doc_08407999381071218","Name":"应用分析接口文档","time":1464148513243},{"DocIndex":"doc_5866521044873243","Name":"aaa","time":1464147426205},{"DocIndex":"doc_3048787579029264","Name":"asas","time":1464077639702}],"retCode":0}
+[2016-05-25 18:00:35.248] [INFO] console - {"doclist":[{"DocIndex":"doc_08407999381071218","Name":"应用分析接口文档","time":1464148513243},{"DocIndex":"doc_7577103296698844","Name":"asfasdfdsdsafadfasdfsad","time":1464078943982},{"DocIndex":"doc_3048787579029264","Name":"asas","time":1464077639702},{"DocIndex":"doc_4872120753061644","Name":"无线定位接口文档","time":1464170433573},{"DocIndex":"doc_5866521044873243","Name":"aaa","time":1464147426205},{"DocIndex":"doc_18264992210987874","Name":"2322","time":1464078710066},{"DocIndex":"doc_8466751070093037","Name":"yuanyuekun","time":1464077563211}],"retCode":0}

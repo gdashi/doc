@@ -1,0 +1,42 @@
+<% include ../header %>
+<h1>switch</h1>
+
+<h2>switch(说明)</h2>
+
+<p>功能 ： bootstrap-switch插件这是一个针对Bootstrap实现的开关（switch）按钮控件，可以支持尺寸、颜色等属性的自定义。</p>
+
+<h2>switch（实例）</h2>
+
+<p>说明 ： 简单介绍chekbox与radio的两个表单的简单使用，点击按钮以滑动的方式进行on/off切换。</p>
+
+<h3>chekbox</h3>
+
+<ul><li><code> </code> -
+&lt;div class = &quot;make-switch&quot; data-on=&quot;info&quot; data-off=&quot;success&quot;&gt;
+ &lt;input type=&quot;checkbox&quot; checked&gt;
+&lt;/div&gt;<ul><li><code>make-switch</code> - 对使用插件的checkbox添加css样式。</li><li><code>data-on</code> - 为on状态时的css样式。</li><li><code>data-off</code> - 为off状态时的css样式。</li></ul></li></ul>
+
+<h3>radio</h3>
+
+<ul><li><code> </code> -
+&lt;lable for=&quot;option11&quot;&gt;Option 1&lt;/lable&gt;
+&lt;div class=&quot;make-switch radio2&quot;&gt;
+ &lt;input id=&quot;option11&quot; type=&quot;radio&quot; name=&quot;radio2&quot; value=&quot;option11&quot;&gt;
+&lt;/div&gt;<ul><li><code> </code> -  radio单选框的使用方法是相同的。</li></ul></li></ul>
+
+<h2>switch(几个重要参数)</h2>
+
+<ul><li><p><code>Size（尺寸）</code> -</p><ul><li><p><code>size</code> -  &lt;div class=&quot;switch switch-large&quot;&gt; &lt;input type=&quot;checkbox&quot; checked /&gt; &lt;/div&gt;</p></li></ul></li><li><p><code>Colors（颜色）</code> -</p><ul><li><code>colors</code> -  &lt;div class=&quot;switch&quot; data-on=&quot;primary&quot; data-off=&quot;info&quot;&gt;
+&lt;input type=&quot;checkbox&quot; checked /&gt;&lt;/div&gt;  </li></ul></li><li><p><code>Animation（动画）</code> -</p><ul><li><code>animation</code> -   &lt;div class=&quot;switch&quot; data-animated=&quot;false&quot;&gt;
+&lt;input type=&quot;checkbox&quot; checked /&gt;&lt;/div&gt;</li></ul></li><li><p><code>Disabled（禁用）</code> -</p><ul><li><p><code>disabled</code> -   &lt;div class=&quot;switch&quot;&gt;
+&lt;input type=&quot;checkbox&quot; checked disabled /&gt;&lt;/div&gt;</p></li></ul></li><li><p><code>Text（文本）</code> -</p><ul><li><code>text</code> -  &lt;div class=&quot;switch&quot; data-on-label=&quot;SI&quot; data-off-label=&quot;NO&quot;&gt;
+&lt;input type=&quot;checkbox&quot; checked /&gt;&lt;/div&gt;</li></ul></li><li><p><code>Event handler（事件处理）</code> -</p><ul><li><p><code>event handler</code> -  $(&#39;#mySwitch&#39;).on(&#39;switch-change&#39;, function (e, data) {
+var $el = $(data.el)
+, value = data.value;
+console.log(e, $el, value);
+});</p></li></ul></li><li><p><code>Destroy（销毁）</code> -</p><ul><li><code>destroy</code> -   $(&#39;#destroy-switch&#39;).bootstrapSwitch(&#39;destroy&#39;);</li></ul></li><li><p><code>Create（创建）</code> -</p><ul><li><code>create</code> -  $(&#39;#create-switch&#39;).wrap(&#39;&lt;div class=&quot;switch&quot; /&gt;&#39;).parent().bootstrapSwitch();</li></ul></li></ul>
+
+<h2>bootstrap-switch属性及应用</h2>
+
+<ul><li><p><code> </code> -  　　　　　　　[js属性名]　　　　[html属性名]　　　　[类型]　　　　[描述]　　　　　[取值范围]　　　　　　　　　　[默认值]  </p><ul><li><p><code>create</code> -　　state　　　　　　　checked　　　　　　Boolean　　　选中状态　　　　　true\false　　　　　　　　　　true</p></li><li><p><code>create</code> -　　size　　　　　　　　data-size　　　　　String　　　开关大小　　　　　null\mini\small\large　　　　　null</p></li><li><p><code>create</code> -　　animate　　　　　　data-animate　　　Boolean　　　动画效果　　　　　true\false　　　　　　　　　　　true</p></li><li><p><code>create</code> -　　disabled　　　　　　disabled　　　　　Boolean　　　禁用开关　　　　　true\false　　　　　　　　　　　false</p></li><li><p><code>create</code> -　　readonly　　　　　　readonly　　　　　Boolean　　　开关只读　　　　　true\false　　　　　　　　　　　false</p></li><li><p><code>create</code> -　　indeterminate　　　indeterminate　　　Boolean　　　模态　　　　　　　true\false　　　　　　　　　　　false</p></li><li><p><code>create</code> -　　inverse　　　　　　data-inverse　　　Boolean　　　　顺序颠倒　　　　true\false　　　　　　　　　　　false</p></li><li><p><code>create</code> -　　radioAllOff　　　　all-off　　　　　　Boolean　　　单选按钮取选　　　true\false　　　　　　　　　　　false</p></li><li><p><code>create</code> -　　onColor　　　　　　on-color　　　　　　String　　　左开关颜色　　　　info\primary\danger\success　　primary</p></li><li><p><code>create</code> -　　offColor　　　　　　off-color　　　　　String　　　右开关颜色　　　　info\primary\danger\success　　primary</p></li><li><p><code>create</code> -　　onText　　　　　　　on-text　　　　　　String　　　左开关文本　　　　String　　　　　　　　　　　　　ON</p></li><li><p><code>create</code> -　　offText　　　　　　off-text　　　　　　String　　　右开关文本　　　　String　　　　　　　　　　　　　OFF</p></li><li><p><code>create</code> -　　labelText　　　　　label-text　　　　　String　　　开关中间文本　　　String　　　　　　　　　　　　　&amp;nbsp;</p></li><li><p><code>create</code> -　　handleWidth　　　　handle-width　　　StringNumber　开关两侧宽度　　　String\Number　　　　　　　　　auto</p></li><li><p><code>create</code> -　　labelWidth　　　　　label-width　　　　String　　　开关中间宽度　　　String\Number　　　　　　　　　auto</p></li><li><p><code>create</code> -　　baseClass　　　　　base-class　　　　　String　　　开关基础样式　　　String　　　　　　　　　　　　bootstrap-switch</p></li><li><p><code>create</code> -　　wrapperClass　　　　wrapper　　　　　　String　　　元素样式容器　　　String\Array　　　　　　　　　wraper</p></li><li><p><code>create</code> -　　onInit　　　　　　　checked　　　　　　function　　初始化开关　　　　function　　　　　　　　　　　function(event,state){}</p></li></ul></li></ul>
+<% include ../footer %>

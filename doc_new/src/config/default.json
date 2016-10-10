@@ -1,0 +1,80 @@
+{
+  "redisConnParas" : {
+    "port" :  7000,
+    "host" :  "172.27.8.110"
+  },
+  "mongoConnParas" : "mongodb://127.0.0.1:27017/webdoc_db",
+  "MQHostnames" : ["172.27.8.110"],
+  "httpPort"  : 3005,
+  "httpsPort" : 3006,
+  "hdfsConnOption" : {
+    "user" : "root",
+    "host" : "172.27.8.110",
+    "port" : 50070,
+    "path" : "/webhdfs/v1/home/hdfs/"
+  },
+  "cas_url" : "https://lvzhou.h3c.com/cas",
+  "service_url" : "https://localhost",
+  "login_url" : "https://localhost",
+  "allow_origin" : "https://lvzhou.h3c.com",
+  "user_type" : "web",
+  "cookieTmpAge" : 3600000,
+  "cookieSuccessAge" : 2592000000,
+  "devCookieAge" : 345600000,
+  "devCookieFlushPeriod" : 172800000,
+  "messageHost":"172.27.8.184",
+  "digestUserName" : "security_super",
+  "digestPassword" : "lvzhou1-super",
+  "digestOption" : {
+    "host" : "lvzhou.h3c.com",
+    "port" : 443
+  },
+  "log4jsConfig" : {
+    "appenders": [
+      {
+        "type": "console"
+      },
+      {
+        "category": [ "https","console" ],
+        "type": "dateFile",
+        "filename": "../logs/",
+        "alwaysIncludePattern": true,
+        "pattern": "webserver-yyyyMMdd.log"
+      },
+      {
+        "category": [ "conn" ],
+        "type": "dateFile",
+        "filename": "../logs/",
+        "alwaysIncludePattern": true,
+        "pattern": "conn-yyyyMMdd.log"
+      }
+    ],
+    "replaceConsole": true,
+    "levels":
+    {
+      "console":"ALL",
+      "https":"WARN",
+      "conn":"WARN"
+    }
+  },
+  "log4jsConnect" : {
+    "level": "auto",
+    "format": ":remote-addr - - \":method :url HTTP/:http-version\" :status :content-length \":referrer\" \":user-agent\" :response-timems"
+  },
+  "memoryConfig" : {
+    "heapdump" : false,
+    "memwatch" : false
+  },
+  "hoturlConfig" : {
+    "enable" : true,
+    "vaildfile" : "../hoturl.json",
+    "time" : [
+      {
+        "h": [0],
+        "m": [10]
+      }
+    ]
+  },
+  "uploadDir" : "/../../",
+  "trustIpArray" : ["::ffff:127.0.0.1", "::1", "::ffff:172.27.8.212"]
+}

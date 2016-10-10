@@ -1,0 +1,519 @@
+{
+    "name": "应用分析接口文档",
+    "desc": "本文档是用来描述应用分析的接口信息 包括 应用微服务和网站微服务",
+    "author": "yuzhiqiang",
+    "aggregate": [
+        {
+            "name": "应用统计",
+            "desc": "用来获取应用数据的微服务",
+            "items": [
+                {
+                    "name": "InterfacesStatis",
+                    "desc": "获取接口数据",
+                    "author": "yuzhiqiang",
+                    "path": "/ant/read_dpi_app",
+                    "method": "post",
+                    "return": [],
+                    "params": [
+                        {
+                            "name": "Method:InterfacesStatis",
+                            "description": "接口名称"
+                        },
+                        {
+                            "name": "Param",
+                            "description": {
+                                "ACSN": "设备序列号",
+                                "family": " //0 表示ipv4  1表示ipv6",
+                                "direct": " //0表示上行 1表示下行",
+                                "StartTime": "Xxxxxxxxxx  // 开始时间 单位秒",
+                                "EndTime": "xxxxxxxxxx //结束时间 单位秒"
+                            }
+                        }
+                    ],
+                    "errors": [
+                        {
+                            "name": "retCode",
+                            "description": "0成功  1失败"
+                        },
+                        {
+                            "name": "message",
+                            "description": "[返回的数据存放在数组中]"
+                        }
+                    ]
+                },
+                {
+                    "name": "GetAppLine",
+                    "desc": "应用分析获取折线图的数据",
+                    "author": "yuzhiqiang",
+                    "path": "/ant/read_dpi_app",
+                    "method": "post",
+                    "return": [],
+                    "params": [
+                        {
+                            "name": "Method:GetAppLine",
+                            "description": "接口名称"
+                        },
+                        {
+                            "name": "MAC",
+                            "description": "MAC地址过滤 不过滤输入 "
+                        },
+                        {
+                            "name": "APPName",
+                            "description": "应用名称过滤 不过滤 输入"
+                        },
+                        {
+                            "name": "SelectWay",
+                            "description": "统计方式过滤 0 按人次过滤统计 2按流量统计"
+                        },
+                        {
+                            "name": "APPGroupName",
+                            "description": "应用类型过滤 不过滤输入"
+                        },
+                        {
+                            "name": "Param",
+                            "description": {
+                                "ACSN": "设备序列号",
+                                "family": " //0表示ipv4  1表示ipv6",
+                                "direct": "  //0表示上行 1表示下行",
+                                "StartTime": "Xxxxxxxxxx  //开始时间 单位秒",
+                                "EndTime": "xxxxxxxxxx //结束时间 单位秒"
+                            }
+                        }
+                    ],
+                    "errors": [
+                        {
+                            "name": "retCode",
+                            "description": "0成功 1失败"
+                        },
+                        {
+                            "name": "message",
+                            "description": "[返回的数据存放在数组中]"
+                        }
+                    ]
+                },
+                {
+                    "name": "WelComeApp",
+                    "desc": "最受欢迎的应用",
+                    "author": "yuzhiqiang",
+                    "path": "/ant/read_dpi_app",
+                    "method": "post",
+                    "return": [],
+                    "params": [
+                        {
+                            "name": "Method:WelComeApp",
+                            "description": "接口名称"
+                        },
+                        {
+                            "name": "Param",
+                            "description": {
+                                "ACSN": "设备序列号",
+                                "family": " //0 表示ipv4  1表示ipv6",
+                                "direct": "  //0表示上行 1表示下行",
+                                "StartTime": "Xxxxxxxxxx  // 开始时间 单位秒",
+                                "EndTime": "xxxxxxxxxx //结束时间 单位秒"
+                            }
+                        },
+                        {
+                            "name": "Return",
+                            "description": {
+                                "UserMAC": "用户mac地址",
+                                "APPName": "App的名字"
+                            }
+                        }
+                    ],
+                    "errors": [
+                        {
+                            "name": "retCode",
+                            "description": "0成功  1失败"
+                        },
+                        {
+                            "name": "message",
+                            "description": "[返回的数据存放在数组中]"
+                        }
+                    ]
+                },
+                {
+                    "name": "GetAppPie",
+                    "desc": "应用分析获取以MAC地址 应用名称 统计方式 应用类型 为索引的数据",
+                    "author": "yuzhiqiang",
+                    "path": "/ant/read_dpi_app",
+                    "method": "post",
+                    "return": [],
+                    "params": [
+                        {
+                            "name": "Method:GetAppPie",
+                            "description": "接口名称"
+                        },
+                        {
+                            "name": "MAC",
+                            "description": "MAC地址过滤 不过滤输入"
+                        },
+                        {
+                            "name": "APPName",
+                            "description": "应用名称过滤 不过滤 输入"
+                        },
+                        {
+                            "name": "SelectWay",
+                            "description": "统计方式过滤 0 按人次过滤统计 2按流量统计"
+                        },
+                        {
+                            "name": "APPGroupName",
+                            "description": "应用类型过滤 不过滤输入"
+                        },
+                        {
+                            "name": "Param",
+                            "description": {
+                                "ACSN": "设备序列号",
+                                "family": "  //0 表示ipv4  1表示ipv6 direct:  //0表示上行 1表示下行",
+                                "StartTime": "Xxxxxxxxxx  // 开始时间 单位秒",
+                                "EndTime": "xxxxxxxxxx //结束时间 单位秒"
+                            }
+                        }
+                    ],
+                    "errors": [
+                        {
+                            "name": "retCode",
+                            "description": "0成功  1失败"
+                        },
+                        {
+                            "name": "message",
+                            "description": "[返回的数据存放在数组中]"
+                        }
+                    ]
+                },
+                {
+                    "name": "GetFlowChart",
+                    "desc": "应用分析获取流量展示到折线图中",
+                    "author": "yuzhiqiang",
+                    "path": "/ant/read_dpi_app",
+                    "method": "post",
+                    "return": [],
+                    "params": [
+                        {
+                            "name": "Method:GetFlowChart",
+                            "description": "接口名称"
+                        },
+                        {
+                            "name": "Time",
+                            "description": "当前时间的小时 请用new Date().getHour()获取小时"
+                        },
+                        {
+                            "name": "Param",
+                            "description": {
+                                "ACSN": "设备序列号",
+                                "family": "  //0 表示ipv4  1表示ipv6",
+                                "direct": " //0表示上行 1表示下行",
+                                "StartTime": "Xxxxxxxxxx  // 开始时间 单位秒",
+                                "EndTime": "xxxxxxxxxx //结束时间 单位秒"
+                            }
+                        }
+                    ],
+                    "errors": [
+                        {
+                            "name": "retCode",
+                            "description": "0成功  1失败"
+                        },
+                        {
+                            "name": "message",
+                            "description": "[返回的数据存放在数组中]"
+                        }
+                    ]
+                },
+                {
+                    "name": "GetFlow",
+                    "desc": "应用分析获取流量",
+                    "author": "yuzhiqiang",
+                    "path": "/ant/read_dpi_app",
+                    "method": "post",
+                    "return": [],
+                    "params": [
+                        {
+                            "name": "Method:GetFlow",
+                            "description": "接口名称"
+                        },
+                        {
+                            "name": "Param",
+                            "description": {
+                                "ACSN": "设备序列号",
+                                "family": "  //0 表示ipv4  1表示ipv6",
+                                "direct": "  //0表示上行 1表示下行",
+                                "StartTime": "Xxxxxxxxxx  // 开始时间 单位秒",
+                                "EndTime": "xxxxxxxxxx //结束时间 单位秒"
+                            }
+                        },
+                        {
+                            "name": "Return",
+                            "description": [
+                                "DropPktBytes",
+                                "Pkt",
+                                "PktBytes",
+                                "DropPkt"
+                            ]
+                        }
+                    ],
+                    "errors": [
+                        {
+                            "name": "retCode",
+                            "description": "0成功  1失败"
+                        },
+                        {
+                            "name": "message",
+                            "description": "[返回的数据存放在数组中]"
+                        }
+                    ]
+                },
+                {
+                    "name": "GetApp",
+                    "desc": "获取应用数据",
+                    "author": "yuzhiqiang",
+                    "path": "/ant/read_dpi_app",
+                    "method": "post",
+                    "return": [],
+                    "params": [
+                        {
+                            "name": "Method:GetApp",
+                            "description": "接口名称"
+                        },
+                        {
+                            "name": "Param",
+                            "description": {
+                                "ACSN": "设备序列号",
+                                "family": "  //0 表示ipv4  1表示ipv6",
+                                "direct": "  //0表示上行 1表示下行",
+                                "StartTime": "Xxxxxxxxxx  // 开始时间 单位秒",
+                                "EndTime": "xxxxxxxxxx //结束时间 单位秒"
+                            }
+                        },
+                        {
+                            "name": "Return",
+                            "description": [
+                                "需要那个字段填写即可"
+                            ]
+                        }
+                    ],
+                    "errors": [
+                        {
+                            "name": "retCode",
+                            "description": "0成功  1失败"
+                        },
+                        {
+                            "name": "message",
+                            "description": "[返回的数据存放在数组中]"
+                        }
+                    ]
+                },
+                {
+                    "name": "GetLog",
+                    "desc": "获取应用的历史数据",
+                    "author": "yuzhiqiang",
+                    "path": "/ant/read_dpi_app",
+                    "method": "post",
+                    "return": [],
+                    "params": [
+                        {
+                            "name": "Method:GetLog",
+                            "description": "接口名称"
+                        },
+                        {
+                            "name": "Param",
+                            "description": {
+                                "ACSN": "设备序列号",
+                                "family": "  //0 表示ipv4  1表示ipv6",
+                                "direct": "  //0表示上行 1表示下行",
+                                "StartTime": "Xxxxxxxxxx  // 开始时间 单位秒",
+                                "EndTime": "xxxxxxxxxx //结束时间 单位秒"
+                            }
+                        },
+                        {
+                            "name": "Return",
+                            "description": [
+                                "需要那个字段填写即可"
+                            ]
+                        }
+                    ],
+                    "errors": [
+                        {
+                            "name": "retCode",
+                            "description": "0成功  1失败"
+                        },
+                        {
+                            "name": "message",
+                            "description": "[返回的数据存放在数组中]"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "网站统计",
+            "desc": "本文档提供了获取网站数据的接口",
+            "items": [
+                {
+                    "name": "NatPlayNum",
+                    "desc": "获取上网人次显示到折线图中",
+                    "author": "yuzhiqiang",
+                    "path": "/ant/read_dpi_url",
+                    "method": "post",
+                    "return": [],
+                    "params": [
+                        {
+                            "name": "Method:NatPlayNum",
+                            "description": "接口名称"
+                        },
+                        {
+                            "name": "UrlType",
+                            "description": "网站类型过滤 不过滤输入 "
+                        },
+                        {
+                            "name": "Time",
+                            "description": "当前时间的小时 请用new Date().getHour()获取"
+                        },
+                        {
+                            "name": "Param",
+                            "description": {
+                                "ACSN": "设备序列号",
+                                "family": "  //0 表示ipv4  1表示ipv6",
+                                "direct": "  //0表示上行 1表示下行",
+                                "StartTime": "Xxxxxxxxxx  // 开始时间 单位秒",
+                                "EndTime": "xxxxxxxxxx //结束时间 单位秒"
+                            }
+                        }
+                    ],
+                    "errors": [
+                        {
+                            "name": "retCode",
+                            "description": "0成功  1失败"
+                        },
+                        {
+                            "name": "message",
+                            "description": "[返回的数据存放在数组中]"
+                        }
+                    ]
+                },
+                {
+                    "name": "WelComeUrl",
+                    "desc": "最受欢迎的网站",
+                    "author": "yuzhiqiang",
+                    "path": "/ant/read_dpi_url",
+                    "method": "post",
+                    "return": [],
+                    "params": [
+                        {
+                            "name": "Method:WelComeUrl",
+                            "description": "接口名称"
+                        },
+                        {
+                            "name": "UrlType",
+                            "description": "网站类型过滤 不过滤输入 "
+                        },
+                        {
+                            "name": "Param",
+                            "description": {
+                                "ACSN": "设备序列号",
+                                "family": " //0 表示ipv4  1表示ipv6",
+                                "direct": "  //0表示上行 1表示下行",
+                                "StartTime": "Xxxxxxxxxx  // 开始时间 单位秒",
+                                "EndTime": "xxxxxxxxxx //结束时间 单位秒"
+                            }
+                        },
+                        {
+                            "name": "Return",
+                            "description": {
+                                "UserMAC": "用户mac地址",
+                                "WebsiteName": "web名字"
+                            }
+                        }
+                    ],
+                    "errors": [
+                        {
+                            "name": "retCode",
+                            "description": "0成功  1失败"
+                        },
+                        {
+                            "name": "message",
+                            "description": "[返回的数据存放在数组中]"
+                        }
+                    ]
+                },
+                {
+                    "name": "UrlTopFive",
+                    "desc": "以网站名称或网站类型获取URL的前五",
+                    "author": "yuzhiqiang",
+                    "path": "/ant/read_dpi_url",
+                    "method": "post",
+                    "return": [],
+                    "params": [
+                        {
+                            "name": "Method:UrlTopFive",
+                            "description": "接口名称"
+                        },
+                        {
+                            "name": "UrlType",
+                            "description": "网站类型过滤 可不填 "
+                        },
+                        {
+                            "name": "URL",
+                            "description": "网站名称过滤 可不填"
+                        },
+                        {
+                            "name": "Param",
+                            "description": {
+                                "ACSN": "设备序列号",
+                                "family": " //0 表示ipv4  1表示ipv6",
+                                "direct": "  //0表示上行 1表示下行",
+                                "StartTime": "Xxxxxxxxxx  // 开始时间 单位秒",
+                                "EndTime": "xxxxxxxxxx //结束时间 单位秒"
+                            }
+                        }
+                    ],
+                    "errors": [
+                        {
+                            "name": "retCode",
+                            "description": "0成功  1失败"
+                        },
+                        {
+                            "name": "message",
+                            "description": "[返回的数据存放在数组中]"
+                        }
+                    ]
+                },
+                {
+                    "name": "GetUrl",
+                    "desc": "获取Url数据",
+                    "author": "yuzhiqiang",
+                    "path": "/ant/read_dpi_url",
+                    "method": "post",
+                    "return": [],
+                    "params": [
+                        {
+                            "name": "Param",
+                            "description": {
+                                "ACSN": "设备序列号",
+                                "family": "  //0 表示ipv4  1表示ipv6",
+                                "direct": "  //0表示上行 1表示下行",
+                                "StartTime": "Xxxxxxxxxx  // 开始时间 单位秒",
+                                "EndTime": "xxxxxxxxxx //结束时间 单位秒"
+                            }
+                        },
+                        {
+                            "name": "Return",
+                            "description": [
+                                "填写需要返回的数据"
+                            ]
+                        }
+                    ],
+                    "errors": [
+                        {
+                            "name": "retCode",
+                            "description": "0成功  1失败"
+                        },
+                        {
+                            "name": "message",
+                            "description": "[返回的数据存放在数组中]"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

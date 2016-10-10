@@ -1,0 +1,9 @@
+[2016-05-18 14:23:23.686] [INFO] console - Wed May 18 2016 14:23:23 GMT+0800 (中国标准时间)doc server use http/https port 3005/3006
+[2016-05-18 14:23:23.767] [INFO] console - 1463552603766
+[2016-05-18 14:23:23.772] [INFO] console - number
+[2016-05-18 14:23:23.773] [INFO] console - string
+[2016-05-18 14:23:23.773] [INFO] console - 1463552603766
+[2016-05-18 14:23:23.775] [INFO] console - undefined
+[2016-05-18 14:23:23.779] [INFO] console - Wed May 18 2016 14:23:23 GMT+0800 (中国标准时间) doc server start http server and listen on: {"address":"::","family":"IPv6","port":3005}
+[2016-05-18 14:23:23.780] [INFO] console - Wed May 18 2016 14:23:23 GMT+0800 (中国标准时间) doc server start https server and listen on: {"address":"::","family":"IPv6","port":3006}
+[2016-05-18 14:23:23.826] [INFO] console - Wed May 18 2016 14:23:23 GMT+0800 (中国标准时间) Connect to mongoose success: mongodb://127.0.0.1:27017/webdoc_db

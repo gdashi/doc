@@ -1,0 +1,82 @@
+<h1>openDlg</h1>
+
+<p>openDlg是框架封装的弹框，用于点击后弹出，也可用于跳转，一般和Form搭配使用，form会为弹框加上标题、关闭按钮、确定和取消按钮。</p>
+
+<p>下面是一个简单的例子：</p>
+
+<p><code>html
+&lt;div class=&quot;hide modal fade&quot; id=&quot;devDlg&quot;&gt;
+     &lt;form id=&quot;dev_form&quot; class=&quot;form edit&quot;&gt;
+          &lt;div id=&quot;healthList&quot; class=&quot;simple-list hide&quot;&gt;&lt;/div&gt;
+     &lt;/form&gt;
+&lt;/div&gt;
+</code></p>
+
+<p><code>js
+$(&quot;#dev_form&quot;).form (&quot;init&quot;, &quot;edit&quot;, {&quot;title&quot;:getRcText(&quot;DEV_NAME&quot;),&quot;btn_apply&quot;:true, &quot;btn_cancel&quot;:true});
+Utils.Base.openDlg(null, {}, {scope:$(&quot;#devDlg&quot;),className:&quot;modal-super&quot;});
+</code></p>
+
+<h3>openDlg(sUrl, oPagePara, oDlgPara)</h3>
+
+<ul><li><code>sUrl</code> 可为null，如果为null，在当前页面显示。</li><li><code>oPagePara</code> 只有sUrl是传入的url时，此参数才会起作用，一般会传个{}。</li><li><code>oDlgPara</code> -{Object} 包含两个属性scope和className,其中scope的value的值对应的是html中的最外层的id.className的值可以是modal-super,modal-large,modal-small,控制弹出框的大小。</li></ul>
+
+<p>其中看框架的代码,oPagePara此参数也可以是{String}，但是框架实现有问题，也没有人用过这个，先不写这个说明。</p>
+
+<h1>getRcString</h1>
+
+<p>js中为了不出现乱码一般不允许写中文，中文写在html文件中，getRcSting就是为了把html中的中文引入js中而出现的。它通常由各个页面的自己写函数来调用（getRcText）.</p>
+
+<p>下面是一个简单的例子：</p>
+
+<p><code>html
+&lt;div id=&quot;wifi_dashboard_rc&quot; class=&quot;rc-define&quot; ALERTLIST=&quot;设备名,告警时间,告警内容&quot;&gt;&lt;/div&gt;
+</code></p>
+
+<p><code>js
+function getRcText(sRcName){
+        return Utils.Base.getRcString(&#39;wifi_dashboard_rc&#39;, sRcName);
+    }
+</code></p>
+
+<p>此处是sRcName指ALERTLIST</p>
+
+<h3>getRcString(sRcId, sRcName)</h3>
+
+<ul><li><code>sRcId</code> html中的id。</li><li><code>sRcName</code> html中的属性名。</li></ul>
+
+<h1>redirect</h1>
+
+<p>用于页面的跳转，并且还可以向跳转后的页面传递参数。</p>
+
+<p>下面是一个简单的例子：</p>
+
+<p><code>
+Utils.Base.redirect({ np:&quot;b_deviceinfo.summary&quot;,id:&#39;123&#39;});
+</code></p>
+
+<h3>redirect(oParas, sUrl/<em>=null</em>/)</h3>
+
+<ul><li><code>oParas</code> -{Object}需要传入跳转到页面的文件名以及参数。</li><li><code>sUrl</code> 为null时，表示在当前点击页面显示，不为空时，跳转到传入的menu页面显示。</li></ul>
+
+<p><em>oParas经过处理后会被拼接成URL中问号后面的内容：?np=b_deviceinfo.summary&amp;id=123,新的页面会通过拆分url获得传过来的参数。</em></p>
+
+<h1>refreshCurPage</h1>
+
+<p>用于刷新当前页面，如果有弹框就不进行刷新，没弹框的话，会重新刷新当前页面。</p>
+
+<p>使用实例：</p>
+
+<p>Utils.Base.refreshCurPage();</p>
+
+<h1>addComma</h1>
+
+<p>1.用于规范化数字格式,如：1000，会转换成1,000 2.方便数据过大时转换单位，如：内存和速率。</p>
+
+<p>简单使用实例：</p>
+
+<p>Utils.Base.addComma(1024000,&#39;rate&#39;) 转换后的结果是：&quot;1,000.0Kbps&quot;</p>
+
+<h3>Utils.Base.addComma(sNum,Stype/<em>Stype=rate,.memory</em>/,nStart,nEnd&#39;)</h3>
+
+<ul><li><code>sNum</code> {Number}或者{String} 需要转换的数据。</li><li><code>Stype</code> {String}可以传入&#39;rate&#39;和&#39;memory&#39;。</li><li><code>nStart</code> 默认为0。</li><li><code>nEnd</code> 默认为3。</li></ul>

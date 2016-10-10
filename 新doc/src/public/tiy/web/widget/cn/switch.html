@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+         <style>
+        .bs-example > .tab-content {
+            padding: 0;
+        }
+        
+        .tab-pane:nth-of-type(3)::before,
+        .tab-pane:nth-of-type(3)::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        
+        textarea {
+            display: block;
+            width: 100%;
+        }
+
+        .datewidget,.timewidget{
+        	width:250px;
+        }
+		
+    </style>
+    </head>
+    <body>	     
+    	<div class="code-formate" id="test"></div>
+        
+        
+		<div id="switch-test">
+			<div class="switch">
+				<input type="checkbox">
+			</div>
+		</div>
+
+    </body>
+</html>
+
+<script language="javascript" type="text/javascript">
+    Utils.Pages.loadJS("widget.switch");
+</script>
+
+   
+
+

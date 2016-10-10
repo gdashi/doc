@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu-root>
+	<menu id="W_DateRange">
+	 	<menu id="DateRange" access="read|write|execute" url="widget/[lang]/daterange.html"/> 
+	</menu> 
+	<menu id="W_DateTime">
+	 	<menu id="DateTime" access="read|write|execute" url="widget/[lang]/datetime.html"/> 
+	</menu> 
+	<menu id="W_Dialog">
+	 	<menu id="Dialog" access="read|write|execute" url="widget/[lang]/dialog.html"/> 
+	</menu> 
+	<menu id="W_EditList">
+	 	<menu id="EditList" access="read|write|execute" url="soon/[lang]/index.html"/> 
+	</menu>
+	<menu id="W_EditTable">
+	 	<menu id="EditTable" access="read|write|execute" url="soon/[lang]/index.html"/> 
+	</menu> 
+	<menu id="W_Form">
+	 	<menu id="Form" access="read|write|execute" url="widget/[lang]/form.html"/> 
+	</menu> 
+	<menu id="W_Minput">
+	 	<menu id="Minput" access="read|write|execute" url="widget/[lang]/minput.html"/> 
+	</menu> 
+	 <menu id="W_SingleSelect">
+	 	<menu id="SingleSelect" access="read|write|execute" url="widget/[lang]/singleselect.html"/> 
+	</menu> 
+	<menu id="W_Slist">
+	 	<menu id="Slist" access="read|write|execute" url="widget/[lang]/test.html"/> 
+	</menu> 
+	<menu id="W_Switch">
+	 	<menu id="Switch" access="read|write|execute" url="widget/[lang]/switch.html"/> 
+	</menu> 
+	<menu id="W_UtilBase">
+	 	<menu id="UtilBase" access="read|write|execute" url="widget/[lang]/utilbase.html"/> 
+	</menu>  
+	<menu id="W_FullCalender">
+	 	<menu id="FullCalender" access="read|write|execute" url="soon/[lang]/index.html"/> 
+	</menu>
+	<menu id="W_Mjs">
+	 	<menu id="Mjs" access="read|write|execute" url="soon/[lang]/index.html"/> 
+	</menu>
+</menu-root>

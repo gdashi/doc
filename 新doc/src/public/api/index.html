@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<!-- saved from url=(0042)http://v3.bootcss.com/examples/dashboard/# -->
+<html lang="zh-CN"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>API Manager</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet" />
+    <link href="css/cloud.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="modal-footer" id = "userlogin">
+        <button type="button" class="btn btn-primary" id = "login">登录</button>
+        <button type="button" class="btn btn-default" data-dismiss="modal" id = "logout">注销</button>
+    </div>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top hide">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <strong class="navbar-brand">API Manager</strong>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a class="nav-item" href="home.html">首页</a></li>
+                    <li><a href="index.html" class="nav-item active">云端接口</a></li>
+                    <li><a href=""  class="nav-item">Netconf</a></li>
+                    <li><a href=""  class="nav-item">Help</a></li>
+                </ul>
+                <form class="navbar-form">
+                    <input type="text" class="form-control" placeholder="Search...">
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row" style="margin-top: -50px;">
+            <div class="col-sm-3 col-md-2 sidebar" style="margin-top: -50px;">
+                <div class="doc-list">
+                    <select id="DocList"></select>
+                    <div>
+                        <span id="AddDoc"><i class="fa fa-plus" title="添加"></i></span>
+                        <span id="DelDoc"><i class="fa fa-minus hide" title="删除"></i></span>
+                        <span id="ChangeDoc"><i class="fa fa-pencil" title="修改"></i></span>
+                        <span id="UploadDoc"><i class="fa fa-upload" title="上传文档"></i></span>    
+                    </div>
+                </div>
+                <ul class="nav nav-sidebar hide" style="margin-bottom:0">
+                    <li><a href="#cloud_top">说明</a></li>
+                </ul>
+                <ul class="nav nav-sidebar" id="doc_menu">
+                </ul>
+            </div>
+
+            <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+                <div class="cloud-doc-con">
+                    <header>
+                        <h1 id="DocTitle">暂无文档</h1>
+                        <span id="authorName"></span>
+                    </header>
+                    <div class="cloud-doc-title"><strong>文档描述</strong><a name="cloud_top" class="doc_anchor"><span></span></a></div>
+                    <div class="cloud-doc-desc">
+                        <p id="DocDescription">无</p>
+                    </div>
+
+                    <!-- <div class="cloud-doc-title"><strong>说明</strong><a name="cloud_top" class="doc_anchor"><span></span></a></div>
+                    <div class="cloud-doc-desc">
+                        <p>以下接口的根路径为：http://lvzhou.h3c.com/o2oportal/，接口描述中仅提供相对路径。请求结束时返回错误码、错误信息、返回数据以及数据总数（用于分页查询），格式如下：</p>
+                    </div>
+                    
+                    <div class="code">
+                        <pre>{"errorcode":"xxx","errormsg":"xxx","data":"xxx","rowCount":0}</pre>
+                    </div>
+                    <div class="cloud-doc-desc">
+                        <p>”errormsg”的第一个占位符为字段名称，前台根据此名称判断出错字段。发生异常时，"data"以及"rowCount"为空。
+                        所有的请求都会校验用户名，无法获取用户名时返回1007。
+                        批量查询接口的‘startRowIndex’和‘maxItems’允许为空，两者都为空时查询全部数据。若要分页查询，两者必须都非空。
+                        </p>
+                    </div>
+                    
+                    <div class="cloud-doc-explain">
+                        <div class="cloud-doc-exp-head">
+                            <span class="cloud-doc-exp-label"><strong>通用错误码</strong></span>
+                        </div>
+                        <ul class="level-1">
+                            <li><code>0</code><span>（操作成功，无消息内容）</span></li>
+                            <li><code>1</code>操作成功，但更新缓存失败。</li></li>
+                            <li><code>1001</code><span>{0}必须填写。</span></li>
+                            <li><code>1002</code><span>{0}最短长度{1}。</span></li>
+                            <li><code>1003</code><span>{0}最大长度{1}。</span></li>
+                            <li><code>1004</code><span>{0}必须为{1}-{2}之间的整数。</span></li>
+                            <li><code>1005</code><span>{0}不合法。</span></li>
+                            <li><code>1006</code><span>服务器内部错误。</span></li>
+                            <li><code>1007</code><span>请先登录。</span></li>
+                        </ul>
+                    </div> -->
+
+                    <div id="doc_content"></div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 添加Doc弹出框 -->
+    <div class="modal fade" id="addDocDlg" tabindex="-1" role="dialog" aria-labelledby="myModalDoc">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h5 class="modal-title" id="myModalDoc">创建新文档</h5>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group" >
+                        <label class="col-sm-3 control-label required">文档名称</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="string" id="NewDocName" maxlength=255>
+                            <label class="info-explain">（1-255字符）</label>
+                            <label class="error" id="NewDocName_error"></label>
+                        </div>
+                    </div>
+                    <div class="form-group" >
+                        <label class="col-sm-3 control-label">创建人</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="string" id="DocAuthor" maxlength=100 placeholder="请输入姓名或工号">
+                        </div>
+                    </div>
+                    <div class="form-group" >
+                        <label class="col-sm-3 control-label">文档描述</label>
+                        <div class="col-sm-9">
+                            <textarea type="text" id="DocDesc" style="height:150px" placeholder="请输入文档的简要介绍"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary">确定</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <!-- 添加删除文档确认框 -->
+    <div class="modal fade" id="delDocdlg" tabindex="-1" role="dialog" aria-labelledby="DelDocConfirmDlg"aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                        &times;
+                    </button>
+                    <h4 class="modal-title" id="DelDocConfirmDlg">
+                        确认提示
+                    </h4>
+                </div>
+                <div class="modal-body">
+                    是否要删除当前文档，删除后将不可恢复
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary">确定</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                </div>
+            </div><!--/.modal-content-->
+        </div><!-- /.modal -->
+    </div>
+
+    <!-- 添加上传文档弹出框 -->
+    <div class="modal fade" id="UploadDocDlg" tabindex="-1" role="dialog" aria-labelledby="UploadTitle" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                        &times;
+                    </button>
+                    <h4 class="modal-title" id="UploadTitle">
+                        上传文档
+                    </h4>
+                </div>
+                <div class="modal-body">
+                    <form class="form-group" id="UpFileBlock">
+                        <input type="file" class="hide" id="btnFileUpload" name="file" accept=".txt">
+                        <div class="input-group">
+                            <input type="text" class="form-control" id="UploadPath" readonly placeholder="选择.txt格式的文件">
+                            <span class="input-group-addon btn btn-primary" id="BtnUploadSelect">选择文件</span>
+                        </div>
+                        <input type="text" class="hide" name="docindex" id="UploadDocIndex">
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button id="UploadDlgOk" type="submit" class="btn btn-primary">确定</button>
+                    <button id="UploadDlgCancel" type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                </div>
+            </div><!--/.modal-content-->
+        </div><!-- /.modal -->
+    </div>
+
+    <!-- 添加Item弹出框 -->
+    <div class="modal fade" id="ItemDlg" tabindex="-1" role="dialog" aria-labelledby="myModaItem">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h5 class="modal-title" id="myModaItem">创建新接口</h5>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group" >
+                        <label class="col-sm-3 control-label">接口标题</label>
+                        <div class="col-sm-8">
+                            <input type="text" class="string required" id="SubItem" maxlength=255>
+                            <label class="error" id="SubItem_error"></label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label">接口类别</label>
+                        <div class="col-sm-8">
+                                <input type="text" class="string required" id="ItemName" data-provide="typeahead"  maxlength=255>
+                                <label class="error" id="ItemName_error"></label>
+                        </div>
+                    </div>
+                    <div class="form-group" >
+                        <label class="col-sm-3 control-label">请求URL</label>
+                        <div class="col-sm-8">
+                            <input type="text" class="string required" id="Path" maxlength=255>
+                            <label class="error" id="Path_error"></label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label">请求方式</label>
+                        <div class="col-sm-8" id="Method">
+                            <label class="checkbox-inline">
+                                <input type="radio" class="method" name="method" id="method_Get" value="Get" checked>Get
+                            </label>
+                            <label class="checkbox-inline">
+                                <input type="radio" class="method" name="method" id="method_Post" value="Post">Post
+                            </label>
+                        </div>
+                    </div>
+                    <div id="Parameters" class="form-group" >
+                        <label class="col-sm-3 control-label">参数列表</label>
+                        <div class="col-sm-9">
+                            <form class="form-horizontal">
+                                <div class="form-group" style="margin-top:0px;">
+                                    <div class="col-xs-10 col-sm-10" style="width:88.8889%">
+                                        <input type="text" id="ParametersName_0" placeholder="请输入参数名">
+                                        <textarea type="text" id="ParDescribe_0" placeholder="请输入参数描述"></textarea>
+                                    </div>
+                                </div>
+                                <div id="ParametersList"></div>
+                                <div class="form-group" style="margin-top:0px;margin-bottom:0px">
+                                    <div class="col-xs-10 col-sm-10 btn-add">
+                                        <i id="ParBtnAdd" class="fa fa-plus-circle" title="添加一个参数"></i>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="form-group" >
+                        <label class="col-sm-3 control-label">返回数据格式</label>
+                        <div class="col-sm-8">
+                            <textarea type="text" class="json" id="Return" style="height:80px" placeholder="请输入JSON格式的数据"></textarea>
+                            <label class="error" id="Return_error"></label>
+                        </div>
+                    </div>
+                    <div id="Error" class="form-group" >
+                        <label class="col-sm-3 control-label">返回错误码</label>
+                        <div class="col-sm-9">
+                            <form class="form-horizontal">
+                                <div class="form-group" style="margin-top:0px;">
+                                    <div class="col-xs-10 col-sm-1" style="width:88.8889%">
+                                        <input type="text" id="ErrcodeName_0" placeholder="请输入返回码">
+                                        <textarea type="text" id="ErrDescribe_0" placeholder="请输入返回码描述"></textarea>
+                                    </div>
+                                </div>
+                                <div id="ErrcodeList"></div>
+                                <div class="form-group" style="margin-top:0px;margin-bottom:0px">
+                                    <div class="col-xs-10 col-sm-10 btn-add">
+                                        <i id="ErrBtnAdd" class="fa fa-plus-circle" title="添加一个参数"></i>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" id="ItemDlgOk" class="btn btn-primary">确定</button>
+                    <button type="button" id="ItemDlgCancel" class="btn btn-default" data-dismiss="modal">取消</button>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <div class="modal fade" id="delItemdlg" tabindex="-1" role="dialog" aria-labelledby="DelItemConfirmDlg"aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                        &times;
+                    </button>
+                    <h4 class="modal-title" id="DelItemConfirmDlg">
+                        确认提示
+                    </h4>
+                </div>
+                <div class="modal-body">
+                    是否要删除当前接口，删除后将不可恢复
+                </div>
+                <div class="modal-footer">
+                    <button id="DelItemOk" type="button" class="btn btn-primary">确定</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                </div>
+            </div><!--/.modal-content-->
+        </div><!-- /.modal -->
+    </div>
+    <!-- Bootstrap core JavaScript -->
+    <!-- ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- <script src="libs/jquery.min.js"></script> -->
+    <div id="cloud_rc"
+        ADDITEM="创建新接口"
+        CHANGEITEM="修改接口"
+        ADDDOC="创建新文档"
+        CHANGEDOC="修改文档名"
+    ></div>
+    <script src="libs/jquery.min.js"></script>
+    <script src="libs/bootstrap.min.js"></script>
+    <script src="libs/bootstrap-typeahead.js"></script>
+    <script src="libs/jquery.form.js "></script>
+    <script src="js/index.js"></script>
+    <script src="js/menu.js"></script>
+
+</body></html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+         <style>
+        .bs-example > .tab-content {
+            padding: 0;
+        }
+        
+        .tab-pane:nth-of-type(3)::before,
+        .tab-pane:nth-of-type(3)::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        
+        textarea {
+            display: block;
+            width: 100%;
+        }
+		
+        .span{
+        	margin-right:15px;
+        	margin-top:10px;
+        	vertical-align:bottom;
+        }
+       </style>
+    </head>
+    <body>	     
+    	<div class="code-formate" id="test"></div>
+
+		<div id="minput-test">
+			<div>				
+				<span class="col-sm-2 span">请选择您的爱好：</span>
+	            <div class="col-sm-10">
+	                <input type="checkbox">
+	                <span>工作</span>
+	                <input type="checkbox">
+	                <span>学习</span>
+	            </div>
+								
+				<span class="col-sm-2 span">请选择您的性别：</span>
+	            <div class="col-sm-10">
+	                <input type="radio">
+	                <span>男</span>
+	                <input type="radio">  
+	                <span>女</span>             
+	            </div>
+			</div> 
+        </div>
+    </body>
+</html>
+
+<script language="javascript" type="text/javascript">
+    Utils.Pages.loadJS("widget.minput");
+</script>

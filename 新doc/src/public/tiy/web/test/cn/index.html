@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+        特性开发固定需要的模板：规则：
+        只需要修改js文件：MODULE_NAME参数：命名规则 文件夹名称.js文件名称
+        rc_info参数：命名规则 文件夹名称_js文件名称_rc
+
+
+        <div class="page-row">
+            <div class="col-xs-12 app-colum left-block">
+                <div class="app-box no-bk-color">
+                    <div class="box-footer">
+                        <span class="title">时间插件</span>
+                    </div>
+                    <div class="box-body no-height">
+                        <div id = "local_block">
+                            <div id = "datetime" class="datewidget"></div>
+                            <div id = "clocktime" class="timewidget"></div>
+                        </div>
+                        <i class="fa fa-clock-o"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <div id="test_index_rc" class="rc-define"
+         Page_info = "托尔斯泰,模板"
+    ></div>
+</body>
+</html>
+<script language="javascript" type="text/javascript">
+    Utils.Pages.loadJS("test.index");
+</script>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu-root>
+	<!-- <menu id="M_APPLYCONFIG">
+		<menu id="M_PDingWei" access="read|write|execute"  url="position/[lang]/apply_config.html" />
+	</menu> -->
+	<menu id="M_MonProbe">
+		<menu id="M_Probe" access="read|write|execute"  url="clientprobe/[lang]/statistics.html" />
+	</menu>
+	<menu id="M_MonDPI">
+		<menu id="M_DPI"  access="read|write|execute" url="drs/[lang]/dpi_ipv4.html" />
+		<!-- <menu id="M_MonProbe" access="read|write|execute"  url="clientprobe/[lang]/statistics.html" /> -->
+		<!-- <menu id="M_MonNatDetect" access="read|write|execute"  url="natdetect/[lang]/natdetect.html" /> -->
+	</menu>
+	<!--<menu id="M_ADTOTAl">
+		<menu id="M_AD" access="read|write|execute" url="ad/[lang]/index.html"/>
+	</menu>-->
+	<menu id= "M_TerminalTrial">
+		<menu id="M_Trial" access="read|write|execute"  url="position/[lang]/client_manage.html" />
+	</menu>
+	<!--<menu id="M_Cooperation">
+		<menu id="M_Cooperater" access="read|write|execute"  url="cooperate/[lang]/index.html" />
+	</menu>-->
+</menu-root>
